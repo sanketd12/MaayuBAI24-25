@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Sanket Doddabendigere",
+        "role": "Software Engineer",
+        "education": "B.S in Computer Science, Minor in Data Science, 3.8 GPA, University of Virginia  School of Engineering & Applied Science",
+        "experience": [
+            "Software Engineering Intern at TechSur Solutions, Jun 2024 - Aug 2024: Developed and enhanced an RAG-based chatbot, engineered a task event service microservice, and enhanced the Task Event Service.",
+            "Software Engineer at CargoLabs, Jun 2024 - Aug 2024: Implemented new API endpoints, restructured the backend architecture, and enhanced the front-end interface of CoverPort.",
+            "Software Developer at Niyam IT, Feb 2024 - Present: Utilized OpenAI API, researched and implemented Strapi CMS, and developed the frontend with JavaScript and React."
+        ],
+        "skills": [
+            "Python",
+            "Java",
+            "TypeScript",
+            "JavaScript",
+            "SQL",
+            "C#",
+            "C",
+            "HTML",
+            "CSS",
+            "React",
+            "Node.js",
+            "Git",
+            "GitHub",
+            "Spring Boot",
+            "AWS",
+            "MongoDB",
+            "Docker",
+            "Neo4j",
+            "NLTK",
+            "TensorFlow",
+            "Arduino"
+        ],
+        "company": "TechSur Solutions, CargoLabs, Niyam IT"
+    },
+    {
+        "gpa": 3.8000001707348634
+    },
+    {
+        "experiences": [
+            {
+                "company": "TechSur Solutions",
+                "role": "Software Engineering Intern",
+                "tenure": [
+                    "Jun 2024",
+                    "Aug 2024"
+                ]
+            },
+            {
+                "company": "CargoLabs",
+                "role": "Software Engineer",
+                "tenure": [
+                    "Jun 2024",
+                    "Aug 2024"
+                ]
+            },
+            {
+                "company": "Niyam IT",
+                "role": "Software Developer",
+                "tenure": [
+                    "Feb 2024",
+                    "Present"
+                ]
+            }
+        ]
+    }
+]
