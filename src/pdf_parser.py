@@ -39,7 +39,7 @@ def parse_pdf(pdf_path: str, output_json_path: str) -> None:
 
     # Generate structured JSON for each page of the resume (or multiple resumes)
     all_users = []
-    outputSchema = [UserDetails, EducationDetails, UserExperiences]
+    outputSchema = [UserDetails, EducationDetails, ExperiencesList]
     for schema in outputSchema:
         user_details = json.loads(get_user_details(content, schema))
         all_users.append(user_details)
