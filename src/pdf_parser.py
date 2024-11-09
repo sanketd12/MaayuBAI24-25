@@ -14,6 +14,17 @@ client = openai.OpenAI(
     api_key=environ["TOGETHER_API_KEY"],
 )
 
+# Output Schema
+outputSchema = [
+    UserDetails, 
+    EducationDetails, 
+    ExperiencesList, 
+    ProjectsList, 
+    ActivitiesList,
+    HonorsDetails,
+    CertificationDetails,
+]
+
 
 # Function to call the LLM and get structured data
 def get_user_details(content, ObjOutput):
@@ -39,7 +50,6 @@ def parse_pdf(pdf_path: str, output_json_path: str) -> None:
 
     # Generate structured JSON for each page of the resume (or multiple resumes)
     all_users = []
-    outputSchema = [UserDetails, EducationDetails, ExperiencesList]
     for schema in outputSchema:
         user_details = json.loads(get_user_details(content, schema))
         all_users.append(user_details)
