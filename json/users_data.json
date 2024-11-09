@@ -1,13 +1,124 @@
-[
-    {
+{
+    "certifications": [],
+    "education": {
+        "institution": "University of Virginia  School of Engineering & Applied Science",
+        "degree": "B.S in Computer Science , Minor in Data Science",
+        "gpa": 3.8,
+        "graduation": "May 2026",
+        "courses": [
+            "Algorithms",
+            "Advanced Software Development Essentials",
+            "Data Systems",
+            "Probability",
+            "Computer Systems and Organizations",
+            "Data Structures and Algorithms",
+            "Discrete Math and Theory",
+            "Linear Algebra",
+            "Ordinary Differential Equations"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "TechSur Solutions",
+            "role": "Software Engineering Intern",
+            "tenure": [
+                "Jun 2024",
+                "Aug 2024"
+            ],
+            "responsibilities": [
+                "Developed and enhanced an RAG-based chatbot using Vue.js, TypeScript, and React, configuring AI models to efficiently retrieve information from USCIS knowledge bases summing to 7000+ documents, boosting content retrieval speed by 40%",
+                "Engineered a task event service microservice using Spring Boot and PostgreSQL to manage task lifecycles and workflows, supporting 500+ tasks, which increased process efficiency and task management by 25%",
+                "Enhanced the Task Event Service by updating the database schema, integrating optimistic locking for version control, and developing new API endpoints to manage task states dynamically, ensuring robust data integrity and concurrent handling"
+            ]
+        },
+        {
+            "company": "CargoLabs",
+            "role": "Software Engineer",
+            "tenure": [
+                "Jun 2024",
+                "Aug 2024"
+            ],
+            "responsibilities": [
+                "Implemented new API endpoints and restructured the backend architecture using AWS and MySQL, enabling over 10,000 insurance sellers to provide customized quotes directly, boosting platform efficiency and increasing quote conversion rates by 50%",
+                "Enhanced the front-end interface of CoverPort, a FinTech platform for the trucking industry, using TypeScript, Next.js, and React, improving user experience and interaction with insurance product offerings, resulting in a 40% increase in user engagement",
+                "Contributed to and improved the company’s landing page, enhancing overall branding and user engagement through refined design and content updates"
+            ]
+        },
+        {
+            "company": "Niyam IT",
+            "role": "Software Developer",
+            "tenure": [
+                "Feb 2024",
+                "Present"
+            ],
+            "responsibilities": [
+                "Utilized OpenAI API to automatically gather and parse information on state employment laws, streamlining data entry and management in Excel through Python scripting",
+                "Researched and implemented Strapi CMS as the backend for the company’s website, developing the frontend with JavaScript and React, enhancing site functionality and user experience"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Reel Recommender",
+            "description": [
+                "Engineered a movie recommender system implemented with content-based filtering and cosine similarity algorithms in Python, utilizing a dataset of 10,000 + values, and enabled users to search for specific movies, with the system returning a list of recommendations",
+                "Employed the Streamlit library to design an intuitive front-end interface, facilitating user-friendly movie searches within the extensive dataset"
+            ],
+            "skills": [
+                "Python",
+                "Streamlit"
+            ]
+        },
+        {
+            "project": "Stock Bot",
+            "description": [
+                "Employed natural language processing APIs such as NLTK and machine learning models to train models in producing predictions based on live stock market data and news headlines about stock market trends and individual firms",
+                "Developed the frontend using React and JavaScript, utilized Python and Flask for backend operations and data analysis"
+            ],
+            "skills": [
+                "Python",
+                "React",
+                "JavaScript",
+                "Flask",
+                "NLTK"
+            ]
+        }
+    ],
+    "honors": [],
+    "activities": [
+        {
+            "activity": "Business and Artificial Intelligence Club",
+            "role": "Member",
+            "responsibility": []
+        },
+        {
+            "activity": "Project Code",
+            "role": "Member",
+            "responsibility": []
+        },
+        {
+            "activity": "National Eagle Scout Association",
+            "role": "Member",
+            "responsibility": []
+        },
+        {
+            "activity": "Data Science and Analytics Club",
+            "role": "Member",
+            "responsibility": []
+        },
+        {
+            "activity": "Indian Student Association",
+            "role": "Member",
+            "responsibility": []
+        },
+        {
+            "activity": "Venture Scouts of America",
+            "role": "Member",
+            "responsibility": []
+        }
+    ],
+    "userDetails": {
         "name": "Sanket Doddabendigere",
-        "role": "Software Engineer",
-        "education": "B.S in Computer Science, Minor in Data Science, 3.8 GPA, University of Virginia  School of Engineering & Applied Science",
-        "experience": [
-            "Software Engineering Intern at TechSur Solutions, Jun 2024 - Aug 2024: Developed and enhanced an RAG-based chatbot, engineered a task event service microservice, and enhanced the Task Event Service.",
-            "Software Engineer at CargoLabs, Jun 2024 - Aug 2024: Implemented new API endpoints, restructured the backend architecture, and enhanced the front-end interface of CoverPort.",
-            "Software Developer at Niyam IT, Feb 2024 - Present: Utilized OpenAI API, researched and implemented Strapi CMS, and developed the frontend with JavaScript and React."
-        ],
         "skills": [
             "Python",
             "Java",
@@ -30,126 +141,6 @@
             "NLTK",
             "TensorFlow",
             "Arduino"
-        ],
-        "company": "TechSur Solutions, CargoLabs, Niyam IT"
-    },
-    {
-        "gpa": 3.8,
-        "graduation": "May 2026",
-        "institution": "University of Virginia  School of Engineering & Applied Science  | Charlottesville , VA  Expected Graduation : May 2026  | B.S in Computer Science , Minor in Data Science, 3.8 GPA  | Relevant Course work: Algorithms, Advance d Software Development Essentials, Data Systems, Probability, Computer Systems  and Organizations, Data Structures and Algorithms, Discrete Math and Theory, Linear Algebra, Ordinary Differential Equations  | Education  | sanketp d12@gmail.com  | www.linkedin.com/in/sanketd12  | US Citizen  | sanketdoddabendigere  | 7036891795  | Experience  | TechSur Solutions  | Herndon , VA   Jun 2024  – Aug 2024   | Software Engineering Intern  | CargoLabs  | Charlottesville , VA (Remote)    Jun 2024 – Aug 2024   | Software Engineer  | Niyam  IT| Fairfax, VA ( Remote )   Feb 2024 – Present   | Software Developer  | Projects  | Reel  Recommender | Python , Streamlit  | Stock Bot | Python, React, Flask, JavaScript  | Skills  | Programming  Languages :  Python , Java,  TypeScript, JavaScript,  SQL, C#, C, HTML, CSS   | Tools and Technologies :  React , Node.js, Git, GitHub , Spring Boot , AWS,  MongoDB,  Docker,  Neo4j,  NLTK, TensorFlow , Arduino   | Professional Organizations: Business and Artificial Intelligence Club,  Project Code, National Eagle Scout Association , Data  Science and Analytics Club,  Indian Student Association, Venture Scouts of America    | Interests: Hiking, Soccer (Mancheste r United), Skateboarding, Photography, Travelling, Music, Cookin g"
-    },
-    {
-        "experiences": [
-            {
-                "company": "TechSur Solutions",
-                "role": "Software Engineering Intern",
-                "tenure": [
-                    "Jun 2024",
-                    "Aug 2024"
-                ],
-                "responsibilities": [
-                    "Developed and enhanced an RAG-based chatbot using Vue.js, TypeScript, and React, configuring AI models to efficiently retrieve information from USCIS knowledge bases summing to 7000+ documents, boosting content retrieval speed by 40%",
-                    "Engineered a task event service microservice using Spring Boot and PostgreSQL to manage task lifecycles and workflows, supporting 500+ tasks, which increased process efficiency and task management by 25%",
-                    "Enhanced the Task Event Service by updating the database schema, integrating optimistic locking for version control, and developing new API endpoints to manage task states dynamically, ensuring robust data integrity and concurrent handling"
-                ]
-            },
-            {
-                "company": "CargoLabs",
-                "role": "Software Engineer",
-                "tenure": [
-                    "Jun 2024",
-                    "Aug 2024"
-                ],
-                "responsibilities": [
-                    "Implemented new API endpoints and restructured the backend architecture using AWS and MySQL, enabling over 10,000 insurance sellers to provide customized quotes directly, boosting platform efficiency and increasing quote conversion rates by 50%",
-                    "Enhanced the front-end interface of CoverPort, a FinTech platform for the trucking industry, using TypeScript, Next.js, and React, improving user experience and interaction with insurance product offerings, resulting in a 40% increase in user engagement",
-                    "Contributed to and improved the company’s landing page, enhancing overall branding and user engagement through refined design and content updates"
-                ]
-            },
-            {
-                "company": "Niyam IT",
-                "role": "Software Developer",
-                "tenure": [
-                    "Feb 2024",
-                    "Present"
-                ],
-                "responsibilities": [
-                    "Utilized OpenAI API to automatically gather and parse information on state employment laws, streamlining data entry and management in Excel through Python scripting",
-                    "Researched and implemented Strapi CMS as the backend for the company’s website, developing the frontend with JavaScript and React, enhancing site functionality and user experience"
-                ]
-            }
         ]
-    },
-    {
-        "projects": [
-            {
-                "project": "Reel Recommender",
-                "description": [
-                    "Engineered a movie recommender system implemented with content-based filtering and cosine similarity algorithms in Python, utilizing a dataset of 10,000 + values, and enabled users to search for specific movies, with the system returning a list of recommendations",
-                    "Employed the Streamlit library to design an intuitive front-end interface, facilitating user-friendly movie searches within the extensive dataset"
-                ],
-                "skills": [
-                    "Python",
-                    "Streamlit",
-                    "Content-based filtering",
-                    "Cosine similarity algorithms"
-                ]
-            },
-            {
-                "project": "Stock Bot",
-                "description": [
-                    "Employed natural language processing APIs such as NLTK and machine learning models to train models in producing predictions based on live stock market data and news headlines about stock market trends and individual firms",
-                    "Developed the frontend using React and JavaScript, utilized Python and Flask for backend operations and data analysis"
-                ],
-                "skills": [
-                    "Python",
-                    "React",
-                    "JavaScript",
-                    "Flask",
-                    "Natural language processing APIs",
-                    "Machine learning models"
-                ]
-            }
-        ]
-    },
-    {
-        "activities": [
-            {
-                "activity": "Business and Artificial Intelligence Club",
-                "role": "Member",
-                "responsibility": []
-            },
-            {
-                "activity": "Project Code",
-                "role": "Member",
-                "responsibility": []
-            },
-            {
-                "activity": "National Eagle Scout Association",
-                "role": "Member",
-                "responsibility": []
-            },
-            {
-                "activity": "Data Science and Analytics Club",
-                "role": "Member",
-                "responsibility": []
-            },
-            {
-                "activity": "Indian Student Association",
-                "role": "Member",
-                "responsibility": []
-            },
-            {
-                "activity": "Venture Scouts of America",
-                "role": "Member",
-                "responsibility": []
-            }
-        ]
-    },
-    {
-        "honors": null
-    },
-    {
-        "certifications": null
     }
-]
+}
