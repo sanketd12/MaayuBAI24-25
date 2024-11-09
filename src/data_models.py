@@ -48,7 +48,7 @@ class ActivitiesList(BaseModel):
     activities: Optional[List[ActivityDescriptions]] = Field(description="List of extracurricular activities like clubs and organizations")
 
 
-class HonorsDescriptions(BaseModel):
+class HonorsDetails(BaseModel):
     honors: Optional[List[str]] = Field(description="Title of Honor or Awards Received")
 
 
