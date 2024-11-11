@@ -19,7 +19,7 @@ class EducationDetails(BaseModel):
 class ExperienceDetails(BaseModel):
     company: str = Field(description="Company name")
     role: str = Field(description="Role or Title at the company")
-    tenure: List[str] = Field(description="Time Spent at the company")
+    dates: List[str] = Field(description="Time Spent at the company")
     responsibilities: List[str] = Field(description="List of specific responsibilities or accomplishments of user at the company")
 
 
