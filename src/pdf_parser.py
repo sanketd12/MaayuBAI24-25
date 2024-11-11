@@ -2,7 +2,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from os import path, listdir, environ
 import json
 import openai
-from data_models import *
+from data_models import UserInformation
 from dotenv import load_dotenv
 
 # Load .env file
@@ -38,19 +38,12 @@ def parse_pdf(pdf_path: str, output_json_path: str) -> None:
         content += page.page_content
 
     # Generate structured JSON for each page of the resume (or multiple REMOVED_BUCKET_NAME)
-    all_users = []
-    outputSchema = [UserDetails, EducationDetails, UserExperiences]
-    for schema in outputSchema:
-        user_details = json.loads(get_user_details(content, schema))
-        all_users.append(user_details)
+    user_info = json.loads(get_user_details(content, UserInformation))
     
     # Save to JSON file
     with open(output_json_path, 'w', encoding='utf-8') as f:
-        json.dump(all_users, f, ensure_ascii=False, indent=4)
+        json.dump(user_info, f, ensure_ascii=False, indent=4)
     
-    # Print structured data
-    # print(json.dumps(all_users, indent=2))
-
 
 def main():
     # Define path to PDF content
