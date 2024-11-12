@@ -4,12 +4,21 @@
         "institution": "Sikkim Manipal University",
         "degree": "MCA",
         "graduation": "Pursuing",
-        "courses": [],
+        "courses": [
+            "BCA from Bishop Cottons Women’s College, Bangalore, 2012",
+            "Diploma in Electronics & Communication Engineering from Goodwill’s Polytechnic, Bangalore, 2010",
+            "PUC from Jyothi Nivas College, Bangalore,  2006",
+            "SSLC from Florence High School, Bangalore, 2002"
+        ],
         "gpa": null
     },
     "experiences": [
         {
             "company": "Syniverse Technologies",
+            "dates": [
+                "Nov 2016",
+                "Present"
+            ],
             "role": "TA /Recruitment Team",
             "responsibilities": [
                 "Successfully playing the role of HR",
@@ -19,30 +28,32 @@
                 "HR discussion and complete in depth screening of the candidate is handled once the candidate is been shortlisted from the panel",
                 "Initiate background check with a vendor FADV, ensure necessary documents are been verified and the report Is generated with no discrepancy",
                 "Interaction with the Business people to understand the requirement, coordinating as required",
-                "Raise the requisition on a tool Workday , put the requisition on the approval path and follow up on the approval process till the Offer Is approved",
+                "Raise the requisition on a tool Workday , put the requisition on the approval path and follow up on the approval process  till the Offer Is approved",
                 "Complete hiring process at Syniverse  is maintained on a tool Workday , hands on experience on this tool",
                 "Prepare Offer letter and  roll out the offer to the candidate by giving a clear picture on the compensation structure over a call",
                 "Follow up with the candidate till the DOJ"
-            ],
-            "tenure": [
-                "Nov 2016 to Till Date"
             ]
         },
         {
             "company": "Talent Ahead",
+            "dates": [
+                "July 2016",
+                "October 2016"
+            ],
             "role": "Senior Recruitment Officer",
             "responsibilities": [
                 "Successfully played an Individual contributor role",
                 "Leadership hiring",
                 "Predominantly worked for client Accenture on various technical skills.( worked on technologies  :.Net,Java, UX and Information Architect , User Information Design –Desktop ,J2ee Architect, MS Biztalk server, Java enterprise Edition, Functional testing",
                 "Finance domain- OBIEE , Informatica , Solution Architecting"
-            ],
-            "tenure": [
-                "July 2016 to October 2016"
             ]
         },
         {
             "company": "People Logic Business Solutions",
+            "dates": [
+                "January 2016",
+                "July 2016"
+            ],
             "role": "Senior Staffing Analyst",
             "responsibilities": [
                 "Successfully played the role of Acting Lead wherein I take care of following Activities",
@@ -50,39 +61,37 @@
                 "Successfully placed Candidates across different level with various clients in Consumer / Internet Industry",
                 "Have done placements individually as well as met team target",
                 "Successfully managed different clients and satisfied their requisitions",
-                "GO GET attitude towards all the need put across by the client",
+                "GO GET  attitude towards all the need put across by the client",
                 "Mentoring 3 member team technically and helping them to meet their Target"
-            ],
-            "tenure": [
-                "January 2016 to July 2016"
             ]
         },
         {
             "company": "People Logic Business Solutions",
+            "dates": [
+                "April 2014",
+                "Nov 2015"
+            ],
             "role": "Senior Staffing Analyst",
             "responsibilities": [
-                "Successfully played the role of Acting Lead wherein I take care of following Activities",
-                "Worked with different product Giants both Consumer and Enterprise companies for closing their positions",
-                "Successfully placed Candidates across different level with various clients in Consumer / Internet Industry",
-                "Have done placements individually as well as met team target",
-                "Successfully managed different clients and satisfied their requisitions",
-                "GO GET attitude towards all the need put across by the client",
-                "Mentoring 3 member team technically and helping them to meet their Target"
-            ],
-            "tenure": [
-                "April 2014 to Nov 2015"
+                "Exceeding expectations at work",
+                "Coordinating to follow up and successful closures",
+                "Received a lot of appreciations from my manager as well as the client coordinators",
+                "Active participator in all team building activities and grasping all new opportunities coming my way"
             ]
         },
         {
             "company": "Solutions Infini Technologies",
+            "dates": [
+                "Aug 2012",
+                "Mar 2014"
+            ],
             "role": "Process Associate",
             "responsibilities": [
-                "Customer handling, presales, post service support co ordination and training of the reportees for the same under me",
+                "Customer handling",
+                "Presales",
+                "Post service support co ordination and training of the reportees for the same under me",
                 "Handling the off-field / on-field team under various situations and smooth functioning of the process",
                 "Presales / Post Service Support / Trainer / Communication – Coordination with internal and external customers / Team Handling"
-            ],
-            "tenure": [
-                "Aug 2012 to Mar 2014"
             ]
         }
     ],
@@ -90,7 +99,9 @@
         {
             "project": "DreamJOBZ Portal",
             "description": [
-                "Human Resource Service Provider with a main focus on staffing in IT/ITES through the power of Hi-tech nature of Internet and Hi-touch specialty of Business Format Franchising. The system allows the job seekers to view, apply, post and search jobs. Jobs are posted by the end users through a separate ADMIN module."
+                "Human Resource Service Provider with a main focus on staffing in IT/ITES through the power of Hi-tech nature of Internet and Hi-touch specialty of Business Format Franchising",
+                "Allows the job seekers to view, apply, post and search jobs",
+                "Jobs are posted by the end users through a separate ADMIN module"
             ],
             "skills": [
                 "CSS",
@@ -102,16 +113,15 @@
         {
             "project": "Restaurant Management",
             "description": [
-                "Total POS restaurant software solution that can be easily tailored for use in any sort of food service establishment, from fine dining and table service restaurants to quick service (QSR), pizza delivery and take-out establishments."
+                "Total POS restaurant software solution that can be easily tailored for use in any   sort of food service establishment, from fine dining and table service restaurants to quick service (QSR), pizza delivery and take-out establishments"
             ],
             "skills": [
-                "Visual Basic",
-                "MS Access"
+                "Visual Basic & MS Access"
             ]
         }
     ],
-    "activities": [],
     "honors": [],
+    "activities": [],
     "userDetails": {
         "name": "Babetha Subramani",
         "skills": [
@@ -120,28 +130,59 @@
             "Staffing",
             "HR",
             "Workday",
-            "Interview Scheduling",
-            "Background Check",
-            "Client Coordination",
-            "Offer Preparation",
-            "Team Mentoring",
+            "Sourcing",
+            "Leadership",
             "Customer Handling",
             "Presales",
             "Post Service Support",
             "Training",
             "Team Handling",
-            "Product Recruitment",
-            "Solution Architecting",
-            "Finance Domain",
-            "OBIEE",
-            "Informatica",
-            "UX",
-            "Java",
-            ".Net",
-            "J2ee Architect",
-            "MS Biztalk server",
-            "Java enterprise Edition",
-            "Functional testing"
+            "Project Management",
+            "Business Development",
+            "Sales",
+            "Marketing",
+            "Communication",
+            "Coordination",
+            "Analysis",
+            "Problem Solving",
+            "Decision Making",
+            "Time Management",
+            "Leadership",
+            "Mentoring",
+            "Team Management",
+            "Goal Setting",
+            "Strategic Planning",
+            "Process Improvement",
+            "Quality Assurance",
+            "Recruitment",
+            "Placements",
+            "Staffing",
+            "HR",
+            "Workday",
+            "Sourcing",
+            "Leadership",
+            "Customer Handling",
+            "Presales",
+            "Post Service Support",
+            "Training",
+            "Team Handling",
+            "Project Management",
+            "Business Development",
+            "Sales",
+            "Marketing",
+            "Communication",
+            "Coordination",
+            "Analysis",
+            "Problem Solving",
+            "Decision Making",
+            "Time Management",
+            "Leadership",
+            "Mentoring",
+            "Team Management",
+            "Goal Setting",
+            "Strategic Planning",
+            "Process Improvement",
+            "Quality Assurance"
         ]
     }
 }
