@@ -1,0 +1,168 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Georgia State University",
+        "degree": "Master of Science in Information Systems – Big Data & Data Analytics",
+        "gpa": 3.93,
+        "graduation": "May 2018",
+        "courses": [
+            "Big Data & Data Analytics"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Cox Automotive, Atlanta",
+            "role": "Sr Data Analyst",
+            "responsibilities": [
+                "Support Retail Reconditioning business for Manheim, worldwide platform for buying, selling, reconditioning and logistics of vehicles",
+                "Data Analysis, data mining for orders created in the system for vehicles coming for reconditioning at different Auctions location pan U.S. for multiple dealers such as Amazon, Carvana, CarMax, Vroom, etc",
+                "Analyze Transport data from Ready Logistics and supports data validation",
+                "Support Finance team in invoicing process using Macola (ERP Application for Finance) and SQL to assess the data and build reports on Power BI",
+                "Explore and analyze data coming from Xtime (Online platform) into Oracle and PostgreSQL databases",
+                "Develop reports on Power BI for Operations team to optimize the process of Ordering Parts, Approvals, Work Completion metrics",
+                "Support Auction location in optimizing the reconditioning process by analyzing the data for time taken in each reconditioning task on the vehicle, number of personnel working, turnaround time and throughput"
+            ],
+            "tenure": [
+                "Jan 2021 – Present"
+            ]
+        },
+        {
+            "company": "Custom Molded Products, LLC, Greater Atlanta",
+            "role": "Data Analyst",
+            "responsibilities": [
+                "Work as a Lead Data Analyst and Visualization Developer for ERP system Epicor at CMP. Epicor is an ERP tool hosted on SQL Server, which store the activities for different verticals of the business such as Supply Chain, Warehouse, Material Planning, Customer Sales, Engineering, Finance, Marketing, CRM",
+                "Integral part of the core ERP implementation team. Implemented CMP and three acquisition companies - PowerClean, AquaSun, Del Ozone on Epicor 10.2.6 system",
+                "Responsible for migrating the data from CMP’s legacy ERP System, P21 (Prophet.21), to the new system; Migrated Inventory Data, Invoices data, Purchase Orders, Sales Orders, Parts Information, Supplier data, Shipping & Receiving, Manufacturing data like Bill of Material, Bill of Operations",
+                "Managed projects like Customer price list implementation, Credit Card Module of Accounts Receivables",
+                "Coordinate with key stakeholders to develop business requirements and specification documents",
+                "Develop calculations for key performance metrics that provide insights to the drivers of the business",
+                "Build dashboards and reports on different platforms such as Microsoft Power BI, SSRS, Epicor and SharePoint",
+                "Create visualizations such as heat maps, scatterplots, gant charts, metrices, PowerBI market custom visuals; Create calculated fields, measures providing information for key performance indicators, trends, etc. and sharing the reports with stakeholders and teams on PowerBI.com",
+                "Works with Sales and Marketing Team on Price Implementation, Customer Acquisition and Back Orders",
+                "Works with Warehouse team to optimize the shipping and receiving",
+                "Works with Supply chain to Analyze PO data and Vendor data like Lead Time, Safety Stock, Floor Stock items, etc",
+                "Developed Sales Data Warehouse for storing historical data for acquisition companies and built ETL jobs using SSIS packages, SSMS, SQL Server Agent to append that to current data",
+                "Stored Proc for ETL and data pruning were created to acquire data from QuickBooks, MFG Pro and Excel and load that to SQL DB",
+                "Maintain daily and weekly meetings, adhoc request with members of different teams like Sales, Finance, warehouse, Customer Service, Supply chain to discuss trends found in data"
+            ],
+            "tenure": [
+                "Jan 2019 – Dec 2020"
+            ]
+        },
+        {
+            "company": "Global Touchpoints",
+            "role": "Business Intelligence for Deloitte Consulting",
+            "responsibilities": [
+                "Worked for the Department of Human Services for the State of Arkansas",
+                "Conducted extensive meetings with stakeholders of DHS to gather requirement for designing Power BI reports and dashboards",
+                "Performed data analysis by creating logical data models, wireframes on SQL and Power BI desktop",
+                "Utilized Microsoft SQL server Services software such as SSIS for ETL, for data extraction, transformation and loads",
+                "Created Stored procedures and SQL Jobs to upsert the data from one source to another",
+                "Built key performance metrics, graphs, heat maps, backlog charts, pareto charts for using Power BI desktop and also administered Power BI online services for the team"
+            ],
+            "tenure": [
+                "October 2018 – Jan 2019"
+            ]
+        },
+        {
+            "company": "Mohawk Industries Inc, Atlanta, GA",
+            "role": "Business Intelligence Analyst",
+            "responsibilities": [
+                "Worked on Mohawk Claims Forecasting Analytics project to support teams such as Sales and Operations",
+                "Built the dashboards for Claims & Sales Analytics team on PowerBI and transitioned dashboards from Tableau",
+                "Analyzed huge datasets from SAP HANA and MSSQL on Power BI to identify historical patterns for Claims",
+                "Analyzed data and developed data visuals using SQL, DAX queries, aggregate functions, slicers and bookmarks",
+                "Analyzed the trend of declined & approved claims on Power BI",
+                "Published and shared dashboards on Power BI online and App",
+                "Used scatterplots, heatmaps, bar graphs, matrix and updated them using filters, power query, custom columns, DAX calculations"
+            ],
+            "tenure": [
+                "Aug 2018 –     September 2018"
+            ]
+        },
+        {
+            "company": "Economic Forecasting Center - Georgia State University",
+            "role": "Graduate Research Assistant",
+            "responsibilities": [
+                "Researched the economic data using sources Bloomberg Terminal, WSJ (Wall Street Journal), FactSet and analyzed the data using Power BI, MS Excel, QlikView",
+                "Built visualizations in Power BI, created graphs, charts to analyze the trends for different segments such as U.S. Oil Prices, Dollar’s Movement, Stock Market, Airlines, GA Housing, and Employability rate",
+                "Prepared the data for Georgia’s fortune 500 companies and built financial model to calculate the Index for Georgia State and compared the performance with S&P 500 and FANG+",
+                "Analyzed the trend of declined & approved claims on Power BI",
+                "Published and shared dashboards on Power BI online and App",
+                "Used scatterplots, heatmaps, bar graphs, matrix and updated them using filters, power query, custom columns, DAX calculations"
+            ],
+            "tenure": [
+                "August 2017 – July 2018"
+            ]
+        },
+        {
+            "company": "EXL Analytics, India",
+            "role": "Business Intelligence – Client Barclays Bank, Credit Risk Management Team",
+            "responsibilities": [
+                "Gathered business requirements and reports from Barclays UK stakeholders, for Personal Consumer Banking",
+                "Worked on a project using Python and SAS to identify potential customer segment for Loan, Direct Investments offerings and also determined the rates offered using credit history and fraud data",
+                "Provided meaningful insights on Cross-Selling campaigns through comprehensive analysis of data",
+                "Developed dashboards on Power BI using MSSQL, TeraData to visualize the flow of Loan applications and delinquent customers and other banking products",
+                "Analyzed existing reports on SSRS and used them to build the new services and reports on Power BI for business",
+                "Automated the testing for Loan Applications using SQL and SAS guide. Tested the business flows, banking strategies with live applications on E-Transact",
+                "Utilized Agile methodology with daily scrums logged user stories using SharePoint and JIRA"
+            ],
+            "tenure": [
+                "April 2016 — July 2017"
+            ]
+        },
+        {
+            "company": "Aon Hewitt, India",
+            "role": "Quality Assurance| Data Analysis| Web Analytics| Algorithms",
+            "responsibilities": [
+                "Collected business requirements, analyzed HR data to build algorithms on Calc Builder (proprietary tool) for defined benefits optional forms payments using Actuarial formulas for Thomson Reuters, Chrysler, Exelon and StateFarm",
+                "Enabled ETL development using SQL on relational databases and MS Excel Macros",
+                "Developed SAS analytical skills for complete transition from Excel to SAS for automation of reports",
+                "Linear Regression model analysis to see the benefit projection as per optional forms and actuarial formulas",
+                "Prepared manual test-suites for UAT, Regression testing to validate functionality",
+                "Performed analytics on employee data on YBR (Your Benefit Resource) AON website, to project benefits",
+                "Followed SDLC methodology, conducted walk-throughs with the onshore American stakeholders"
+            ],
+            "tenure": [
+                "December 2013 — April 2016"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Anirudh",
+        "skills": [
+            "Python",
+            "SQL",
+            "R",
+            "Statistics",
+            "SSIS",
+            "SharePoint",
+            "Power BI",
+            "MS Excel",
+            "Tableau",
+            "SSRS",
+            "IBM Watson Analytics",
+            "Epicor (ERP).",
+            "SQL Server",
+            "T-SQL",
+            "TeraData",
+            "SAP HANA",
+            "NoSQL",
+            "DB2",
+            "Project Management",
+            "Strategical Planning",
+            "Requirement Gathering",
+            "Mentoring",
+            "Content Organizing",
+            "Team Building",
+            "Adaptability",
+            "Problem-solving",
+            "Time Management",
+            "Public Speaking",
+            "Networking"
+        ]
+    }
+}
