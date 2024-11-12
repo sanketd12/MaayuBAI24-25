@@ -12,7 +12,7 @@ class EducationDetails(BaseModel):
     institution: str = Field(description="Name of institution of most recent education")
     degree: str = Field(description="Degree pursued at this institution")
     graduation: str = Field(description="Expected graduation date or date graduated if already graduated")
-    gpa: float = Field(description="GPA of the candidate at this institution")
+    gpa: Optional[float] = Field(description="GPA of the candidate at this institution")
     courses: Optional[List[str]] = Field(description="List of relevant courses user has taken in this institution")
 
 
