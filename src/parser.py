@@ -59,20 +59,33 @@ def generate_json(content: str, output_json_path: str) -> None:
 
 def load_users(resume_folder_path: str, json_folder_path: str) -> None:
     resume_list = listdir(resume_folder_path)
+    already_used = set()
+
+
+    def generate_json_unique_name(resume_name):
+        original = resume_name
+        n = 1
+        while resume_name in already_used:
+            resume_name = f'{original} ({n})'
+            n += 1
+        already_used.add(resume_name)
+        generate_json(content, path.join(json_folder_path, resume_name + '.json'))
+
+
     for resume in resume_list:
         resume_path = path.join(resume_folder_path, resume)
         if resume.lower().endswith('.pdf'):
             content = parse_pdf(resume_path)
-            resume_name = resume[:-4] + '.json'
-            generate_json(content, path.join(json_folder_path, resume_name))
+            resume_name = resume[:-4]
+            generate_json_unique_name(resume_name)
         elif resume.lower().endswith('.docx'):
             content = parse_doc(resume_path)
-            resume_name = resume[:-5] + '.json'
-            generate_json(content, path.join(json_folder_path, resume_name))
+            resume_name = resume[:-5]
+            generate_json_unique_name(resume_name)
         elif resume.lower().endswith('.doc'):
             content = parse_doc(resume_path)
-            resume_name = resume[:-4] + '.json'
-            generate_json(content, path.join(json_folder_path, resume_name))
+            resume_name = resume[:-4]
+            generate_json_unique_name(resume_name)
     
 
 def main():
