@@ -4,22 +4,17 @@
         "institution": "Sikkim Manipal University",
         "degree": "MCA",
         "graduation": "Pursuing",
-        "courses": [
-            "BCA from Bishop Cottons Women’s College, Bangalore, 2012",
-            "Diploma in Electronics & Communication Engineering from Goodwill’s Polytechnic, Bangalore, 2010",
-            "PUC from Jyothi Nivas College, Bangalore,  2006",
-            "SSLC from Florence High School, Bangalore, 2002"
-        ],
+        "courses": [],
         "gpa": null
     },
     "experiences": [
         {
             "company": "Syniverse Technologies",
+            "role": "TA /Recruitment Team",
             "dates": [
                 "Nov 2016",
-                "Present"
+                "Till Date"
             ],
-            "role": "TA /Recruitment Team",
             "responsibilities": [
                 "Successfully playing the role of HR",
                 "Expertise on tool Workday",
@@ -28,50 +23,49 @@
                 "HR discussion and complete in depth screening of the candidate is handled once the candidate is been shortlisted from the panel",
                 "Initiate background check with a vendor FADV, ensure necessary documents are been verified and the report Is generated with no discrepancy",
                 "Interaction with the Business people to understand the requirement, coordinating as required",
-                "Raise the requisition on a tool Workday , put the requisition on the approval path and follow up on the approval process  till the Offer Is approved",
-                "Complete hiring process at Syniverse  is maintained on a tool Workday , hands on experience on this tool",
-                "Prepare Offer letter and  roll out the offer to the candidate by giving a clear picture on the compensation structure over a call",
+                "Raise the requisition on a tool Workday , put the requisition on the approval path and follow up on the approval process till the Offer Is approved",
+                "Complete hiring process at Syniverse is maintained on a tool Workday , hands on experience on this tool",
+                "Prepare Offer letter and roll out the offer to the candidate by giving a clear picture on the compensation structure over a call",
                 "Follow up with the candidate till the DOJ"
             ]
         },
         {
             "company": "Talent Ahead",
+            "role": "Senior Recruitment Officer",
             "dates": [
                 "July 2016",
                 "October 2016"
             ],
-            "role": "Senior Recruitment Officer",
             "responsibilities": [
                 "Successfully played an Individual contributor role",
                 "Leadership hiring",
-                "Predominantly worked for client Accenture on various technical skills.( worked on technologies  :.Net,Java, UX and Information Architect , User Information Design –Desktop ,J2ee Architect, MS Biztalk server, Java enterprise Edition, Functional testing",
-                "Finance domain- OBIEE , Informatica , Solution Architecting"
+                "Predominantly worked for client Accenture on various technical skills. (worked on technologies :.Net,Java, UX and Information Architect , User Information Design –Desktop ,J2ee Architect, MS Biztalk server, Java enterprise Edition, Functional testing Finance domain- OBIEE , Informatica , Solution Architecting)"
             ]
         },
         {
             "company": "People Logic Business Solutions",
+            "role": "Senior Staffing Analyst",
             "dates": [
                 "January 2016",
                 "July 2016"
             ],
-            "role": "Senior Staffing Analyst",
             "responsibilities": [
                 "Successfully played the role of Acting Lead wherein I take care of following Activities",
                 "Worked with different product Giants both Consumer and Enterprise companies for closing their positions",
                 "Successfully placed Candidates across different level with various clients in Consumer / Internet Industry",
                 "Have done placements individually as well as met team target",
                 "Successfully managed different clients and satisfied their requisitions",
-                "GO GET  attitude towards all the need put across by the client",
+                "GO GET attitude towards all the need put across by the client",
                 "Mentoring 3 member team technically and helping them to meet their Target"
             ]
         },
         {
             "company": "People Logic Business Solutions",
+            "role": "Senior Staffing Analyst",
             "dates": [
                 "April 2014",
                 "Nov 2015"
             ],
-            "role": "Senior Staffing Analyst",
             "responsibilities": [
                 "Exceeding expectations at work",
                 "Coordinating to follow up and successful closures",
@@ -81,11 +75,11 @@
         },
         {
             "company": "Solutions Infini Technologies",
+            "role": "Process Associate",
             "dates": [
                 "Aug 2012",
                 "Mar 2014"
             ],
-            "role": "Process Associate",
             "responsibilities": [
                 "Customer handling",
                 "Presales",
@@ -113,76 +107,50 @@
         {
             "project": "Restaurant Management",
             "description": [
-                "Total POS restaurant software solution that can be easily tailored for use in any   sort of food service establishment, from fine dining and table service restaurants to quick service (QSR), pizza delivery and take-out establishments"
+                "Total POS restaurant software solution that can be easily tailored for use in any sort of food service establishment, from fine dining and table service restaurants to quick service (QSR), pizza delivery and take-out establishments"
             ],
             "skills": [
-                "Visual Basic & MS Access"
+                "Visual Basic",
+                "MS Access"
             ]
         }
     ],
-    "honors": [],
     "activities": [],
+    "honors": [],
     "userDetails": {
         "name": "Babetha Subramani",
         "skills": [
             "Recruitment",
             "Placements",
             "Staffing",
-            "HR",
             "Workday",
+            "HR",
+            "Interviewing",
+            "Background Checks",
+            "Client Coordination",
+            "Offer Letters",
+            "Onboarding",
             "Sourcing",
-            "Leadership",
+            "Leadership Hiring",
+            ".Net",
+            "Java",
+            "UX",
+            "Information Architect",
+            "User Information Design –Desktop",
+            "J2ee Architect",
+            "MS Biztalk server",
+            "Java enterprise Edition",
+            "Functional testing",
+            "OBIEE",
+            "Informatica",
+            "Solution Architecting",
             "Customer Handling",
             "Presales",
             "Post Service Support",
             "Training",
             "Team Handling",
-            "Project Management",
-            "Business Development",
-            "Sales",
-            "Marketing",
-            "Communication",
-            "Coordination",
-            "Analysis",
-            "Problem Solving",
-            "Decision Making",
-            "Time Management",
-            "Leadership",
-            "Mentoring",
-            "Team Management",
-            "Goal Setting",
-            "Strategic Planning",
-            "Process Improvement",
-            "Quality Assurance",
-            "Recruitment",
-            "Placements",
-            "Staffing",
-            "HR",
-            "Workday",
-            "Sourcing",
-            "Leadership",
-            "Customer Handling",
-            "Presales",
-            "Post Service Support",
-            "Training",
-            "Team Handling",
-            "Project Management",
-            "Business Development",
-            "Sales",
-            "Marketing",
-            "Communication",
-            "Coordination",
-            "Analysis",
-            "Problem Solving",
-            "Decision Making",
-            "Time Management",
-            "Leadership",
-            "Mentoring",
-            "Team Management",
-            "Goal Setting",
-            "Strategic Planning",
-            "Process Improvement",
-            "Quality Assurance"
+            "Visual Basic",
+            "MS Access"
         ]
     }
 }
