@@ -5,6 +5,8 @@ import json
 import openai
 from data_models import UserInformation
 from dotenv import load_dotenv
+import boto3
+
 
 # Load .env file
 load_dotenv()
@@ -14,6 +16,8 @@ client = openai.OpenAI(
     base_url="https://api.together.xyz/v1",
     api_key=environ["TOGETHER_API_KEY"],
 )
+
+s3_client = boto3.client('s3')
 
 
 # Function to call the LLM and get structured data
@@ -39,6 +43,17 @@ def parse_pdf(pdf_path: str) -> str:
         content += page.page_content
     return content
 
+def parse_doc_from_s3(bucket_name: str, file_key: str) -> str:
+    # Download the file from S3 to memory
+    response = s3_client.get_object(Bucket=bucket_name, Key=file_key)
+    file_content = response['Body'].read()
+
+    document = Document()
+    memory_stream = BytesIO(file_content)
+    document.LoadFromStream(memory_stream)
+    content = document.GetText()
+    return content
+
 
 def parse_doc(doc_path: str) -> str:
     # Loads DOC or DOCX content
@@ -55,7 +70,7 @@ def generate_json(content: str, output_json_path: str) -> None:
     # Save to JSON file
     with open(output_json_path, 'w', encoding='utf-8') as f:
         json.dump(user_info, f, ensure_ascii=False, indent=4)
-
+    print(f'{output_json_path} is outputted to json')
 
 def load_users(resume_folder_path: str, json_folder_path: str) -> None:
     resume_list = listdir(resume_folder_path)
@@ -88,13 +103,30 @@ def load_users(resume_folder_path: str, json_folder_path: str) -> None:
             generate_json_unique_name(resume_name)
     
 
+def load_users_from_s3(bucket_name: str, json_folder_path: str) -> None:
+    # List all objects in the S3 bucket
+    response = s3_client.list_objects_v2(Bucket=bucket_name)
+    already_used = set()
+
+    def generate_json_unique_name(resume_name, content):
+        original = resume_name
+        n = 1
+        while resume_name in already_used:
+            resume_name = f'{original} ({n})'
+            n += 1
+        already_used.add(resume_name)
+        generate_json(content, path.join(json_folder_path, resume_name + '.json'))
+
 def main():
     # Define path to PDF content
-    resume_folder_path = path.join(path.dirname(__file__), 'resume_folder')
+    # resume_folder_path = path.join(path.dirname(__file__), 'resume_folder')
+    bucket_name = 'maayuresumebank'
     json_folder_path = path.join(path.dirname(path.dirname(__file__)), 'json')
-    
-    load_users(resume_folder_path, json_folder_path)
+    load_users_from_s3(bucket_name, json_folder_path)
 
+    
+    # load_users(resume_folder_path, json_folder_path)
+    
 
 if __name__ == '__main__':
     main()
