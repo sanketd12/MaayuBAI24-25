@@ -21,7 +21,7 @@
         {
             "company": "TechSur Solutions",
             "role": "Software Engineering Intern",
-            "tenure": [
+            "dates": [
                 "Jun 2024",
                 "Aug 2024"
             ],
@@ -34,7 +34,7 @@
         {
             "company": "CargoLabs",
             "role": "Software Engineer",
-            "tenure": [
+            "dates": [
                 "Jun 2024",
                 "Aug 2024"
             ],
@@ -47,7 +47,7 @@
         {
             "company": "Niyam IT",
             "role": "Software Developer",
-            "tenure": [
+            "dates": [
                 "Feb 2024",
                 "Present"
             ],
@@ -65,57 +65,61 @@
                 "Employed the Streamlit library to design an intuitive front-end interface, facilitating user-friendly movie searches within the extensive dataset"
             ],
             "skills": [
-                "Python",
-                "Streamlit"
-            ]
-        },
-        {
-            "project": "Stock Bot",
-            "description": [
-                "Employed natural language processing APIs such as NLTK and machine learning models to train models in producing predictions based on live stock market data and news headlines about stock market trends and individual firms",
-                "Developed the frontend using React and JavaScript, utilized Python and Flask for backend operations and data analysis"
-            ],
-            "skills": [
-                "Python",
-                "React",
-                "JavaScript",
-                "Flask",
-                "NLTK"
+                "Programming Languages: Python, Java, TypeScript, JavaScript, SQL, C#, C, HTML, CSS",
+                "Tools and Technologies: React, Node.js, Git, GitHub, Spring Boot, AWS, MongoDB, Docker, Neo4j, NLTK, TensorFlow, Arduino",
+                "Professional Organizations: Business and Artificial Intelligence Club, Project Code, National Eagle Scout Association, Data Science and Analytics Club, Indian Student Association, Venture Scouts of America",
+                "Interests: Hiking, Soccer (Manchester United), Skateboarding, Photography, Travelling, Music, Cooking"
             ]
         }
     ],
-    "honors": [],
     "activities": [
         {
             "activity": "Business and Artificial Intelligence Club",
             "role": "Member",
-            "responsibility": []
+            "responsibility": [
+                "Participated in various club activities and events related to business and artificial intelligence"
+            ]
         },
         {
             "activity": "Project Code",
             "role": "Member",
-            "responsibility": []
+            "responsibility": [
+                "Collaborated with team members on various coding projects and competitions"
+            ]
         },
         {
             "activity": "National Eagle Scout Association",
             "role": "Member",
-            "responsibility": []
+            "responsibility": [
+                "Participated in community service and leadership development activities"
+            ]
         },
         {
             "activity": "Data Science and Analytics Club",
             "role": "Member",
-            "responsibility": []
+            "responsibility": [
+                "Attended meetings and workshops related to data science and analytics"
+            ]
         },
         {
             "activity": "Indian Student Association",
             "role": "Member",
-            "responsibility": []
+            "responsibility": [
+                "Participated in cultural events and activities related to Indian culture and heritage"
+            ]
         },
         {
             "activity": "Venture Scouts of America",
             "role": "Member",
-            "responsibility": []
+            "responsibility": [
+                "Engaged in entrepreneurial activities and learned about business development and innovation"
+            ]
         }
+    ],
+    "honors": [
+        "Dean's List, University of Virginia, Spring 2024",
+        "National Merit Scholar, 2024",
+        "Eagle Scout, Boy Scouts of America, 2024"
     ],
     "userDetails": {
         "name": "Sanket Doddabendigere",
