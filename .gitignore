@@ -144,7 +144,7 @@ venv.bak/
 
 #folders that hold local files
 resume_folder/*
-json/*
+
 
 # mypy
 .mypy_cache/

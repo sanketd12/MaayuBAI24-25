@@ -1,0 +1,39 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "George Crockett",
+        "graduation": "June 5, 2009",
+        "gpa": 3.5,
+        "degree": "High School Diploma",
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Career Connections",
+            "dates": [
+                "June 2009 - July 2009",
+                "Summer June 2012 - August 2012",
+                "October 2012 - November 2012",
+                "January 2013 - Present 2013"
+            ],
+            "role": "N/A",
+            "responsibilities": []
+        }
+    ],
+    "honors": [
+        "Football Award",
+        "Wrestling Award",
+        "Honor Roll"
+    ],
+    "projects": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Jawain Thompson",
+        "skills": [
+            "moving skills",
+            "people skills",
+            "leadership",
+            "worked with kids"
+        ]
+    }
+}

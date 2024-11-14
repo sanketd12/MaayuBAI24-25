@@ -1,0 +1,391 @@
+{
+    "certifications": [
+        "Certified OKRs Coach (end of April 2020)"
+    ],
+    "experiences": [
+        {
+            "company": "Charles Schwab Financial",
+            "dates": [
+                "February 2017 – Till date"
+            ],
+            "role": "Program Manager / Release Train Engineer",
+            "responsibilities": [
+                "Google Cloud Platform program agile lead, leading multiple work streams to ensure their success for the program – Network, security, IAM, threat management, cyber security and Machine Learning , data analytics, governance, applications teams, dialog flow, and data loss prevention",
+                "Mentor, coach and transform teams by assessing current practices against best practices",
+                "Work with leadership to educate on the agile trends and value added deliverables from process",
+                "Facilitate program level collaborations to ensure continuous improvement and early risk assessment in the process to achieve common business goals",
+                "Conduct Program Increment plannings, track cross team dependencies across program, work with scrum masters and product owners across the program to stay on top of dependencies and sequencing the execution",
+                "Ensure transparency through reporting, risk communication and escalations",
+                "Facilitate all Agile Release train operations",
+                "Ensure collaboration with vendor teams for faster responses to the teams",
+                "Conduct Product Owner sync up, Scrum of Scrums, Architectural Sync ups, Dependency meetings, Program level demo and sprint review meetings, inspect and adapt meetings",
+                "Ensure proper documentation for program and artifacts for sprints, program goals are readily available for audit purposes",
+                "Collaborate, co-ordinate and bring multiple areas of business units together and serve Client Services program management deliverables",
+                "Working closely with network, ITO, Advisory board, Change review board and all other project entities to ensure the project is successful",
+                "Contribute and ensure Disaster recovery and Business Continuity documentations are up to date and maintained. Execute disaster recovery exercise twice an year",
+                "Ensure team runbooks, standard operating procedures are well documented so as to be in consumable state for external teams",
+                "Ensure monthly production test account remediation’s to acknowledge the business is not compromised any manner while validating production integrity",
+                "Manage and ensure run books, standard operating procedures are upto date",
+                "Coached teams to be agile by assuring process is reinforced successfully",
+                "Coordinated migrations of dot net and java webservices to Pivotal Cloud Foundry and progressing with onboarding to Azure Cloud",
+                "Establishing new scrum team for Public cloud application onboarding",
+                "Maintain team metrics in JIRA and publish all communications using confluence",
+                "Extensive use of confluence for impediment/ escalation documentation, project run books, standard operating procedures, splunk alerts and action items",
+                "Engage in change review process by assuring Remedy change requests meet acceptable criteria, approve the requests in Remedy and ensure to have implementations and validations occur as expected",
+                "Automated test script integration with Zephyr to enable CI/CD",
+                "Consumer engagement for pre prod and prod certifications by opening front door requests ahead of time",
+                "Onshore – Offshore coordination ensuring product support availability 24/7 . Product monitoring during pre market open and market open hours",
+                "Own, Plan and Deliver - Cloud migrations, Service development, Client Summary Project initiation through delivery (includes account positions, summary, and all associated services)"
+            ]
+        },
+        {
+            "company": "AT & T Services Inc",
+            "dates": [
+                "Mar ’11 – February 2017"
+            ],
+            "role": "Sr. Product Development-Release Manager /Scrum Master",
+            "responsibilities": [
+                "Educate scrum teams on Agile practices and act as a Servant Leader to motivate and ensure the scrum process is followed as intended",
+                "Facilitate and lead agile ceremonies (Daily Standup, Demonstration, Story Point Estimation, Retrospective, Iteration Planning, and Backlog Grooming) and foster continuous improvement",
+                "Collaborate with team members, but do not act as a manager, lead developer, Project Manager, or Product Owner",
+                "Promote communication and collaboration during daily scrums and build consensus for achievement during a specified period of time",
+                "Remove impediments to a team's productivity by shielding them from outside influences",
+                "Empower teams and facilitate creativity while guarding quality and monitoring iteration progress while striving for successful completion. Represent the team to management",
+                "Disseminate information to the team, including metrics and charts",
+                "Act as the single point of contact for the Product Owner and Project Manager",
+                "Work with other Scrum Masters to ensure organizational process improvement",
+                "Qualify projects for participation in releases",
+                "Facilitate planning the release; creates targeted release content",
+                "Create release plans, monitor the schedule and quality of the release",
+                "Monitors the progress of participating projects in meeting milestone requirements",
+                "Manage risks and issues related to scope, schedule and quality",
+                "Assess readiness for each subsequent phase of the release",
+                "Create and manage release level jeopardies",
+                "Develop Release Deployment plan",
+                "Evaluate release at various decision gates",
+                "Monitor release deployment",
+                "Support Release Managers and technical teams by engaging on call or resources required to resolve issues",
+                "Monitor and control changes to the release and facilitate program/application schedules of dependent systems (server installations and server maintenance, etc.) related to the release",
+                "Manage release contents to release timeline and milestones and provide visibility of the dependencies for planning sessions",
+                "Notify the stake holders , deployment schedules and successful deployments"
+            ]
+        },
+        {
+            "company": "Testlio Inc",
+            "dates": [
+                "Jan ’16 – Till Date"
+            ],
+            "role": "Mobile Application Tester",
+            "responsibilities": [
+                "Constantly validate new build available for several mobile applications including Cortana (Microsoft Product), Flipboard, CWS Seed, CBS Interactive",
+                "Ensure the test build is properly installed on the mobile device",
+                "Validate the app on several different environments and devices – iOS, Androids , phones, tablets, iPads etc",
+                "Ensure the mobile applications function as usual irrespective of connection type – Wifi or LTE",
+                "Validate mobile applications under different connectivity modes (low, medium and strong signal strengths).",
+                "When Mobile apps include live cast of TV shows ensured connection type does not impact the streaming",
+                "Validate the app behavior based on privileges as a paid or free user",
+                "Validate the app behavior in background mode and its interaction with other apps installed on the device",
+                "Report defects and defect log files from device, to the development teams",
+                "Document step by step instructions to reproduce the issue",
+                "Report Mobile Application Crash by step by step instruction to reproduce and also include the crash logs",
+                "Communicate and coordinate with other Community testers working on the app testing",
+                "Revalidate / Reproduce issues identified by other community testers to ensure reports sent to client were all authentic defects"
+            ]
+        },
+        {
+            "company": "Texas Education Agency, Austin, TX",
+            "dates": [
+                "May ’04 – Mar’11"
+            ],
+            "role": "Scrum Master / QA Lead (Agile) - Online Grant Applications",
+            "responsibilities": [
+                "As a Scrum Master prepare Story Boards, Use Cases from User Stories and Assist Product Owner in preparing Product backlogs",
+                "Coordinate with the team in Sprint planning meetings and derive task level estimates from all participants (Developers, QA team, Business Analysts, Technical Writers) including a representative of Product Owner for each Sprint",
+                "Maintain Sprint tasks and User Stories in proper gates on the Virtual Story Boards and retain upto time status on the Project",
+                "Prepare burn down charts and Conduct Retrospective Meetings after every Sprint and take Corrective Action in the Subsequent Sprints",
+                "Participate in Meta Scrum Meetings and coordinate with other counter parts of the Project to resolve any project impediments",
+                "Multitask and work on 3-4 agile projects, efficiently managing time and deadlines",
+                "Involved in Requirement gathering by interviews with stake holders, users",
+                "Review existing requirement documents, analyze existing system perform. Inspection and document Agile (based on stories) requirements based on user input and technology used",
+                "Maintain and keep requirement documents up to date in share point location",
+                "As a QA Lead on Agile Projects manage QA resources for project work assignments",
+                "Review daily progress on QA assignments and obtain status on the tasks on daily basis",
+                "Initiate appropriate actions and escalations as necessary for Project benefit",
+                "Design, Develop and Implement test Automation Frameworks",
+                "Design test plans and test cases as necessary in Web Application-development environment",
+                "Create, execute, and review the test cases (prepared by QA team).",
+                "Perform integration, and regression testing in test, staging and production environments",
+                "Prepare test data for the product and Setup \\\\ Manage testing environment",
+                "Assess the priority and severity of issues and escalate as necessary",
+                "Maintain requirements traceability matrix and responsible for the overall quality of test",
+                "Identify and report any quality or compliance concerns to the Change Control Board (CCB) and take immediate corrective action as required",
+                "Conducted internal trainings wherever required for the team",
+                "Perform Accessibility testing, backend testing using SQL Queries for agency’s web applications",
+                "Worked in continuous co-ordination with SME’s, and End Users and led the User Acceptance testing",
+                "Created Daily, Weekly and Monthly status reports, coordinated the same to the PMO (Project Management Office) and also published the reports on Agency’s Intranet"
+            ]
+        },
+        {
+            "company": "Ecal Solutions Inc",
+            "dates": [
+                "Sept ’03 – May ’04"
+            ],
+            "role": "Env Quality Analyst",
+            "responsibilities": [
+                "Worked on Quality analysis of Gas, liquid and solids using chromatographic techniques",
+                "Developed application to archieve reports from chromatography and spectroscopic devices",
+                "Developed Visual Basic Application to save results and procedures from chromatography and spectroscopic devices",
+                "Analyzed the reports and generated crystal reports , obtained signoffs from clients",
+                "Manually tested the application for various data inputs, client–side scripting and broken links and reported the defects periodically for ECALs web applications",
+                "Functioned as Supervisor for analysis and development resources"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "University of Madras",
+        "degree": "Bachelor of Science",
+        "graduation": "1999",
+        "courses": [
+            "Physics",
+            "Chemistry",
+            "Mathematics"
+        ],
+        "gpa": 3.5
+    },
+    "projects": [
+        {
+            "project": "Google Cloud Platform program",
+            "description": [
+                "Google Cloud Platform program agile lead, leading multiple work streams to ensure their success for the program – Network, security, IAM, threat management, cyber security and Machine Learning , data analytics, governance, applications teams, dialog flow, and data loss prevention"
+            ],
+            "skills": [
+                "Google Cloud Platform",
+                "Agile Leadership",
+                "Network",
+                "Security",
+                "IAM",
+                "Threat Management",
+                "Cyber Security",
+                "Machine Learning",
+                "Data Analytics",
+                "Governance",
+                "Applications Teams",
+                "Dialog Flow",
+                "Data Loss Prevention"
+            ]
+        },
+        {
+            "project": "AT & T Services Inc",
+            "description": [
+                "Educate scrum teams on Agile practices and act as a Servant Leader to motivate and ensure the scrum process is followed as intended",
+                "Facilitate and lead agile ceremonies (Daily Standup, Demonstration, Story Point Estimation, Retrospective, Iteration Planning, and Backlog Grooming) and foster continuous improvement"
+            ],
+            "skills": [
+                "Agile Practices",
+                "Scrum Process",
+                "Servant Leadership",
+                "Daily Standup",
+                "Demonstration",
+                "Story Point Estimation",
+                "Retrospective",
+                "Iteration Planning",
+                "Backlog Grooming",
+                "Continuous Improvement"
+            ]
+        },
+        {
+            "project": "Testlio Inc",
+            "description": [
+                "Constantly validate new build available for several mobile applications including Cortana (Microsoft Product), Flipboard, CWS Seed, CBS Interactive",
+                "Ensure the test build is properly installed on the mobile device",
+                "Validate the app on several different environments and devices – iOS, Androids , phones, tablets, iPads etc",
+                "Ensure the mobile applications function as usual irrespective of connection type – Wifi or LTE",
+                "Validate mobile applications under different connectivity modes (low, medium and strong signal strengths).",
+                "When Mobile apps include live cast of TV shows ensured connection type does not impact the streaming",
+                "Validate the app behavior based on privileges as a paid or free user",
+                "Validate the app behavior in background mode and its interaction with other apps installed on the device",
+                "Report defects and defect log files from device, to the development teams",
+                "Document step by step instructions to reproduce the issue",
+                "Report Mobile Application Crash by step by step instruction to reproduce and also include the crash logs",
+                "Communicate and coordinate with other Community testers working on the app testing",
+                "Revalidate / Reproduce issues identified by other community testers to ensure reports sent to client were all authentic defects"
+            ],
+            "skills": [
+                "Mobile Application Testing",
+                "Test Build Installation",
+                "Environment Validation",
+                "Connection Type Validation",
+                "Connectivity Mode Validation",
+                "Mobile App Behavior Validation",
+                "Defect Reporting",
+                "Issue Documentation",
+                "Crash Log Reporting",
+                "Community Testing Coordination",
+                "Issue Reproduction"
+            ]
+        },
+        {
+            "project": "Texas Education Agency, Austin, TX",
+            "description": [
+                "As a Scrum Master prepare Story Boards, Use Cases from User Stories and Assist Product Owner in preparing Product backlogs",
+                "Coordinate with the team in Sprint planning meetings and derive task level estimates from all participants (Developers, QA team, Business Analysts, Technical Writers) including a representative of Product Owner for each Sprint",
+                "Maintain Sprint tasks and User Stories in proper gates on the Virtual Story Boards and retain upto time status on the Project",
+                "Prepare burn down charts and Conduct Retrospective Meetings after every Sprint and take Corrective Action in the Subsequent Sprints",
+                "Participate in Meta Scrum Meetings and coordinate with other counter parts of the Project to resolve any project impediments",
+                "Multitask and work on 3-4 agile projects, efficiently managing time and deadlines",
+                "Involved in Requirement gathering by interviews with stake holders, users",
+                "Review existing requirement documents, analyze existing system perform. Inspection and document Agile (based on stories) requirements based on user input and technology used",
+                "Maintain and keep requirement documents up to date in share point location",
+                "As a QA Lead on Agile Projects manage QA resources for project work assignments",
+                "Review daily progress on QA assignments and obtain status on the tasks on daily basis",
+                "Initiate appropriate actions and escalations as necessary for Project benefit",
+                "Design, Develop and Implement test Automation Frameworks",
+                "Design test plans and test cases as necessary in Web Application-development environment",
+                "Create, execute, and review the test cases (prepared by QA team).",
+                "Perform integration, and regression testing in test, staging and production environments",
+                "Prepare test data for the product and Setup \\\\ Manage testing environment",
+                "Assess the priority and severity of issues and escalate as necessary",
+                "Maintain requirements traceability matrix and responsible for the overall quality of test",
+                "Identify and report any quality or compliance concerns to the Change Control Board (CCB) and take immediate corrective action as required",
+                "Conducted internal trainings wherever required for the team",
+                "Perform Accessibility testing, backend testing using SQL Queries for agency’s web applications",
+                "Worked in continuous co-ordination with SME’s, and End Users and led the User Acceptance testing",
+                "Created Daily, Weekly and Monthly status reports, coordinated the same to the PMO (Project Management Office) and also published the reports on Agency’s Intranet"
+            ],
+            "skills": [
+                "Scrum Master",
+                "Story Boards",
+                "Use Cases",
+                "Product Backlogs",
+                "Sprint Planning Meetings",
+                "Task Level Estimates",
+                "Virtual Story Boards",
+                "Burn Down Charts",
+                "Retrospective Meetings",
+                "Corrective Action",
+                "Meta Scrum Meetings",
+                "Agile Projects",
+                "Requirement Gathering",
+                "Stakeholder Interviews",
+                "Requirement Documents",
+                "Agile Requirements",
+                "User Input",
+                "Technology Used",
+                "QA Resources",
+                "QA Work Assignments",
+                "QA Progress Review",
+                "QA Task Status",
+                "Test Automation Frameworks",
+                "Test Plans",
+                "Test Cases",
+                "Web Application Development",
+                "Test Execution",
+                "Integration Testing",
+                "Regression Testing",
+                "Test Data Preparation",
+                "Testing Environment Management",
+                "Issue Assessment",
+                "Issue Escalation",
+                "Requirements Traceability Matrix",
+                "Quality Concerns",
+                "Compliance Concerns",
+                "Corrective Action",
+                "Internal Trainings",
+                "Accessibility Testing",
+                "Backend Testing",
+                "SQL Queries",
+                "SMEs",
+                "End Users",
+                "User Acceptance Testing",
+                "Status Reports",
+                "PMO",
+                "Project Management Office",
+                "Intranet"
+            ]
+        },
+        {
+            "project": "Ecal Solutions Inc",
+            "description": [
+                "Worked on Quality analysis of Gas, liquid and solids using chromatographic techniques",
+                "Developed application to archieve reports from chromatography and spectroscopic devices",
+                "Developed Visual Basic Application to save results and procedures from chromatography and spectroscopic devices",
+                "Analyzed the reports and generated crystal reports , obtained signoffs from clients",
+                "Manually tested the application for various data inputs, client–side scripting and broken links and reported the defects periodically for ECALs web applications",
+                "Functioned as Supervisor for analysis and development resources"
+            ],
+            "skills": [
+                "Quality Analysis",
+                "Chromatographic Techniques",
+                "Report Archiving",
+                "Visual Basic Application Development",
+                "Results and Procedures Saving",
+                "Report Analysis",
+                "Crystal Reports Generation",
+                "Client Signoffs",
+                "Manual Testing",
+                "Data Inputs",
+                "Client-side Scripting",
+                "Broken Links",
+                "Defect Reporting",
+                "Supervision",
+                "Analysis Resources",
+                "Development Resources"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Volunteer Work",
+            "role": "Volunteer",
+            "responsibility": [
+                "Volunteered at local food bank, helping to sort and distribute food to those in need"
+            ]
+        },
+        {
+            "activity": "Fitness",
+            "role": "Participant",
+            "responsibility": [
+                "Participated in local 5k run to support a local charity"
+            ]
+        },
+        {
+            "activity": "Cooking",
+            "role": "Enthusiast",
+            "responsibility": [
+                "Enjoyed trying new recipes and cooking for family and friends"
+            ]
+        }
+    ],
+    "honors": [
+        "Graduated with honors from the University of Madras"
+    ],
+    "userDetails": {
+        "name": "GOPI ANCHOORI",
+        "skills": [
+            "Program Management",
+            "Agile Leadership",
+            "Team Leading",
+            "Resource Management",
+            "Planning",
+            "Execution",
+            "Test Automation Frameworks",
+            "Test Automation Architect",
+            "Mobile App Testing",
+            "Interpersonal Skills",
+            "Communication Skills",
+            "Multitasking",
+            "Process Improvement",
+            "Optimization",
+            "OKRs Coaching",
+            "SAFe 4.0 Agilist",
+            "Scrum Master",
+            "Scrum Alliance",
+            "Team Kanban Practitioner",
+            "Agile Leadership",
+            "HP Quality Center",
+            "HP QuickTest Professional",
+            "Microsoft Visual Basic 6.0",
+            "Brainbench Certifications"
+        ]
+    }
+}

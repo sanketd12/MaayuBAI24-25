@@ -1,0 +1,81 @@
+{
+    "certifications": [
+        "PMP",
+        "CSM"
+    ],
+    "education": {
+        "degree": "MSc",
+        "institution": "Thames Valley University, London, England",
+        "graduation": "Operations Management",
+        "courses": [
+            "BA(Hons), Government and Public Policy, Northumbria University, Newcastle, England"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "BANK OF AMERICA",
+            "role": "Project Manager (Contract position through Princeton Information",
+            "dates": [
+                "Mar 2017",
+                "Mar 2018"
+            ],
+            "responsibilities": [
+                "Working with the Program Manager to establish PMO for Markets applications productions services team. Brought key projects under project governance. Instituted governance and process, including tools, templates and best practices. Managed Stakeholder expectations and needs by establishing monthly reporting cadences, monthly program reviews and regular updates to senior managers/budget holders. Drove down risk for Application Services team by managing a project to address issues highlighted in repeat service requests. Scaled up formalized project delivery from zero projects under governance to around 20 projects under governance in 9 months."
+            ]
+        },
+        {
+            "company": "ALTICE USA",
+            "role": "Project Manager (Contract position through Avid Tech Resources",
+            "dates": [
+                "May 2016",
+                "Dec 2016"
+            ],
+            "responsibilities": [
+                "Working in the Operations PMO supporting projects for customer support and sales teams. Ensuring projects were managed within appropriate governance PMO structures. Providing weekly reporting and escalating issues as appropriate. Advanced success of customer support and sales operations by introducing enhancements to the key voice and eServices platform –Genesys. Addressed end of life issues by implementing a new release of Genesys to support linkage with Facebook. Improved customer support processes through implementation of enhancements for skills based support. Enhanced PMO practice by contributing to discussions on process improvement."
+            ]
+        },
+        {
+            "company": "STANDARD & POORS (S&P) RATINGS SERVICES",
+            "role": "Project Manager - Associate Director",
+            "dates": [
+                "Nov 2013",
+                "Jan 2016"
+            ],
+            "responsibilities": [
+                "Worked in IT PMO on projects for systems supporting Ratingsand Risk/Compliance/Quality processes. Experience in using scrum and Kanban agile methodologies. Managed costs by providing input into budget planning process and working with key stakeholders to resource projects. Enhanced the support of Risk/Quality/Compliance functions through monthly releases for RADAR system. Rescued troubled project for Structured Finance team; establishing achievable schedule, reviewed resourcing issues and ensured effective communications. Improved project processes and contributed to governance structures by defining project schedule template for the IT PMO."
+            ]
+        },
+        {
+            "company": "MORGAN STANLEY",
+            "role": "Project Manager (Contract position through Princeton Information",
+            "dates": [
+                "Oct2011",
+                "March 2013"
+            ],
+            "responsibilities": [
+                "Managed project to replace old, end-of-life market data inventory management system with new, leading edge system supported by application services provider. Controlled costs through cost baseline management and using earned value management to track project heath. Ensured project control by implementing risk, issue and change control structures and kept project on track through weekly meetings and ensured stakeholders were kept fully abreast of project status through provision of detailed monthly reports. Improved department practices by establishing structure for documenting and maintaining business processes."
+            ]
+        },
+        {
+            "company": "THOMSON REUTERS (REUTERS",
+            "role": "Senior Project Manager",
+            "dates": [
+                "July 2007",
+                "March 2011"
+            ],
+            "responsibilities": [
+                "Managed global projects for the Enterprise Division with main focus on launches for the Direct Feed product. Reduced costs by project managing migration of datafeed servers to next generation communications infrastructure and rationalizing down to fewer data centers. Enabled the delivery of 20 new releases of Direct Feed product in 4 years by establishing structured delivery process by instituting new launch checklist with key project management checkpoints. Enhanced the division’s product portfolio through project management of on-bording Vhayu organization post acquisition."
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Linda C Miller PMP",
+        "skills": [
+            "Agile / Hybrid (Scrum/Kanban) Waterfall Business Process analysis, improvement and redesign Resource Planning Project Life Cycle Methodology Budget management and control Skilled in communications to various levels of Management PMP Certified Certified Scrum Master (CSM) Project Management Office (PMO) Vendor management Software Delivery Lifecycle Project governance and reporting Planview MS Office MS Visio MS SharePoint MS InfoPath Agile software (Jira and Version One) Clarity HP PPM MS Project"
+        ]
+    }
+}

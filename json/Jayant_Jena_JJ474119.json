@@ -1,0 +1,62 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Punjab Technical University, Odisha",
+        "degree": "MCA",
+        "graduation": "2010",
+        "gpa": 72,
+        "courses": [
+            "OOP’s concepts",
+            "Visual Studio 2005, 2008, 2010",
+            "SQL server 2005",
+            "Online payment service",
+            "Hardware (Windows XP, Windows 7  and Vista) and Networking",
+            "JavaScript and Ajax",
+            "C, C++, VB .Net, ASP .NET, C# .Net, ADO .Net",
+            "Database relationship",
+            "Search Engine Optimization"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Paginator of APTARA, Dehradun",
+            "role": "Programmer",
+            "dates": [
+                "April 2011",
+                "December 2013"
+            ],
+            "responsibilities": [
+                "Typesetting XML, HTML, SGML, Power math Coding, MathML Coding, DTD Editing, and working in the projects of top priority clients",
+                "Pre-Editing of all text in appropriate Paragraph   of proper normalization as per as client requirement",
+                "Designing and Developing web site with  .Net language and use SQL server",
+                "Dreamweaver as text   editor and design by Photoshop for sharp image",
+                "CSS and HTML coding in background of web page",
+                "Client side scripting with Creation of web components",
+                "Database relationships and Stored Procedures"
+            ]
+        },
+        {
+            "company": "Abacus System,BBSR, Odisha",
+            "role": "Project performed on .net",
+            "dates": [],
+            "responsibilities": []
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "Jayant Kumar Jena",
+        "skills": [
+            "OOP’s concepts",
+            "Visual Studio 2005, 2008, 2010",
+            "SQL server 2005",
+            "Online payment service",
+            "Hardware (Windows XP, Windows 7  and Vista) and Networking",
+            "JavaScript and Ajax",
+            "C, C++, VB .Net, ASP .NET, C# .Net, ADO .Net",
+            "Database relationship",
+            "Search Engine Optimization"
+        ]
+    }
+}

@@ -1,0 +1,319 @@
+{
+    "certifications": [
+        "Oracle Certified Java Programmer (OCJP) for Java SE 6",
+        "Oracle Certified Web component developer 5",
+        "Certified system associate (CSA 5.1) in PEGA",
+        "MuleSoft Level-1 developer certified"
+    ],
+    "education": {
+        "degree": "MS in IT",
+        "institution": "Jawaharlal Nehru Technological University, Hyderabad in collaboration with CMU (Carnegie Mellon University, Pittsburgh)",
+        "graduation": "2023 Mar - Till date",
+        "courses": [
+            "E-commerce"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Bath and Body Works",
+            "role": "Sr Application Developer",
+            "responsibilities": [
+                "Analysing the current MuleSoft jobs and helping the Talend integration team to converting the jobs from MuleSoft to Talend."
+            ],
+            "dates": [
+                "2023 Mar - Till date"
+            ]
+        },
+        {
+            "company": "Nisource",
+            "role": "Lead Developer",
+            "responsibilities": [
+                "Involved requirements gathering",
+                "Involved in understanding the Technical Functional Documents",
+                "Work with C4E to get design review",
+                "Developing RAML’s and API’s based on the approved design",
+                "Deploy the application to NON-PROD environments",
+                "Generating Unit test cases and coverage report",
+                "Creating ARD document with field mapping, use case and functional details",
+                "Creating technical speculation document for each API",
+                "Working with C4E for code review and technical and functional documents review",
+                "Working on bugs created during testing support",
+                "Uploading code to bit bucket repository",
+                "Design and code review with C4E team",
+                "Deploying code NON-PROD environment using CI-CD pipe line"
+            ],
+            "dates": [
+                "2023 JAN – 2023 March"
+            ]
+        },
+        {
+            "company": "Nisource",
+            "role": "Developer",
+            "responsibilities": [
+                "Involved requirements gathering",
+                "Involved in understanding the Technical Functional Documents",
+                "Work with C4E to get design review",
+                "Developing RAML’s and API’s based on the approved design",
+                "Deploy the application to NON-PROD environments",
+                "Generating Unit test cases and coverage report",
+                "Creating ARD document with field mapping, use case and functional details",
+                "Creating technical speculation document for each API",
+                "Working with C4E for code review and technical and functional documents review",
+                "Working on bugs created during testing support",
+                "Uploading code to bit bucket repository",
+                "Design and code review with C4E team",
+                "Creating change to move the code to production and working with admin team to move the code to production",
+                "Providing hyper care and handing over the application to support team after successful hyper care"
+            ],
+            "dates": [
+                "2022 AUG – 2023 JAN"
+            ]
+        },
+        {
+            "company": "Nisource",
+            "role": "Lead Developer",
+            "responsibilities": [
+                "Gathering requirements from business users",
+                "Working with C4E for design review",
+                "Developing the API’s according to approved design",
+                "Code review with C4E",
+                "Deploy the application NON-PROD environments",
+                "Generating Unit test cases and coverage report",
+                "Creating ARD document with field mapping, use case and functional details",
+                "Uploading code to GitHub repository",
+                "Working on bugs created during testing",
+                "Creating change to move the code to production and working with admin team to move the code to production",
+                "2 week Hypercare support and handing over the application to support team after successful Hyper care"
+            ],
+            "dates": [
+                "2020 JUN – 2022 AUG"
+            ]
+        },
+        {
+            "company": "Nisource",
+            "role": "Lead Developer",
+            "responsibilities": [
+                "Involved in Development, Code review, Unit testing, troubleshooting issues and migration of integrations",
+                "Working with C4E design reviews",
+                "Involved in preparing High Level Test scenarios and End to End Test cases",
+                "Developed REST services",
+                "Followed the coding standards while coding the integrations",
+                "Successfully coordinated and lead the team for functionality/regression/load testing of all the MuleSoft interfaces",
+                "Supported C4E code review",
+                "Supported QA teams with test case reviews and their execution in multiple environments",
+                "Post production support for the integrations",
+                "Involved in smooth handover process to support team"
+            ],
+            "dates": [
+                "JAN 2018 – 2020 JUNE"
+            ]
+        },
+        {
+            "company": "NiSource",
+            "role": "Developer",
+            "responsibilities": [
+                "Study and understand the business requirements",
+                "Designing High level and Low level documents based and on the requirements",
+                "Working with the Business Analysts to review the design documents",
+                "Developing the requirements to modify existing system or adding new features based on requirements",
+                "Maintain the source code using Version control tools",
+                "Prepare Unit Test Plan and Unit Test cases documents for the developed code covering all the scenarios",
+                "Deploying the code to Test and Stage environments. Providing the support for System Testing and fixing the defects during test phase",
+                "Deploying the code to Production environment",
+                "Providing maintenance to the application by resolving incidents and fixing defects"
+            ],
+            "dates": [
+                "JUN 2017 – DEC 2017"
+            ]
+        },
+        {
+            "company": "CenturyLink (Monroe, LA)",
+            "role": "Lead Developer",
+            "responsibilities": [
+                "Collecting business process requirements and documentation of requirements",
+                "Preparing the Impact Analysis document and High-level design for the requirement",
+                "Preparing SIS (Systems Interface Specification) document with the collected requirements",
+                "Designing service and validating",
+                "Improving the performance using the Java Performance Tuning tool",
+                "Co-ordinate with the clients for Requirements gathering, dev integration test",
+                "Co-ordinate with the offshore team and ensuring quality deliverables",
+                "Involved in Code walk through, Debugging and Error fixing",
+                "Involved in the delivery process"
+            ],
+            "dates": [
+                "AUG-2016 – APR-2017"
+            ]
+        },
+        {
+            "company": "Moody’s Corporation",
+            "role": "Developer",
+            "responsibilities": [
+                "Involved in analysis, design, development, testing and implementation of the process systems, working on iterative life cycles business requirements, and creating Detail Design Document",
+                "Handled project KT and giving signoffs to client",
+                "Leading team for all technical design and coding directions",
+                "Created DAO classes in Java to interact with db2 database",
+                "Developed user interface with Java Server Pages",
+                "Implemented application level logging using Log4J",
+                "Used PMD for static source code quality analyzer",
+                "Used JBOSS Application server for deploying the application"
+            ],
+            "dates": [
+                "2015 OCT- AUG-2016"
+            ]
+        },
+        {
+            "company": "CenturyLink (Dublin, OHIO)",
+            "role": "Developer",
+            "responsibilities": [
+                "Collecting business process requirements and documentation of requirements using Caliber and System Requirement Tracker",
+                "Preparing the Impact Analysis document and High-level design for the requirement",
+                "Preparing High level and low Level Design documents",
+                "Designing web pages and validating the compatibility with other browsers and systems",
+                "Improving the performance using the Java Performance Tuning tool",
+                "Co-ordinate with the clients for Requirements gathering, dev integration test",
+                "Co-ordinate with the offshore team and ensuring quality deliverables Co-ordinate management"
+            ],
+            "dates": [
+                "JUN-2014 – JUL-2015"
+            ]
+        },
+        {
+            "company": "Century Link (Hyderabad)",
+            "role": "Maintenance and Developer",
+            "responsibilities": [
+                "Understanding the requirements of every release, writing PL/SQL procedures inside packages to which will gets called by OMWF java application",
+                "Providing support to clear the data related issues regarding OMWF application",
+                "Creating the procedures to perform the group of related activities and modifying the same to cope up with the new release if required",
+                "Understanding the data design for the new products and platforms that CenturyLink offers and resolve any issues during the production",
+                "Interacting with application development teams in resolving the production issues",
+                "Interacting with external third party teams in case of issues with provisioning of 911 emergency service",
+                "Supporting VoIP portal in case of any data issues from OMWF perspective",
+                "Performing data pulling, grouping and analysing the quarterly 911 audit data to guarantee the emergency service for all the users"
+            ],
+            "dates": [
+                "SEP-2011 – May-2014"
+            ]
+        },
+        {
+            "company": "CenturyLink (Hyderabad)",
+            "role": "Developer",
+            "responsibilities": [
+                "Writing code to develop GUI for few screens which includes few screens for morning shift, second shift and night shift to assign and check the work that is completed by General shift",
+                "Writing business logic for Java classes and Servlet to access DB for the same screens"
+            ],
+            "dates": [
+                "OCT-2011 – May-2014"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Enterprise Application Integration",
+            "description": [
+                "This is a migration application, as part of this analysing the current MuleSoft jobs and helping the Talend integration team to converting the jobs from MuleSoft to Talend."
+            ],
+            "skills": [
+                "Mule Soft 4.x, Any point studio, Any point Platform, RTF, Design Centre, REST, Data Weave 2.0, SOAP, RAML, JSON, Bit Bucket, Croon expression, Workday, WEBEOC"
+            ]
+        },
+        {
+            "project": "ESD",
+            "description": [
+                "ESD (Enterprise service distribution) is a migration project where we are replacing SOA with MuleSoft."
+            ],
+            "skills": [
+                "MuleSoft 4.x, Any point studio, RTF, Design Centre, Web Service, REST, Data Weave 2.0, SOAP, RAML, JSON, Bit Bucket, FTP, Oracle DB, Cron expression, DB2"
+            ]
+        },
+        {
+            "project": "WEBEOC",
+            "description": [
+                "This project is upload active and employee contingency data from WORKDAY to WEBEOC system on daily basis using scheduler based."
+            ],
+            "skills": [
+                "MuleSoft 4.x, Any point studio, RTF, Design Centre, Web Service, REST, Data Weave 2.0, SOAP, RAML, JSON, Bit Bucket, FTP, Oracle DB, Cron expression, DB2"
+            ]
+        },
+        {
+            "project": "DevonWay (WMS and Maximo), SCADA GAS Clearance, Info Achieve",
+            "description": [
+                "Part-I: This project is to upload the Maximo and WMS workorder data to DevonWay system for further analysis about workorder via front end system. Part-II: Getting Safety Observations, iAuditor, Person and few more modules’ data from DevonWay to DDH (Damages Data Hub) Part-III: Posting exception Clearance data from DDH to Devon way."
+            ],
+            "skills": [
+                "MuleSoft 4.x, Any point studio, RTF, Design Centre, Web Service, REST, Data Weave 2.0, SOAP, RAML, JSON, Bit Bucket, FTP, Oracle DB, Cron expression, DB2"
+            ]
+        },
+        {
+            "project": "NiSource digital next (Mendix) (JAN 2018 – 2020 JUNE)",
+            "description": [
+                "This is an application created for field users. On daily basis which transfers documents submitted from Mendix system to WMS (Workforce Management system) to create an incident."
+            ],
+            "skills": [
+                "MuleSoft 4.x, Any point studio, RTF, Design Centre, API Manager, Web Service, REST, Data Weave 2.0, SOAP, RAML, JSON, Bit Bucket, FTP, Oracle DB, Cron expression"
+            ]
+        },
+        {
+            "project": "CDR (Customer Digital Road Map) (JUN 2017 – DEC 2017)",
+            "description": [
+                "The CDR (Customer Digital Road Map) is multi-site Web application supporting the 10 customer facing websites of NiSource such as nisource.com, columbiagas.com, Columbia gas Of Kentucky etc. CDR application provides NiSource customers the ability to manage their Web Accounts and other functions as below. Foundational Account Registration and Login Account Summary Dashboard Account Lookup Online Bill Pay Enrollment (e-Bill and Autopay) Budget Billing View Bill and Payment History Customer Communication (NIPSCO Alerts) Electric Outages Guest Pay"
+            ],
+            "skills": [
+                "Java 8, IBM MQ, Spring Boot 2.0, Micro Services, Maven, Jira, SVN, Angular JS, Java Script, HTML, JQuery, Docker, GrayLog, HashiCorp, Microsoft Active Directory, Anisole 1.8.6, Jenkins 2.109, ServiceNow, Jira, NexusOSS 3.2, Maven 3.5, Spring Framework 5.0.2, Tivoli Scheduler, SQL 2014 SP 2 (12.00.5203), Intellij IDE, Postman"
+            ]
+        },
+        {
+            "project": "MOLA (Monitoring Orchestration Listening Architecture) (AUG-2016 – APR-2017)",
+            "description": [
+                "MOLA (Monitoring Orchestration Listening Architecture) is a billing web service. MOLA gets requests via MQ for providing billing details. MOLA interacts with different applications like ENSEMBLE and CPT DB to retrieve data and sends data back to the requested applications though another MQ channel."
+            ],
+            "skills": [
+                "Java, IBM MQ, Apache Camel, Spring Boot, Web Services, Maven, Rally, Dimensions"
+            ]
+        },
+        {
+            "project": "BFM-Score card (2015 OCT- AUG-2016)",
+            "description": [
+                "Banking score card is a metric based analysis for banks to provide score cards. Score cards are based on PL (Problem Loans / Gross Loans), TCE (Tangible Common Equity), NI (Net Income), MA (Market Funds), and LA (Liquid Assets). Score card approach incorporates and builds upon analyst research, experience of the recent financial crisis, and academic literature."
+            ],
+            "skills": [
+                "Java, Java EE, spring, Web Services, DB2, UNIX, Jboss EAP 6.4, SVN"
+            ]
+        },
+        {
+            "project": "SDP QOA (Service Delivery Platform – Quoting and Ordering application) (JUN-2014 – JUL-2015)",
+            "description": [
+                "QOA or Quoting and Ordering is a component of the larger Service Delivery Platform - Quote to Order (SDP -Q2O) program. The SDP-Q2O is a distributed architecture/framework used for various Qwest product Sales and Order Processing. QOA modules mission is to automate the order processing, reduce the manual intervention by Sales Representatives by automating data flow between dependent systems. It interfaces with Company Profile, Opportunity, Contract Manager, Workflow and Order Entry System (OES) applications to achieve this objective. QOA is used by sales representatives. It permits the sales staff to adjust out-of-region account structures in response to contracted sales activity and prepare the foundation for ordering flow-through. New quotes can be generated, quotes can be converted once approved by the users, then all the necessary production related information can be collected , verified and delegated to the provisioning systems for circuits/service creation."
+            ],
+            "skills": [
+                "Java, JavaScript, Shell scripts, PL/SQL, HTML,TSL, Web Logic, Build Forge, Dimensions, Remedy"
+            ]
+        },
+        {
+            "project": "OMWF Support and Maintenance (SEP-2011 – May-2014)",
+            "description": [
+                "OMWF is one of the key provisioning application for Century Link which takes cares of activating and deactivation of VoIP Numbers for different kinds of products Integrated Access, Hosted VoIP and Network supporting different Protocols like SIP, MGCP and SIP Trunking and providing emergency 911 service for the customers."
+            ],
+            "skills": [
+                "Oracle SQL and PL/SQL, UNIX, Toad, PL/SQL Developer, Altoona XML Spy, Remedy, Dimensions"
+            ]
+        },
+        {
+            "project": "VoIP Task List generation application (OCT-2011 – May-2014)",
+            "description": [
+                "VoIP Task List generation tool is a Java based application which captures the VoIP orders that are generated in 24 hours from VoIP Data base and assigns them to General Shift persons in the VoIP project. This application provides a GUI for all shifts folks to complete the work assign to them."
+            ],
+            "skills": [
+                "Java, JSP and Servlet, HTML, JavaScript, Eclipse, Apache Tomcat, PL/SQL, Maven, Dimensions"
+            ]
+        }
+    ],
+    "honors": null,
+    "activities": null,
+    "userDetails": {
+        "name": "NAGA MALLIKARJUNA GOLLA",
+        "skills": [
+            "MuleSoft, Java, Pega, Oracle, MuleSoft Studio, AnyPoint API platform, Mule APIs, Any Point Studio, Mule AnyPoint Platform, message routing, data transformation, service creation, Data weave, API designer, various connectors, Hands on Data weave 2.0, MULE Design Centre, Exchange, RuntimManager, API manager, C4E concepts, creating Flows, Sub Flows, Exception strategy, DataWeave transformation, mule connectors like DB, HTTP, HTTPS, FTP, FILE, SFTP, Testing with SOAP UI , POSTMAN, COBOL COPY BOOK, HTML, AngularJS, JavaScript, Oracle, MySQL, SQL, PL/SQL, procedures, functions, triggers, agile development, Telecom domain, VoIP product, Java, Spring, organizational culture, responsibilities, individualistic, business perspective, Communication, problem-solving skills, Shell script, Web logic server, cron job, email"
+        ]
+    }
+}

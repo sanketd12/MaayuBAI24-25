@@ -1,0 +1,148 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Not specified",
+        "degree": "Bachelor’s In Electronics",
+        "graduation": "Not specified",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Cosmo Technologies, NJ",
+            "role": "QA Analyst",
+            "dates": [
+                "DEC 2011 – till the date"
+            ],
+            "responsibilities": [
+                "Analyzed the User/Business Requirements and Functional specifications documents as per customer requirements",
+                "Analyzing system requirements and developing detailed Test Plans for System Testing",
+                "Converted business requirements and design documentation into test design, Test cases, Test Scenarios, Test Plans",
+                "Created and manually executed Test Cases based on functional, technical and use case specifications",
+                "Experience in user accepting testing",
+                "Job operated within a very agile environment, with daily scrum meetings; stand up meetings, burn-down charts",
+                "Attended requirements and design meetings, review and analysis of requirements and design documentation",
+                "Analyzed the Stories (Agile Methodology Requirements Documents) and identified the Test Cases and Test Scenarios. Expertise in testing various Client/Server and Web based applications both manually and automated tools like QTP, Quality Center",
+                "Performed Functionality and Regression testing using Mercury Quick Test Professional QTP at all stages of product development. Using HP Quality Center to keep track of releases, test cases, defect logs and test results",
+                "Created different types of test cases based on Use Case scenarios to incorporate them into different test setsin Quality Center",
+                "Reviewed the Team work and periodically reported to QA manager regarding working status",
+                "Performed Functional testing, Integration testing, system testing and End-to-End testing manually",
+                "Identified QA Test Environment requirements and created test data",
+                "Evaluate testing results and document testing issues in a QA bug tracking results",
+                "Tested web applications, web pages, integration processes, enhancements, modifications, and web reports used by members, providers and employers from testing to Production environment",
+                "Good exposure in using SQL commands extensively to query the database"
+            ]
+        },
+        {
+            "company": "VPI Systems, NJ",
+            "role": "QA Test Engineer",
+            "dates": [
+                "JUN 2010- NOV 2011"
+            ],
+            "responsibilities": [
+                "Analyzed system requirements and developed detailed document for System Testing using Test Director, Performed Agile testing using scrum practices to keep the customer involved",
+                "Planning for and reviewing the Test cases for Functionality, Security, Database and Acceptance testing, experience writing test cases",
+                "Experience in testing all the functionalities of the application in user prospective level",
+                "Experience in black box testing or closed box testing",
+                "Job operated within a very agile environment, with daily scrum meetings; stand up meetings, burn-down charts, presentations and review",
+                "Helped the team to understand the requirements using the Use cases and Test case",
+                "Expertise in design and implementation of Automation Test Frameworks using Quick Test Pro",
+                "Executed the Regression test scripts using Quick Test Pro (Q T P) and evaluated the results and used Quality Center to run and Scheduling Quick Test Pro test",
+                "Used various Quick Test Pro functionalities like call function, Parameterization",
+                "Expertise in developing automation test framework and creating function libraries",
+                "Communicated the defects to developers and attended status meetings",
+                "Involved in testing web application to validate different logos, coordination of the content, drag and drop photos between completely different sites",
+                "Experience in creating web services test cases for functional and regression testing for web services",
+                "Experience in validating the application by using web services SOAP UI Protocol",
+                "Performed Smoke testing before the actual execution of test cases and Created and Maintained a QA environment",
+                "Developed manual test cases for Regression Testing based on the requirement documents using Quick Test PRO",
+                "Good knowledge in developing SQL queries for backend testing",
+                "Experience in writing the User Stories and analyzing the Business Requirements with Business Analyst",
+                "Interacted with application users (end-users) and performed User Acceptance Testing",
+                "Reported defects using QC and interacted with developers to resolve defects/issues",
+                "Involved in preparing the workflows by using team track tool",
+                "Experience in maintaining the offshore testing team"
+            ]
+        },
+        {
+            "company": "Sumy Software Solutions, TN",
+            "role": "QA Engineer",
+            "dates": [
+                "JAN2008- FEB2009"
+            ],
+            "responsibilities": [
+                "Involved in development of test cases ,test plans and test methodologies",
+                "Testing life cycle involved from requirement gathering, validation involved system testing, integration testing, verification and implementation done in user acceptance testing",
+                "Ensuring that the testing efforts followed the test best practices in accordance with client testing standards",
+                "Communicating with end users and business stakeholders on product implementation and sign off procedures",
+                "Able to meet aggressive deadlines and handle multiple projects",
+                "Available 24/7 for all rollouts and production support",
+                "Involved in implementing and improving manual and automated processes and procedures",
+                "Reported onsite test manager on weekly basis updating the project status"
+            ]
+        },
+        {
+            "company": "Internap, GA",
+            "role": "QA Analyst",
+            "dates": [
+                "DEC 2006- OCT 2007"
+            ],
+            "responsibilities": [
+                "Ensured all artifacts compiled with corporate software development life cycle policies and guidelines",
+                "Coordinate with all interfacing applications and test environments",
+                "Oversee all test phases of the applications",
+                "Involved in all levels of testing including functional, smoke, sanity, regression, integration, user acceptance testing",
+                "Documented test results and communicate with business stakeholders",
+                "Used mercury Quality Center for test case creation, defect logging, report generation and graph preparation"
+            ]
+        },
+        {
+            "company": "Health Fusion, CA",
+            "role": "QA Tester",
+            "dates": [
+                "NOV 2005- NOV 2006"
+            ],
+            "responsibilities": [
+                "Involved in creation of Test plan and responsible for creating Test cases from Business Requirements",
+                "Executing the Test cases and reporting the defects to the respective teams",
+                "Worked on QTP for generating automated scripts",
+                "Used Test Director for track and report system defects and bug fixes. Assisted developers to track and resolve defects",
+                "Performed Quality Assurance reviews an all software development life cycle",
+                "Responsible for creating and filling bug reports",
+                "Coordinated meetings with development team to ensure appropriate handling of bugs and their timely resolutions",
+                "Responsible for Functional, UAT, Regression, Acceptance testing"
+            ]
+        },
+        {
+            "company": "Countrywide, NY",
+            "role": "Software Tester",
+            "dates": [
+                "JUNE 2006-MAY 2005"
+            ],
+            "responsibilities": [
+                "Analyze end user requirements, specifications and business rules to prepare test plan and test cases",
+                "Communicate with business user and development team to resolve issues",
+                "Testing artifacts preparation such as Requirement Traceability Matrix (RTM), unit test plan, use cases, test case preparation, test execution",
+                "Responsible for smoke testing",
+                "Analyzed user requirements attended change request meetings",
+                "Developed and conducted user acceptance testing before installation of the application on user environment",
+                "Assured customer satisfaction with proper documentation and reports",
+                "Communicate timely project status to appropriate levels of management"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "JATIN",
+        "skills": [
+            "Testing Tools: Quick Test Pro, Load Runner, Quality Center",
+            "Operating Systems: Windows 98/2000/XP/Vista, UNIX",
+            "Languages: VB Script, Test Script Language, PL/SQL",
+            "Web Application: HTML, XML",
+            "Documentation: MS Word",
+            "Database: SQL"
+        ]
+    }
+}

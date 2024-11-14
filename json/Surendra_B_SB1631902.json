@@ -1,0 +1,125 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Master of Science in Computer Information Systems (CIS) Bachelor of Science",
+        "degree": "Master of Science in Computer Information Systems (CIS) Bachelor of Science",
+        "graduation": "",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "AT&T, Dallas Texas",
+            "role": "Senior Workday Consultant / Technical lead",
+            "dates": [
+                "May ’22",
+                "Till Date"
+            ],
+            "responsibilities": [
+                "Day-to-day support on Workday issues related to Core HCM create Sup Org, Inactivate Sup Org, Delegations, Assign Roles, Integration, reports, and configuration",
+                "Worked on Integration related issues",
+                "Created BIRT layouts for the Annual and quarterly Bonus process",
+                "Created advanced custom reports for the HRMS support team",
+                "As a security admin, enhanced the security process per new security enhancement project and provided the required roles or security groups for new hires and existing employees and compliance with our audits",
+                "Created customer payments and deposit integrations to load in the workday using the studio"
+            ]
+        },
+        {
+            "company": "Ascena Retail",
+            "role": "Senior Workday Consultant",
+            "dates": [
+                "January ’18",
+                "December ‘20"
+            ],
+            "responsibilities": [
+                "Worked on Workday to SAP Interface, identified the issues/bugs in the interface, and derived the resolution",
+                "Led the team in the project for Maurice’s (workday) tenant separation from Ascena tenant, contributed from Workday integrations prospect",
+                "Understanding Business Requirements documents and coming up with Design documents",
+                "Led the support team of Workday HR / Human Capital Management modules at the client site",
+                "Closely worked with business users to understand and analyze new requirements, offering valuable insight into workarounds for the existing products and new functionality insights of the existing application. Developed both Inbound and Outbound Enterprise Interface Builder (EIB) integrations in Workday and delivered the output file to the SFTP server",
+                "Created an advanced report in Workday to fetch the active employees, On Leave, and employees terminated in the last two months",
+                "Worked on EIB inbound templates like Change Personal Information, Terminate Employee, Request Compensation Change, One-Time Payment data, Cost Center Information and Create Job Requisition",
+                "Monitoring daily jobs in production",
+                "Documentation of initial analysis, testing, and defect fixing",
+                "Organizing meetings and calls with business users and team weekly or monthly",
+                "Coordinate with users in the UAT phase",
+                "Conducted interviews for Workday functional/Technical positions as part of the new team setup",
+                "Monitor the jobs on the Redwood scheduler & Control-M scheduler, prepare/update job sheets based on requirements, either job changes or creating new jobs"
+            ]
+        },
+        {
+            "company": "Applied Materials",
+            "role": "Workday Consultant",
+            "dates": [
+                "February ’15",
+                "December ‘17"
+            ],
+            "responsibilities": [
+                "Create new locations on the workday as per request requirement and configure same in SAP HCM",
+                "Create custom integrations in Workday",
+                "Created integration to load the employee competencies from the talent tool",
+                "Updating custom objects or fields using integration",
+                "Handle Workday to SAP HCM integration changes according to the business requirement",
+                "Monitor Workday to SAP HCM integration",
+                "Created an integration system security group to provide custom reports and integrations",
+                "Led the team on a Tech upgrade project, SAP system Upgrade from EHP 5 to EHP 8",
+                "Configured various OM object types like Org Unit, Position & jobs",
+                "Maintain OM info types like Object-1000, Relationship-1001, Vacancy-1007, Account assignment feature-1008, Employee group/sub group-1013 & Obsolete-1014",
+                "Mapping organizational structure according to the business requirement",
+                "Configuring Personnel area & Personnel Subarea as per business requirement & mapping Personnel area to respective company code",
+                "Maintain PA info types like Actions-0000, Org. assignment-0001, Personal Data-0002, Addresses-0006, Communication-0105",
+                "Worked on SAP HCM to SAP Concur & CWT- Carlson Wagonlit Travel Outbound Integration",
+                "Worked on SAP HCM to SRM, CRM & vendor master outbound process through IDocs"
+            ]
+        },
+        {
+            "company": "Khandelia Oil & General Mills",
+            "role": "SAP HCM Consultant",
+            "dates": [
+                "June ’13",
+                "February ‘15"
+            ],
+            "responsibilities": [
+                "Participation in the steering committee and discussion on SAP HCM scope & out of scope, discuss same with business team & get sign off",
+                "Sole responsibility for SAP HCM implementation in the project",
+                "Conduct meetings with the consultants from other modules (Like FICO and MM), discuss the integration between SAP HCM to their modules, understand the scope, and document the same",
+                "As part of Blueprint preparation, conduct meetings with business users for requirement gathering, understand current business Processes, HR policies, etc",
+                "Interpret the details from requirement gathering sessions & prepare AS IS documentation",
+                "Preparation of TO BE document, discuss the same with Business & get the sign-off",
+                "Identify the GAPs from AS IS – TO BE documents and prepare the plan to address them",
+                "Identify the list of ‘RICEFW’ (Work with other teams like ABAP and FICO), provide requirements to the ABAP team & work with the team on building the solutions",
+                "Apply SAP best practices to the new implementation and make sure everything is up to the mark",
+                "Participate in Blueprint sign-off meetings with other consultants and get the SAP HCM blueprint approved by the client",
+                "Prepare KDS – Key Data Structures",
+                "Prepare Configuration documents, Test cases",
+                "Configuration of the system concerning the KDS document",
+                "Perform unit testing, regression testing, and end-to-end integration testing to get acceptance from business users",
+                "Perform cutover activities (including technical and load tests and end-user training ) to finalize readiness to go live",
+                "Go-live support, close monitor of all TRs/config/workbench changes that move into the production environment from the quality environment",
+                "Provide Post-Go-live critical support, and ensure the system works as expected in case any issues need to be prioritized"
+            ]
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "SURENDRA BOPPANA",
+        "skills": [
+            "Core Connector",
+            "EIB",
+            "Reporting",
+            "Calculated Fields",
+            "BIRT",
+            "WSDL/SOAP",
+            "Security",
+            "Workday Studio",
+            "XML",
+            "XSLT",
+            "Jira service management",
+            "Service Now",
+            "Ivanti",
+            "BMC remedy"
+        ]
+    }
+}

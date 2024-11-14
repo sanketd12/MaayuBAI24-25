@@ -1,0 +1,84 @@
+{
+    "certifications": [
+        "Continuing education in orthodontics",
+        "Continuing education in Advanced Functional Dentistry",
+        "Coursework in Business Administration and Organizational Development"
+    ],
+    "education": {
+        "institution": "Baylor Collage of Dentistry",
+        "degree": "Orthodontics",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": [
+            "Small Business Development Program – Customer Support"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Authentic Smiles Dental Studio",
+            "role": "Office Director",
+            "dates": [
+                "04/2010",
+                "01/2013"
+            ],
+            "responsibilities": [
+                "Excelled with duties in Accounts Receivable/Payable, Human Resources, Insurance, and Event Coordination",
+                "Performed heavy bank reconciliations and cash flow statements",
+                "Created standard quarterly marketing collateral while ensuring all deadlines were met",
+                "Generated over $1.5 million per year in revenues resulting from goals set to increase production",
+                "Prepared invoices and account statements according to established procedures",
+                "Reconciled and reported discrepancies found in records",
+                "Nurtured excellent communication between clients and employees"
+            ]
+        },
+        {
+            "company": "Willowbrook Dental Care",
+            "role": "Dental front Office",
+            "dates": [
+                "03/2009",
+                "04/2010"
+            ],
+            "responsibilities": [
+                "Computed, recorded, and proofed data, records, and reports",
+                "Performed as an Insurance Specialist, Hygiene Coordinator, and Customer Care Director",
+                "Developed highly empathetic client relationships and earned reputation for exceeding sales goals",
+                "Cross-trained and provided back-up for other customer service representatives when needed"
+            ]
+        },
+        {
+            "company": "Joshua T. Smith, DDS",
+            "role": "Dental Assistant/Front Office",
+            "dates": [
+                "10/2006",
+                "04/2009"
+            ],
+            "responsibilities": [
+                "Worked as a team member performing cashier and production assistance duties",
+                "Greeted and prepared patients for dental examinations",
+                "Effectively operated X-Ray machines and developed X-Rays",
+                "Routinely completed inventory, supply orders, and restocked supplies",
+                "Reviewed status of waiting room on a routine basis to ensure that patients were being seen in a timely fashion",
+                "Made preliminary impressions for study casts and occlusal registrations for mounting study casts",
+                "Delivered pre and post-operative care"
+            ]
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "Jeannie Klepper",
+        "skills": [
+            "Sharp problem solver",
+            "Vital signs aptitude",
+            "Strong organizational skills",
+            "Patient educator",
+            "Energetic work attitude",
+            "Appointment scheduling proficiency",
+            "Customer service expert",
+            "Insurance billing specialist",
+            "Adaptive team player",
+            "Dental office expertise"
+        ]
+    }
+}

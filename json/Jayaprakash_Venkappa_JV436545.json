@@ -1,0 +1,169 @@
+{
+    "certifications": [
+        "Microsoft Certified Professional in Developing & Implementing web applications with Microsoft Visual C#.NET & Microsoft Visual Studio.Net"
+    ],
+    "education": {
+        "degree": "Master of science in electronics",
+        "institution": "Mangalore University India",
+        "graduation": "2003",
+        "courses": [],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Bhavya Technologies LLC",
+            "dates": [
+                "Nov 2003",
+                "Feb 2005"
+            ],
+            "role": ".NET Developer",
+            "responsibilities": [
+                "Requirement gathering from client",
+                "Database access coding using VB.NET",
+                "Analyzing the existing business systems, which was either integrated with our new system or sometimes replaced the existing software as a whole",
+                "Designed ASP.NET pages developed",
+                "Developed the database for the application and written stored procedure to interact with the database"
+            ]
+        },
+        {
+            "company": "Affiliated Computer Services Inc",
+            "dates": [
+                "Mar 2005",
+                "Jul 2006"
+            ],
+            "role": ".NET Developer",
+            "responsibilities": [
+                "Capturing technical gaps in applications after integration",
+                "Developed SQL Server 2005 stored procedures utilizing Database mail to send scheduled emails",
+                "Developed the user interface and implemented the server side logics using ASP.NET and C#.Net",
+                "Training for testing team with the integration of monitor with usability",
+                "Provided product support and training via on-site visits and phone call to end clients"
+            ]
+        },
+        {
+            "company": "IntelliTrans LLC",
+            "dates": [
+                "Jul 2006",
+                "Feb 2008"
+            ],
+            "role": "Module Lead/Senior .NET Developer",
+            "responsibilities": [
+                "System’s analysis / design / development / performance optimization / Unit testing as a Senior Software Developer",
+                "Studying the Function spec and required to sign off as senior developer/Lead",
+                "Developed the user interface and implemented the server side logics using ASP.NET and C#.Net",
+                "Capturing technical gaps in applications after integration",
+                "Database operations include creating Cursors, writing T-SQL Stored Procedures, Views and SQL Scripts for altering the Database Schema",
+                "Written code for custom validation"
+            ]
+        },
+        {
+            "company": "Washingtom Mutual",
+            "dates": [
+                "Mar 2008",
+                "Dec 2008"
+            ],
+            "role": "Module Lead/Senior .NET Developer",
+            "responsibilities": [
+                "Developed business and Data access layers using C#",
+                "Developed the front end using Asp.net",
+                "Used MVC pattern to decouple the front end",
+                "Created user friendly UI using AJAX, Java script and CSS",
+                "Consumed web service to interact with other system",
+                "Used Microsoft enterprise library exception handling and logging application blocks",
+                "Lead the development team. Assign tasks, code review and technical assistance",
+                "Created repository using VSS",
+                "Track and fix the defects using HP Quality control"
+            ]
+        },
+        {
+            "company": "JP Morgan Chase",
+            "dates": [
+                "Jan 2009",
+                "Apr 2009"
+            ],
+            "role": "Senior .NET Developer",
+            "responsibilities": [
+                "Produced detailed design document with the data flow diagram",
+                "Created stored procedure to retrieve, add and update the data",
+                "Created the SSIS packages to transfer data between different sources like Oracle DB, SQL server DB, CSV, text and excel files",
+                "Database operations include creating Cursors, writing T-SQL Stored Procedures, Views and SQL Scripts for altering the Database Schema",
+                "Written code for custom validation",
+                "Requirement gathering from the client side",
+                "Responsible for reviewing the code and test plans and work with testing team for Bug managment"
+            ]
+        },
+        {
+            "company": "JP Morgan Chase",
+            "dates": [
+                "Apr 2009",
+                "Dec 2011"
+            ],
+            "role": "Module Lead/Senior .NET Developer",
+            "responsibilities": [
+                "Understanding the business requirements",
+                "Produced detailed design document with UML diagrams like use case diagrams, class diagrams",
+                "Preparing analysis, design documents, estimation, for different components and functional modules required by the system",
+                "Developed business and Data access  layers using C#",
+                "Decoupled the layers using the abstract factory pattern",
+                "Developed the front end using Asp.net",
+                "Used MVC pattern to decouple the front end",
+                "Created user friendly UI using AJAX, Java script, JQuery and CSS",
+                "Created tables for new requirements",
+                "Written stored procedure/functions/trigger to interact with the Oracle and SQL server databases",
+                "Consumed web service to interact with other system",
+                "Used Microsoft enterprise library exception handling and logging application blocks",
+                "Lead the development team. Assign tasks, code review and technical assistance",
+                "Database operations include creating Cursors, writing T-SQL Stored Procedures, Views and SQL Scripts for altering the Database Schema",
+                "Created repository using SVN Subversion for version control",
+                "Deployed the project in the web server (IIS 7.5",
+                "Track and fix the defects using HP Quality control",
+                "Responsible for all the technical support to the development team during development and bug fixing"
+            ]
+        },
+        {
+            "company": "JP Morgan Chase",
+            "dates": [
+                "Jan 12",
+                "Jan 2013"
+            ],
+            "role": "Senior .NET Developer",
+            "responsibilities": [
+                "Created interface document for the system using UML diagrams",
+                "Followed agile methodology for this project, created stories/issues in the JIRA to track the development and defects",
+                "Created WCF for smart client application to interact with Database and other systems",
+                "Created windows service for automated application user management using  active directory",
+                "Created windows service to receive and send Faxes",
+                "Understanding the existing system",
+                "Designed and developed ASP.NET website for reports/dashboards using CSS, Javascript, Ajax controls and Master page",
+                "Created/updated Tables, stored procedures",
+                "Created repository using TFS for version control",
+                "Deployed WCF and smart client applications in Dev and IST environments using the IIS 7.5",
+                "Installed windows services in Dev and IST environments",
+                "Prepared implementation plan for UAT and PROD environments",
+                "Created MSI for packaging client componnets for smart client applications",
+                "Designed and implemented logging mechanisms, exception handlers and other mechanisms to provide an interruption free operation",
+                "Worked with multiple team to coordinate for system integration requirements and design",
+                "Worked with third party vendor to confiure the connectivity and resolving connection and interaction issues",
+                "Track and fix the defects using HP Quality control"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "JAYAPRAKASH VENKAPPA",
+        "skills": [
+            "Microsoft Technologies: C#, VB.NET, ASP.NET, Web Services, WCF, .NET 4.0/3.5/2.0/1.1, AJAX,  Entity Framework, LINQ, SSIS",
+            "Web Technologies: HTML, Java Script, XML, CSS",
+            "RDBMS: Oracle 10g, MS SQL SERVER 2008/2005, MS Access",
+            "Cloud: Amazon Web Services (Product advertising API, Simple DB, S3",
+            "Web Servers: IIS 5.0, 6.0 and IIS 7.0",
+            "Operating Systems: Windows server 2008/2003, Windows 7/XP",
+            "Design Tools: Enterprise Architecture, VISIO",
+            "Source Control: Team Foundation Server, VSS, SVN Subversion, CVS, Mercurial",
+            "Other Tools/Software: Component Art controls, Quality Centre, Bug Zilla, JIRA",
+            "Reporting: Crystal Reports 9.0/ 8.5, Crystal Enterprise 8.5"
+        ]
+    }
+}

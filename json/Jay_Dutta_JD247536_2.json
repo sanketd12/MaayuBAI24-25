@@ -1,0 +1,98 @@
+{
+    "education": {
+        "degree": "Bachelor of Engineering (Mining), 1994",
+        "graduation": "1994",
+        "institution": "N/A",
+        "courses": [
+            "Mining"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "ASM",
+            "role": "BI Consultant for Healthcare",
+            "responsibilities": [
+                "Develop BI solutions based on physician credentialing",
+                "Generate SSRS reports for multi-user multi-database interface",
+                "Generate statistical reports to track physician performance indicators",
+                "Design ETL processes for multiple clinical documentation systems"
+            ],
+            "dates": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "Valley Presbyterian Hospital",
+            "role": "OPPE Dashboard Development Consultant",
+            "responsibilities": [
+                "Design automated process to record and report physician suspensions",
+                "Design Ongoing Professional Practice Evaluation (OPPE) to track core areas of physician’s clinical and behavioral competence",
+                "Design ETL processes using SSIS to extract clinical data from the Health Information System (Meditech)"
+            ],
+            "dates": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "HCA – Shared Services & IT Field Office",
+            "role": "IT& S –Application, Dashboard and Reports Development",
+            "responsibilities": [
+                "Automate download of Meditech data using Blue Elm Open Gate, Boston Scripting and NPR",
+                "Convert existing NPR reports into SQL reports dashboard",
+                "Create new patient care reports, census reports and financial reports using SQL Reporting Services",
+                "Automation of GE Centricity Perinatal data into SQL Reports dashboard",
+                "Migration of GE Power Scribe Crystal Reports into SQL Reports",
+                "GE Muse SQL Reports dashboard",
+                "Peer Review dashboard using SQL Reports and ASP.net",
+                "Physician Score Card using ASP.net and SQL Reports",
+                "Database management and administration",
+                "Process Automation for data-services"
+            ],
+            "dates": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "Siebel Systems",
+            "role": "Consultant",
+            "responsibilities": [
+                "Assist in bulk import and delete of data using Enterprise Integration Manager (EIM) Server Task",
+                "Assist team in implementing data migration",
+                "Synchronize the development, testing, integration, and production databases",
+                "Monitor patch updates and bug fix and send updates to end users"
+            ],
+            "dates": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "Infosys Technologies",
+            "role": "Senior Solution Consultant",
+            "responsibilities": [
+                "Upgrade application front end",
+                "Generate Reports in Crystal Reports",
+                "Migrate back-end databases",
+                "Design project plan for the assignment and get client approval based on RFI and client meets",
+                "Approve project specifications, test plans for quality control etc",
+                "Approve end user documentation",
+                "Update lessons learnt"
+            ],
+            "dates": [
+                "N/A"
+            ]
+        }
+    ],
+    "projects": [],
+    "certifications": [
+        "PMP, 2011"
+    ],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "JAY DUTTA",
+        "skills": [
+            "SQL Server 2008 R2 (SSIS, SSAS, SSRS), MD Staff, ASP.net, SQL Server 2008 R2 (SSIS, SSRS, SSAS), Blue Elm Open Gate, Meditech, Data Watch Dashboard, Monarch, Business Objects, Crystal Reports, MS DOS, Siebel 6x, SQL 2000 DTS, Right Fax, Unix, VB5x, SQL 6.5, Oracle 7x, Crystal Reports, Mainframes, Unix"
+        ]
+    }
+}

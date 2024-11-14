@@ -1,0 +1,134 @@
+{
+    "certifications": [
+        "Microsoft. ASP.NET MVC 4 Web Applications HTML CSS3 Certification",
+        "Programing in C#"
+    ],
+    "education": {
+        "institution": "Regency Institute of Technology (EEE) at Yanam, India (Pondicherry University).",
+        "degree": "Bachelors",
+        "graduation": "N/A",
+        "courses": [],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "United Airlines Texas",
+            "role": "Sr Dotnet Consultant",
+            "responsibilities": [
+                "Participated in daily SCRUM meetings with Project Manager and Team Lead to discuss progress, while creating Technical and Low Approach documents, High-level Confluence documentation, and mentoring junior team members to adhere to determining software quality standards",
+                "Successfully integrated the UI frameworks React JS and Angular for a client's POS simulator used in all microservices developed for the United Airlines WiFi application across various aircraft fleets in the USA",
+                "Developed user interfaces using React JS and Redux for single-page application (SPA) development, utilizing React JS components, forms, events, keys, and router concepts",
+                "Deployed the web apps and web APIs using Azure App Service and utilized Azure Cloud Services (PaaS, IaaS) and Web Apps for efficient deployment",
+                "Worked on Azure functions and logical app services, and developed Azure function apps as API services to communicate with DB2, using Azure API Manager to maintain on-premises API services with policies",
+                "Extensively worked with Azure Cosmos DB to connect with different protocols and implemented and consumed REST APIs using ASP.NET Core Web API 2, ASP.NET Web API, and Azure Management REST APIs",
+                "Configured Azure Load balancers, Azure Private Link Service, and Azure Private Endpoint, while creating different generic microservices to load user data into SQL databases using C# .NET",
+                "Interacted with the client directly to understand requirements for high- and low-level tasks, worked on Docker compose to integrate more than 8 microservices related to WiFi entertainment, and wrote behavioral-driven development to run all automation test cases through CI/CD pipelines"
+            ],
+            "dates": [
+                "July 2022 – Present"
+            ]
+        },
+        {
+            "company": "Perigord Life Sciences Hyderabad, India",
+            "role": "Dotnet/C# Lead Consultant",
+            "responsibilities": [
+                "Participated in various phases of the Software Development Life Cycle (SDLC), including requirements gathering, modeling, analysis, design, development, and testing",
+                "Developed Restful Micro Services using C# Dotnet core, and worked with and React JS with Bootstrap for front-end development",
+                "Utilized React JS components, Forms, Events, Keys, Router, Animations, and Flux concepts, and implemented UI mockups, integrated third-party REACT libraries, and handled/created Redux store data",
+                "Collaborated with the Back-End team in Phase Two to display data using Custom Components, Library Components, and Redux, and used React JS for templating to achieve faster compilation and developing reusable components",
+                "Worked on Azure Portal using logical apps and functional components, and integrated logging frameworks (Seri log, Elastic Search, and Gray log) for all the microservices developed for the Glams product",
+                "Conducted POCs for creating low-code/no-code for CRUD API generation for elastic search as well as postgres, and architected the new Glams product to enhance application performance for multiple customers",
+                "Owned end-to-end for all microservices for dynamic code generation using Robotic process automation and developed a reusable framework for the application using .Net Core",
+                "Created Robot microservices as part of robotic process automation and utilized Test Driven Development to create detailed unit tests for every piece of functionality before writing the functionality",
+                "Worked in an Agile TDD environment using SDLC tools like GIT, Jira, Bitbucket, and Bamboo for build packaging and deployments of application components",
+                "Developed an integration API to fetch all customer data from the GLAMS application, engaged with the client, and performed program planning, estimation of Epics, Stories, Product backlog & Testing",
+                "Directed the development team in the design, development, coding, testing, and debugging of the application, mentored junior team members, and ensured adherence to software quality standards",
+                "Collaborated with the DevOps team to create CI/CD pipeline and deployed projects, and helped the team with technical/domain know-how and presentations"
+            ],
+            "dates": [
+                "July 2021– May 2022"
+            ]
+        },
+        {
+            "company": "Honeywell Hyderabad",
+            "role": "Dotnet/ Tech Lead",
+            "responsibilities": [
+                "Acted as Scrum Master and Technical Lead to drive project releases during PI/Sprint planning",
+                "Performed Elastic search and Logstash performance and configuration tuning",
+                "Participated in daily SCRUM with Project Manager and Team Lead to discuss progress",
+                "Created Technical and Low Approach documents, High-level documents",
+                "Contributed to company-wide resource planning, hiring, performance reviews, and client-facing business development",
+                "Involved in the complete Software Development Life Cycle including Analysis, Design, Implementation, Testing, and Maintenance",
+                "Demonstrated excellent programming skills while designing and developing software applications using the C# .NET Framework, ASP.NET, ReactJS, Windows Forms, LINQ, CSS, and ASP.Net CORE",
+                "Created a new application used by Customer Service to manage navigational database orders, customers, and support using Dotnet Web API REST Services",
+                "Utilized Oracle 10g as a backend database and actively wrote PL/SQL functions and packages",
+                "Worked on cloud computing using Azure, which provides an API built on REST, HTTP, and XML, allowing developers to interact with the services provided by Microsoft Azure",
+                "Responsible for designing and maintaining the GIT Repositories and access control strategies",
+                "Performed unit testing on every latest version before sending it for User Acceptance Test (UAT).",
+                "Developed solutions leveraging Microservices architecture and designed Restful APIs as Microservices",
+                "Worked on Entity Framework DB First model and gained experience working with Microsoft Azure Cloud-based IAAS, PAAS, and SAAS, and NoSQL technologies such as Azure Table Storage and Blob Storage",
+                "Implemented Kafka producer and consumer applications on Kafka cluster setup with the help of Zookeeper",
+                "Managed various AZURE environments for provisioning and services implemented by providers, and worked on non-functional requirements to improve the performance of the write APIs",
+                "Integrated Azure functions into Azure stack hub and provided cross-domain support for other teams by implementing their kaizens or ideas",
+                "Gained experience with .NET Systems, programmed, developed, and maintained several web-based and IOT applications, and developed components and web services",
+                "Developed Microservices using .Net and Java, designed and built Azure failovers, fault-tolerance website with auto-scaling and load testing with multiple instances",
+                "Used JSON to transmit data between Server and Web Application, an alternative to XML Serialization",
+                "Integrated Assets, Points, Spaces, and Hierarchies functionality using microservices and worked on Redis cache and distributed map cache to improve performance",
+                "Ensured end-to-end delivery of projects using Project Management methodologies and Implementation of Six Sigma techniques in projects to improve Quality",
+                "Managed issue tracking, bug fixing, customer management, and end-to-end production deployment, defined processes and tools best suited to each project, and moved between agile and waterfall approaches depending on project specifics and client goals, creating detailed project road maps, plans, schedules, and work breakdown structures",
+                "Defensively published our Aero WIDS - “A System and Business model for initiating strategic product improvement programs in aerospace industries” - https://priorart.ip.com/IPCOM/000237786",
+                "Mitigated risk factors through careful analysis of financial and statistical data, anticipated and managed change effectively in rapidly evolving global business environments"
+            ],
+            "dates": [
+                "Feb 2010 – Jul 2021"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Suresh k",
+        "skills": [
+            "C#",
+            ".Net Framework",
+            ".Net Core",
+            "ASP.Net MVC",
+            "LINQ",
+            "Web Forms",
+            "Windows Forms",
+            "Web API",
+            "React JS",
+            "JavaScript",
+            "CSS",
+            "HTML5",
+            "AJAX",
+            "JSON",
+            "XML",
+            "Angular",
+            "Angular JS",
+            "Bootstrap",
+            "AWS",
+            "Azure",
+            "Docker",
+            "Kubernetes and Open Shift",
+            "Kafka",
+            "RESTful",
+            "Neo4j",
+            "SQL Server",
+            "Azure Table Storage",
+            "Blob Storage",
+            "Oracle",
+            "Elastic Search",
+            "Bitbucket",
+            "Bamboo",
+            "Octopus GIT",
+            "SVN",
+            "MS Threat Modeling and Black Duck Hubode",
+            "JIRA",
+            "Spec Flow",
+            "Xunit",
+            "Sitecore CMS"
+        ]
+    }
+}
