@@ -1,12 +1,12 @@
 from langchain_community.document_loaders import PyPDFLoader
-from spire.doc import Document
+from spire.doc import Document, FileFormat
 from os import path, listdir, environ
 import json
 import openai
 from data_models import UserInformation
 from dotenv import load_dotenv
 import boto3
-
+from io import BytesIO
 
 # Load .env file
 load_dotenv()
@@ -17,7 +17,12 @@ client = openai.OpenAI(
     api_key=environ["TOGETHER_API_KEY"],
 )
 
-s3_client = boto3.client('s3')
+s3_client = boto3.client(
+    's3',
+    aws_access_key_id=environ.get('AWS_ACCESS_KEY_ID'),
+    aws_secret_access_key=environ.get('AWS_SECRET_ACCESS_KEY'),
+    region_name='us-east-1'
+)
 
 
 # Function to call the LLM and get structured data
@@ -43,6 +48,15 @@ def parse_pdf(pdf_path: str) -> str:
         content += page.page_content
     return content
 
+
+
+def parse_doc(doc_path: str) -> str:
+    # Loads DOC or DOCX content
+    document = Document()
+    document.LoadFromFile(doc_path)
+    content = document.GetText()
+    return content
+
 def parse_doc_from_s3(bucket_name: str, file_key: str) -> str:
     # Download the file from S3 to memory
     response = s3_client.get_object(Bucket=bucket_name, Key=file_key)
@@ -53,15 +67,6 @@ def parse_doc_from_s3(bucket_name: str, file_key: str) -> str:
     document.LoadFromStream(memory_stream)
     content = document.GetText()
     return content
-
-
-def parse_doc(doc_path: str) -> str:
-    # Loads DOC or DOCX content
-    document = Document()
-    document.LoadFromFile(doc_path)
-    content = document.GetText()
-    return content
-
 
 def generate_json(content: str, output_json_path: str) -> None:
     # Generate structured JSON for each page of the resume (or multiple REMOVED_BUCKET_NAME)
@@ -104,18 +109,45 @@ def load_users(resume_folder_path: str, json_folder_path: str) -> None:
     
 
 def load_users_from_s3(bucket_name: str, json_folder_path: str) -> None:
-    # List all objects in the S3 bucket
-    response = s3_client.list_objects_v2(Bucket=bucket_name)
-    already_used = set()
+    # Print attempt to access bucket
+    print(f"\nAttempting to access S3 bucket: {bucket_name}")
+    
+    try:
+        # List all objects in the S3 bucket
+        response = s3_client.list_objects_v2(Bucket=bucket_name)
+        print(f"Successfully connected to bucket: {bucket_name}\n")
+        
+        already_used = set()
 
-    def generate_json_unique_name(resume_name, content):
-        original = resume_name
-        n = 1
-        while resume_name in already_used:
-            resume_name = f'{original} ({n})'
-            n += 1
-        already_used.add(resume_name)
-        generate_json(content, path.join(json_folder_path, resume_name + '.json'))
+        def generate_json_unique_name(resume_name, content):
+            original = resume_name
+            n = 1
+            while resume_name in already_used:
+                resume_name = f'{original} ({n})'
+                n += 1
+            already_used.add(resume_name)
+            generate_json(content, path.join(json_folder_path, resume_name + '.json'))
+
+        if 'Contents' in response:
+            print(f"Found {len(response['Contents'])} files in bucket")
+            for obj in response['Contents']:
+                file_key = obj['Key']
+                if file_key.lower().endswith(('.doc', '.docx')):
+                    print(f"Processing file: {file_key}")
+                    try:
+                        content = parse_doc_from_s3(bucket_name, file_key)
+                        resume_name = path.splitext(path.basename(file_key))[0]
+                        generate_json_unique_name(resume_name, content)
+                        print(f"Successfully processed: {file_key}\n")
+                    except Exception as e:
+                        print(f"Error processing file {file_key}: {str(e)}\n")
+        else:
+            print("No files found in bucket")
+            
+    except Exception as e:
+        print(f"Error accessing bucket {bucket_name}: {str(e)}")
+
+
 
 def main():
     # Define path to PDF content
