@@ -1,0 +1,142 @@
+{
+    "certifications": [
+        "Certified Salesforce Administrator",
+        "Certified Salesforce Platform Developer 1"
+    ],
+    "education": {
+        "institution": "JNTU, Hyderabad, India",
+        "degree": "Bachelor of Engineering in Electronics & Communication Engineering",
+        "graduation": "N/A",
+        "courses": [
+            "Masters in computer science, San Jose, California"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Caterpillar Financial Services, Nashville, TN",
+            "role": "Sr. Salesforce Developer/Administrator",
+            "dates": [
+                "Jun’17 – Till date"
+            ],
+            "responsibilities": [
+                "Created modern Lightning Apps combining Lightning Design System, Lightning App Builder and Lightning Component features",
+                "Design and Develop the Lightning Web Components (LWC), Apex Classes, Standard & Custom Controllers, Visualforce pages, Apex Triggers for various functional needs in the application",
+                "Developed Lightning Components from Scratch by using Aura framework. Also, involved in Data mapping from external system utilized lightning connect to get real -time data from external system",
+                "Develop Lightning Components, CSS Styling and UI Design to enhance look and feel of the Lighting apps and Leveraged Server-side apex Controllers to retrieve data from various API's and display on the Lightning Components",
+                "Strong experience in creating custom profiles and custom page layouts, custom permission sets",
+                "Worked on communities and managing the external users and Internal users based on roles",
+                "Created sites using communities for Financial Applications",
+                "Involved in project technical design plan, conversions, Mapping, configuration of portions of the SFDC application",
+                "Good experience working on Sales cloud, Service cloud and Marketing cloud",
+                "Good experience working on financial cloud such as Loan, Quoting applications",
+                "Experience with working in an Agile methodology development environment",
+                "Experience in setting up Azure DevOps for code migration and using AutoRabit tool for continuous integration",
+                "Worked on various Workflows, Custom Apex triggers and Custom Sharing rules",
+                "Upgraded some Apps from Salesforce Classic to Lightning Experience to develop rich user interface and better interaction of pages",
+                "Worked on Salesforce1 Platform to build Mobile App by enabling Lightning Components for use in Salesforce1 mobile platform to make Lightning Application mobile",
+                "Worked on deploying to Salesforce Mobile publisher for IOS and Android",
+                "Retrieved some data and its functionality from Third-Party API's and displayed within the lightning component",
+                "Created multiple Lightning Components, added CSS and Design Parameters that makes the Lightning component look and feel better",
+                "Enabled Aura Framework, by adding Aura Attributes and Aura Handlers for Events to focus on Logic and Interactions in Lightning Applications",
+                "Worked with SOQL, SOSL queries with Governor Limitations to store and download the data from Salesforce.com platform database",
+                "Maintenance of installed Managed Packages in Lightning using Apex. Experienced in using Data Migration tool called Data Loader",
+                "Visualforce Pages for Lightning Experience, Alternates for Java Script Codes, Sharing Visualforce pages between Classic and Lightning"
+            ]
+        },
+        {
+            "company": "37 Metrics, Austin, TX",
+            "role": "Salesforce Developer / Administrator",
+            "dates": [
+                "Mar’17 – May’17"
+            ],
+            "responsibilities": [
+                "Involved in identifying, planning and implementing new Salesforce.com features and functions to meet business requirements",
+                "Implemented Salesforce Service cloud and Opportunity Management (Case management, Entitlement management, High volume customer portal, Partner portal, Visual force sites) for business support and technical support for its channel customers",
+                "Developed batch interfaces and processes to integrate Salesforce.com with external systems",
+                "Created page layouts, search layouts to organize fields, custom links, related lists and other components on record detail pages and edit pages",
+                "Created many custom objects and custom fields in Lightning Experience",
+                "Developed a dashboard component on home to give the brief agenda for the sales rep on that day in Lightning",
+                "Time-triggered tasks, email alerts, field updates to implement business logic",
+                "Created templates, approval processes, approval page layouts and defined approval actions on them to automate the processes",
+                "Involved in developing test cases for custom apex code",
+                "Performed detailed analysis of business and technical requirements and developed the Apex classes using other Platform based technologies like Visual force, Force.com IDE",
+                "Developed Apex Classes, Controller Classes and Apex Triggers for various functional needs in the application. Migrated data from external sources and performed insert, delete, upset, export operations on millions of records",
+                "Worked on various Salesforce.com standard objects like Accounts, Contacts, Cases, Opportunities, Products, Opportunity Line Items, Leads, Campaigns, Reports and Dashboards",
+                "Involved in Data load operations using Force.com Apex Data Loader",
+                "Used Force.com developer toolkit including Apex Classes, Apex Triggers and Visualforce pages to develop custom business logic",
+                "Created Workflow Rules, Approval Process, Validation Rules, Tasks, Email Alerts, Field updates and Outbound messages to manage the Workflow and Approvals",
+                "Implemented Profiles, Roles, Users, Page Layouts, Email Services, Reports, Dashboards, Tasks, Events and Audit Trials and implemented Field Level Security for sensitive data holder fields",
+                "Created page layouts, search layouts to organize fields, custom links, related lists, and other components on a record detail and edit pages",
+                "Created templates, approval processes, approval page layouts and defined approval actions on them to automate the processes",
+                "Designed and deployed the Custom objects, Custom tabs, Entity-Relationship data model, Validation rules, Workflow Rules, Auto-Response Rules, Page layouts, Components, Visualforce Pages to suit to the needs of the application",
+                "Implemented and Consumed Knowledge Base Dashboards & Reports AppExchange for providing Reports and Dashboards that monitors the Knowledge Base",
+                "Used Data Loader for insert, update, and bulk import or export of data from Salesforce.com. Used it to read, extract, and load data from comma separated values (CSV) files"
+            ]
+        },
+        {
+            "company": "Stone Bond Technologies, Houston, TX",
+            "role": "Salesforce Developer /Administrator",
+            "dates": [
+                "Jul’15 – Feb’17"
+            ],
+            "responsibilities": [
+                "Experience in Integrating App Exchange Applications with Salesforce",
+                "Interacted with various business user groups for gathering the requirements for Sales force implementation and documented the Business and Software Requirements",
+                "Implemented the Web Services through REST API in the Salesforce.com for outbound messaging",
+                "Performed detailed analysis of business and technical requirements and designed the solution by customizing various standard objects of Salesforce.com (SFDC) and other Platform based technologies like Visual force, Force.com API, and Web Services",
+                "Developed Apex Classes, Controller Classes and Apex Triggers for various functional needs in the application. Migrated data from external sources and performed insert, delete, upset, export operations on millions of records",
+                "Involved in Salesforce.com Application Setup activities and customized the apps to match the functional needs",
+                "Created page layouts, search layouts to organize fields, custom links, related lists, and other components on a record detail and edit pages",
+                "Created workflow rules and defined related tasks, time triggered tasks, email alerts, filed updates to implement business logic",
+                "Created templates, approval processes, approval page layouts and defined approval actions on them to automate the processes",
+                "Developed Apex Classes, Controller Classes and Apex Triggers for various functional needs in the application. Migrated data from external sources and performed insert, delete, upset, export operations on millions of records"
+            ]
+        },
+        {
+            "company": "NetXcell, IND",
+            "role": "Jr. Salesforce Developer/ Administrator",
+            "dates": [
+                "Jan’13 – May’15"
+            ],
+            "responsibilities": [
+                "Interacted with various business team members (JAD Sessions) to gather the requirements and document the requirements",
+                "Developed Apex Classes, Controller Classes and Apex Triggers for various functional needs in the application",
+                "Implemented minor enhancements on standard objects like Campaigns, Leads, Accounts, Contacts, Opportunities, Dashboards and Reports",
+                "Developed and configured various Custom Reports and Report Folders for different user profiles based on the need in the organization",
+                "Developed a web-to-lead functionality which directs leads to Sales force CRM",
+                "Developed time dependent workflows as per the requirement",
+                "Created Custom Objects and defined lookup and master-detail relationships on the objects. Also, created junction objects to establish connectivity among objects",
+                "Implemented escalation rules, automatic case generation and their escalation to call center representatives, and generated email alerts for quick issue resolution"
+            ]
+        },
+        {
+            "company": "ICICI BANK, IND",
+            "role": "Web Developer",
+            "dates": [
+                "Jan’12 – Dec’13"
+            ],
+            "responsibilities": [
+                "Involved in the analysis, design, development and testing phases of Software Development Lifecycle (SDLC).",
+                "Developed the application front end using Struts Framework: developed action classes, form beans and Java Server Pages",
+                "Developed a web-based reporting for credit monitoring system with HTML, JSTL, custom tags and Tiles using Struts framework",
+                "Developed and implemented using design patterns like MVC, Singleton, DAO, Front Controller, and Factory",
+                "Used Spring Framework to develop the business tier and integrated with OR mapping tool Hibernate",
+                "Used Hibernate to store persistence data into the Oracle11g database",
+                "Tested the application functionality with JUnit Test Cases",
+                "Used SVN for version control and Maven as a build tool",
+                "Deployed the applications on WebLogic Application server"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "DINESH PASAM",
+        "skills": [
+            "Salesforce Technologies",
+            "Lightning Web Components (LWC), Lightning Bundle, Apex Language, Apex Trigger, Apex Scheduler, Apex Class & Apex Web Service, Partner WSDL & Enterprise WSDL, Visual Force (Page, Component & Controllers), Custom Integration, Flows, Outbound Messages, Workflow & Approvals, Field updates, Reports, Custom Objects Custom settings, Custom labels and Tabs, Email Services, Role Hierarchy, Dashboards, Security Controls, App Exchange Package & Custom Application and Sandbox data loading, Force.com tools, Workbench, Apex Data loader, Force.com Apex Explorer, AJAX tool kit, Force.com Migration Tool, Force.com Excel connector, IDE, Eclipse, My Eclipse and Force.com Eclipse IDE plug-in, Visual Studio, Web Technologies, Java Script, XML, XML Schema, HTML and Web service"
+        ]
+    }
+}

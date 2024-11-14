@@ -1,0 +1,120 @@
+{
+    "experiences": [
+        {
+            "company": "State of NY, NY",
+            "role": "UI/ReactJS Developer",
+            "dates": [
+                "Sep 2020 – Till Date"
+            ],
+            "responsibilities": [
+                "Designing, developing, and testing the web application by using HTML5, CSS3, Bootstrap, React.JS, and Redux",
+                "Designing the CSS templates for use in all pages on the website working with CSS Background, positioning, text, border, margin, padding, and table",
+                "Applied optimization techniques to reduce page size and load times to enhance user experience using sprites",
+                "Implemented AWS which provides a Git-based CI/CD workflow for developing, and deploying single-page web applications with serverless backends",
+                "Developed user interface by using the cu JS, and Redux for SPA development",
+                "Developed client-side Interface using React JS",
+                "Used React-Router to turn the application into Single Page Application",
+                "Used ReactJS components, Forms, Events, Keys, Router, Animations, and Flux concept",
+                "Building stable React components and stand-alone functions to be added to any future pages",
+                "Developed the Drag and Drop functionality using React-Draggable",
+                "Used React-Auto complete for creating Google maps location search on the webpage",
+                "Added Excel-Builder to download the Tabular data in Excel format using react",
+                "Component for UI-Library consisted of Button, Checkbox, Input, Icons, Toggle Button, Dropdown, Multi-Level Dropdown and many more",
+                "Maintained states in the stores and dispatched the actions using redux",
+                "Working with ECMA Script 6 features. For build of JSX and ES2015(ES6) used webpack",
+                "Optimized animation logic with optimistic functions to increase performance in rendering",
+                "Extensively used Node js tools like Gulp, Web pack. Developed internal CLI applications using a commander module for application build",
+                "Works with backend engineers to optimize existing API calls to create efficiencies by deprecating unneeded API calls",
+                "Used Restful web services to call for POST, PUT, DELETE and GET methods",
+                "Developing build and deployment scripts using MAVEN as build tool in Jenkins to move from one environment to other environments",
+                "Implemented AWS functions which are event-driven and server less—triggered to process a piece of code and return a result",
+                "Utilized React for its efficient data flow architecture to create a lightweight and render efficient web app that searched projects via the GitHub API through keywords",
+                "Experience in working with REDUX architecture and used REDUX for state management in maintaining the application when the state is updated",
+                "Used REDUX thunk for maintaining the dispatch either if the state is delayed or if the condition is met",
+                "Responsible for developing front-end application using React JS and FLUX architecture for internal team’s productivity use",
+                "Used Git for version controlling and regularly pushed the code to GitHub",
+                "Works with JASMINE unit test framework to write unit tests for JavaScript code"
+            ]
+        },
+        {
+            "company": "State of TX, Austin, TX",
+            "role": "UI/ReactJS Developer",
+            "dates": [
+                "2018 August- 2020 August"
+            ],
+            "responsibilities": [
+                "Developed dynamic web pages using HTML/HTML5, CSS/CSS3, jQuery, React js, Bootstrap, Less,CSS3,SASS and AJAX",
+                "Developed single page applications using React java architecture, ES6, web pack and grunt",
+                "Developed various screens for the front end using ReactJS and used various predefined components from NPM (Node Package Manager) and Redux libraries",
+                "Implemented HTTP REST API using NodeJS and extensively tested RESTful services using POSTMAN",
+                "Developed RESTful web services using JAX-RS, Apache CXF and spring frameworks and persistence using Hibernate and JPA ORM frameworks",
+                "Build prototype for various required services such as Logging, Scheduling and Notification Service using third party Node JS based JavaScript library",
+                "Proficiency in cloud applications such as Amazon Web Services (AWS) and proficiency in Amazon Web Services (AWS) set up",
+                "Proficiency in Node.JS for writing code in the server side and creating scalable network applications",
+                "Worked with modules like MongoDB and Cassandra for database persistence using Node.js to interact with MongoDB",
+                "Performed troubleshooting on all mobile platforms both through telephony Avaya system, and with remote support, Supporting iOS, Android",
+                "Created UI templates and functionality to be merged with the backend REST/SOAP API for proper communication of front and back end to enable efficient working of application",
+                "Managing data originating from various end users and store it in PostgreSQL database",
+                "Implemented services, controllers, directives, factory functions to properly consume API on the front end and send back data in JSON format to the back end by capturing in the UI",
+                "Experience in working with RESTful Web Services and implementing RESTful API's and SOAP protocols",
+                "Worked with JSON web tokens for authentication and authorization security configurations using Node.js",
+                "Worked with Grunt, Gulp for task runner configurations for minification, watch, jshint, jscs, cssautoprefixer, EXT JSsass compilation, bundling and test runner configurations and make it available as a command",
+                "Worked with unit testing of JavaScript applications using Karma, Jasmine"
+            ]
+        },
+        {
+            "company": "NSG, India",
+            "role": "UI Developer",
+            "dates": [
+                "2013 September – 2018 September"
+            ],
+            "responsibilities": [
+                "Built rich prototypes and applications using HTML5, CSS3, JavaScript, and jQuery, Ajax, JSON, React JS and Bootstrap",
+                "Used React JS to create views to hook up models to the DOM and synchronize data with server as a Single Page Application (SPA) and implemented client-side Interface using React JS (Redux) and used various predefined components from NPM (Node Package Manager) and redux library",
+                "Worked on React JS Virtual Dom and React views, rendering using components which contains additional components called custom HTML tags",
+                "Used React JS to create Controllers to handle events triggered by clients and send request to server",
+                "Heavily used Prop Types in React JS to create custom controls actions",
+                "Developed jQuery code using an XML Http Request Adapter to send an AJAX request to the server-side code and implemented a callback function to handle the results",
+                "Worked on Express framework in Node JS to develop the business logic code to get the data from the database and to bind the response data to the HTML5 using React JS",
+                "Effectively used CSS3 features, such as creating multiple column, borders and background, etc. and used LESS/SASS",
+                "Used High charts to show the Data on the Graphs",
+                "Followed Test Driven Development (TDD), Scrum concepts of the Agile Methodology to produce high quality software",
+                "Participated in technical design, development and testing of various modules assigned and used JUnit for unit testing",
+                "Created cross browser compatible and standards-compliant CSS-based page layouts",
+                "Used polymers to create web components and developed browser API's to custom HTML",
+                "Specialties in Accessible Web design and development, W3C Web Content Accessibility Guidelines, and Section 508 accessibility",
+                "Strong experience in Search Engine Optimization techniques to develop web applications",
+                "Worked on prototypes for Responsive Web design",
+                "Involved in writing application-level code to interact with API's, Web Services using AJAX, JSON and XML",
+                "Used AJAX framework for asynchronous data transfer between the browser and the server",
+                "Developed API back ends using Node JS to allocate access to data in MySQL",
+                "Regular interaction of Restful API design calls to populate the UI on the app using GET, PUT, POST and DELETE",
+                "Developed complex, usable, attractive and cross-browser web interfaces that account for speed, file size, readability and accessibility",
+                "Used JIRA for User Stories and bug tracking"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "Spire.Doc for Python",
+        "degree": "N/A",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": null
+    },
+    "projects": null,
+    "certifications": null,
+    "activities": null,
+    "honors": null,
+    "userDetails": {
+        "name": "Sunitha",
+        "skills": [
+            "Web Technologies: HTML 5, CSS3, JavaScript, Typescript, jQuery, ReactJS, Angular 2.0, Angular 4.0, Angular 6.0, Node JS, EXT JS, D3 JS, React JS, JSON, AJAX, Grunt & Gulp, Spring boot",
+            "Testing Frameworks: Jest, Enzymes, Jasmine, Karma, Protractor for E2E",
+            "Languages: C, C++, Java, Python and .NET",
+            "IDE, HTML Editor: Sublime, Notepad++, Eclipse IDE, Adobe Dreamweaver, WebStorm, Visual Studio, Visual Studio Code",
+            "Application servers: Tomcat Server, WebSphere, WebLogic. AWS",
+            "Data Bases: Oracle, MySQL, PostgreSQL, SQL Server, Mongo DB, Cassandra",
+            "Version Controls: SVN, CVS, GIT, TFS, VSTS"
+        ]
+    }
+}

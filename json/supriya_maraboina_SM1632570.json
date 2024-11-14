@@ -1,0 +1,250 @@
+{
+    "userDetails": {
+        "name": "SUPRIYA MARABOINA",
+        "skills": [
+            "Salesforce CRM Administration",
+            "Salesforce CRM Development",
+            "Configuration",
+            "Customization",
+            "Lightning",
+            "Force.com",
+            "Analysis",
+            "Design",
+            "Development",
+            "Deployment",
+            "Maintenance",
+            "Testing",
+            "Salesforce.com CRM",
+            "Migration",
+            "Salesforce Out of the Box Data Model",
+            "Modeling",
+            "Custom Objects",
+            "Formula Fields",
+            "Rollup Summary Fields",
+            "Field Dependencies",
+            "Lookup",
+            "Master-Detail",
+            "Junction Objects",
+            "Pardot Functionality",
+            "Pardot A/B Testing",
+            "Auto Responder Emails",
+            "Pardot Email Rendering",
+            "Visualforce",
+            "Process Builder",
+            "Source Control Tools",
+            "Git",
+            "Bit bucket",
+            "Source tree",
+            "Java/J2EE",
+            "CRM Business Processes",
+            "Forecasting",
+            "Campaign Management",
+            "Lead Management",
+            "Pipeline Management",
+            "Order Management",
+            "Account Management",
+            "Case Management",
+            "Salesforce Lightning Web Components",
+            "Aura Components",
+            "Lightning App Builder",
+            "Lightning Web Component Features",
+            "Salesforce CPQ",
+            "Apttus CPQ",
+            "Apex Language",
+            "Apex Classes/Controllers",
+            "Apex Triggers",
+            "SOQL",
+            "SOSL",
+            "VisualForce Pages/Component",
+            "s-Control",
+            "Apex Web Services",
+            "Partner WSDL & Enterprise WSDL",
+            "WorkFlow and Approvals",
+            "Dashboard",
+            "Analytic Snapshots",
+            "Force.com IDE (Eclipse)"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Truist Bank, Georgia",
+            "role": "Salesforce Lightning Developer",
+            "responsibilities": [
+                "Developed Lightning components for the users to operate complex logics",
+                "Developed Wizard driven Lightning Architecture for the users to make the new request for the Farmers Internal users",
+                "Designed and developed SFA based Application on Froce.com Platform in Salesforce.com environment with Apex programming language at backend and VisualForce pages as user interface",
+                "Developed wave dashboards using Salesforce platform as the backend",
+                "Developed different VisualForce Pages to suit the needs of the application using different Visual force components",
+                "Integrated Salesforce.com with external systems like Oracle and SAP using SOAP API and REST API",
+                "Integrated applications with Salesforce.com using SOAP web services API",
+                "Involved in migrating data into Salesforce application using Apex Data Loader through CSV files. Installed and Configured Apex Data Loader as well as Mulesoft",
+                "Implemented new application based on Lightning to have compatibility of the app in mobile, Tab and Desktop versions",
+                "Used Informatica Power Exchange for integrating the SFDC with legacy systems",
+                "Worked on Salesforce standard objects (accounts, contacts, leads, opportunities).",
+                "Created Custom objects, formula fields and design validation rules page layouts, workflow rules",
+                "Maintenance of CRM functionality implementing SFDC",
+                "Created SFDC reports (functional and technical documents).",
+                "Create profiles, roles and configure permissions according to organizational hierarchy requirements",
+                "Developed applications using Agile methodology",
+                "Integrated Salesforce.com with external systems like Oracle and SAP using SOAP API and REST API as well as Mulesoft",
+                "Developed Apex classes and Triggers and linked them to manage the workflows",
+                "Used Organization security, Network security to ensure users could login only through office servers and Session security to ensure users have access only in their working hours",
+                "Used SOQL and SOSL for Data manipulation needs of the application using platform Database Objects",
+                "Very good experience of using Data loader and cleansing and deduplication Bulk loads",
+                "Deployed Apex using Force.com IDE, Force.com Migration tool and Web services API",
+                "Designed Salesforce service cloud console to enhance productivity with dashboard like interface",
+                "Responsible for writing SOQL and SOSL queries",
+                "Worked on Salesforce.com based development enhancements and implemented lightning applications from the scratch",
+                "Used Sandbox for testing created and managed packages, and migrated them between Sandboxes and Production environments for final implementation"
+            ],
+            "dates": [
+                "Jun 2021 to till now"
+            ]
+        },
+        {
+            "company": "Mohawk Industries, Georgia",
+            "role": "Salesforce Developer",
+            "responsibilities": [
+                "Worked closely with the business users and gathered the requirements for salesforce implementation",
+                "Worked as enhancement developer and team member, performed the roles of Salesforce.com Developer and Administrator in the organization",
+                "Designed, developed and deployed Apex Classes and Controller Classes for various functional needs in the application",
+                "Working with the standard objects, building custom objects with custom fields and relationships",
+                "Created apex rest web service methods to inbound calls to salesforce and supported response in Json and xml format",
+                "Created modern Enterprise Lightning Apps combining Lightning Design System, Lightning App Builder and Lightning Component features",
+                "Enabled Aura Framework, by adding Aura Attributes and Aura Handlers for Events to focus on Logic and Interactions in Lightning Applications",
+                "Built customized Lightning components replacing the existing ones; using Java Script on the client side and Apex on the server side",
+                "Implemented new buttons and actions for the lightning experience",
+                "Designed and deployed Custom tabs, validation rules and Auto-Response Rules for automating business logic",
+                "Responsible for managing User Accounts, Security Access and setting up Profile based security access based on organization requirement",
+                "Using Vlocity Communications worked on Sales, Marketing, Service, Retail, EPC, CPQ, Contract and Order Management applications",
+                "Involved in creating and customizing Email templates and configuring them to the Email alert for a standard/custom object",
+                "Integrated Salesforce org with Docusign for collection of an electronic signature requirement",
+                "Created users, roles, public groups and implemented role hierarchies, sharing rules and record level permissions to provide shared access among different users",
+                "Used the sandbox for testing and migrated the code to the deployment instance after testing",
+                "Managed Writing Test Classes for the Customizations done during the development to ensure code coverage to meet Unit Testing before migrating the code from Sandbox to production environments",
+                "Implemented Field Level Security for sensitive data holder fields",
+                "Created Impressive designs with Custom styling to bring dynamic versions of the components when setting up in Lightning App builder",
+                "Customized Salesforce.com User Profiles by setting Standard and Custom objects layouts, Custom App, Field-level Security, Permission Sets for client services and marketing"
+            ],
+            "dates": [
+                "Mar 2020 to May 2021"
+            ]
+        },
+        {
+            "company": "Best Buy, North Carolina",
+            "role": "Salesforce Developer",
+            "responsibilities": [
+                "Performed detailed analysis of business and technical requirements and designed the solution by customizing various standard objects of Salesforce.com (SFDC) and other platform-based technologies like Visualforce, force.com API, and web service",
+                "Designed and implemented the solution by customizing various Sales process standard objects like Leads, Contacts, Accounts, Opportunities, Cases and solutions of SalesForce.com (SFDC).",
+                "Customized several Formula Fields, Validation Rules, Tasks, Workflow rules, Triggers, Apex classes to achieve the complex business functionality",
+                "Creating Custom Objects and defining Lookup and Master-Detail Relationships on the objects in Salesforce",
+                "Developed Lightning Web Components(LWC) to display the Events on Calendar using Full calendar JS",
+                "Built reusable UI/UX components with Lightning Web component framework",
+                "Developed multiple Lightning web components (LWC) regarding service case console pages",
+                "Maintenance of installed Managed Packages in Lightning using Apex",
+                "Developed Apex Classes, Controller Classes and Apex Triggers for various functional needs in the application with lightning",
+                "Used JavaScript, jQuery for client side programming",
+                "Developed Lightning Components using Aura Framework and Lightning Web Components(LWC).",
+                "Worked on both lightning frameworks Aura and LWC",
+                "Evaluated Cast Iron for migrating data within Salesforce.com",
+                "Extensive experience Creating Roles, Profiles, Email Services and Page Layouts",
+                "Created various Approval process in Salesforce.com for the Sales process to run properly in the organization",
+                "Designed and developed SFA based Application on force.com platform in salesforce.com environment with Apex programming language at backend and Visual-Force pages as user interface",
+                "Created various Scheduled and Batch apex jobs based on the business requirements",
+                "Designed and developed Apex Triggers for various functional needs in the application and worked in improving existing Apex code",
+                "Implemented the requirements on Salesforce.com platform and Force.com IDE Plug-in using Eclipse",
+                "Used SOQL & SOSL for data manipulation needs of the application using platform database objects",
+                "Integrated with External sources by making callouts that used SOAP/REST",
+                "Used Force.com, web services API to create, update, retrieve and delete records from SOAP based web services using java",
+                "Implemented & customized instance of JIRA for multiple Agile projects: including SDLC stages, boards, issue types, reporting, etc",
+                "As JIRA Administrator, customized instances of JIRA for multiple Agile projects: including SDLC stages, boards, issue types, reporting, etc",
+                "Worked in GIT version control systems to keep the history of developed files and involved in Code Review board to maintain standard of Apex code",
+                "In-charge of deployment using change sets and Eclipse and taking back-up of the production environment before deployment",
+                "Performed Unit, Integration, Regression and User Acceptance Testing"
+            ],
+            "dates": [
+                "Jan 2019 to Feb 2020"
+            ]
+        },
+        {
+            "company": "United Health Group, Minnesota",
+            "role": "Salesforce Administrator",
+            "responsibilities": [
+                "Performed the role of Salesforce.com Developer and Administrator in the organization",
+                "Performed inbound, outbound integration with external systems using REST, SOAP Web services API and JSON Serialization and Deserialization",
+                "Implemented a dynamic VisualForce page that displays variety of fields based on client requirements without making additional changes to code",
+                "Deployed and configured Exact Target from AppExchange to manage marketing cloud campaign creation and management. Configured and managed Social media, Email Marketing",
+                "Developed various Visual Force Pages, Apex Triggers to include extra functionality and wrote Apex Classes and Controller to provide functionality to the visual pages",
+                "Effectively created the Pick lists, dependent Picklists and junction objects to establish the connectivity among objects",
+                "Actively involved with Business analysts, other developers, involved in enhancement of business modules using force.com IDE, APEX classes, Triggers, Test Methods and writing SOQL queries",
+                "Worked on customization of Sales Cloud schema by customizing standard objects like Leads, Accounts, Contact, Opportunity and Products",
+                "Created templates, approval processes, approval page layouts and defined approval actions on them to automate the processes",
+                "Own and manage Salesforce.com Service Cloud related technology stack",
+                "Designed, Implemented and deployed the Service Cloud with various custom built Page layouts, Custom tabs, Custom Apps to suit to the needs of the application also created various Profiles to enable the Service Cloud specific to them",
+                "Interacted with various business user groups for gathering the requirements for Salesforce implementation and documented the Business and Software Requirements",
+                "Customized Websites and created email templates to enable Web-to-lead, and Email-to-lead process",
+                "Developed and configured various Custom Reports and Report Folders for different user profiles based on the need in the organization",
+                "Involved in Designing Visualforce pages with JavaScript remoting using client side technologies like JavaScript, JQuery, AJAX and CSS",
+                "Designed and deployed Custom tabs, validation rules, Approval Processes and Auto-Response Rules for automating business logic",
+                "Used the sandbox for testing and migrated the code to the deployment instance after testing"
+            ],
+            "dates": [
+                "Nov 2017 to Dec 2018"
+            ]
+        },
+        {
+            "company": "Kofax, Hyderabad, India",
+            "role": "Java Developer",
+            "responsibilities": [
+                "Developed the component using Java, J2EE/JEE, JSP, Struts, hibernate framework. Involved in complete SDLC – Requirement Analysis, Development, System and Integration Testing",
+                "Implementation of SOAP Web Services using CXF",
+                "Used spring IOC integrated with Struts MVC framework to inject session layer objects into the web layer",
+                "Develop persistent objects using Hibernate",
+                "Developed the Presentation layer by Struts",
+                "Involved in designing frontends using JSPs, HTML, DHTML and CSS",
+                "Extensively used Eclipse while writing code & used CVS for version control",
+                "Analyze the performance of the application and fine tune the code where it is necessary",
+                "Debugging and resolving issue for web service binding and deployments with attachments"
+            ],
+            "dates": [
+                "Aug 2013 to July 2017"
+            ]
+        }
+    ],
+    "certifications": [
+        "Salesforce Certified Platform Developer",
+        "Salesforce Certified Administrator"
+    ],
+    "education": {
+        "institution": "Not specified",
+        "degree": "Not specified",
+        "graduation": "Not specified",
+        "courses": [
+            "Not specified"
+        ],
+        "gpa": null
+    },
+    "projects": [
+        {
+            "project": "Not specified",
+            "description": [
+                "Not specified"
+            ],
+            "skills": [
+                "Not specified"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Not specified",
+            "role": "Not specified",
+            "responsibility": [
+                "Not specified"
+            ]
+        }
+    ],
+    "honors": [
+        "Not specified"
+    ]
+}

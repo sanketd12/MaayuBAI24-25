@@ -1,0 +1,112 @@
+{
+    "certifications": [
+        "PMI – USA. Member ID: 2842372",
+        "Prince2 Certified Project management methodology (2010)"
+    ],
+    "education": {
+        "institution": "University of South Australia",
+        "degree": "Masters of Information & Communications Technology Management",
+        "graduation": "2010",
+        "gpa": null,
+        "courses": null
+    },
+    "experiences": [
+        {
+            "company": "NLG Financial Services",
+            "role": "Project Governance and Project Management Officer (PMO) (Independent Financial Services and Insurance Producer License Holder and an Experienced Project Management PMP Certified",
+            "dates": [
+                "Dec 2017 – Now"
+            ],
+            "responsibilities": [
+                "Addressed issues and obstacles by studying Organizational chart and workflows and directed implementation and maintaining Program and Projects structure and governance",
+                "Held various meetings and managed communication plans and follow ups",
+                "Structured and maintained Date Repositories and enforced reporting channels and escalation structure"
+            ]
+        },
+        {
+            "company": "DgLand Co. (E-Commerce Platform, Enabling Individuals to Purchase Wireless Handhelds & Telecom Services, Multi-Vendor and Multi-Channel Online Marketplace, Targeting Ethnic Minorities Product and Services Throughout the US",
+            "role": "E-Commerce Project Manager | Product Launch Manager",
+            "dates": [
+                "Mar 2016 – Dec 2017"
+            ],
+            "responsibilities": [
+                "Organized and drove the team that develops and executes go-to-market plans for all new products and service launches",
+                "Performed preliminary studies, market analysis, systems requirement gathering, business case development",
+                "Developed full-scale project plans, scrum meetings for risk assessments, change control, and progress reports"
+            ]
+        },
+        {
+            "company": "Mobile Telecommunication Company of Iran (MCI) – NAK (Managed Service Provider) (Iran’s Largest Wireless Service Provider with Over 18 Million Postpaid and 47+ Million Prepaid Subscribers",
+            "role": "Senior Project Manager (PMO) (Total Project Management in a $7M Mobile Network (3G/4G) Project, Which Included: Site Commissioning & Service Integration, Test & Acceptance of 1100 3G Sites, 1200 LRAN, and 16 RNC in 22 Cities",
+            "dates": [
+                "Dec 2014 – Mar 2016"
+            ],
+            "responsibilities": [
+                "Managed multiple vendors such as Samsung, Huawei, Ericson, Nokia-Siemens, working cross-functionally with internal and several external stakeholders, while managing a team of 3 junior project managers",
+                "Effectively organized, tracked and reported on the portfolio of projects, and provided guidance on data management and development of project specific documentation to include the full project management lifecycle",
+                "Efficiently provided business operation support and led efforts in supporting regulatory and budgetary obligations"
+            ]
+        },
+        {
+            "company": "TCT1 Telecom, [Focused on Launching Managed Services Such as Mobile Payment Solutions and Call Centers] (Iran’s Largest Wireless Service Provider with Over 18 Million Postpaid and 47+ Million Prepaid Subscribers",
+            "role": "Program Manager – PMO (Responsible for Launching the First Ever PMO, Drafting Best Practices, Standard Operating Procedures (SOPs), and Maintaining Program Documentation in Accordance with Program Policies and Directives, While Reporting to the CMO",
+            "dates": [
+                "Dec 2013 – Dec 2014"
+            ],
+            "responsibilities": [
+                "Led the design and implementation of company’s EPM (Enterprise Project Management) and developed business processes to ensure accountability of offered services in compliance with its regulatory and statutory obligations",
+                "Provided SME guidance related to project planning, project management, and progress monitoring in technical areas to include: requirements development, SDLC documentation and execution (MS SharePoint and MSP Server",
+                "Established SOPs and focused on continuously improving the Call Center Program, Ensuring Success of Individual Projects Within the Program, Developing Consistent Processes, KPI Tools, and Maintaining Relationships with the Client Leadership Team, Which Included Duties for Spend Reporting, Strategic Planning, and Staff Development"
+            ]
+        },
+        {
+            "company": "RighTel Telecom (The 3rd Largest Mobile Phone Network Operator of Iran, Providing 3G/4G Mobile Services to Individuals and Businesses",
+            "role": "Project Management Methodology expert- PMO (Responsible for Performing Business Analysis and Developing All Growth Requirement and Documents for Project Management Information System, as Well as Facilitating the Risk and Change Management Processes and Workflow",
+            "dates": [
+                "Dec 2010 – Dec 2013"
+            ],
+            "responsibilities": [
+                "Developed client business requirements, formulated solutions, developed business case justifications, cost & benefit analysis, and risk management throughout the project life cycle while ensuring profitable engagement",
+                "Led projects in the development of tactical and strategic views to ensure business processes and IT alignment",
+                "Leveraged relationships with clients and representatives prior the launch of the first 3G network in the country"
+            ]
+        },
+        {
+            "company": "GigaForce, Pty Optus, Australia (Business Solutions in Telecommunications Industry, Such as Telephone, Internet, Pay TV Subscriptions",
+            "role": "Telecom Product Manager (Responsible for Helping the Sales and PM Team, of the Optus Telecom Product Lines, Marketing to Enterprise Clients",
+            "dates": [
+                "Feb 2009 – Aug 2011"
+            ],
+            "responsibilities": [
+                "Worked closely with the product team and established strong relationships with the business process teams",
+                "Coordinated updates to functional teams and implemented business plans after completion of development work",
+                "Represented the company in meetings, conferences, and presentations, to showcase and help in selling services"
+            ]
+        },
+        {
+            "company": "Huawei (Global ICT Solutions Provider, Establishing End-to-End Advantages in Telecom Networks, Devices and Cloud Computing",
+            "role": "Telecommunication Project Engineer (Responsible for Execution, Monitoring and Controlling of Processes, as Well as Risk Analysis, Issue Management and Implying Corrective Actions During the Installation of Data Services and Network Security Devices",
+            "dates": [
+                "Mar 2007 – Feb 2008"
+            ],
+            "responsibilities": []
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Bruce Majdi, PMP",
+        "skills": [
+            "PMO set up experience, extensive Project and Program Governance and organization skills",
+            "Managing product launch, system release processes, and coordinating project milestones, schedule and budget",
+            "Leading the planning, execution, and delivery of large cross-functional initiatives, while coordinating with clients",
+            "Managing all aspects of SDLC and product launches, release scoping, quality testing, deployment and aftercare",
+            "Promoting value-driven delivery, innovation, and continuous improvement at multiple levels of the organization",
+            "Analyzing KPI data to optimize performance and focus on the program areas with the highest potential to grow",
+            "Working cross-functionally with engineering & sales teams to define, track, and communicate project’s progress",
+            "Project & Program Management methodologies such as PMBOK, SCRUM, Prince2, Agile and DevOps Principles",
+            "ERP & PM Tools: SharePoint (MSP), Primavera, JIRA, Report Generation Using MS Excel, MS Project, PowerPoint"
+        ]
+    }
+}

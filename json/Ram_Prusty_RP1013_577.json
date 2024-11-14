@@ -1,0 +1,412 @@
+{
+    "education": {
+        "institution": "West Coast University, Central America Study Center - Attitude Business School, India",
+        "degree": "MBA",
+        "graduation": "2006",
+        "courses": [
+            "Attitude Business School, India"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Northern Trust",
+            "role": "Lead Business Analyst, Data Analyst",
+            "dates": [
+                "Aug’ 2017 - Present"
+            ],
+            "responsibilities": [
+                "Supported project releases, defects and enhancements as the projects rolled through the delivery process. And document the changes in SOPs",
+                "Consolidate Trade Date and reconcile from across multiple settlement platforms like Deposits, equity, and bond market",
+                "Involved in creating Dashboards, reports as needed using Tableau Desktop and Tableau Server",
+                "Experience in data warehousing and modeling techniques and procedures",
+                "Involved in creating dashboards and reports in Tableau 8.1. Created report schedules on Tableau server",
+                "Creating users, groups, projects, Data connections, settings as a Tableau administrator",
+                "Analyze Hadoop clusters using big data analytic tools including Pig, Hive",
+                "Conduct in-depth research on Hadoop Hive HDFS to analyze partitioned and bucketed data",
+                "Used Swimlanes to communicate additional information about who performs the activity or when it takes place either with the vertical Swimlanes or horizontal swimlanes process flow",
+                "The roles which perform each activity within horizontal Swimlanes and define the process stages in which the activity occurs within vertical Swimlanes",
+                "Proficient in designing techniques like Snowflake schemas, Star schema, fact and dimension tables, logical and physical modeling",
+                "Worked with SQL, PL/SQL procedures, and functions, stored procedures, and packages within the mappings",
+                "Tuned Informatica mappings and sessions for optimum performance",
+                "Managed the implementation of BCP and DRP plans; Integrated security with SDLC Process",
+                "Created Project Charter, High as well as Detail Level Functionalities, Business Requirement document, Use cases and UML Workflow diagrams for the trading and Fixed Income-based projects",
+                "Completed analysis of the Equities process workflow for trading desks - interviewed trader, sales trader, middle office staff; customer support (ticketing and allocation), trade support",
+                "Managed, documented and performed code review, code walkthrough Unit Testing, Integration Testing, User Acceptance Testing and Post Production Validation",
+                "The captured as-is process designed to-be processes and performs impact analysis",
+                "Gathered and documented use Cases, Business Rules, created and maintained Requirements / Test Traceability Matrix Developed and updated by the functional use of objects and implements the business process modeling to explain the business requirements for development, QA and UAT teams"
+            ]
+        },
+        {
+            "company": "Bank of America Merrill Lynch",
+            "role": "Sr. Business Analyst, Data Integration CMIT Team",
+            "dates": [
+                "Oct’ 2016 – Aug’ 2017"
+            ],
+            "responsibilities": [
+                "Prepared Business Requirement Documents (BRD's) after the collection of Functional Requirements from System Users that provided the appropriate scope of work for the technical team to develop a prototype, Use Cases, UML diagrams for the overall system and drafted traceability matrix document for the application",
+                "Imported, exported and manipulated large data sets in multi-million-row databases under tight deadlines",
+                "The building, publishing customized interactive reports and dashboards, report scheduling using Tableau server",
+                "Experience in creation of scripts to manipulate files within HDFS is preferred",
+                "Created Tableau scorecards, dashboards using stack bars, bar graphs, scattered plots, geographical maps, Gantt charts using show me functionality",
+                "Interacted with users for verifying User Requirements, managing Change Control Process, updating existing Documentation",
+                "Worked on Agile/ SCRUM methodologies to monitor, steer and develop project objectives in finance applications"
+            ]
+        },
+        {
+            "company": "Nordea Bank, Denmark",
+            "role": "Business Analyst, SIR Team",
+            "dates": [
+                "Feb’ 2015 - Dec’ 2015"
+            ],
+            "responsibilities": [
+                "To understand the current system architecture and to identify the gaps. JIRA is the tool used for bug tracking, issue tracking, application develop and project management",
+                "Identify the functional requirements of the application by analyzing the tool",
+                "Meticulously followed SOPs to ensure that service is created in the same way from start to finish",
+                "Maintaining the reference data in the central system, updating the identifiers, like CUSIP, ISIN, and ticker for equity, fixed-income, deposits and derivative securities to support portfolio analytics",
+                "Verify and update the functional descriptions as per the mapping is done in the SIR tool",
+                "Analyze the flow of data from upstream applications to the downstream application via SIR database",
+                "Documentation of functional changes and mapping",
+                "Upload Reports to report server by using Actuate management console",
+                "Scheduled Report runs on Actuate eReport Server",
+                "Generated Reports like Service Request with Barcode, Activity, Account, Contact, Products, and Orders by using Actuate",
+                "Manage customer relationship by effectively communicating improvements frameworks; answering questions; resolving concerns and issues",
+                "Analyzing the SIR tool work in Production and also interact with other vendors of Nordea to understand how the overall system works in Nordea for SIR application"
+            ]
+        },
+        {
+            "company": "State Street Bank, Ireland & Poland",
+            "role": "Transition Manager & Process Manager, Hedge Fund Reconciliation",
+            "dates": [
+                "Feb’ 2012 - Dec’ 2012"
+            ],
+            "responsibilities": [
+                "Did Process migration for 12 Hedge fund clients of 21 resources and awarded with Best Certified Transition Manager",
+                "Analyzed process improvement ideas, implemented to process which has resulted in revenue saving and bagged the Best Team Management and Best Team Lead award",
+                "Gathered and identified business requirements from the business stakeholders",
+                "Preparation of Business solution documents, Impact analysis and defect management",
+                "Responsible for delivery of Hedge fund reconciliation services, transactional systems to the State Street IFS (reconciliations are performed using Mosiki application and other internal proprietary applications)"
+            ]
+        },
+        {
+            "company": "Pranas Accounting Services, USA",
+            "role": "Analyst, Go System application development",
+            "dates": [
+                "Apr’ 2010 - Jan’ 2011"
+            ],
+            "responsibilities": [
+                "Successfully completed various development releases without any impact",
+                "Got an understanding of the tax system of various US entities. Analyzing & documenting the Go-system application improvement requirements",
+                "Analyze functional test plans; develop control data, templates, and calculations to validate software features",
+                "Responsible for the testing of assigned projects for various Income tax products",
+                "Prepare and assist in preparing simple to complex federal and state US tax returns – C Corporations, S Corporations, and Partnerships – including extensions and estimates"
+            ]
+        },
+        {
+            "company": "Deutsche Bank NY Securities",
+            "role": "Business Analyst, Work Flow Tool - Automation",
+            "dates": [
+                "Apr’ 2010 - Jan’ 2011"
+            ],
+            "responsibilities": [
+                "Successful implementation of first IT project in the role of Business Analyst, a change in my career and Awarded the Outstanding performer for 2011",
+                "The same tool also extended for other regions like Amsterdam, London, Paris trade confirmations",
+                "Gathered and identified business requirements (BRD) from the business stakeholders",
+                "Analyzing the risk involved with the change in process on the implementation of the new tool",
+                "Prepared Swimlane map in MS Visio for the cross-functional diagram, to document the steps or activities of a process flow or workflow",
+                "Development and upgrade skills in multiple Actuate Reporting, custom scripting and parameterized, Crosstab, Master Detail etc",
+                "Designed reports in Actuate eReport Designer professional, and uploaded them on the report server in DEV, TEST, UAT and PROD environment",
+                "Actuate training to the end users and internal IT developers",
+                "Managed all the requirements (Business Use Cases and Functional Specifications, making requirements available to all team members and maintained between requirements, design and test cases",
+                "Reviewing and writing Test Cases from available requirements & verifying test data",
+                "Involved & assisted team in Test Designing & Test Execution",
+                "Status reports and follows up on queries from Client",
+                "Participate in JAD sessions with system architects, technical teams and other stakeholders for open and pending issues",
+                "Participate informal sessions with the development team to make sure that design and configuration meet business requirements",
+                "Comprehensive well-written SOPs ensure that your valuable business processes stay with the business",
+                "Training the end users on the new workflow tool and also train and mentored IT security and compliance professionals; Designed security awareness training programs"
+            ]
+        },
+        {
+            "company": "Deutsche Bank NY Securities Inc, USA",
+            "role": "Process Supervisor, Trade Confirmation & Risk Management",
+            "dates": [
+                "Apr’ 2006 - Mar’ 2010"
+            ],
+            "responsibilities": [
+                "Preparation of Trade Confirmation reports as per SOX requirement for various clients of Deutsche Bank A.G. New York",
+                "Managed the large security, risk and compliance initiatives of SOX-404 IT",
+                "Reconciliation of trades like Derivatives, Securities, Repo/Reversal Repo, Prime Brokerage, Stock Loan, transactional systems",
+                "Ensure competitive and up-to-date product offerings for Accounts, Account transactions, Savings, and Deposits",
+                "Maintaining Reference data, static data, and verification of the data to adhere accurate data delivery to the different stakeholder",
+                "Serve as reference data expert in areas such as identifier corporate actions and assigning investment types of securities. Delivery of set targets with TAT and desired quality parameters",
+                "Preparation of MIS reports for various meetings. Collected and collated data and generated periodic reports and present the data for Global calls",
+                "Prepare and develop KOPs for the process",
+                "Monitor overall functioning of processes and conceptualized and implemented measures to enhance operational efficiency",
+                "Excellent interpersonal skills with the proven capacity to negotiate and influence, to diffuse, reconcile and remedy customer issues & escalations",
+                "Maintain efficient scorecards of staff's performance based on the productivity and quality",
+                "Ability to provide trade confirmations reports to Deutsche Bank customers as per the regulatory requirement"
+            ]
+        },
+        {
+            "company": "S.S. Patra and Associates",
+            "role": "Account Assistant, Audit Engagements",
+            "dates": [
+                "May’ 2002 - Jul’ 2004"
+            ],
+            "responsibilities": [
+                "Preparation of Audit reports for various entities. Assisting with the completion of audit engagements like proofing financial statements, tax returns, and other documents",
+                "Preparing financial statements, and management letters in accordance with professional and Firm standards",
+                "Prepared desktop procedures and check-list control for Audit confirmation",
+                "Become proficient in computer skills, including Microsoft Word and Excel",
+                "Able to define problems, collect data, establish facts, draw valid conclusions and present in a structured manner to a member of higher staff or client",
+                "Able to interpret an extensive variety of technical instructions and manage several abstract and concrete variables"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Project 8",
+            "description": [
+                "Client: Northern Trust",
+                "Job Title: Lead Business Analyst, Data Analyst",
+                "Location: Chicago IL"
+            ],
+            "skills": [
+                "Tableau",
+                "Hadoop",
+                "SQL",
+                "PL/SQL",
+                "Informatica",
+                "Swimlane diagram",
+                "Star Schema Modelling",
+                "Snow Flake Modelling",
+                "ETL Tools"
+            ]
+        },
+        {
+            "project": "Project 7",
+            "description": [
+                "Client: Bank of America Merrill Lynch",
+                "Job Title: Sr. Business Analyst, Data Integration CMIT Team",
+                "Location: Manhattan, NY"
+            ],
+            "skills": [
+                "Tableau",
+                "Hadoop",
+                "SQL",
+                "PL/SQL",
+                "Informatica",
+                "Swimlane diagram",
+                "Star Schema Modelling",
+                "Snow Flake Modelling",
+                "ETL Tools"
+            ]
+        },
+        {
+            "project": "Project 6",
+            "description": [
+                "Client: Nordea Bank, Denmark",
+                "Job Title: Business Analyst, SIR Team",
+                "Location: Mumbai, India"
+            ],
+            "skills": [
+                "JIRA",
+                "Actuate 7",
+                "Hadoop stack",
+                "HDFS",
+                "PII & PCI standards",
+                "Desktop Databases",
+                "Methodologies",
+                "Dashboard Tools",
+                "Other domain tools",
+                "Modeling Tools",
+                "ETL Tools"
+            ]
+        },
+        {
+            "project": "Project 5",
+            "description": [
+                "Client: State Street Bank, Ireland & Poland",
+                "Job Title: Transition Manager & Process Manager, Hedge Fund Reconciliation",
+                "Location: Chennai, India"
+            ],
+            "skills": [
+                "JIRA",
+                "Actuate 7",
+                "Hadoop stack",
+                "HDFS",
+                "PII & PCI standards",
+                "Desktop Databases",
+                "Methodologies",
+                "Dashboard Tools",
+                "Other domain tools",
+                "Modeling Tools",
+                "ETL Tools"
+            ]
+        },
+        {
+            "project": "Project 4",
+            "description": [
+                "Client: Pranas Accounting Services, USA",
+                "Job Title: Analyst, Go System application development",
+                "Location: Chennai, India"
+            ],
+            "skills": [
+                "JIRA",
+                "Actuate 7",
+                "Hadoop stack",
+                "HDFS",
+                "PII & PCI standards",
+                "Desktop Databases",
+                "Methodologies",
+                "Dashboard Tools",
+                "Other domain tools",
+                "Modeling Tools",
+                "ETL Tools"
+            ]
+        },
+        {
+            "project": "Project 3",
+            "description": [
+                "Client: Deutsche Bank NY Securities",
+                "Job Title: Business Analyst, Work Flow Tool - Automation",
+                "Location: Bangalore, India"
+            ],
+            "skills": [
+                "JIRA",
+                "Actuate 7",
+                "Hadoop stack",
+                "HDFS",
+                "PII & PCI standards",
+                "Desktop Databases",
+                "Methodologies",
+                "Dashboard Tools",
+                "Other domain tools",
+                "Modeling Tools",
+                "ETL Tools"
+            ]
+        },
+        {
+            "project": "Project 2",
+            "description": [
+                "Client: Deutsche Bank NY Securities Inc, USA",
+                "Job Title: Process Supervisor, Trade Confirmation & Risk Management",
+                "Location: Bangalore, India"
+            ],
+            "skills": [
+                "JIRA",
+                "Actuate 7",
+                "Hadoop stack",
+                "HDFS",
+                "PII & PCI standards",
+                "Desktop Databases",
+                "Methodologies",
+                "Dashboard Tools",
+                "Other domain tools",
+                "Modeling Tools",
+                "ETL Tools"
+            ]
+        },
+        {
+            "project": "Project 1",
+            "description": [
+                "Client: S.S. Patra and Associates",
+                "Job Title: Account Assistant, Audit Engagements",
+                "Location: Odisha, India"
+            ],
+            "skills": [
+                "JIRA",
+                "Actuate 7",
+                "Hadoop stack",
+                "HDFS",
+                "PII & PCI standards",
+                "Desktop Databases",
+                "Methodologies",
+                "Dashboard Tools",
+                "Other domain tools",
+                "Modeling Tools",
+                "ETL Tools"
+            ]
+        }
+    ],
+    "certifications": [
+        "Certified Transition Manager, 2014 – SSHS",
+        "Best Team Management Award, 2013 –SSHS, awarded for a smooth transition of State Street Phase 6 clients which included 12 Hedge Fund clients",
+        "Best Team Lead Award, 2013 – State Street HCL Services Ltd",
+        "Outstanding Performer Award,2011 – Deutsche Bank Operation India",
+        "Best Team Award, 2011 – Deutsche Bank Operations India",
+        "Awarded twice as the Star performer at HCL Technologies, 2007",
+        "Employer of Choice – Active Learning Committee member in Deutsche Bank. I had organized many events related to learning, management training, leadership skills, motivational seminars & fun learning activities"
+    ],
+    "activities": [
+        {
+            "activity": "Business Analyst Professional – L&T, 2015",
+            "role": "Participant",
+            "responsibility": [
+                "Learned the concepts of Business Analysis"
+            ]
+        },
+        {
+            "activity": "Mastering Business Analysis – Fhyzics, 2015",
+            "role": "Participant",
+            "responsibility": [
+                "Learned the advanced concepts of Business Analysis"
+            ]
+        },
+        {
+            "activity": "Transition Management Academy – State Street Bank, 2014",
+            "role": "Participant",
+            "responsibility": [
+                "Learned the concepts of Transition Management"
+            ]
+        },
+        {
+            "activity": "Business Analysis - 2011",
+            "role": "Participant",
+            "responsibility": [
+                "Learned the concepts of Business Analysis"
+            ]
+        },
+        {
+            "activity": "Training Facilitation Skill, 2011 – Deutsche Bank, 2011",
+            "role": "Participant",
+            "responsibility": [
+                "Learned the concepts of Training Facilitation Skill"
+            ]
+        }
+    ],
+    "honors": [
+        "Certified Transition Manager, 2014 – SSHS",
+        "Best Team Management Award, 2013 –SSHS, awarded for a smooth transition of State Street Phase 6 clients which included 12 Hedge Fund clients",
+        "Best Team Lead Award, 2013 – State Street HCL Services Ltd",
+        "Outstanding Performer Award,2011 – Deutsche Bank Operation India",
+        "Best Team Award, 2011 – Deutsche Bank Operations India",
+        "Awarded twice as the Star performer at HCL Technologies, 2007",
+        "Employer of Choice – Active Learning Committee member in Deutsche Bank. I had organized many events related to learning, management training, leadership skills, motivational seminars & fun learning activities"
+    ],
+    "userDetails": {
+        "name": "Ram Prusty",
+        "skills": [
+            "Tableau",
+            "Hadoop",
+            "SQL",
+            "PL/SQL",
+            "Informatica",
+            "Swimlane diagram",
+            "Star Schema Modelling",
+            "Snow Flake Modelling",
+            "ETL Tools",
+            "JIRA",
+            "Actuate 7",
+            "Hadoop stack",
+            "HDFS",
+            "PII & PCI standards",
+            "Desktop Databases",
+            "Methodologies",
+            "Dashboard Tools",
+            "Other domain tools",
+            "Modeling Tools"
+        ]
+    }
+}

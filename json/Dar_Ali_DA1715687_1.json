@@ -1,0 +1,138 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Punjab University",
+        "degree": "Bachelors in Computer Sciences",
+        "graduation": "2012",
+        "courses": [],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "West-Ward Pharmaceutical Corporation, Dallas, TX",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "February 2021-Present"
+            ],
+            "responsibilities": [
+                "Proven experience in facilitating the implementation of LIMS within laboratory environments. Work closely with the development team to design and implement clinical applications that meet the requirements of the R&D teams. Skilled in gathering requirements, conducting gap analysis, coordinating with stakeholders, and overseeing the configuration and customization of the LIMS system to meet the specific needs of the laboratory. Lead role to Configure and Customize Labware Electronic Laboratory Notebook to all labs and working on Labware Automation projects. An excellent team member with an ability to perform individually and interpersonal relationship, good communication skills, hardworking and high level of motivation. Collaborate with stakeholders, including researchers, clinicians, and IT professionals, to gather and analyze requirements for clinical applications in the R&D domain. Train and support internal and external clients and Maintain local hardware. Execute business analysis processes to facilitate the user/function/design relationships within the LIMS system including documentation and test scripting. Build and support Lab Ware LIMS specific processes like batch/lot creation, quality disposition, and sample chain of custody. Facilitate communication and collaboration between R&D, clinical, and IT teams to ensure a holistic understanding of project requirements and goals. Worked with technical teams to configure and customize Ciebel CTMS to align with specific clinical trial protocols and workflows. Conducted validation and configuration of LIMS module as per 21 CFR part 11 Compliance. Support for Core LIMS, EM LIMS and AHS LIMS and resolve issues in a timely manner. Expert technical knowledge and experience with SQL (writing SQL queries), Crystal Reports, Excel & Access. Developed training materials and conducted user training sessions to educate clinical teams on effectively using Ciebel CTMS. Strong analytical and problem-solving skills to address complex issues in clinical applications. Experience in liaising with BPO vendors, negotiating contracts, and ensuring service level agreements (SLAs) are met. Facilitated knowledge transfer between in-house teams and BPO providers, ensuring a smooth transition and ongoing support. Collaborated with stakeholders to streamline operations, reduce redundancies, and enhance overall efficiency using LIMS functionalities. Strong support to User training and management of users and roles. Experience in integrating clinical instruments with Labware LIMS and Familiar with stability and environmental monitoring and Pharma Template Module. Provide primary support for 2 ‘US’ LIMS software deployments and secondary support for 3 Canadian deployments HTML, JavaScript, Visual Basic, SQL. Proficient in SQL, T-SQL, PL/SQL Programming with exposure to RDBMS using Oracle, SQL Server. Experience in genomics LIMS System using Labware for Genomics Department. Involved in developing eClinical solutions (EDC, IWRS, CTMS and eTMF systems) to single SaaS ClinPlus eClinical Platform. Worked with life science organizations to analyze their current infrastructure and provide suggestion new ways to bring efficiency. Extensively involved in Data Modeling, Generating various reports using complex sql's. Implemented Crosstab Reports and running the macros in excel from Labware LIMS to generate crosstab style reports. Good experience in report customization via the use of Grouping, Sorting, Field Highlighting, Conditional Formatting, Running Totals, Summaries, Static & Dynamic Parameters, Static & Dynamic Graphic Objects, Custom Formulas and Custom Functions (SQL Queries). Manage Static Data and adding new entries in the system and Working closely with LIMS automation manager to automate the Laboratory Process in Biologics, Analytical Chemistry and Animal Health Sciences. Skills in generating custom reports and data visualizations for stakeholders, aiding in data-driven decision-making. Used the Office Suits extensively which included MS Word, MS excel, MS Access, MS Visio also Smart sheet for various documentation and analysis reports. Developed Traceability Matrix matching URS and UAT for various release efforts for Labware LIMS. Executed OQ and PQ test scripts and generated Test Summary Reports. Interacted with the Lead user and wrote PQ scripts and was responsible for User Acceptance Testing (UAT). Communicated pertinent LIMS Requirements to site/system owners and gained consensus with management, IT, QA and scientists of departmental requirements. Designed the Test Cases, Test Plans for all the processes using HP ALM and tracked defects on JIRA, hence was part of Black Box Testing, and was part of Interface Testing, System Testing."
+            ]
+        },
+        {
+            "company": "Arog Pharmaceuticals, Inc., Dallas, TX",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "March 2019 – January 2021"
+            ],
+            "responsibilities": [
+                "Part of an ongoing implementation, configuration, and validation for Lab Ware LIMS project. Involved in the computer system validation (CSV) lifecycle, which matches with FDA regulations particularly 21 CFR part 11 and validation requirements like reporting features, password regulatory rules, password aging and session time-out for the LIMS system. Coordinate business meetings to gather details and make decisions regarding or affecting process. Participate in identification of validation risks. Understand current business process and gather requirements from SME and Stakeholders. Worked with the following modules: Stability Manager, Environmental Monitoring, Process Scheduler, Workflow Management, and Configuration Package. Design, update, develop, repair new and modified features of software applications using LIMS Basic (Labware LIMS), Crystal Reports, Transact-SQL per specifications. Documented deviation reports and maintained deviation report log for tracking during OQ testing. Used out of box configuration tools to integrate multiple platforms with Windows Server and Microsoft Exchange. Supported the review and continued refinement of current state business process mapping and workflow diagrams. Re-designed Labware LIMS application to combine the requirements for three LIMS systems in an effort to increase user satisfaction and productivity, without increasing resources. Perform quality checks on peer documentation and in defect/review management. Ensure site on-time implementation through support of requirements definition, functional and technical design, system validation, SOP revisions and development. Create documentation to describe existing processes and proposed changes including overall design, functional specifications and data flow. Maintain Traceability Matrix to map all requirements, SDLC deliverables and updating and routing document for approval in PDOCS. Update and maintained Traceability Matrix for applications. Experience in conducting Joint Application Development (JAD) sessions for requirements gathering, analysis, design and Rapid Application Development (RAD) sessions. Designed and configured ELN templates for research labs workflows using IDBS E-Workbook (Bio Book). Hand on Experienced in working in a GXP, cGMP, GLP, GCP & GDP environment, ensure that LIMS complies with all relevant regulatory standards. Validated Lab Ware LIMS to meet 21 CFR Part 11 FDA Regulations. Strong knowledge of regulatory guidelines and standards relevant to the laboratory industry, such as FDA, GLP, GMP, ISO, etc. Successfully leading or participating in the implementation of LABWARE LIMS in laboratories or research facilities. Structured workflow for entire content lifecycle from early research and development (R&D) through e-Submission. Creating database, creating and maintaining database tables, views and users. Develop custom reports using Crystal Reports. Involved in planning, defining and collecting date based on business requirement and provided documentation for further reference. Developed business and system requirements documentation, program functions, best practices (GMP, GLP, and GxP), FDA validation, and 21 CFR Part 11 conditions in a highly regulated environment, for submission of regulatory documents pertaining to drug development. Worked on a database driven web based CTMS solution for tracking regulatory and clinical data in a clinical trials environment. Conducted operational testing of Labware LIMS software and involved in writing of Operational Qualification of various LIMS modules. Developed Performance Qualification (PQ) Test Plan and documented PQ test strategy and test scope. Assisted in user testing of systems, developing and maintaining quality procedures and ensuring that appropriate documentation is in place."
+            ]
+        },
+        {
+            "company": "Actinium Pharmaceuticals, NYC, NY",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "September 2017 – February 2019"
+            ],
+            "responsibilities": [
+                "Multiple Projects and Service requests were assigned, One of the Pharmacy Project assigned was for creating the drug claims processing system and work on different modules like provider enrollment, member enrollment and coverage. Other part of Pharmacy project was to provide 50MDP discount for particular drugs which involves the new fields from source system and generating new tables into Enterprise Data ware house and their effects on downstream applications plus Business Intelligence (BI) analysis. Served as a backup of subject matter expert (SME) and worked with senior level management to identify impacts, analyze issues and drive solutions for the ICD 10 initiatives. Used ICD 9/ ICD 10 code sets for business analysis for conducting business impact assessment, perform gap analysis, and document impacted medical policies and business processes. Under the guidance of the Project Manager, provided business and technical consulting services to for ICD 10 remediation and other concurrent business requirements as a result of the ICD 10. Facilitate meetings with Confidential’s internal and business team for ongoing business analysis and to communicate multiple projects status to respective project managers. Analyzed workflow process to derive requirements for existing system enhancements and Business Process Modeling (BPM) efforts using WebSphere Business Modeler in Business Intelligence (BI) analysis. JAD sessions were done with business and business requirements were gathered before working on requirements document as an analyst from Enterprise data warehouse team for Healthcare Claim processing. Work Product Inspection (WPI) first by team lead and then Work Product Review (WPR) by whole team including key business team were part of responsibilities to be performed after every requirements document, translation rules report (using Confidential 's Enterprise Data ware (EDW) house's in-built tool-DAISE). Experience with Coordination of Benefits (COB) rules. Worked on clinical content and professional services to enable interoperability, ICD 10 conversion, Web-based Terminology Mapping. Tested Schemas of EDI ANSI X12 Claims (835-Payment and Remittance advice, 276/277-Claim status request and response, 270/271-Eligibility Inquiry) and Eligibility forms in XML. Service Requests (SR) was assigned which are extensions of the main projects as a result of any major change in the business requirements. One of the Service Request was to work on Member Eligibility table and Group Eligibility Program table to change to logic on back related to Behavioral Health Case Management (BHCM) and Medical Case Management (MCM) indicators. Responsible for Projects on 4010 and 5010 translation by adding 4010 5010 indicator and Pharma domain for 50MDP discount on Medicare drugs for Low Income Cost & Subsity (LICS) group. Worked on Logical Data Model (LDM) designed by DBA to gather and match new fields and respective data types with source file from Architecture team and made simple to complex translation rules (psedo code with if else statements) in costume-build technical specification tool, DAISE for developers and Congo’s for Business Intelligence (BI) team . Main Frame (MF) and Extract Transformation Load (ETL) technical specification documents were made with Source to Target mapping information added to it. Analyzed Claim Data and checked the Data Quality Report to determine if there is any Data Issues. Conducted Unit Acceptance Testing (UAT), System Integration Testing (SIT), and regression testing of confidential member eligibility system."
+            ]
+        },
+        {
+            "company": "Phrixus Pharmaceuticals Inc., Ann Arbor, MI",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "March 2016 – August 2017"
+            ],
+            "responsibilities": [
+                "The project involved gathering the requirements to build specifications and generating reports in accordance with the FDA regulations, Business processes and CFR 21 Part 11 Standards. Analyzed and Documented Business Requirement Document (BRD), Functional Specification Documentation, and System Requirement Documentation, using UML methodologies. Prepared Use cases and Activity flow diagrams and Workflow diagrams, considering the scope of the project with MS VISIO. Responsible for gathering, analyzing, documenting and validating requirements for the development of a Laboratory Information Management System (LIMS) for clinical laboratory processes within the Hospital. Represented department in cross-functional teams, projects, and GXP-related problem resolution. Conducted interviews, sessions, workshops to gather and document business requirements (BRD) and subsequently translate them into functional requirements (FRD). Worked on the determining the custom requirements for e-Learning with LIMS for stability studies. Gathering and documenting business requirements; going above and beyond to understand the client's complete business needs for Labware LIMS. Developed and maintained Learning Management system (LMS) for the administration, documentation, tracking, reporting and delivery of educational courses or training programs to students. Knowledge on business cases, followed GxP, 21 CFR part 11 regulations providing deliverables to the pharmaceutical line of business. Involved in Preparing and processing the filed clinical documentation and reports. Provided recommendations on Labware LIMS processes while focusing on industry best practices and commercial off the shelf functionality. Coordinated with R&D, clinical trials, manufacturing, regulatory affairs and know the process of NDA application. Worked on Guiding LMS stakeholder teams in delivering a new online learning platform that will serve employees. Configuring the overall design of the Moodle 2 site including the various add-on components. Strong knowledge of the Systems Development Life Cycle (SDLC) models such as Waterfall. Involved in the documentation of various artifacts as per the FDA 21 CFR Part 11 considerations. Worked particularly on LIMS, handling data for lab and also processing, tracking, storing and reporting various analytical data and records. I worked both on static data and dynamic data. Interacted with various departments in the hospital and Lab to gather requirements using different applications like Track wise for Laboratory Information Management Systems (LIMS) and EPIC modules. Worked on data extraction, analysis, refining, migration and loading of data into MDM database through ETL process. Responsible for writing user stories, acceptance criteria, preparing process flow diagrams, use cases, activity diagrams, sequence diagrams, behavioral UML diagrams and wireframes. Involved in design and implementation of Progression and Regression Tests and reviewed Test Plan and Test Cases. Assisted and executed Test cases and test scripts per Functional Specifications of the application. Documented test/cases, test results, test procedure and reported to client."
+            ]
+        },
+        {
+            "company": "Aventis Pharmaceuticals Inc., Bridgewater, NJ",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "May 2015 – February 2016"
+            ],
+            "responsibilities": [
+                "Assisted in developing tailored enterprise architectures that are fully consistent with CMS requirements. Reviewed MMIS documents to understand the customer requirements. Performed Gap analysis between customer requirements and the MMIS solution. Created data model diagrams to perform detailed data requirements analysis and create design specifications and operational documentation. Planned and defined system requirements to Wire Frames with Use Case, Use Case Scenario and Use Case Narrative using the UML (Unified Modeling Language) methodologies. Worked with the MMIS application development team on dependencies with the ongoing project. Directed and participated with others in the planning, development, implementation, maintenance, and evaluation of clinical or business application systems as assigned. Involved in implementation of HIPAA EDI Transactions (835,837) and facilitated Electronic Data Interchange. Extensively involved in data modeling, Data mapping, logical data modeling, created class diagrams and ER diagrams and used SQL queries to filter data within the Oracle database. Utilized ETL to work with various databases and Data Modelling. Worked closely with Data Architects and ETL Leads/Managers and was responsible to perform detailed data requirements analysis and create design specifications and operational documentation. Prepared Test Reports and Deliverables and submitted for version releases. Prepared Test Plans for each release, written Test Cases and executed them as part of Functional Testing."
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Dar Ali",
+        "skills": [
+            "Business Analysis",
+            "Clinical Trials",
+            "CTMS",
+            "Clinical Data Management",
+            "EDC",
+            "eTMF",
+            "IWRS",
+            "SDLC",
+            "Waterfall",
+            "Agile",
+            "RUP",
+            "HIPAA",
+            "21 CFR Part 11",
+            "GxP",
+            "GLP",
+            "GMP",
+            "CAPA",
+            "GRP",
+            "EMR",
+            "EHR",
+            "QMS",
+            "FDA QS 21 CFR 820",
+            "211",
+            "Pharmaceutical",
+            "Life Science",
+            "cGMP",
+            "cGLP",
+            "cGDP",
+            "BPO",
+            "Pharmaceutical Supply Chain",
+            "Demand Forecasting",
+            "Inventory Management",
+            "Procurement",
+            "Distribution",
+            "Labware LIMS",
+            "Genomics LIMS",
+            "ClinPlus eClinical Platform",
+            "RWD",
+            "RWE",
+            "Salesforce CRM",
+            "Force.com platform",
+            "Communities",
+            "Sites",
+            "LIMS Basic Development",
+            "Labware LIMS modules installation",
+            "Static and dynamic data migration",
+            "Excel",
+            "SQL",
+            "Statistical Software",
+            "Data Governance",
+            "Privacy Regulations",
+            "Data Security",
+            "Compliance Regulations",
+            "GDPR",
+            "HIPAA",
+            "JAVA/J2EE/XML/BPM applications",
+            "Appian 16.2, 16.3, 17.1, 17.X, 18.X",
+            "Linux/Unix based environment",
+            "Software Development Lifecycle (SDLC) and Validation Lifecycle",
+            "Manual and Automated Testing",
+            "Mercury and Rational Suite of Tools",
+            "Rational Requisite Pro",
+            "JIRA",
+            "Version One",
+            "HP ALM",
+            "Test Plans and Test cases",
+            "UAT",
+            "User Certification Testing (UCT) and Operational Readiness Testing (ORT)"
+        ]
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "certifications": [
+        "Hardware & Networking Certification Course from IT Source, Parel"
+    ],
+    "education": {
+        "degree": "B.com",
+        "institution": "Pune University",
+        "graduation": "Passed",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Reliance HR Services",
+            "dates": [
+                "Dec 2010",
+                "March 2012"
+            ],
+            "role": "Desktop level Engineer",
+            "responsibilities": [
+                "Technical support engineer",
+                "Lotus notes configuration",
+                "Provide Software and Hardware support to end users"
+            ]
+        },
+        {
+            "company": "CMS Computer LTD",
+            "dates": [
+                "Aug 07",
+                "Nov 2010"
+            ],
+            "role": "Desk top level Engg",
+            "responsibilities": [
+                "Desktop support Engineer"
+            ]
+        },
+        {
+            "company": "Trimax Computer ltd",
+            "dates": [
+                "Nov 2006",
+                "July 07"
+            ],
+            "role": "Customer Support Engineer",
+            "responsibilities": [
+                "Hardware support engineer",
+                "OS installation"
+            ]
+        },
+        {
+            "company": "Zaportive.com",
+            "dates": [
+                "Dec 2020",
+                "till date 2021"
+            ],
+            "role": "N/A",
+            "responsibilities": [
+                "Work on SNOW Ticketing Tools",
+                "Support on Teams, Phone , Mails",
+                "Citrix user Id creation",
+                "Office 365 support",
+                "Network Files and folder permission",
+                "Domain password set-reset",
+                "All Engineering software installation",
+                "Hardware and software support"
+            ]
+        },
+        {
+            "company": "Aforeserve.com LTD",
+            "dates": [
+                "June 2016",
+                "30th June 2020"
+            ],
+            "role": "Technical support Engineer",
+            "responsibilities": [
+                "Ticketing Tools, SNOW",
+                "Office 365 support",
+                "Troubleshooting of all IT peripherals",
+                "Office 365 users add and remove license",
+                "Office 365 delete users, set and reset password",
+                "Active Directory users, computers and groups management",
+                "File and folder permission",
+                "Installation and troubleshooting of Office 365, Skype and lotus notes",
+                "CUCM Cisco Phone configuration",
+                "User management to resolve the daily queries related problem, Software and Hardware",
+                "Daily monitoring all network devices (Switches, Router, Printers and VC",
+                "Configure network Printers",
+                "End user Hardware and software support"
+            ]
+        },
+        {
+            "company": "Genius Infotek",
+            "dates": [
+                "Jan 15",
+                "30 June 2016"
+            ],
+            "role": "Technical support Engineer",
+            "responsibilities": [
+                "Handling Service desk and change management",
+                "Installation and troubleshooting of Office 365, Skype and lotus notes",
+                "Performing Backup/Restore of Databases such as System databases, user databases",
+                "Controlling Wi-Fi Access Management for internal & External Users",
+                "CUCM Cisco Phone configuration",
+                "User management to resolve the daily queries related problem, Software and Hardware",
+                "Active directory user Management"
+            ]
+        },
+        {
+            "company": "Wipro InfoTech",
+            "dates": [
+                "Sept 2012",
+                "Dec 14"
+            ],
+            "role": "Desktop Support Engineer",
+            "responsibilities": [
+                "Taking daily backup Active directory and DMT Backup",
+                "SAP Password Lock – Unlock",
+                "Deployment of Antivirus on Client machines, updating virus database, creating of security policies to block and enable USB ports, CD Rom, Scanner and applying those policies to specific group of computers",
+                "Installed and troubleshoot of MS Outlook",
+                "Taking Daily Active Directory, Exchange server backup from Symantec end point software"
+            ]
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "Mohan Gurunath Panse",
+        "skills": [
+            "SNOW Ticketing Tools",
+            "Teams",
+            "Phone",
+            "Mails",
+            "Citrix",
+            "Office 365",
+            "Network Files and folder permission",
+            "Domain password set-reset",
+            "Engineering software installation",
+            "Hardware and software support",
+            "Ticketing Tools, SNOW",
+            "Troubleshooting of all IT peripherals",
+            "Office 365 users add and remove license",
+            "Office 365 delete users, set and reset password",
+            "Active Directory users, computers and groups management",
+            "File and folder permission",
+            "Installation and troubleshooting of Office 365, Skype and lotus notes",
+            "CUCM Cisco Phone configuration",
+            "User management to resolve the daily queries related problem, Software and Hardware",
+            "Daily monitoring all network devices (Switches, Router, Printers and VC",
+            "Configure network Printers",
+            "End user Hardware and software support",
+            "Handling Service desk and change management",
+            "Performing Backup/Restore of Databases such as System databases, user databases",
+            "Controlling Wi-Fi Access Management for internal & External Users",
+            "Active directory user Management",
+            "Taking daily backup Active directory and DMT Backup",
+            "SAP Password Lock – Unlock",
+            "Deployment of Antivirus on Client machines, updating virus database, creating of security policies to block and enable USB ports, CD Rom, Scanner and applying those policies to specific group of computers",
+            "Installed and troubleshoot of MS Outlook",
+            "Taking Daily Active Directory, Exchange server backup from Symantec end point software"
+        ]
+    }
+}

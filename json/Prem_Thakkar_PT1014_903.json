@@ -1,0 +1,170 @@
+{
+    "certifications": [
+        "CCNA",
+        "CCNP",
+        "CERTIFIED"
+    ],
+    "experiences": [
+        {
+            "company": "First Data Corporation",
+            "role": "Sr. Network & Security Engineer",
+            "responsibilities": [
+                "Designing, implementation and driving of new security solutions aligned with business strategy, ensuring a robust and fully secured infrastructure environment for the organization",
+                "Consultation on network and information security related projects",
+                "Planning of network security solutions ensuring that best practices are followed during the delivery, implementation and maintenance of security solutions",
+                "Contributing to periodical ISMS policy reviews",
+                "Designing, implementation, optimizations of overall organizational network security solutions with security infrastructure - Firewalls, VPNs, IPS, Load Balancersetc. (Technologies-Checkpoint-Power-1, Open Servers, Palo Alto 5050, 5020, CiscoASA 5520, McAfee NS 7200, SonicWall Aventail, Blue Coat, Tufin, Infoblox etc.)",
+                "Assessment of overall network security infrastructure periodically to enhance the effectiveness and efficiency of the security solutions, provided",
+                "Worked on staging the A10 configuration on the architecture standards from the scratch",
+                "Contributing for periodic audit reviews to maintain ISO 27001 security certification levels",
+                "Collaborating with partners for new security solutions, for the business needs",
+                "Installed, configured and managed Cisco routers such as 7200 series, 3800 series, 3700 series, 2800 series and Cisco Catalyst switch series 6500, 4500, 3500, and 2900",
+                "Upgraded the data center network environment with Cisco ASA 5520",
+                "Performed Provisioning and implementations on Juniper MX960 series and Juniper EX Enterprises",
+                "Designed, Implemented and Troubleshot Cisco 3750, 3550, 3560, 2924, 6509-V-E, 6513, 6504, 6503, 6506, 6500 series switches, GSR, ASR routers with Cisco IOS and IOS-XR and NX",
+                "Responsible for the identification, monitoring, analyzing, sectionalizing and referring of circuits impairments in support of IP services including DNS/DHCP/ATM/Frame Relay Configurations and troubleshooting workstation connectivity",
+                "Daily tasks consist of design, engineer, implement, support and document for LAN/WAN, routing, switching, VPN configuration, firewalls, including Production and Non-Production Data-Centers",
+                "Working on frame relay, MPLS services, OSPF, BGP and EIGRP routing protocols, NAT’ing, NAC product sub-netting, also including DNS, LDAP, DHCP, http, HTML, HTTPS, TCP/IP, UDP, SNMP, OSPF, RIP, IPSEC, PPTP, VLAN, STP (Spanning tree Protocol), RTSP & Multicasting protocols",
+                "Responsibilities include providing real time in-depth analysis and real-time trouble resolution of incidents associated with the CISCO, Juniper, and associated Operations Support Systems, and Data Communications Network Technology platforms",
+                "Configuring, implementing and maintaining of Cisco firewalls (ASA 5505, 5510), Cisco Routers, Cisco Switches",
+                "Configuring, troubleshooting and maintaining the SOPHOSfirewalls in various locations",
+                "Worked on design and implementation of Virtual Switching System (VSS) for both User segment and server segment using 6509-V-E catalyst switches",
+                "Workedon Installation, Configuration and troubleshooting of Checkpoint and Cisco ASAfirewall",
+                "WorkedonCheckpoint Firewall, Security and Network Administrator as well as a Cisco Certified Network Associate (CCNA), routing and switching",
+                "Worked with design and implementation of Data center migration",
+                "Conducts in-depth analysis of circuit impairments by accessing data output from a multitude of support systems such as SIT/UAT/NFT"
+            ],
+            "dates": [
+                "July2016 to Till Date"
+            ]
+        },
+        {
+            "company": "Barclays Card",
+            "role": "Sr. Network Engineer",
+            "responsibilities": [
+                "Configuration of Network and Security devices such as Cisco routers and switches (Cisco ASR 1K, 9K, 7K/5K).",
+                "Hands on experience on Cisco Switches 6500, 4900, 4000, 3750, 3500, 2900 series switches and 7200, 2900 series routers",
+                "Configuring and implementing monitoring tools like Zabbix, Nodeping, New Relic, Pagerduty, and AWS",
+                "Prepared network diagrams, documenting on confluence about issues and solutions",
+                "Configuring the check for monitoring the devices like web servers, routers, modems, switches, firewalls, application servers, load balancers and other servers",
+                "Configuring, implementing and maintaining of Cisco firewalls (ASA 5505, 5510), Cisco Routers, Cisco Switches",
+                "Configuring, troubleshooting and maintaining the SOPHOSfirewalls in various locations",
+                "Enabling the encryption of system passwords to prevent unauthorized users access to passwords in the system configuration",
+                "Experience in working with Cisco Nexus Switches and Virtual Port Channel configuration",
+                "Experience with Checkpoint VSX, including virtual systems, routers and switches",
+                "Experience with DNS/DFS/DHCP/WINS Standardizations and Implementations",
+                "Configured policy statements, routing instances, route manipulation on RIP, OSPF and BGP",
+                "Configuring secure privileged administrative access to the Cisco IOS system",
+                "Planning, design, implementing and troubleshooting complex networks and advanced technologies",
+                "Provide support to the NAC on turn up of customers as well as providing point of contact for any issues that arise during or after customer turn up",
+                "Configured secure access to the console and vty ports, and set the interval that the EXEC command interpreter waits until user input is detected on the Console and vty ports",
+                "Configuring the console and vty ports log messaging to not interfere with active device configuration",
+                "Configured and administrated VLAN Trunking Protocol to reduce administrative overhead. Enable secure sharing of VLAN information to prevent the introduction of rogue devices from affecting the VLAN database",
+                "Shutting down unused switches ports following Layer 2 security best practices"
+            ],
+            "dates": [
+                "Aug2015 to June 2016"
+            ]
+        },
+        {
+            "company": "Dart Container Corp",
+            "role": "Sr. Network Security Engineer",
+            "responsibilities": [
+                "Configured and installed Cisco 3700 series routers and Cisco 2950 series switches. Responsible for changing router ACL's as required and troubleshooting link failures with ISP's",
+                "Installation and Configuration; design; test and turn ups of the NEXUS 3700; 5000; 6500 & 7000 series Switches Hardware",
+                "Switches: Basic Configuration and VLAN/VTP/Spanning tree setup on Cisco 3800, 6500, WDN 6K Nexus/FexusSwitches",
+                "Configured Cisco ASA 5510 for VPN Network Access Control integration with CiscoSecure ACS",
+                "Performed Hardware Platform maintenance for the following Cisco routers (Cisco GSR/CRS).",
+                "Performed all test and turn up for BGP/MPLS/OSPF networks installations",
+                "Performed RFC 2547bis for VPN implementation with BGP protocols",
+                "Advanced knowledge in TCP/IP suite and routing protocols, such as OSPF, BGP, and EIGRP",
+                "Advanced knowledge in Data Center Technologies such as Cisco Nexusplatforms and NX-OS",
+                "Highly Experienced in Cisco Catalyst 6500 Platform and its Service Modules",
+                "Router: Basic Configuration and monitoring of Cisco 9K, 71w",
+                "Configured Cisco Routers using BundleEthernet, RIP, IGRP, OSPF, and EIGRP",
+                "Good understanding of OSI Model, TCP/IP protocol suite (IP, ARP, ICMP, TCP, UDP, SMTP, FTP, TFTP)"
+            ],
+            "dates": [
+                "July 2014 to June 2015"
+            ]
+        },
+        {
+            "company": "TCS America",
+            "role": "Network Security Engineer",
+            "responsibilities": [
+                "Routing protocol: used EIGRP, OSFP, Static, and Static Routes",
+                "Designed and implemented data cloud solutions",
+                "Designed and implemented EIGRP, OSFP, VPN, and Site to site VPN",
+                "Performed upgrades to Cisco Switches from 5000, 6500",
+                "Member to a team of professionals responsible for the design, installation, configuration, monitoring and maintenance related to the IT infrastructures",
+                "Managed Help desk staff on day to day activities",
+                "Configuring HSRP between the 3845 router pairs of Gateway redundancy for the client desktops",
+                "Configuring GLBP, VLAN Trunking 802.1Q, STP, Port security on Catalyst 6500 switches",
+                "Responsible for service request tickets generated by the helpdesk in all phases such as troubleshooting, maintenance, upgrades, patches and fixes with all around technical support",
+                "Involved in L2/L3 Switching technology administration including creating and maintaining VLANs, Port security, Trunking, STP, Inter VLAN Routing, LAN security",
+                "Configured CIDR IP RIP, PPP, BGP and OSPF routing",
+                "Worked on Proxy servers, SolarWinds network installation and monitoring billing system (200 work station to single Linux server) network performance for one-year time",
+                "Performed full wireless/wired network upgrades, skilled in designing, planning and implementing LAN/WAN solutions",
+                "Analyzed network service requests and troubleshooting performance issues with other groups",
+                "Participated network planning & design with multiple teams and documented network architecture, standards and procedures",
+                "Involved in configuring Cisco routers and switch administration with enterprise level Cisco Routers such as Cisco ASR1004, 7200 series, 3800 series, 3700 series, 2800series, and Cisco catalyst series switches like 6500, 3750 and 4500",
+                "Configuring and troubleshooting of routing protocols such as OSPF, MP-BGP, EIGRP, and BGP v4",
+                "Configuration and Installation of Cisco ASR1002, 3845 routers for the migration of branches to new MPLS cloudrollout",
+                "Migration of network connections from unsecured connections to secured connections. Such as Internet VPN to MPLSnetworks as main connections to the MPLS network",
+                "Provisioning and troubleshooting Ethernet services, Gigabit networks and Connectivityissues with WANcircuits connecting branches",
+                "Switching related tasks included implementing VLANS, VTP and configuring ISLtrunk on Fast - Ethernet channel between switches"
+            ],
+            "dates": [
+                "Feb 2010 to Jun 2014"
+            ]
+        }
+    ],
+    "education": {
+        "degree": "MS in Information Technology",
+        "institution": "FSU, Tallahassee, FL",
+        "graduation": "2009",
+        "gpa": null,
+        "courses": null
+    },
+    "honors": null,
+    "projects": null,
+    "activities": null,
+    "userDetails": {
+        "name": "Prem Thakkar",
+        "skills": [
+            "CCNA CCNP CERTIFIED professional with over 8 years of experience in network design, implementation, and support",
+            "Routing, switching, firewall technologies, system design, implementation and troubleshooting of complex network systems",
+            "Analyzing existing networks and suggestingrecommendations for design changes and upgrades to improve performance, efficiency, adaptability, and growth potential",
+            "Supported Load Balancers A10 &F5 LTM, F5 LTM VE (ESXi)and F5 Viprion c2400",
+            "Worked on F5 LTM, GTM series like 6400, 6800, 8800 for the corporate applications and their availability",
+            "Designed and implemented F5 load balanced environment at the data center",
+            "Worked on a plan for a new datacenter build using Viprion/vCMP to consolidate F5 infrastructure",
+            "Configuring GLBP, VLAN Trunking 802.1Q, STP, Port security on Catalyst 6500 switches",
+            "Expertise in installing, configuring, and maintaining Cisco Switches (2900, 3500,7600, 3700 series, 6500 series) Cisco Routers (4800, 3800, 3600, 2800, 2600, 2900, 1800, 1700, 800).",
+            "Hands on Knowledge/experience on F5 load balancers, its methods, implementation and troubleshooting on LTMs and GTMs",
+            "Worked on PIX (506, 515, 525, 535), ASA (5505/5510) Firewalls",
+            "Worked extensively on Cisco ASA,Palo Alto, Juniper Net screen and SRX Firewalls",
+            "Expertise in installing, configuring and troubleshooting Juniper Routers (J, M and MX-series).",
+            "Experience in installing and configuring DNS, DHCP server",
+            "Well experienced in configuring HSRP, GLBP, ICMP, PPP, PAP, OSPF, CHAP and SNMP",
+            "Configuration of Cisco wireless technology including Wireless LAN Control (WLC).",
+            "In-depth knowledge and hands-on experience in ISP Routing Policies, Network Architecture, IP Sub netting, VLSM, TCP/IP, NAT, DHCP, DNS, FT1 / T1 / FT3 / T3  SONET POS OCX / GigE circuits, Firewalls",
+            "Cisco Identity Services Engine (ISE) to simplify identity management across diverse devices and applications",
+            "Extensive experience dealing with Vendors for MPLS/DSL installations",
+            "Responsible for service request tickets generated by the helpdesk in all phases such as troubleshooting, maintenance, upgrades, patches and fixes with all around technical support",
+            "Involved in L2/L3 Switching technology administration including creating and maintaining VLANs, Port security, Trunking, STP, Inter VLAN Routing, LAN security",
+            "Involved in the configuration & troubleshooting of routing protocols: MP-BGP, OSPF, LDP, EIGRP, RIP, BGP v4",
+            "Hands-on experience with WAN (ATM/Frame Relay), Routers, Switches, TCP/IP, Routing Protocols (BGP/OSPF), and IP addressing",
+            "Configuring STP for switching loop prevention and VLANs for data and voice along with Configuring port security for users connecting to the switches",
+            "Experience in working with Cisco Nexus Switches and Virtual Port Channel configuration",
+            "Experience with Checkpoint VSX, including virtual systems, routers and switches",
+            "Experience with DNS/DFS/DHCP/WINS Standardizations and Implementations",
+            "Configuration of Network and Security devices such as Cisco routers and switches (Cisco ASR 1K, 9K,7K/5K).",
+            "Deploying and decommission of VLANs on core ASR 9K,MIX routers, Nexus 7K, 5K, HP switches and its downstream devices",
+            "Test network resilience & failover by oversubscribing links, capacity planning, apply vendor software updates",
+            "Managed Amazon Web Services like EC2, S3 bucket, RDS, EBS, ELB, Auto-Scaling, AMI, IAM through AWS",
+            "Efficiently used IAM roles and resources to communicate with the AWS users and resources",
+            "Design roles and groups for users and resources using AWS Identity Access Management (IAM)"
+        ]
+    }
+}

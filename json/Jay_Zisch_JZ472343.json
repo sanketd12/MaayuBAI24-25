@@ -1,0 +1,104 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "University of Colorado",
+        "degree": "Bachelor’s Degree in Computer Science",
+        "graduation": "",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Walgreens for iPad by Walgreens",
+            "role": "Senior Developer",
+            "dates": [
+                "08/12-current"
+            ],
+            "responsibilities": [
+                "Developed an iPad application in a team of 2 engineers",
+                "Worked with ImagePickerController to get access to and provide visual of locally stored photos",
+                "Created all the classes required for the making webservice request to send the image data   and other requests for download latest and synchronizing data related to weekly adds, shopping list",
+                "Integrated with social framework to allow access to the images albums available at the",
+                "Used core location and mapkit with custom annotations to show store located around user’s  current location",
+                "Various OOP practices were used including MVC, KVO, and Singleton architectures",
+                "Worked with XIB’s an developed an arc application."
+            ]
+        },
+        {
+            "company": "Zipcar by Zipcar",
+            "role": "Senior Developer",
+            "dates": [
+                "07/11-06/12"
+            ],
+            "responsibilities": [
+                "Developed iPhone/iPod compatible application",
+                "Worked with mapKit and core location for identifying user location and fetching available zipcar data for that location",
+                "Created model classes to handle backend and worked with ASIHTTP framework for networking and libXml parser for handling and parsing the incoming xml response",
+                "UIKit framework was used to implement visual designs from wireframes and documentation",
+                "Custom UI was implemented using Storyboarding",
+                "Security framework was used to implement username and password encryption system",
+                "Memory management system implemented was Automatic Reference Counting",
+                "Worked with one other developer",
+                "Planned goals using Agile methodology (SCRUM)"
+            ]
+        },
+        {
+            "company": "My FiOS by Verizon",
+            "role": "iOS Developer",
+            "dates": [
+                "05/10-06/11"
+            ],
+            "responsibilities": [
+                "Conducted memory management tests using Instruments and 3rd party frameworks",
+                "App stabilization by deducting bad memory access related crashes",
+                "Fixing other user interface related synchronization issues",
+                "Designed and implemented the  media query services to get the schedule data for the shows , photos and person videos from the online contents management servers",
+                "Designed  and implemented custom userInterface",
+                "Used MVC, KVO, and Singleton architectures to streamline code",
+                "User friendly UI was implemented using NIB files"
+            ]
+        },
+        {
+            "company": "Cook IT Allergy Free by My Allergy Free Recipes, LLC",
+            "role": "iOS Developer",
+            "dates": [
+                "02/09-04/10"
+            ],
+            "responsibilities": [
+                "Developed as an iPhone application",
+                "Compatible with iOS 3.1 or later",
+                "Developed using Xcode 3.2",
+                "Core Data framework was used to save recipes into a grocery list format",
+                "Back end was JSON and response was parsed using SBJSON framework",
+                "UIKit framework was used to design and implement user friendly UI",
+                "Facebook and Twitter APIs were implemented to share recipes on Facebook and Twitter",
+                "MessageUI was implemented to share recipes through text and email",
+                "Memory management system used was Manual Retain Release",
+                "Performed all tasks from UI design and implementation to writing code for various features",
+                "Primary task was to help consume and parse recipe JSON data from server for displaying to UI",
+                "Implemented feature to save recipe favorites with Core Data framework",
+                "Integrated Facebook and Twitter APIs for sharing recipes to Twitter and Facebook",
+                "Conducted internal bug testing and fixed bugs when notified by QA",
+                "Conducted memory management tests using Instruments"
+            ]
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "Jay Zisch",
+        "skills": [
+            "4 years of experience with Xcode, iOS Debugging, Cocoa Touch and Objective C",
+            "Experienced in using Grand Central Dispatch and NSOperationQueue to connect to server and get data response back",
+            "Worked with various frameworks including but not limited to: Flurry Usage, Google Usage, UIKit, Core Text, SBJSON, Facebook, and Twitter frameworks",
+            "1 year experience in developing both standalone applications and Universal applications",
+            "Familiar with data structures including Core Data, SQLite, and online databases",
+            "Designing and improving application flow using NIB files and working knowledge of Storyboards",
+            "Developed both native iPhone application and web based iPhone applications",
+            "Implementing application designs based on MVC architecture",
+            "Experienced with working with both teams locally and overseas",
+            "Experienced with using SCRUM, TDD, and Waterfall methodologies"
+        ]
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "certifications": [
+        "Project Management Professional/PMP - 2009",
+        "Program Management Professional (PgMP) - in progress",
+        "Member of the Project Management Institute/PMI",
+        "Microsoft Access/Visual Basic  Career Center   2000",
+        "Real Estate Broker   2001"
+    ],
+    "education": {
+        "institution": "Columbia University - School of Continuing Education",
+        "degree": "MS Degree, Technology Applications",
+        "graduation": "2003",
+        "courses": [
+            "MBA in Investment and Financial Management: Pace University - Lubin School of Business",
+            "BS Degree, Marketing Management and General Business: Deree College"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Citigroup",
+            "role": "Sr. Program/Project Manager - Anti-Money Laundering Program",
+            "dates": [
+                "May 2014-Present"
+            ],
+            "responsibilities": [
+                "Manage and report on bank's global anti-money laundering program, an initiative mandated by OCC (Office of the Controller) under the consent order. Work for the ICG Treasury and Trade Solutions (TTS) global enterprise data: Manage and govern Citi's global AML monitoring program for the regions of Asia, LATAM and Mexico along with other program initiatives such as T-Code Automation, KYC. Re-design the mapping logic and address all technical issues for the above regions for the AML program. Manage and direct global teams in an effort to enhance parts of the existing system for various product lines. Address deficiencies and gaps in AML data collection and scenario effectiveness, encompassing all aspects of design, development, testing and go-live phases. Direct the administrative functions of the program such as project funding, team's hours booked etc. Increase program's effectiveness by implementing a change management process and enhancing the CMMi process. Assist with various administrative functions of the program such as end of month hours and budget reconciliations, passing project Toll Gates, raising production and UAT Support tickets, updating the Book of Work and Total Quality Initiative for respective projects. Communicate comprehensive daily updates (oral and in writing) for respective projects and also update a portion of the Steering Committee deck for the purpose of communicating the program's progress along with risks and mitigation strategies to senior management. Participate in program's meetings (Program's pipeline, Book of Work, AML Review of Actuals vs. Forecasts etc.) and help rectify various issues such as communicating with project members to advise them to input hours in specific projects."
+            ]
+        },
+        {
+            "company": "AIG",
+            "role": "Sr. Project Manager, Consultant",
+            "dates": [
+                "June 2012-November 2013"
+            ],
+            "responsibilities": [
+                "Managed enterprise-wide projects across multiple platforms applying solid SDLC, software architecture and project / program management knowledge / experience. Managed a team of nine people (US and UK) for the Solvency II project, which is a compliance directive for the whole company. Implemented scope change management process for the whole program. Prepared business cases, project charters, statement of work, project plans, risk management plans, WBSs, stakeholder analysis, communication management plans, data requirements, and training plans. Interviewed users, designed information management strategy, DFDs, PFDs, and logical schemas for DWs. Handled overview development work, change management, quality assurance, documentation requirements, conducted cost, time, human resources, procurement, and integration management. Communicated with the UK and US program teams regarding the progress and main events of the projects, prepared weekly reports for upper management, interviewed SMEs (Subject Matter Experts), produced BRDs, feasibility analysis, Case Analysis, Use Cases and other many governance documentation."
+            ]
+        },
+        {
+            "company": "HNW",
+            "role": "Director - Project Management/Business Analysis",
+            "dates": [
+                "March 2011-July 2012"
+            ],
+            "responsibilities": [
+                "Managed projects for company's clients, designed business analysis docs and aided company establish PM/BA processes. Managed various in house and new projects for clients, created business requirements, functional specifications, scope, time and cost estimate documents. Established best practices for business analysis/project management. Created change and communication management plans, gathered requirements, and directed multiple teams."
+            ]
+        },
+        {
+            "company": "American Express",
+            "role": "Project/Program Management Analyst, Consultant",
+            "dates": [
+                "November 2010-March 2011"
+            ],
+            "responsibilities": [
+                "Utilized broad scope of industry knowledge toward directing comprehensive projects and finance for a global real estate project, including creating financial reports, investigating requests, and managing project portfolio for management. Used Clarity to generate reports, investigated financial requests, managed project portfolio and assigned resources. Managed assigned PMs."
+            ]
+        },
+        {
+            "company": "JPMC Bank",
+            "role": "Business Analyst/Project Manager, Consultant",
+            "dates": [
+                "February-November 2010"
+            ],
+            "responsibilities": [
+                "Directed Client Valuations of COAST platform, ran related projects and enhancements through-out the whole SDLC. Managed the CV side of the COAST platform dealing with various OTC derivative products, interviewed Users, gathered requirements, wrote BRDs and testing plans/scripts, delivered application enhancements, designed GUIs. Updated project plan and release schedule, coordinated Level 3 support issues, responded to Users’ inquiries. Created Risk and Communication Management documents, explained new application functionalities to Users."
+            ]
+        },
+        {
+            "company": "SUNSHINE Capital Group",
+            "role": "Sr. Project Manager/Sr. Business Analyst, Consultant",
+            "dates": [
+                "January 2009-February 2010"
+            ],
+            "responsibilities": [
+                "Created and implemented the PMO function, established metrics and Agile methodology, and managed project phases. Defined and implemented SDLC standards, measurements, reporting, portfolio/business management for company’s private equity and structured finance clients. Managed business analysis and budgetary functions. Implemented P&L, trading and off the shelve applications. Established objectives, deliverables, scope, cost, and schedule. Designed equity derivative, and alternative investment applications. Managed users' expectations."
+            ]
+        },
+        {
+            "company": "NIT Connect",
+            "role": "Sr. Project Manager/Sr. Business Analyst",
+            "dates": [
+                "January-October 2008"
+            ],
+            "responsibilities": [
+                "Managed and delivered infrastructure and application development projects through the whole SDLC using Agile/Scrum. Managed multiple projects to achieve agreed milestones on scope, time, budget and required quality standards. Maintained appropriate documentation; provided ad hoc progress reports to management, clients and stakeholders. Worked with network engineers and developers using Agile to ensure business and technical requirements are met. Engaged in the development and operation of the PM Office. Contributed in establishing policies and processes."
+            ]
+        },
+        {
+            "company": "Standard and Poor’s",
+            "role": "Project Manager/Sr. Business Analyst, Consultant",
+            "dates": [
+                "January-September  2007"
+            ],
+            "responsibilities": [
+                "Managed and delivered structured finance application development projects through the whole SDLC using Agile/Scrum. Gathered and analyzed requirements for Structured Finance applications and drafted documents inclusive of application’s wireframes, mock-up reports/charts, use cases, business requirements document, and user manuals. Selected projects that delivered the highest ROI from scarce resources through Clarity and actively participated in all technical and business meetings to facilitate application process improvements. Enhanced credit estimates appl. Exercised attention to detail in preparing project plans, coordinating timelines, defining project scope, and estimating expenses. Designed PFDs and Use Cases, used Agile/Scrum methodology and modified logic."
+            ]
+        },
+        {
+            "company": "Bank of America",
+            "role": "Project Manager/Sr. Business Analyst, Consultant",
+            "dates": [
+                "July 2006-January 2007"
+            ],
+            "responsibilities": [
+                "Managed and analyzed the Equity Derivatives & Commodities product lines for the Basel 2 effort using Agile/Scrum. Managed deliverables for development of trade repository aligned with B2 capital calculations. Analyzed data from the trade source system into the T-Hub environment; identified requirements and analyzed complex product requirements. Gathered requirements from user categories and SMEs to analyze the data needed for the Basel 2 database. Implemented scope change management process for the whole group. Created High Level Design & Data Mapping Specs to document and communicate requirements to Dev/QA groups. Improved processes by suggesting implementation of extensions and sanitization to the physical data model."
+            ]
+        },
+        {
+            "company": "LEV Development Group",
+            "role": "Director of Development/Project Manager",
+            "dates": [
+                "March 2005-June 2006"
+            ],
+            "responsibilities": [
+                "Managed complex development projects by applying the nine knowledge areas of project management. Created mission statement, business plans and set strategic goals for the company. Created PMO, established Agile methodology. Managed projects exhibiting proficiency in strategic planning, company alliances, due diligence, and profitability analysis. Documented all fixed income applications of CSFB to enable outsourcing of Support Group; effectively summarized data feeds, logical and physical models, diagrams, application’s coupling, cohesion, SOA, MQ functionality and logic. Interviewed various SMEs to get a better understanding of the applications and thoroughly documented them. Eliminated a $550k project budget deficit by restructuring and renegotiating consulting contracts and human resources. Implemented scope change management process for the whole PMO."
+            ]
+        },
+        {
+            "company": "INTEG Enterprise Consulting",
+            "role": "Project Manager/Sr. Business Analyst",
+            "dates": [
+                "January 2004-January 2005"
+            ],
+            "responsibilities": [
+                "Managed complex projects through the whole SDLC using the Agile and RUP methodologies. Created a proprietary electricity trading and other applications for the company. Oversaw software analysis, design, development, and testing. Reduced procurement costs by 40% by managing vendors and offshore teams during application deployments. Led intricate projects throughout complete life cycle with accountability for scheduling, procurement, risk assessments, human resources, quality assurance, budget, compliance and project integration management. Employed strong documentation skills to assemble SOWs, project charters and software development plans for 9 different initiatives. Leveraged well-honed leadership expertise to supervise and direct development team. Championed process improvement efforts to advance company through 2 out of 5 CMM stages."
+            ]
+        },
+        {
+            "company": "Dexia Credit Local",
+            "role": "Fixed Income Business Analyst, Consultant",
+            "dates": [
+                "February 2001-January 2004"
+            ],
+            "responsibilities": [
+                "N-tier web based architecture project involving deployment of an intranet application for the company’s Public Finance Group. The following activities were performed by using Agile to analyze, design, develop and deploy this project: Assessed and identified requirements for web banking, defined processes, and created intranet application via J2EE standards for company’s Public Finance Group. Conducted portfolio project functions through Clarity. Devised web-based tool to integrate 40 separate accounting systems into a centralized PeopleSoft system. Successfully steered reclassification of company-held assets, supported project manager in designing work breakdown analysis and defining the ten major risks. Effectively implemented spiral model project methodology. Assisted in the analysis, design, development and implementation of the project by creating DFDs, PFDs, process specs, data repository, the selection of objects and classes using System Architect, MQ and SOA functionalities."
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Methodios Validis",
+        "skills": [
+            "User Needs Assessments",
+            "JAD Sessions",
+            "Project Governance",
+            "Fixed Income Trade Flow",
+            "Application Enhancements",
+            "Quality Assurance/Testing",
+            "Portfolio Man/ment",
+            "Problem Solving/Planning",
+            "Fixed Income/Structured Finance",
+            "Feasibility Analysis",
+            "Team Leadership",
+            "Program Management",
+            "Database logical schemas",
+            "CMM Stages 1-5",
+            "Use Cases",
+            "Complete SDLC Management"
+        ]
+    }
+}

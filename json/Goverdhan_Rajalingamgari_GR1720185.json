@@ -1,0 +1,172 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Osmania University",
+        "degree": "MSc in Computer Science",
+        "graduation": "2001",
+        "courses": [
+            "Computer Science"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Alliant Credit Union",
+            "role": "Quality System Analyst/Manual Testing",
+            "responsibilities": [
+                "Followed Agile Scrum Methodology and attended Scrum meetings, Sprint review, Sprint Planning",
+                "Writing Progression/Regression Test cases for the user stories, and test automation on Visual Studio (UI & API testing, Swagger) ",
+                "Selected the Test Cases to be automated and performed functional testing of the front-end using Selenium WebDriver with Java (Page Object Model).",
+                "Review test cases with business team and update on central repository, code commit using Azure dev tool and Visual studio",
+                "Sanity testing on new deployed build and UAT testing on stable (Stage) environment",
+                "Investigating root cause & bugs validation, debugging, and collaborating with respective track",
+                "Worked on Cross Browser testing through Selenium WebDriver by testing the website on different browsers like Chrome, Edge and Firefox",
+                "Performed different types of testing like Functional Testing, Integration testing, System Testing, Web Services Testing,API Testing",
+                "Experience with testing APIs using tools like Postman",
+                "Build and deployment of Application using Azure dev CI/CD pipeline",
+                "Experience in mobile testing of IOS/Android using browerstack",
+                "Leading offshore team and distribution/allocation of task/stories and defects for validation"
+            ],
+            "dates": [
+                "June 2022 to March 2023"
+            ]
+        },
+        {
+            "company": "Tech Mahindra Americas Inc",
+            "role": "Quality Specialist",
+            "responsibilities": [
+                "Testing and validation of stories & bugs, defect logging and verification with Rally Tool",
+                "Followed Agile Scrum Methodology and attended Scrum meetings, Sprint review, Sprint Planning",
+                "Writing Progression/Regression Test cases for the user stories, and test automation on BDD Framework (Selenium and Cucumber).",
+                "Selected the Test Cases to be automated and performed functional testing of the front end using Selenium WebDriver with Java (Page Object Model).",
+                "Review test cases with business team and update on central repository, code commit using GIT-BASH, Source Tree",
+                "Sanity testing on new deployed build and UAT testing on stable (Stage) environment",
+                "Investigating root cause & bugs validation, debugging and collaborating with respective track",
+                "Worked on Cross Browser testing through Selenium WebDriver by testing the website on different browsers like Chrome, IE and Firefox",
+                "Performed different types of testing like Functional Testing, Integration testing, Web Services Testing, API Testing",
+                "Experience with testing APIs using tools like Postman,SOAP UI",
+                "Worked on CQ Persnalization,Localization and Campaign Management",
+                "Device Testing in for Mobile, tablet (IPad, iPhone) and cross browser compatibility testing in IE, Mozilla, Chrome, Safari using Browser stack",
+                "AEM CQ instance troubleshooting on framework bundle deployment and QA sprint testing on sandboxes",
+                "Prepare wiki documentations based on specs User stories (Business Requirement).",
+                "Build and deployment of Application using Jenkins",
+                "Tested manually Development, Staging and Production environments, support on different kinds of devices and platforms such as: iPhone, iPads, MacOS flows and devices",
+                "Focused heavily on testing Mobile devices on iOS Operating System",
+                "Leading offshore team and distribution/allocation of task/stories and defects for validation"
+            ],
+            "dates": [
+                "August 2011 to June 2022"
+            ]
+        },
+        {
+            "company": "Satyam Computer Services Ltd",
+            "role": "Project Lead",
+            "responsibilities": [
+                "Understanding the Functionality of the Application from BRD",
+                "Analyzing the existing Test Cases with the enhanced application and Re-writing the Test Cases as per the new functionality (Gap Analysis and New Test Case creation).",
+                "Identifying and Designing the Components from the Manual Test Cases Developing Application Area, Scripted Components, BPT’s, Scenarios, and Merging of the Object Repositories in Quality Center Creation of the Test Data for Components execution",
+                "Executing the Scripted Components, BPT’s, and Scenarios using BPT Framework",
+                "Developed descriptive programming and maintained local and global Object Repository in QTP",
+                "Involved in manual testing and automated test scripts by using QTP",
+                "Declared Checkpoint and worked on Object Repository by using QTP",
+                "Analyzing the test results and fixing the components if needed and updating it in the Mercury Quality Center",
+                "Reported, logged, and tracked defects using Quality Center",
+                "Attending the daily calls and monthly milestone meetings",
+                "Created huge no. of Jobs, WTs, LIs, and invoiced those records through executing the Automation Scripts"
+            ],
+            "dates": [
+                "July 2010- July 2011"
+            ]
+        },
+        {
+            "company": "Satyam Computer Services Ltd",
+            "role": "Team Lead",
+            "responsibilities": [
+                "Testing the Accounting Desktop. (One of the modules in the tool).",
+                "Test Case Preparation for Functional Testing, Regression Testing",
+                "Executing Test Cases Functional Testing, Regression Testing, Issue Testing",
+                "Participated in technical discussion with client Assigning the issues to Team",
+                "Attended Project Team Weekly meetings and updated the status of testing carried"
+            ],
+            "dates": [
+                "April -2006 to June 2010"
+            ]
+        },
+        {
+            "company": "Satyam Computer Services Ltd",
+            "role": "Team Member",
+            "responsibilities": [
+                "Test Case Preparation for Functional testing, Integration Testing, Regression Testing",
+                "Preparing The Test data for executing the Test cases",
+                "Executing Test Cases: Functional Testing, Integration Testing, Regression Testing",
+                "Preparing the issue Log following up of the issues and getting the issues resolved",
+                "Handling Change requests for regular maintenance work, Smoke Testing"
+            ],
+            "dates": [
+                "Dec -2005 to April 2006"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "CLOS (Consumer Loan Organization System) ",
+            "description": [
+                "Alliant Credit Union is a member-owned financial cooperative headquartered in Chicago, Illinois. Alliant services, Alliant is the ninth largest credit union by asset size in the United States with $14 billion USD in assets and serves more than 600,000 members nationwide. Alliant Credit Union is an online credit union that offers a full range of products and services. It provides a competitive APY on its savings account and has plenty of options for personal banking, including accounts for kids and teens and gives you more for your money with online banking, award-winning savings and checking accounts, credit cards, and loans."
+            ],
+            "skills": [
+                "Visual Studio, C#, Java, Azure dev, Postman, SQL Server, Windows 10, Azure Dev, CI/CD pipeline, Swagger"
+            ]
+        },
+        {
+            "project": "CISCO.COM ",
+            "description": [
+                "Cisco is multinational company which manages its networking telecomm products in cisco.com website, for its customer & partners. Cisco.com portal has been migrated from old web publisher to WEM AEM platform. Web Experience Management provides Web content creation, management, and World Wide Web deployment. With WEM, user can have a complete beginning to end Web Content Management solution from Web site creation to deployment. CQ5 is the tool used for publishing content. All the digital assets will be stored in DAM area, and WEM pages can be authored by using customized responsive templates and components. There are two sections of site area Products & Support, content will be served via content sharing mechanism. Website is https protocol enabled; accessibility features implemented for disabled users. New search type ahead with voice search functionalities. Cisco.com is being rendered and localized for 90+ countries languages and has global presence with products and support technical design, documents through website."
+            ],
+            "skills": [
+                "AEM 6.3, Rally, Browser stack. Selenium, Cucumber, Java1.7, AEM 6.3 server, Linux. Crx/de, GitHub (GIT), Rally Jira, Quality Center (HP)"
+            ]
+        },
+        {
+            "project": "KEYOPS QA Testing",
+            "description": [
+                "Key Energy Services are one of the largest rig-based well services company in the industry. KeyOps offer work over services, fluid and logistics services, fishing and rental services, pressure. pumping, wire line, trucking, well, rigs and drilling. Key Ops is using technology where none existed before, rebuilding equipment with unmatched speed, quality and efficiency and training our people to excel. Key Operations (KeyOps) Work Management System Program is used to create and manage accounts, service locations, work tickets, Line Items"
+            ],
+            "skills": [
+                "SIEBEL 8.0, SHAREPOINT, VBScript, QTP, Windows"
+            ]
+        },
+        {
+            "project": "Solarc Right Angle Product Testing",
+            "description": [
+                "SolArc, Inc. offers commodity trading and risk management solutions. The company offers Right-angle, a solution that supports straight through processing of trading and supply transaction information, as well as for organizations that trade in various areas of the supply chain within commodity markets. The company’s Right-angle solution includes trading, risk management, pricing, scheduling, movement actualization, invoicing, interfacing, and financial/ERP systems and settlement modules. It also offers credit management, and risk management and automation solutions, and implementation and consulting services."
+            ],
+            "skills": [
+                "PowerBuilder and .Net, Raid, Build Runner, Vista, 2003 profession, SQL server"
+            ]
+        },
+        {
+            "project": "Oasis Testing Project for Symantec Corporation",
+            "description": [
+                "Symantec is a global leader in providing software, appliances, and services to help individuals, small and mid-sized businesses, and large enterprises assure the security, availability, and integrity of their information. Symantec Corp. (NASDAQ: SYMC) and VERITAS Software Corp. have been merged which has resulted in the need for integration of both the ERP Systems (Oasis)."
+            ],
+            "skills": [
+                "Oracle Applications, VSS, Toad, Oracle 11i, Windows NT"
+            ]
+        }
+    ],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "GOVERDHAN RAJALINGAMGARI",
+        "skills": [
+            "Testing Tools: Soap UI, Cucumber, Selenium, TestNG, Maven, IntelliJ",
+            "Test Management: HP Quality Center 10.0, JIRA, Remedy, Rally, Azure dev",
+            "Scripting: VBScript, JavaScript, Shell Scripts",
+            "Operating Systems: Windows, Linux",
+            "ERP: SIEBEL, Oracle Apps",
+            "Database: Oracle 10g, MySQL, SQL Server 2018, Mongo DB, TOAD",
+            "Languages: JAVA, JSP, Servlets, Rest/SOAP web services, C#, .NET",
+            "Content Management technology: Adobe Experience Manager (Adobe AEM 6.3, Adobe Content Explorer, and Adobe CRXDE Lite)"
+        ]
+    }
+}

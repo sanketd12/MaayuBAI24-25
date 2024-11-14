@@ -1,0 +1,254 @@
+{
+    "certifications": [
+        "Manager in making workshop conducted by i-flex",
+        "Certificate course in Websphere from IBM",
+        "Certificate course in Oracle-8 from SSIL, Bangalore",
+        "Certificate course in Computer Applications (PGDCA) from SIMS, Kottayam"
+    ],
+    "education": {
+        "degree": "Graduate Degree",
+        "institution": "Kerala University, Trivandrum, Kerala",
+        "courses": [
+            "M Sc in Botany"
+        ],
+        "graduation": "1992",
+        "gpa": 61
+    },
+    "experiences": [
+        {
+            "company": "JMR Infotech (formerly Trasset India Pvt. Ltd.)",
+            "role": "N/A",
+            "dates": [
+                "October 2009",
+                "March 2012"
+            ],
+            "responsibilities": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "JP Morgan Services India Pvt. Ltd., Mumbai",
+            "role": "N/A",
+            "dates": [
+                "May 2008",
+                "Feb 2009"
+            ],
+            "responsibilities": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "I-flex Solutions Limited, Bangalore",
+            "role": "N/A",
+            "dates": [
+                "December 2000",
+                "May 2008"
+            ],
+            "responsibilities": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "Kaashyap Radiant Systems Limited, Chennai",
+            "role": "Programmer",
+            "dates": [
+                "September 1999",
+                "November 2000"
+            ],
+            "responsibilities": [
+                "N/A"
+            ]
+        },
+        {
+            "company": "Simplex Solutions (P) Ltd., Bangalore",
+            "role": "Programmer",
+            "dates": [
+                "June 1997",
+                "August 1999"
+            ],
+            "responsibilities": [
+                "N/A"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Flexcube Implementation – Onsite",
+            "description": [
+                "Role: Project Manager",
+                "Clients: Warba Bank Kuwait, NBE Egypt, OTP Bank Hungary/Ukraine, Citibank- Prague (Czech Rep.) & Bratislava (Slovak Rep.), Trust Bank- Gambia, EADB- Uganda",
+                "Responsibilities: - Overall responsibility of onsite implementation team and all project deliverables, Project planning ,Team management and reporting to RM, SPC for client interactions, Conducted Product Walk Thru ,Gap Analysis and Product Training for Core team, Worked with bank core team in GL design ,Parameterization and other setups, Guide bank in UAT planning and execution, Issue resolution (functional)and in charge of UAT support, Framing strategies for Conversion, interfacing etc, Ensure QA compliance in all project deliverables"
+            ],
+            "skills": [
+                "Project Management",
+                "Team Management",
+                "Client Interaction",
+                "Product Training",
+                "Parameterization",
+                "Issue Resolution",
+                "Conversion Strategy",
+                "QA Compliance"
+            ]
+        },
+        {
+            "project": "IDDA (Migration from mainframe based application to T24) –Onsite/Offshore",
+            "description": [
+                "Role – Asst Vice President - UAT",
+                "Locations: London, Mumbai, Hongkong, Madrid & Manila",
+                "Responsibilities: - Global migration, executed in 8 phases over 5 years spanning across all international branches of JP Morgan. I came out of project after Phase 1 rollout for Madrid & Manila, Various work groups and applications participate in the project from different global locations, SPC for the UAT function to represent team in regular meetings and discussions, Overall responsible for all testing deliverables, execution and signoffs, Requirement scoping, test planning and test strategy for upcoming countries into migration, Projecting resource needs and help in optimum utilization of the FTEs, Build a Quality framework for overall UAT function aimed at improving effectiveness of the team, Publish periodic reports on project progress, Risk mitigation, track issues to closure and escalations whenever required"
+            ],
+            "skills": [
+                "Project Management",
+                "Team Management",
+                "Client Interaction",
+                "Product Training",
+                "Parameterization",
+                "Issue Resolution",
+                "Conversion Strategy",
+                "QA Compliance"
+            ]
+        },
+        {
+            "project": "Product Demo and Gap Analysis (2 Projects) – Onsite",
+            "description": [
+                "Role: Consultant",
+                "Clients: - Citibank Hungary, Societie General-SSB, Ghana",
+                "Responsibilities:- Demonstrated product features of all modules of Flexcube Corporate for SG-SSB, Analyzed SWIFT based RTGS system VIBER  for CITI Bank Hungary, Detailed gap analysis and documentation, Enhancement evaluation and feasibility study, SPC for all further discussions on enhancements till delivery of enhancements to customer"
+            ],
+            "skills": [
+                "Product Demonstration",
+                "Gap Analysis",
+                "Enhancement Evaluation",
+                "Client Interaction"
+            ]
+        },
+        {
+            "project": "Flexcube Client Specific Customizations (65 Projects) –Offshore-(2.5 Years)  ",
+            "description": [
+                "Role – Project Leader – Testing (Test Manager) ",
+                "Responsibilities: - Managed the testing delivery function of  nearly 65  Flexcube customization projects, Average 6 Team leaders directly reporting with a total team size of around 50 people, Average 3 releases in a month with around 6 projects running simultaneously, Project size ranging between 400 to 4000 person days of effort, Attend review meetings to validate Functional Specification, High Level review of Test plans, Validate the quality of Test Execution, Error Tracking and Regression Testing, Overall responsible for the testing team deliverables, schedule and process compliance, People management functions including recruitment, allocation and grooming, Managing inter group commitments as an SPC"
+            ],
+            "skills": [
+                "Project Management",
+                "Team Management",
+                "Test Management",
+                "Functional Specification Review",
+                "Test Plan Review",
+                "Quality Assurance",
+                "People Management",
+                "Inter Group Commitment Management"
+            ]
+        },
+        {
+            "project": "Flexcube Customizations for various regions of Citibank (5 Projects) – Offshore (3 years) ",
+            "description": [
+                "Role - Team Leader – Testing ",
+                "Responsibilities: - Responsible for testing of Flexcube releases 4.0, 4.1, 4.4, 4.4.1 and 4.5, Participate and contribute to Functional design, Manage and guide the testing team of 4-9 members, Prepare test strategies and critical test conditions, Review test plans –peer and external, Ensure client expectations are met in the release, Monitor and issue resolution during ST, IT and Focus testing, Ensure QA compliance in all project deliverables, Maintain techno functional capabilities of team by conducting internal trainings"
+            ],
+            "skills": [
+                "Project Management",
+                "Test Management",
+                "Functional Design",
+                "Team Management",
+                "Test Strategy",
+                "Issue Resolution",
+                "Quality Assurance",
+                "Team Capability Maintenance"
+            ]
+        },
+        {
+            "project": "Flexcube Implementation - Support – Offshore (1 year) ",
+            "description": [
+                "Role: Consultant (Functional) ",
+                "Responsibilities: - Overall responsible for off shore support given to ongoing flexcube implementations, Prestigious clients supported include various regions of Citibank, BAWAG Czech, and State bank of Mauritius, DBS Nigeria, and FAMB Ghana etc, Track and guide the offshore team on compliance of flexcube implementation process, SPC for support calls which are functional in nature, Issue analysis ,prioritization and Provide solutions, Enhancement analysis and feasibility study, Provide continuous support during UAT, Conversion and Live cutover"
+            ],
+            "skills": [
+                "Project Management",
+                "Support Management",
+                "Process Compliance",
+                "Issue Analysis",
+                "Enhancement Evaluation",
+                "Support Provision",
+                "Conversion Support",
+                "Live Cutover Support"
+            ]
+        },
+        {
+            "project": "Flexcube@Broker-Portal –Development – Offshore (1 year) ",
+            "description": [
+                "Role - Project Leader ",
+                "Responsibilities: - A web based portal developed on J2EE architecture built over FC@, a proprietary framework. The portal has capabilities to integrate to online trading; portfolio management and provide various trade related information, Overall in charge of developing the application by a 14 member team mostly fresher’s, Instrumental in technical and database design. The key challenge was the design of highly customizable view of portal finally done in XML/XSL frame work, Design of content management function which involved huge amount of data, Design of Integration capabilities with various data feeds like Reuters, Work Allocation, guidance and tracking, Review of PS, UTP, MTP and ITP, Content analysis and review of prototypes, Handled IT support and project closure activities, Ensure QA compliance in all project activities, Worked as acting PM in his absence towards the end of project"
+            ],
+            "skills": [
+                "Project Management",
+                "Team Management",
+                "Web Development",
+                "Technical Design",
+                "Database Design",
+                "Work Allocation",
+                "Review",
+                "Content Analysis",
+                "IT Support",
+                "Project Closure"
+            ]
+        }
+    ],
+    "honors": [
+        "N/A"
+    ],
+    "activities": [
+        {
+            "activity": "N/A",
+            "role": "N/A",
+            "responsibility": [
+                "N/A"
+            ]
+        }
+    ],
+    "userDetails": {
+        "name": "JAYALAL.P.SOMAN",
+        "skills": [
+            "Project Management",
+            "Team Management",
+            "Client Interaction",
+            "Product Training",
+            "Parameterization",
+            "Issue Resolution",
+            "Conversion Strategy",
+            "QA Compliance",
+            "Test Management",
+            "Functional Design",
+            "Test Strategy",
+            "Issue Resolution",
+            "Quality Assurance",
+            "People Management",
+            "Inter Group Commitment Management",
+            "Project Management",
+            "Test Management",
+            "Functional Design",
+            "Team Management",
+            "Test Strategy",
+            "Issue Resolution",
+            "Quality Assurance",
+            "Team Capability Maintenance",
+            "Project Management",
+            "Support Management",
+            "Process Compliance",
+            "Issue Analysis",
+            "Enhancement Evaluation",
+            "Support Provision",
+            "Conversion Support",
+            "Live Cutover Support",
+            "Project Management",
+            "Team Management",
+            "Web Development",
+            "Technical Design",
+            "Database Design",
+            "Work Allocation",
+            "Review",
+            "Content Analysis",
+            "IT Support",
+            "Project Closure"
+        ]
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "userDetails": {
+        "name": "Madhuri",
+        "skills": [
+            "Business Analysis",
+            "Requirements Gathering",
+            "Documentation",
+            "Agile",
+            "SDLC",
+            "Waterfall",
+            "RUP",
+            "RAD",
+            "Databases",
+            "SQL",
+            "HTML",
+            "Java",
+            "C/C++",
+            "XML",
+            "Microsoft Office Suite",
+            "Business Modeling Tools",
+            "JIRA",
+            "Rational Rose",
+            "Requisite-Pro",
+            "Use cases",
+            "MS Project",
+            "MS Visio",
+            "MS SharePoint",
+            "EDI X 12 837, 835, 834, 270/271, 276/277",
+            "SQL queries",
+            "Problem Solving",
+            "Communication",
+            "Leadership"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "CVS Health",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "Feb 2023 - Present"
+            ],
+            "responsibilities": [
+                "Gathering, documenting, and analyzing business needs and requirements in CVS Agile",
+                "Creating all the project documentation like Features, epics and User stories",
+                "Defining Business Rules by interacting with stakeholders and users through Surveys & Brainstorming",
+                "Conducting Joint Application Development (JAD) sessions",
+                "Performing Gap Analysis, conducting walkthroughs and acting as a liaison between the business users, stakeholders and the team to perform requirements, quality and risk analysis",
+                "Leading the requirements for a project on Health Rules Provider (HRP) Reimbursement (Pricing) and 3M Grouper",
+                "Developing relationship and acting as back-up liaison with payers, providers and facilities regarding Utilization Management (UM) policies and procedures",
+                "Complying with established policies, procedures, and implements appropriate changes to the Utilization Management process as directed",
+                "Acting as an interface with different stakeholders of the project",
+                "Developing a vision plan that defined the primary goals and objectives of the project",
+                "Working primarily on the projects related to RxCLAIM, Adjudication, Pricing, Accums, Eligibility, R&R, EAS, CET, EOB, PCRS, Med-D, PDE, CDH, Extract, SBO's etc. Also contributing to business process re-engineering for Paper Claims & Benefits",
+                "Environment: Agile, JIRA; HL7, Mainframe ; Business intelligence (BI), Business Objects (BO), Requisite Pro, MS Visio, MS Project, SQL, MS Access, MS Office"
+            ]
+        },
+        {
+            "company": "DaVita",
+            "role": "Product Owner",
+            "dates": [
+                "July 2021 – Feb 2023"
+            ],
+            "responsibilities": [
+                "Working on the Tabula Rasa and DaVita integration project phase 1, phase 2 and enhancements",
+                "Interviewing SMEs and Stakeholders to get a better understanding of client business processes and gather Business requirements",
+                "Conducting the requirements sessions around which IKC patient population/demographics to be sent to Tabula Rasa as well as Surescripts for RX Script alerting",
+                "Working on IKC Roster business rules around payor programs, disease states, etc. and the patient population that needs to be sent to the Clients",
+                "Getting familiar with HealtheAnalytics to run any SQL queries and fetch data",
+                "Documenting requirements in Confluence around the Data Elements which have different file formats",
+                "Creating Data Mappings from HealtheIntent table structure to Tabula Rasa patient roster flat file format/specification",
+                "Providing detailed guidelines on the process for on-boarding new payor programs and around payor inclusion/exclusion criteria",
+                "In phase 2 of the project working on the requirements for a process that is needed in order to automate the Medication Action Plan, Prescriber Action, and Medication Profile Report (documents) from Tabula Rasa to Cerner Millennium and notify end user when a document has been uploaded via Millennium Message Center",
+                "Creating use cases for an automated process which was needed for the facilitation of Tabula Rasa MSR (Med Safety Reviews) from Tabula Rasa to Cerner HealtheIntent platform. This was to eliminate any manual sending of these reports as well as drive end user workflows and provide substantial data reporting on high risk patients through HealtheRecord, HealtheRegistries, and the Longitudinal Record",
+                "Environment: MS Visio, MS Project, SQL, MS Access, MS Office, HealtheAnalytics, Confluence"
+            ]
+        },
+        {
+            "company": "BlueKC",
+            "role": "Sr.Business Analyst",
+            "dates": [
+                "March 2019 – July 2021"
+            ],
+            "responsibilities": [
+                "Enhancing their claim processing system by incorporating business rules to bring their Medicaid / Medicare claims system in compliance with the new ICD 10 codes and HIPAA 5010 EDI standards",
+                "Conducting controlled brainstorming sessions with project focus groups for collecting high-level business requirements",
+                "Conducting several Requirement Gathering Sessions for gaining detailed requirements and finalizing Business Requirement Document (BRD).",
+                "Involved in data mapping, field mapping of the data elements responsible for the BRD",
+                "Performing GAP analysis of business rules, business and system process flows",
+                "Responsible for the full HIPAA compliance lifecycle from gap analysis, mapping, implementation and testing for Medicaid Claims",
+                "Working on different modules like member enrollment, provider enrollment, coverage and programs",
+                "Claims and script creation knowledge for HRP Health Rules Payor and enrollment auto processing tool",
+                "Actively involved in updating internal processes (submit claims, check eligibility), updating data collection and data reporting for health plans like HMO, PPO, POS and EPO",
+                "Created reports using SAP Business Objects tool such as Designer, Desktop Intelligence",
+                "Requirement gathering, Business Process flow development, and Business Analysis",
+                "Extensively used Informatica to Extract, Transform and load data to perform any data validations",
+                "Developed Scripts for Regression Testing and System Testing",
+                "Created and maintained a project schedule using MS Project showing all target dates (deliverables).",
+                "Creating data load and Upgrade scripts for data migrations, data formatting and data validations",
+                "Extracted the data from SQL Server, Oracle, Files, and Access into Data warehouse",
+                "Worked with the project manager for planning and organizing the project activities, and in communicating with other business center mangers and stakeholders of the project",
+                "Environment: Business Objects 6.5/XIR2/XIR 3.1/XI 4.0, Oracle, MS Project, MS Access, MS office 2010, Sql Loader, Agile, Informatica"
+            ]
+        },
+        {
+            "company": "CVS Health",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "November 2017 – Feb 2019"
+            ],
+            "responsibilities": [
+                "Gathering, documenting, and analyzing business needs and requirements in both SEP & CVS Agile methodologies",
+                "Creating all the project documentation like User stories, Business requirements, Functional requirements, Transition requirements, Testing & Assurance Considerations and RTM",
+                "Defining Business Rules by interacting with stakeholders and users through Surveys & Brainstorming",
+                "Conducting Joint Application Development (JAD) sessions",
+                "Worked exclusively on Anthem Voyager projects in Member Experience work stream. Coordinated with a whole team of developers, Junior BAs & testing teams from both CVS & Anthem in creating a new PBM called IngenioRx. Worked on requirements analysis in this project for the below sub functions: Commercial Member Service, Medicaid Member Service, Medicare Member Service, Mail Order / Specialty Support, Provider Calls ( Pharmacies, Physicians), Appeals and Grievances, Anthem CSR Support",
+                "Developed relationship and acted as back-up liaison with payers, providers and facilities regarding Utilization Management (UM) policies and procedures",
+                "Complied with established policies, procedures, and implements appropriate changes to the Utilization Management process as directed",
+                "Worked on the below CVS - Aetna integration projects: Creating a functionality for a given plan to create multiple Network Pricing Profile (NPP) that identifies one NPP as ‘default’ and other NPPs as alternative based upon the state code created per Network Pricing Profile, Integrating Security Awareness between organizations which include centralizing the human risks, strategy, messaging and training material, Provided a capability that will enable consistent management of consumer profile, preferences, and consents to facilitate a common consumer experience across the enterprise",
+                "Environment: Agile, JIRA; HL7, Mainframe ; Business intelligence (BI), Business Objects (BO), Informatica 8, JAVA, Requisite Pro, MS Visio, MS Project, SQL, MS Access, MS Office"
+            ]
+        },
+        {
+            "company": "Health Management Systems",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "August 2017 – October 2017"
+            ],
+            "responsibilities": [
+                "Developing an application named TMV (Transactional Matching and Verification) to create a solution that will replace the costly and inefficient process, and avoid further eroding the applicant’s Healthcare.gov user experience",
+                "Responsible for Requirement gathering, Business Process flow development, and creating Business Requirement Documents (BRD) using agile tool Version 1",
+                "Involved in detailing project mission, data process flow diagrams, and timelines",
+                "Created Use Case Models, Analysis Models, Design Models, Use Case Diagrams, Behavior Diagrams (sequence diagrams, activity diagrams) based on UML methodology",
+                "Worked on creating Requirement Traceability Matrix and Functional requirement Documents",
+                "Worked on analyzing EDI raw data and in manipulating EDI X 12 270/ 271(inquire/response health care benefits), 276/277(Claim status) transaction files as per HIPAA guidelines",
+                "Assisted in process modeling; conducted and participated in JAD sessions with system users; helped with design walkthroughs with SMEs for base lining architecture",
+                "Environment: Agile, Version 1, Business Objects (BO), MS Visio, MS Project, SQL, MS Access, MS Office"
+            ]
+        },
+        {
+            "company": "Conduent",
+            "role": "Sr. Business Analyst",
+            "dates": [
+                "December 2016 – July 2017"
+            ],
+            "responsibilities": [
+                "Planning, testing, and implementing system enhancements and conversions",
+                "Gathering business requirements from the user and creating databases for the client needs using SQL",
+                "Conducting several Requirement Gathering Sessions for gaining detailed requirements and finalizing Business Requirement Document (BRD).",
+                "Assist with reviewing and updating UM policies and procedure",
+                "Served as a resource to Interdisciplinary Patient Care Teams and physicians for the interpretation of external regulations and organizational policies and procedures pertaining to the Utilization Management process",
+                "Responsible for report writing (relational and multidimensional), and creating dashboard components using the Cognos 8 suite of products",
+                "Created requirements and workflow documents for PBM website database for major projects for the Commercial Insurance account. Worked with business, client, tech team and quality team, to ensure successful deployment of projects",
+                "Developed Use Case diagrams with MS Visio and created Business Flow Diagrams, Activity/State diagrams, and Sequence diagrams, which enabled developers and other stakeholders to understand the business process",
+                "Designed and implemented data integration modules for Extract/Transform/Load (ETL) functions",
+                "Used Erwin for data modeling",
+                "Extensively involved in Data Extraction, Transformation and Loading (ETL process) from Source to target systems using Informatica Power Center 7.1",
+                "Developed additional procedures and enhancements to an existing MS Access database ADO,VBA, SQL",
+                "Worked in manipulating EDI X 12 837(Health care claim), 835(Payment/remittance advice), 834(Benefit enrollment), 270/ 271(inquire/response health care benefits), 276/277(Claim status) transaction files as per HIPAA guidelines",
+                "Worked on FACETS CTP (Claims Test Pro) and FACETS",
+                "Created business process workflow diagrams (Activity diagrams) in Rational Rose",
+                "Worked through Software Development Life Cycle (SDLC) from Requirements, Analysis, Design, and Implementation through Testing",
+                "Worked on Claim processing / Claim Transition for improving database for storing user files",
+                "Analyzed business needs, created and developed new functionality to meet real time data integration that facilitated decision on TPM",
+                "Experience of managing multiple stakeholders across the organization, and in QA integration of systems"
+            ]
+        },
+        {
+            "company": "Infogix Inc",
+            "role": "Business Analyst & Implementation Consultant",
+            "dates": [
+                "August 2015– Nov 2016"
+            ],
+            "responsibilities": [
+                "Developing various forms and reports by gathering data from external agencies",
+                "Gathered all the input/output data and modeled the credit data using the Rational Rose suite",
+                "Worked collectively with all team members to define the system objectives and identify constraints for the system",
+                "Extensively used SQL for accessing and manipulating database systems",
+                "Reviewed loan applications and analyzed data required to process loan documents and performed validation to ensure loan documents are transmitted to appropriate departments",
+                "Created Test Plans and Test Cases for GUI and database testing by analyzing the Business requirements specification document",
+                "Conducted various meeting and user interviews including JAD sessions to fit all the needs of the clients’ business processes",
+                "Designed Business Process Model (Activity diagrams, Sequence diagrams and Collaboration diagrams).",
+                "Conducted training sessions for various team members as well as underwriters and other users to help them get a better understanding of the project",
+                "Assisted in performing data mining of customer databases, to analyze key business issues",
+                "Provided hands-on project schedule management using MS Project during the various stages of the project",
+                "Responsible for creating and maintaining documentation related to the project including scope document, vision document, functional specification document, defect status report, risk analysis document, mitigation plans, supplementary requirements specification document and impact analysis document",
+                "Responsible for development of Budget upload and download interface between third party Budget System and SunTrust accounting system, as well as the General Ledger Budgets",
+                "Created and researched on various use case scenarios and narratives",
+                "Performed SWOT analysis and Cost Benefit Analysis to help the organization",
+                "Responsible for processing change requests from the client by filling Change Request Forms (CRF).",
+                "Completed and implemented training documents of GL/AP/AR for the users"
+            ]
+        },
+        {
+            "company": "Prudenture",
+            "role": "Business Analyst",
+            "dates": [
+                "May 2013 – Dec 2013"
+            ],
+            "responsibilities": [
+                "Maintenance of the existing system for rating and quoting of the policies and the extraction of data from the files that came from vendors and load them into database tables",
+                "Identified and validated high potential business opportunities for stakeholders",
+                "Gathered business Requirements, analyze data/workflows. Defined the scope and progressed from problem Statement to well-documented Designs",
+                "Utilized Rational Req Pro as a user to analyze the business requirements",
+                "Worked on MS CRM Dynamics for handling the customer claim inquiries, Validation and case creation",
+                "Facilitated with JAD sessions with the management groups, vendors, users and the IT Group for open and pending issues to develop specifications",
+                "Conducted Functional Walkthroughs as well as User Acceptance Testing (UAT) sessions",
+                "Worked as an Interface between the users and the different teams involved in the application development for the better understanding of the business and IT processes",
+                "Conducted iterations, communicated results, and milestone achievements to the stakeholders while keeping the developers closely updated on all documented refinements",
+                "Created and maintained a project schedule using MS Project showing all target dates for deliverables",
+                "Created and maintained complete development plans that included functional specifications, requirements engineering, Use Case modeling, risk assessment and mitigation, internal and external workflow",
+                "Extensively used ETL to Extract, Transform and load data",
+                "Developed Scripts for Regression Testing and System Testing"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "KL University, India",
+        "degree": "Bachelors of Technology, Electronics and Communication",
+        "graduation": "Graduated",
+        "gpa": null,
+        "courses": null
+    },
+    "projects": null,
+    "certifications": null,
+    "activities": null,
+    "honors": null
+}

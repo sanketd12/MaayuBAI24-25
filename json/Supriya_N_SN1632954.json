@@ -1,0 +1,116 @@
+{
+    "experiences": [
+        {
+            "company": "Scopic Software",
+            "role": ".Net Developer",
+            "dates": [
+                "Sept 2021 – Present"
+            ],
+            "responsibilities": [
+                "Worked as a .Net Developer in the team for designing and developing the application using Visual Studio .Net Framework, C#, ASP.NET, SQL Server, and LINQ Entity Framework",
+                "Developed web applications with .NET Framework and Visual Studio",
+                "Involved in developing the application using WPF and C#",
+                "Developed user interface screens using C#, Angular JS, Jquery, HTML5, CSS3, Bootstrap, and JavaScript",
+                "Maintained/Developed several ASP.NET applications using C# per the client's requirements",
+                "Developed and consumed RESTful Services using WEB API",
+                "Used ADO.NET to communicate between User Interface and the SQL Server database",
+                "Developed database objects like stored procedures and functions to help keep and modify user input data using SQL Server",
+                "Extensively used C# to parse the Claims XML data and load the data into the SQL Server Database",
+                "Worked on implementing current Rest web services to one of the cloud computing services AWS",
+                "Used Windows Presentation Foundation (WPF) for creating graphical user interfaces for Windows applications",
+                "Involved in writing application-level code to interact with APIs and Web Services using AJAX and JSON",
+                "Handling cross-browser/platform compatibility issues (IE, Firefox, and Safari) on Windows and Mac",
+                "Performed Unit Testing to identify and resolve integration, functional, and usability issues before deployment",
+                "Effectively involved in various project development stages, from project planning to production and maintenance using Agile methodology"
+            ]
+        },
+        {
+            "company": "Blue Label Labs",
+            "role": ".Net Developer",
+            "dates": [
+                "Jan 2020 – Aug 2021"
+            ],
+            "responsibilities": [
+                "Involved in the analysis, development, and testing phases of the SDLC",
+                "Developed the GUI using Custom and Web Controls in ASP.NET with VB.NET as code-behind",
+                "Implemented client-side validations using JavaScript and server-side validations using .NET Validation control",
+                "Developed ADO.Net-based data access layer against SQL Server Database",
+                "Implemented interactive UI with HTML5, CSS3, Ajax, Bootstrap, Jquery, and Angular",
+                "Developed LINQ (Language Integrated Query) and LINQ to SQL to create complex queries",
+                "Implemented Data Adapters, Data Readers, Datasets, and Data connections for creating, opening, accessing connections, and binding data and used SQL commands for reading and updating data on Microsoft SQL Server",
+                "Created a Security module in VB.NET to provide applications with the highest security and user authorization",
+                "Created XML Web Services using XML, SOAP, and WSDL",
+                "Made use of GIT for versioning control and followed the process of checking out and in files",
+                "Developed WCF Services on the business layer to create a service layer to improve security",
+                "Implemented the Data Access Layer using Entity Framework to manipulate database from SQL database",
+                "Developed complex reports using Crystal Reports and, integrated with the website for the Document details, generated reports per the requirement",
+                "Worked in Agile-Scrum development methodology"
+            ]
+        },
+        {
+            "company": "Owebest Technologies Pvt. Ltd., India",
+            "role": ".Net Developer",
+            "dates": [
+                "Oct 2017 - Dec 2019"
+            ],
+            "responsibilities": [
+                "Developed and Implemented Win Forms and Web Forms using ASP.NET and coded the Business logic in C#",
+                "Developed WCF service to be used by the ASP.NET applications",
+                "Designed and custom application pages using ASP.NET, HTML, JavaScript and AJAX, and C#.NET as code behind",
+                "Involved in all the phases such as Analysis, Design, Coding, Testing (Unit & Regression), and Deployment for the Desktop and the Web Versions",
+                "Worked on User controls and consumed in different forms",
+                "Worked on Web Services and Consumed in the Client application",
+                "Used HTML, CSS, Bootstrap, JavaScript, Jquery, and AJAX technologies in developing frontend User Interfaces",
+                "Created different Stored Procedures for data retrieval, inserting, and updating, and created Triggers and Indexes on database tables",
+                "Designed application using Visual Studio .Net",
+                "Worked on production issues, debugging the application, and fixing the problems",
+                "Wrote documentation for the module that explained the internal details of the application"
+            ]
+        }
+    ],
+    "education": {
+        "degree": "Bachelor of Science (Botany, Zoology, and Computer Science) at Deogiri College, Aurangabad, India",
+        "courses": [
+            "Botany",
+            "Zoology",
+            "Computer Science"
+        ],
+        "institution": "Deogiri College, Aurangabad, India",
+        "graduation": "NA",
+        "gpa": null
+    },
+    "projects": null,
+    "certifications": null,
+    "activities": null,
+    "honors": null,
+    "userDetails": {
+        "name": "Supriya",
+        "skills": [
+            "C#",
+            "ASP.Net",
+            "ADO.Net",
+            "MVC",
+            "WCF",
+            "Web Services (SOAP, REST), LINQ, MVC, and Entity Framework",
+            "SQL Server",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Ajax",
+            "Jquery",
+            "Bootstrap",
+            "Angular JS",
+            "Visual Studio",
+            "AWS",
+            "JSON",
+            "GIT",
+            "SVN",
+            "Jira",
+            "XML",
+            "Crystal reports",
+            "SSRS",
+            "Windows",
+            "Mac OS"
+        ]
+    }
+}

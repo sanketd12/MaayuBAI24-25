@@ -1,0 +1,61 @@
+{
+    "certifications": [
+        "Salesforce.com Certified Administrator (ADM 201)"
+    ],
+    "experiences": [
+        {
+            "company": "Houzz- Irvine, CA",
+            "role": "Salesforce Administrator",
+            "dates": [
+                "September 2022 – Present"
+            ],
+            "responsibilities": [
+                "Utilize standard features of Salesforce such as lead management and case management to ensure quick solutions to customers as well as business growth. By incorporating web-to-lead and web-to-case features, to provide an interactive shopping experience for customers. Created reports, dashboards, and processes to continuously monitor data quality and integrity and assisted users with report design and management. Customized page layouts for opportunities, contacts, accounts and other objects depending upon user-profiles and created permission sets where necessary. Establishing role hierarchies, profiles, and security setup within the organization. Utilized web-to-case forms, email-to-case, assignment rules, automation, queues, auto-response rules, escalation rules, and chatter groups to automate Salesforce. Working with Salesforce features like objects, workflows, record types, page layouts, workflow rules, case assignment rules, escalation rules, validation rules, profiles, roles, reports and dashboards. Worked as Salesforce admin support governing user account creation, personal information setup, password reset, Roles & Profile creation, user group creation, updating company profile, network access setup. Defined master-detail and lookup relationships and created junction objects to connect objects. Worked with standard objects such as account, contact and leads to customize their fields and page layouts. Implemented Lightning Web Tabs to reduce the number of clicks and navigation. Proficient knowledge in Salesforce Lightning as an administrator. Created various Lightning Apps using Lightning App Builder and Lightning Design System. Coordinated with project management staff on database development timelines and project scope; set up and controlled user-profiles and access levels for each database segment to protect important data."
+            ]
+        },
+        {
+            "company": "Houzz- Phoenix, AZ",
+            "role": "Salesforce Administrator",
+            "dates": [
+                "January 2021 – September 2022"
+            ],
+            "responsibilities": [
+                "Designed & deployed the custom objects, identified the lookup and master-detail relationships and created the junction objects. Demonstrated ability to translate customer requirements into specification. Provided data access reports to compliance and security ensuring that data and roles are properly defined and transparent. Designed and deployed Custom tabs, validation rules, approval processes and auto-response rules for automating business logic. Created workflow rules and defined related tasks, email alerts, and field updates. Implemented pick lists, dependent pick lists, lookups, master detail relationships, validation and formula fields to the custom objects. Implemented Email-to-Case, Web-to-Case entry and manual case entry for entering customer's cases in Cases Tab. Created page layouts, search layouts to organize fields, custom links, related lists, and other components on record pages. Used field level security along with page layouts to manage access to certain fields. Worked on various Salesforce.com standard objects like accounts, contacts, cases, leads, campaigns, reports and dashboards. Developed and configured various reports and report folders for different user profiles based on the need in the organization. Created custom dashboards for manager's home page and gave accessibility to dashboards for authorized people. Worked on unlocking user accounts and resetting passwords. Implemented Lean Data integration with Salesforce environment and worked on Duplicate Management of Accounts, Leads, Opportunities. Hands on experience in data management tools like Import wizard, data loader and Ring lead to maintain data quality. Worked with Service Request status information and reports. Worked with Communication Solution such as Knowledge Base, Email Templates and Workflow. Implemented automated escalation and alert notification and automated surveys to measure customer satisfaction. Created and maintained support queues and case escalation rules; Increased customer satisfaction by resolving service issues."
+            ]
+        },
+        {
+            "company": "NYC Human Resources Administration Brooklyn, NY",
+            "role": "Job Opportunity Specialist",
+            "dates": [
+                "Nov 2015 – Dec 2020"
+            ],
+            "responsibilities": [
+                "Interview applicants of diverse backgrounds and assess eligibility for immediate needs grants; for employability and eligibility for public assistance, SNAP and Medicaid; work with applicants to remove barriers to employment and make referrals to employment programs, child care programs and so on. Managing all aspects of the case, including establishing on-going eligibility, conducting recertification and also closing case due to earned income. Experience in using WMS, POS to maintain day to day case related activities."
+            ]
+        }
+    ],
+    "education": {
+        "institution": "Polytechnic Institute of NYU",
+        "degree": "Masters of Science in Organizational Behavior",
+        "gpa": 3.3,
+        "graduation": "05/2012",
+        "courses": [
+            "Masters of Science in Organizational Behavior"
+        ]
+    },
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "SURAIYA TABASSUM",
+        "skills": [
+            "SFDC (Salesforce.com) CRM",
+            "Lightning",
+            "Data Loader",
+            "MS SQL Server",
+            "Windows",
+            "MacOS",
+            "MS Office"
+        ]
+    }
+}

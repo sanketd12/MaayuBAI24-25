@@ -1,0 +1,311 @@
+{
+    "certifications": [
+        "Microsoft Certified Solution Developer Early Achiever in .NET Framework"
+    ],
+    "experiences": [
+        {
+            "company": "Dynamic Methods",
+            "dates": [
+                "Sep 2011",
+                "Current"
+            ],
+            "role": "Dynamics CRM Consultant",
+            "responsibilities": [
+                "Recommend integration approach",
+                "Develop and extend portals in ASP.net to replace the existing Powertrak application",
+                "Optimize the resolving duplicate leads, Asset registration process and Literature fulfillment Request process",
+                "Assure smooth integration with the Microsoft GP (back office) using eConnect integration",
+                "Migrate the CRM from existing version of 4.0 to CRM 2011",
+                "Provide estimates for delivering to roadmap",
+                "Understand business processes, identify inefficiencies and catalog future functionality",
+                "Design software solution",
+                "Develop custom solutions where necessary",
+                "Implement entire solution"
+            ]
+        },
+        {
+            "company": "Standard Pacific Homes",
+            "dates": [
+                "Nov 2008",
+                "Current"
+            ],
+            "role": "Sr.Microsoft CRM Developer/ Architect",
+            "responsibilities": [
+                "Help evaluate business processes and requirements as they relate to sales and customer service functions and then develop solutions integrating Microsoft Dynamics CRM",
+                "Develop technical specifications based on functional requirements",
+                "Elaboration of requirements and functional specification document containing the entity relationship diagram",
+                "Customization and creation of relationships between entities, Client UI extension of IFrame, ISV and Sitemap",
+                "CRM Client Side Sdk, AJAX Service calls using Jscript, Server Side Sdk programming, Plugins, workflows and reports",
+                "Use of T-SQL queries, Views, Stored Procedures",
+                "Develop prototypes for major enhancements",
+                "Designed and developed Asp.Net Wizard XRM solution as an extension of the Dynamics CRM",
+                "Develop testing strategies and testing of implemented functionality in development, testing and train environment",
+                "Analyze production issues by reproducing them in development environment and resolving them",
+                "Ability to work in a highly collaborative team environment",
+                "Professional-level interpersonal and communication skills",
+                "Strong time-management and prioritization skills"
+            ]
+        },
+        {
+            "company": "Quintegra Solutions",
+            "dates": [
+                "Apr 2008",
+                "Nov 2008"
+            ],
+            "role": "Development Manager, Advertiser Relationship Management Applications",
+            "responsibilities": [
+                "Driving business requirements identification and analysis",
+                "Development and overseeing of functional and technical specifications",
+                "Design and customization of entities in Microsoft Dynamics CRM 4.0",
+                "Planning and management of resources, cost and schedule",
+                "Coordination of the requirements to the Offshore team",
+                "Architecting of extensible applications in .Net",
+                "Managing resources, schedule, scope and execution of project from offshore",
+                "Project was executed in SCRUM Methodology",
+                "Production Support"
+            ]
+        },
+        {
+            "company": "CSC (Covansys), India",
+            "dates": [
+                "Aug 2002",
+                "Apr 2008"
+            ],
+            "role": "Sr. Application Developer/ Team Lead, Enterprise Applications",
+            "responsibilities": [
+                "Involved in requirements gathering, elaboration of requirements",
+                "Created Use Cases, functional and technical specifications",
+                "Involved in architecting the core components of the .Net Framework such as mapper of Polaris.Net Framework",
+                "Object oriented analysis and design involving creation of Sequence diagrams, domain model and design document artifacts",
+                "Coding of Service Oriented Architecture in C# consisting of Presentation layer, Client to Server Communication, Service tier consisting of Service Interface and Service Implementations, Web Services, Business Objects, Data Access layer and Data Layers",
+                "Usage of design patterns",
+                "Nunit testing at business layer level and service layer level",
+                "Involved in complete SDLC of Commission, Eligibility, Delinquency, Payment Processing modules",
+                "Followed agile methodology",
+                "Code review",
+                "Mentored of new developers regarding the framework and architecture",
+                "Involved in Project Management activities such as Initiation, Planning, Execution, Controlling and Closing"
+            ]
+        },
+        {
+            "company": "SEI Information Technology",
+            "dates": [
+                "Jun 2000",
+                "Nov 2002"
+            ],
+            "role": "Web Programmer",
+            "responsibilities": [
+                "Designed and developed various modules of Dealer Application for Toyota Motor Sales",
+                "Designed in Windows DNA framework"
+            ]
+        },
+        {
+            "company": "SPAR Marketing Force",
+            "dates": [
+                "Jun 1999",
+                "Nov 2000"
+            ],
+            "role": "Web Programmer",
+            "responsibilities": [
+                "Converted existing client server applications to Web Applications"
+            ]
+        },
+        {
+            "company": "Birla Consultancy",
+            "dates": [
+                "Jan 1995",
+                "Jun 1999"
+            ],
+            "role": "Client Server Programmer Analyst",
+            "responsibilities": [
+                "Developed Club Management System for the Client Cricket Club of India",
+                "Developed Payroll Module for the client Goltens, Dubai",
+                "Developed Gas Management System for Colombia Services, Canonsburg, PA, USA"
+            ]
+        }
+    ],
+    "education": {
+        "degree": "Master of Science Applied Physics and Computer Electronics",
+        "institution": "Bharathidasan University, Trichy, India",
+        "graduation": "1992-1994",
+        "gpa": null,
+        "courses": null
+    },
+    "honors": [
+        "Fourth Rank"
+    ],
+    "projects": [
+        {
+            "project": "Implementation of Microsoft Dynamics CRM",
+            "description": [
+                "Project to implement Microsoft Dynamics CRM for Roland DGA Corporation",
+                "Involved in Architecture, Deployment and Development of the project",
+                "Used Microsoft Dynamics CRM 4.0 and CRM 2011 for the project",
+                "Assured smooth integration with the Microsoft GP (back office) using eConnect integration",
+                "Migrated the CRM from existing version of 4.0 to CRM 2011",
+                "Provided estimates for delivering to roadmap",
+                "Understood business processes, identified inefficiencies and cataloged future functionality",
+                "Designed software solution",
+                "Developed custom solutions where necessary",
+                "Implemented entire solution"
+            ],
+            "skills": [
+                "Microsoft Dynamics CRM 4.0",
+                "CRM 2011",
+                "Microsoft GP",
+                "eConnect integration",
+                "ASP.net",
+                "C#",
+                "SQL Server 2008",
+                "ADO.NET",
+                "Sql Server SSRS"
+            ]
+        },
+        {
+            "project": "Implement Custom Mobile portal for Sales team",
+            "description": [
+                "Project to implement a custom mobile portal for the sales team of Carrington Mortgage Services",
+                "Involved in Design, Development and Deployment of the project",
+                "Used Microsoft Dynamics CRM 2011 for the project",
+                "Customized the existing CRM according to the requirements of the Mobile portal in CRM",
+                "Provided estimates for delivering the portal",
+                "Visualized, designed, developed and deployed the mobile portal for the Sales Team"
+            ],
+            "skills": [
+                "Microsoft Dynamics CRM 2011",
+                "ASP.net",
+                "C#",
+                "SQL Server 2008",
+                "ADO.NET",
+                "Sql Server SSRS"
+            ]
+        },
+        {
+            "project": "Design and develop Custom Portal",
+            "description": [
+                "Project to design and develop a custom portal for SoleusAir Consumer Products",
+                "Involved in Architecture, Deployment and Development of the project",
+                "Used Microsoft Dynamics CRM 2011 for the project",
+                "Customized the existing CRM according to the requirements of the portal in CRM",
+                "Provided estimates for delivering the portal",
+                "Visualized, designed, developed and deployed the mobile portal for the Sales Team"
+            ],
+            "skills": [
+                "Microsoft Dynamics CRM 2011",
+                "ASP.net",
+                "C#",
+                "SQL Server 2008",
+                "ADO.NET",
+                "Sql Server SSRS"
+            ]
+        },
+        {
+            "project": "Customize the Microsoft Dynamics CRM 2011",
+            "description": [
+                "Project to customize the Microsoft Dynamics CRM 2011 for FiresafetyFirst",
+                "Involved in Architecture, Deployment and Development of the project",
+                "Used Microsoft Dynamics CRM 4.0 for the project",
+                "Customized the new installation of CRM 2011 according the business needs",
+                "Developed and extended portals in ASP.net where necessary",
+                "Provided estimates for delivering to roadmap",
+                "Understood business processes, identified inefficiencies and cataloged future functionality",
+                "Designed software solution",
+                "Developed custom solutions where necessary"
+            ],
+            "skills": [
+                "Microsoft Dynamics CRM 4.0",
+                "CRM 2011",
+                "ASP.net",
+                "C#",
+                "SQL Server 2008",
+                "ADO.NET",
+                "Sql Server SSRS"
+            ]
+        },
+        {
+            "project": "Porting of data between MS Dynamics GP 2010 and MS Dynamics CRM 2011",
+            "description": [
+                "Project to port data between MS Dynamics GP 2010 and MS Dynamics CRM 2011 for Felbro Inc",
+                "Involved in Architecture, Deployment and Development of the project",
+                "Used Microsoft Dynamics CRM 4.0 for the project",
+                "Recommended integration approach using Microsoft Connector",
+                "Understood the Microsoft Connector Utility and designed maps to port data",
+                "Designed the custom application for porting custom entities from GP to CRM"
+            ],
+            "skills": [
+                "Microsoft Dynamics CRM 4.0",
+                "MS Dynamics GP 2010",
+                "Microsoft Connector",
+                "ASP.net",
+                "C#",
+                "SQL Server 2008",
+                "ADO.NET",
+                "Sql Server SSRS"
+            ]
+        },
+        {
+            "project": "Implement Microsoft Dynamics CRM for Processes Unlimited",
+            "description": [
+                "Project to implement Microsoft Dynamics CRM for Processes Unlimited for Biolase Technology Inc",
+                "Involved in Architecture, Deployment and Development of the project",
+                "Used Microsoft Dynamics CRM 4.0 for the project",
+                "Recommend integration approach",
+                "Developed and extended portals in ASP.net with Bing map integration",
+                "Provided estimates for delivering to roadmap",
+                "Understood business processes, identified inefficiencies and cataloged future functionality",
+                "Designed software solution",
+                "Developed custom solutions where necessary",
+                "Developed SSRS Reports as required"
+            ],
+            "skills": [
+                "Microsoft Dynamics CRM 4.0",
+                "ASP.net",
+                "C#",
+                "SQL Server 2008",
+                "ADO.NET",
+                "Sql Server SSRS",
+                "Bing map integration"
+            ]
+        }
+    ],
+    "userDetails": {
+        "name": "JAYAKUMAR JANAKIRAMAN",
+        "skills": [
+            "Microsoft .Net 2.0/3.0/3.5",
+            "Microsoft Dynamics CRM 2011 and CRM 4.0",
+            "JavaScript, VBScript, Cascading Style Sheets, XSLT, SOAP, DHTML",
+            "ASP.NET, N-Tier Architecture, Web Services, WCF, Design Patterns",
+            "SQL Server 2008, ADO.NET, Sql Server SSRS",
+            "C#",
+            "Visual Studio 2010, Infragistics, Telerik Controls",
+            "MS Office 2000, MS Project, MS Visual Source Safe, n-Unit testing",
+            "Test Director 7.0i, Rational Clear Case, Rational Clear Quest",
+            "Microsoft Visio, UML",
+            "SCRIBE, Connector",
+            "Crystal Reports Enterprise 8.0, SSRS"
+        ]
+    },
+    "activities": [
+        {
+            "activity": "Early Achiever",
+            "responsibility": [
+                "JAYAKUMAR JANAKIRAMAN"
+            ],
+            "role": "E-mail"
+        },
+        {
+            "activity": "Early Achiever",
+            "responsibility": [
+                "jkumar.crm@gmail.com"
+            ],
+            "role": "Cell"
+        },
+        {
+            "activity": "Early Achiever",
+            "responsibility": [
+                "(949)-387-2195"
+            ],
+            "role": "Home"
+        }
+    ]
+}

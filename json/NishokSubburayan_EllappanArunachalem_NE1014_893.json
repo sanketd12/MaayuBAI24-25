@@ -1,0 +1,486 @@
+{
+    "education": {
+        "institution": "Anna University, Chennai, India",
+        "degree": "MBA in Technology Management",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": [
+            "MBA in Technology Management"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Nabors Industries, Houston, TX",
+            "role": "Sr. Developer",
+            "dates": [
+                "Oct 2017 – Till now"
+            ],
+            "responsibilities": [
+                "Participated in daily Scrums with the whole team to discuss about the progress of the application development",
+                "Created new Web Pages and modified the existing ones as per end customer specific requirements using ASP.NET MVC, CSS, JavaScript, jQuery, Kendo UI MVVM",
+                "Created and consumed different ASP.NET Web API’s to send/retrieve customers information and other application related information",
+                "Worked extensively on HTML 5, Bootstrap, Telerik controls, Kendo UI,Angular 4/2, TypeScript, Javascript, jQuery and CSS3 to design rich web pages",
+                "Effectively used Partial Views where ever it is useful. Used HTML helper controls to display the data",
+                "Performed data integration from salesforce to oracle using SSIS",
+                "Worked in service layered architecture with dependency injection pattern",
+                "Designed Layout page to achieve consistent look and feel for all views in the application",
+                "Implemented server-side grid with server-side operations such as Filtering and Sorting",
+                "Used View Data, View Bag and Temp Data for data communication between controllers and views",
+                "Used Bootstrap to help the responsiveness of webpage and design the views in the application with custom CSS3 style sheet",
+                "Used Entity Framework and N-Unity framework",
+                "All the Scripts and Style Sheets were loaded using Bundling to reduce the number of requests to the server and improve the performance",
+                "Involved in writing SQL Queries, store procedure, packages, functions, views, tables, types using Oracle 10g for backend development",
+                "Worked on ASP.NET State Management using Sessions, Query Strings and ASP.NET Caching features using Output Cache",
+                "Participated in bug fixing, unit testing, code integration, code deployment and maintenance",
+                "Work with Technical Architects and Project Manager to provide reliable technical solutions for the customer",
+                "Providing solutions to the technical problems faced by team members"
+            ]
+        },
+        {
+            "company": "HP Inc, Houston, TX",
+            "role": "Sr. Developer",
+            "dates": [
+                "Jan 2017 – Oct 2017"
+            ],
+            "responsibilities": [
+                "Closely Working with product owners and creating Product backlog’s & respected task for each sprint",
+                "Performing BAU support by fixing bugs, enhancing existing product& reviewing peer groups. Good at GHE/ Gerrit review processes",
+                "Involved in development and design of reusable Framework components and developed code generation tool using visual studio extension for fast development",
+                "Experienced the service oriented architecture, MVC 6.0, Web API2.0, Angular 2, TypeScript, JQuery, HTML 5, Bootstrap CSS, SQL Server 2012",
+                "Performing transformation of existing product from ClassicASP, asp.net by developing components in Angular 2.0 and developing asynchronous service to fetch data from sql server using dotnet core MVC 6.0",
+                "Involved in providing support/bug fix in Classic ASP, ASP.Net",
+                "Worked in service layered architecture with dependency injection pattern",
+                "Involved in designing Micro services using web api",
+                "Used Entity Framework",
+                "Responsible for creating Jobs in Jenkins and configuring Jobs for CI/CD process for deployment in multiple Environments using MS Build windows batch command, Powershell script and GitHub pulgins",
+                "Good understanding of Asychronous multi-tier architecture and web server technology",
+                "Work with Technical Architects and Project Manager to provide reliable technical solutions for the customer",
+                "Providing solutions to the technical problems faced by team members"
+            ]
+        },
+        {
+            "company": "AIG VALIC, Houston, TX",
+            "role": "Sr. Developer",
+            "dates": [
+                "JUL 2015 – Dec 2016"
+            ],
+            "responsibilities": [
+                "Involved in doing POC, RFP estimation, analysing existing system",
+                "Involved in preparation of design and technical documents",
+                "Develop and design of reusable Framework components",
+                "Experienced the service oriented architecture, MVC 5.0, web api, Handlebar, HTML 5, AEM, Oracle 11g",
+                "Performing transformation of existing product from ClassicASP, asp.net by developing components in MVC 5.0",
+                "Used dependency injection pattern with unity",
+                "Played has a Individual contributor as well as team player",
+                "Responsible for developing and develivering 4 modules such as SingleSignOn(Login), Message Center, Alerts and Workspace in this project",
+                "Provided UAT and production support",
+                "Gained client appreciation and trust for delivering High Quality projects in short term",
+                "Direct interact with clients to provide solutions to the technical problems",
+                "Good understanding of multi-tier architecture and web server technology",
+                "Work with Technical Architects and Project Manager to provide reliable technical solutions for the customer"
+            ]
+        },
+        {
+            "company": "Axalta Coating Systems,Chicago, Illinois",
+            "role": "Sr. Developer",
+            "dates": [
+                "AUG 2014 – JUL 2015"
+            ],
+            "responsibilities": [
+                "Involved in creation of sites, lists, views, custom web parts, workflows, timer jobs, event receivers",
+                "Customization of SharePoint List forms using SharePoint Designer",
+                "Written code using JSOM, REST API and SharePoint Server Object Model as per design of the business requirements in different modules",
+                "Experienced migration Lotus Notes data to SharePoint 2013 via Quest",
+                "Involved in fixing bugs in migrated application using visual studio",
+                "Involved in writing powershell scripts to automate the deployment process in various enviorment",
+                "Involved in preparing Unit Test cases and performing Unit Testing for the created applications",
+                "Involved in preparing and reviewing Application Design document (proposed technical solution in SharePoint), Source Target mapping documents for the assigned applications"
+            ]
+        },
+        {
+            "company": "SSE UK",
+            "role": "Sr. Developer",
+            "dates": [
+                "NOV 2013 – AUG 2014"
+            ],
+            "responsibilities": [
+                "Involved in creation of sites, lists, views, custom web parts, workflows, timer jobs, event receivers",
+                "Configuring sites and deploying wsp using PowerShell scripts",
+                "Involved in fixing bugs in migrated application using visual studio",
+                "Involved in developing custom tools using console application and PowerShell scripts to fix migration issues",
+                "Involved in writing powershell scripts to automate the deployment process in various enviorment and to fix the migration issues caused by the tool",
+                "Involved in preparing Unit Test cases and performing Unit Testing for the created applications",
+                "Involved in preparing and reviewing Application Design document (proposed technical solution in SharePoint), Source Target mapping documents for the assigned applications",
+                "Provided UAT and production support",
+                "Direct interact with clients to provide solutions to the Technical problems",
+                "Gained client appreciation and trust for delivering High Quality projects in short term"
+            ]
+        },
+        {
+            "company": "Tata Communication",
+            "role": "Support Engineer",
+            "dates": [
+                "OCT 2013 – NOV 2013"
+            ],
+            "responsibilities": [
+                "Involved in providing SharePoint support for Intranet Portal",
+                "Customizing websites using OOTB, HTML, CSS, Jquery, SharePoint WebServices",
+                "Involved in Production Support & Ticket trouble shooting, Monitoring and Report generation of intranet portals",
+                "Involved in the Migration of SharePoint 2010 to 2013 sites using database attach and detach method",
+                "Bug fixing"
+            ]
+        },
+        {
+            "company": "Government of TamilNadu",
+            "role": "Developer",
+            "dates": [
+                "May 2013 – Sep 2013"
+            ],
+            "responsibilities": [
+                "Created Visual Web Parts, Lists in SharePoint",
+                "Customized the Master Pages using Visual Studio",
+                "Develop ASP.NET application as UI for data entry, and plan to extend to enter by end user",
+                "Involved in testing, packaging and deployment of the product",
+                "Written code as per design of the business requirements in different modules",
+                "Self-Review and Peer-Peer Review of the tasks",
+                "Bug fixing",
+                "Identifying, analyzing and sharing knowledge in the team to prevent defects",
+                "Configured FBA for accessing the site",
+                "Developed Andriod mobile app for accessing data via Mobile Device using web service"
+            ]
+        },
+        {
+            "company": "Fujitsu",
+            "role": "Developer",
+            "dates": [
+                "DEC 2012 – MAY 2013"
+            ],
+            "responsibilities": [
+                "Customization of OOTB Announcement list using JQuery, SharePoint Web Services",
+                "Customization of Dashboard pages",
+                "Configuration of SharePoint 2013 Enterprise Search and Customization of Search design templates",
+                "Configuration of OOTB Workflows for list",
+                "Configuration of User Profile Services and MY site",
+                "Creation and configuration of Friendly URL using Manage Metadata Navigation"
+            ]
+        },
+        {
+            "company": "Fujitsu",
+            "role": "Developer",
+            "dates": [
+                "AUG 2012 – NOV 2012"
+            ],
+            "responsibilities": [
+                "Created Visual Web Parts, Lists, Event receivers using visual studio in SharePoint",
+                "Customized the Master Pages using Visual Studio",
+                "Develop ASP.NET application as UI for data entry, and plan to extend to enter by end user",
+                "Customized the document approval workflow using SharePoint Designer",
+                "Involved in testing, packaging and deployment of the product",
+                "Written code as per design of the business requirements in different modules",
+                "Self-Review and Peer-Peer Review of the tasks",
+                "Bug fixing",
+                "Identifying, analyzing and sharing knowledge in the team to prevent defects"
+            ]
+        }
+    ],
+    "certifications": [
+        "Microsoft® Specialist: Programming in HTML5 with JavaScript and CSS3",
+        "Microsoft® Certified Technology Specialist (MCTS): Microsoft .NET Framework 3.5, ASP.NET Application Development",
+        "Microsoft® Certified Technology Specialist (MCTS): Microsoft SQL Server 2008, Database Development"
+    ],
+    "projects": [
+        {
+            "project": "EBS – HCM Portal",
+            "description": [
+                "Nabors Corporate Services, Inc. is headquartered in Houston, Texas, which manufactures a wide range of world-class drilling equipment, rig control systems, oil well instrumentation and is one of the fastest growing suppliers of suites of software products to manage drilling data, analysis & reporting systems. Nabors is one of the world's largest providers of land and offshore platform drilling services for exploration and development of oil, gas and geothermal wells. Involved in design and development of Enterprise Applications."
+            ],
+            "skills": [
+                "C#",
+                "MVC 5.0",
+                ".NET Framework 4.5/4.0/3.5",
+                "Web API 2.0",
+                "Kendo UI",
+                "MVVM",
+                "Bootstrap",
+                "HTML 5",
+                "CSS 3",
+                "Angular 4/2.0",
+                "TypeScript",
+                "JavaScript",
+                "JQuery",
+                "IIS 8.0",
+                "Oracle 10g",
+                "TOAD",
+                "SQL Developer",
+                "SSIS",
+                "Nuget",
+                "TFS"
+            ]
+        },
+        {
+            "project": "CMIT Pulsar",
+            "description": [
+                "This Client is major American multinational information Technology Corporation headquartered in Palo Alto, California, United States.  The main focus of their business is PC Note books, Printers & Cloud Services. This is purely Agile based project. We are transforming the existing application developed in classic asp, asp.net to Angular 2.0, MVC 6.0 with asynchronous service oriented architecture."
+            ],
+            "skills": [
+                "MVC 6.0",
+                "Dotnet core",
+                "Classic ASP",
+                "web forms",
+                "C#",
+                "Web API 2.0",
+                "Angular 4.0/2.x",
+                "Typescript",
+                "Gulp",
+                "JQwidgets",
+                "HTML 5",
+                "CSS 3",
+                "JavaScript",
+                "JQuery",
+                "IIS 8.0",
+                "SQL Server 2012",
+                "GitHub",
+                "Jenkins",
+                "Powershell",
+                "MS Build",
+                "NPM",
+                "Nuget"
+            ]
+        },
+        {
+            "project": "AIG – VALIC Digital Online Website redesign (www.valic.com) – AIG VALIC, Houston, TX",
+            "description": [
+                "VALIC, a subsidiary of American International Group, Inc., (AIG), is an insurance corporation that specializes in tax-qualified retirement plans, supplemental tax-deferred and after-tax investments.VALIC offers a variety of products, including Valic Online (VOL). VOL is a technology upgrade project to transform the Customer Experience on the existing applications to provide a responsive UI and to maximize the user engagement.  VOL is a Modular / framework-based architecture for better performance and flexibility with better user experience. It follows Agile Scrum & Iterative development approach for speed to market. It is a re-engineering of VOL Transactions encompassing new personalization. It has re-usable services developed on top of Web APIs to serve multi channels format requirement with robust architecture to ensure future-proof, reusable design. Integration with other application (like mainframe, Agile Net and Financial Soundings)."
+            ],
+            "skills": [
+                "MVC 5.0",
+                "ASP.NET 4.5",
+                "C#",
+                "Web API 2.0",
+                "Classic ASP",
+                "Handlebar",
+                "Adobe Experience Manager(AEM)",
+                "HTML 5",
+                "CSS 3",
+                "JavaScript",
+                "JQuery",
+                "IIS 8.0",
+                "Oracle 11g",
+                "SQL Navigator 6.7",
+                "TFS Source code control"
+            ]
+        },
+        {
+            "project": "Lotus Notes to SharePoint Migration",
+            "description": [
+                "AXALTA is a data migration project from IBM Lotus Notes to SharePoint. The scope of project includes the migration of the Lotus Notes Domino applications to SharePoint. High level analysis for 200 Lotus Notes Domino applications is performed, detailed analysis of 70 of them and migration of 15 applications done. Quest Tool has been used for the high level analysis and data migration from Lotus Notes to SharePoint. High Level analysis of the 117 Lotus QuickR applications has been carried out using the Quest tool. SharePoint applications were categorized based on the complexity and related applications are grouped together as a SharePoint template and additional features are included as part of each application."
+            ],
+            "skills": [
+                "SharePoint 2013",
+                "Visual Studio 2012",
+                "ASP.NET 4.5",
+                "C#",
+                "REST API",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "IIS 8.0",
+                "Windows Server 2012",
+                "TFS Source code control"
+            ]
+        },
+        {
+            "project": "SSE - Exchange Migration Apps",
+            "description": [
+                "SSE is a data migration project from IBM Lotus Notes to SharePoint /Asp. Net. The scope of project includes the migration of the Lotus Notes Domino applications to SharePoint Portal and the QuickR sites to SharePoint. High level analysis for 400 Lotus Notes Domino applications is performed, detailed analysis of 200 of them and migration of 20 applications done. Quest Tool has been used for the high level analysis and data migration from Lotus Notes to SharePoint. High Level analysis of the 117 Lotus QuickR applications has been carried out using the Quest tool. One very high complex Lotus Notes application has been migrated to ASP .NET solution. SharePoint applications were categorized based on the complexity and related applications are grouped together as a SharePoint template and additional features are included as part of each application."
+            ],
+            "skills": [
+                "SharePoint 2013",
+                "Visual Studio 2012",
+                "PowerShell script",
+                "ASP.NET 4.5",
+                "C#",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "IIS 8.0",
+                "Windows Server 2012",
+                "TFS Source code control"
+            ]
+        },
+        {
+            "project": "SharePoint Support",
+            "description": [
+                "This involves providing SharePoint support to all the Tata Communications users (nearly 2000 users) who use SharePoint on a regular basis by using the OOTB functionalities which SharePoint readily provides."
+            ],
+            "skills": [
+                "SharePoint 2010",
+                "SQL Server 2008",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "IIS 7.0",
+                "Windows Server 2008"
+            ]
+        },
+        {
+            "project": "Water Supply Monitoring System",
+            "description": [
+                "Water Supply monitoring application is to help manage water supply distribution – Litres Per Capita per Day (LPCD) from various water supply sources.  Provide reporting for ULB administrators to region wise LPCD requirements and service attributes. The ULB Water Supply Monitoring System comprises of building a data entry screen in web portal and then displaying the dashboard of the water supply status in a mobile app for ULB’s."
+            ],
+            "skills": [
+                "SharePoint 2013",
+                "Visual Studio 2012",
+                "ASP.NET 4.5",
+                "C#",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "IIS 8.0",
+                "Windows Server 2012",
+                "TFS Source code control"
+            ]
+        },
+        {
+            "project": "Collab 2013 (Product)  -Fujitsu",
+            "description": [
+                "Collab is a collaboration platform based on Microsoft’s SharePoint that integrates the best features of social networking, collaboration software, community software, automated workflow and social media monitoring to extend a layer of social capabilities across every level of your business."
+            ],
+            "skills": [
+                "SharePoint server 2013",
+                "Visual Studio 2012",
+                "ASP.NET 4.5",
+                "C#",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "IIS 8.0",
+                "Windows Server 2012",
+                "TFS Source code control"
+            ]
+        },
+        {
+            "project": "Audocs(Product)  - Fujitsu",
+            "description": [
+                "AUDOCS Proposal Automation enables you to analyse complex RFPs and quickly searches your entire database of pre-approved answers to produce high-probability matches for the questions and requirements. You'll be able to quickly generate a professional RFP response — including cover letter, title page, table of contents, compliance matrix, and the questions and answers — in the Microsoft Word template specific to your business."
+            ],
+            "skills": [
+                "SharePoint 2010",
+                "Visual Studio 2010",
+                "ASP.NET 3.5",
+                "C#",
+                "JQuery",
+                "IIS 7.0",
+                "Windows Server 2008",
+                "TFS Source code control"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Awards and Recognition",
+            "responsibility": [
+                "Appreciation Card –EXPERIMENTATION - THE BUCK STOPS WITH ME on Aug 2017",
+                "Continuous 5 star performance rating from 2015 till 2017",
+                "Appreciation Card – I am PASSIONATE ABOUT RESULTS on Dec 2016",
+                "Monthly SUMMIT INDIVIDUAL AWARD for VALIC Digital project",
+                "Appreciation Card – I am PASSIONATE ABOUT RESULTS on Feb 2016",
+                "Monthly SUMMIT INDIVIDUAL AWARD for SSE project"
+            ],
+            "role": "Sr. MS SharePoint/Dotnet Consultant"
+        },
+        {
+            "activity": "Contact Information",
+            "responsibility": [
+                "E-mail seanishok@gmail.com",
+                "Mob +1 281-690-1428",
+                "https://www.linkedin.com/in/nishok-s-e-a-7b410241/"
+            ],
+            "role": "Sr. MS SharePoint/Dotnet Consultant"
+        },
+        {
+            "activity": "Profile Summary",
+            "responsibility": [
+                "A dynamic professional with 6+ years of rich IT experience in analysis, design, development, migration, integration and maintenance projects primarily using Microsoft technologies, tools, frameworks and libraries."
+            ],
+            "role": "Sr. MS SharePoint/Dotnet Consultant"
+        },
+        {
+            "activity": ".NET Framework and Database Skills",
+            "responsibility": [
+                "Excellent Object-Oriented programming skills with web/windows based interactive applications using .NETFramework 4.6/4.5/4.0/3.5, Dotnet Core, ASP.NET 4.5/4.0/3.5, MVC 6.0/5.0, Web API 2.0, C#, Strong programming skills in developing Web based apps using ASP.NET, MVC and C#.NET",
+                "Experience in all the phases of a Software Development Life Cycle (Requirements, Analysis, Design, Implementation, Integration, Testing, and Maintenance) and Agile Scrum",
+                "Design, Configure and Customize Exception, Logging, Security and Caching Components for .NET applications",
+                "Good command over commercial RDBMS such as SQL Server 2014/2012/2008",
+                "Extensive programming skills in writing Stored Procedures, functions, views, tables, types, packagesin Oracle 10g, SQL 2014/2012/2008",
+                "Good experience in using LINQ, Entity Framework, NUnity, Dependency Injection pattern, N-Tier service oriented architecture in .NET applications",
+                "Good experience in creating Web Services using WCF and Web API 2.0",
+                "Good experience in Typescript, JQuery and JavaScript",
+                "Good experience in Angular 4.x, 2.x/1.x, Handlebars, JQWidgets, Kendo UI MVVM",
+                "Experience in implementing Components, Services, Lazy Loading modules, Routing, Auxiliary Routing, AOT, Rollup, Dependency Injection, bundling and minification in Angular",
+                "Experience in AJAX Control Toolkit, AJAX Enabled web site and adding AJAX functionality in ASP.NET web site",
+                "Good Experience in Continuous Integration Development Environment, using Jenkin’s web Interface for Builds",
+                "Strong Communication, Presentation and Interpersonal skills with excellent problem-solving capabilities"
+            ],
+            "role": "Sr. MS SharePoint/Dotnet Consultant"
+        },
+        {
+            "activity": "SharePoint 2013 and SharePoint 2010 Skills",
+            "responsibility": [
+                "Expert in SharePoint Technologies and Microsoft Server Technologies – SharePoint 2013, SharePoint 2010",
+                "Involved in designing, developing and delivering management and collaboration portals using SharePoint 2013 and SharePoint 2010, IIS, Active Directory and Managing Services in the Farm",
+                "Expert in migration of Lotus Notes to SharePoint using Quest Migrator",
+                "Extensively worked on SharePoint Client Object Model, SharePoint Server Object Model, JSOM, REST API, SharePoint Apps, Sandbox Solutions, Document Sets, InfoPath Forms 2013, Workflow, Ribbon customization, SharePoint List, Event Receivers, User Controls, Visual Web parts, Master Page and SharePoint Designer",
+                "Extensively worked on creating Features and Solution Packages to deploy most of the custom web parts and Master Page",
+                "Extensively worked on CAML Query and LINQ to copy list item from one list to another list",
+                "Implemented Document Management using features such as Site Columns, Content Types, Document Properties, Permissions and Versioning",
+                "Expert in SharePoint 2013 Enterprise Search branding and customization of display templates using design manager. Configuration of custom search scope and manage properties",
+                "Expert in SharePoint Backup & Restore and managing Site Quota",
+                "Expert in writing deployment script in both STSADM command and Power shell scripts",
+                "Expert in SharePoint 2013/2010 service application configuration of User Profile Service Application, Web analytics, Search Service Application, Managed Metadata Service Application, Business Data Connectivity Service, App Management Service",
+                "Expert in SharePoint Hosted Apps development using REST API, JSOM and Web Services",
+                "Exposure to SharePoint Framework, SharePoint Pnp Framework, TypeScript 2.0, Angular 4.0/2.0 for building client side webparts",
+                "Being part of client’s various research initiatives, creating PoC’s and transforming it to real-time solutions"
+            ],
+            "role": "Sr. MS SharePoint/Dotnet Consultant"
+        }
+    ],
+    "honors": [
+        "Appreciation Card –EXPERIMENTATION - THE BUCK STOPS WITH ME on Aug 2017",
+        "Continuous 5 star performance rating from 2015 till 2017",
+        "Appreciation Card – I am PASSIONATE ABOUT RESULTS on Dec 2016",
+        "Monthly SUMMIT INDIVIDUAL AWARD for VALIC Digital project",
+        "Appreciation Card – I am PASSIONATE ABOUT RESULTS on Feb 2016",
+        "Monthly SUMMIT INDIVIDUAL AWARD for SSE project"
+    ],
+    "userDetails": {
+        "name": "Nishok Subburayan Ellappan Arunachalem",
+        "skills": [
+            "C#",
+            "MVC 5.0",
+            ".NET Framework 4.5/4.0/3.5",
+            "Web API 2.0",
+            "Kendo UI",
+            "MVVM",
+            "Bootstrap",
+            "HTML 5",
+            "CSS 3",
+            "Angular 4/2.0",
+            "TypeScript",
+            "JavaScript",
+            "JQuery",
+            "IIS 8.0",
+            "Oracle 10g",
+            "TOAD",
+            "SQL Developer",
+            "SSIS",
+            "Nuget",
+            "TFS"
+        ]
+    }
+}

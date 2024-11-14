@@ -1,0 +1,193 @@
+{
+    "experiences": [
+        {
+            "company": "JPM CHASE & CO, COLUMBUS, OH",
+            "role": "Sr. MS SQL/MSBI Developer",
+            "dates": [
+                "August 2021 – Till Date"
+            ],
+            "responsibilities": [
+                "Collaborated with senior management, subject matter experts, and IT teams to define business requirements",
+                "Transformed business requirements into functional and nonfunctional requirements",
+                "Created complex stored procedures to perform various tasks including, but not limited to: index maintenance, data profiling, metadata searches, and loading of the data mart",
+                "Developed SSIS packages to extract data from OLTP to OLAP systems and schedule the same as jobs using SQL Server Agent",
+                "Designed incremental loads to populate the data mart with checksum and timestamp techniques, SSIS Logging, error configurations for error handling the packages",
+                "Created master-child packages to consolidate data from data sources into SQL server with execute package tasks, enabling modular programming",
+                "Implemented package configurations on development, test, and production environments utilizing parameters",
+                "Create paginated reports using Power BI Report Builder for on-premises and cloud data sources",
+                "Experienced in developing Data Mapping, Performance Tuning and Identifying Bottlenecks of sources, mappings, targets and sessions",
+                "Strong understanding of Data Modeling in data warehouse environment such as star schema and snow flake schema",
+                "Good Expertise in using Source Control Tools such as Team Foundation Server (TFS) and maintain a Repository of the T-SQL, SSIS developments",
+                "Used SSRS to create reports, customized Reports, on-demand reports, and involved in analyzing multi-dimensional reports in SSRS",
+                "Delivered on-demand reports in multiple rendering formats with standard and data driven subscriptions",
+                "Designed expressions to calculate, group, filter, parameterize, and format report contents",
+                "Generated score cards with executive summary dashboards to display performance monitoring measures with Power BI",
+                "Create paginated reports using Power BI Report Builder for on-premises and cloud data sources",
+                "Migrated dashboard reports from Tableau to Power BI",
+                "Designed and developed Power BI graphical and visualization solutions with business requirement documents and plans for creating interactive dashboards",
+                "Utilized Power BI (Power View) to create various analytical dashboards that depicts critical KPIs such as legal case matter, billing hours and case proceedings along with slicers and dicers enabling end-user to make filters",
+                "Generated ad-hoc reports in Excel Power Pivot and sheared them using Power BI to the decision makers for strategic planning",
+                "Utilized Power Query in Power BI to Pivot and Un-pivot the data model for data cleansing and data massaging",
+                "Implemented several DAX functions for various fact calculations for efficient data visualization in Power BI",
+                "Utilized Power BI gateway to keep dashboards and reports up to-date with on premise data sources",
+                "Integrated different data sources and created data sets within Power BI",
+                "Implemented code check-in/check-out and managed multiple versions of complicated code within TFS",
+                "Provisioned VMs with SQL Server on cloud utilizing Microsoft Azure and setting up communication with the help of endpoints"
+            ]
+        },
+        {
+            "company": "MASTERCARD, O FALLON, MO",
+            "role": "Sr.SQL Developer",
+            "dates": [
+                "Oct 2019 to July 2021"
+            ],
+            "responsibilities": [
+                "Involved in development, deployment, scheduling, and troubleshooting SSIS packages in SQL Server2005/2008, 2012",
+                "Created SSIS Packages using Control flow containers/tasks such as For Loop, For Each Loop, Execute SQL Task, Execute Package Task, Data flow tasks etc to load data from multiple source systems (File system, SQL & Oracle) into our Data warehouse system",
+                "Involved in database design, normalization, de-normalization to build the data warehouse and reporting systems",
+                "Created Golden Datasets on Power BI Service to avoid “Data Set Silos” and created different environments for Dev / QA/Prod environments with the help of Workspaces",
+                "Extensively used Informatica versions for various ETL purposes",
+                "Worked closely with Power BI Admin to incorporate Deployment pipelines for various environments for dev / QA / Prod on Power BI Premium capacity",
+                "Generated multiple enterprise reports (SSRS/Crystal) from SQL Server Database (OLTP) and SQL Server Analysis Services Database (OLAP) and included various reporting features such as Group by, Drilldowns, Drill through, Sub-reports, Dashboard, Matrix, Charts and Navigation Reports (hyperlink) etc",
+                "Worked with data models with complex relationships in Power BI and connected different data sources to Power BI desktop",
+                "Performed Unit and Integration Testing of Informatica Sessions, Batches and Target Data",
+                "Scheduled SSRS reports in Report Manager and created Linked Reports, Ad-hoc Reports and etc. based on the business needs",
+                "Basic training to Power Users and Business Analysts has been given on Power BI and mentoring the team on Power BI Features and Functionalities",
+                "Developed complex SQL Server database objects such as Stored Procedures, Views, Functions, Triggers using Joins, Variables and Temporary tables etc",
+                "Generating complex Transact SQL (T-SQL) Queries, Sub queries, Co-related sub queries, Dynamic SQL queries etc",
+                "Prepared data validations scripts for various business teams across the organization for financial month-end closing activities, weekly/monthly Gross/ Net customer counts for Sales team",
+                "Developed and test all the backend programs, Informatica mappings and update processes",
+                "Hands on experience in using DDL Triggers (After and Instead of Triggers) to keep track of data manipulations using audit functionalities",
+                "Involved in query tuning by creating table Indexes, SQL Profiler and Index Tuning Wizard for enhancing the query performance",
+                "Created complex SSIS packages with various DFT tasks such as Derived Column, Conditional Split, Data Conversion, Lookup, and Script tasks etc., using user variables to load into data warehouse systems",
+                "Deployed SQL Server SSIS packages to SQL Server and File system from development to UAT and production using package configurations",
+                "Involved in SSIS package automation using SQL Server Agent, Windows Scheduler and other 3rd party tools such as Control-M",
+                "Translated the business requirements into workable functional and non-functional requirements at detailed production level using Workflow Diagrams, Sequence Diagrams, Activity Diagrams and Use Case Modeling",
+                "Utilized Power BI (Power Pivot/View) to design multiple scorecards and dashboards to display information required by different departments and upper level management",
+                "Generated Dashboard reports using Power BI"
+            ]
+        },
+        {
+            "company": "Cox Communications, USA",
+            "role": "BI Developer",
+            "dates": [
+                "Mar 2019 to Sep 2019"
+            ],
+            "responsibilities": [
+                "Worked closely with business users to congregate and comprehend requirements",
+                "Designed and worked on extraction, Transformation and Loading (ETL) process by pulling up large volume of data from various data sources using SSIS",
+                "Designed SSIS packages for tracking the Audit time in multiple databases in multiple servers and Worked on data flow task, Script component, OLEDB command, derived column, data conversion",
+                "Extensively used SSIS transformations such as Lookup, Derived column, Data conversion, Aggregate, Conditional split, SQL task, Script task and Send mail task etc",
+                "Worked on execute package task, for each loop container, sequence container",
+                "Designed package by placing data flow task in parallel to improve performance",
+                "Effectively used various properties in SSIS package to improve the performance",
+                "Written complex stored procedures to load the data to tables according to the business rules",
+                "Developed drill down, drill through, cascaded and parameterized reports using SSRS and developed excel pivot chart reports and pivot tables"
+            ]
+        },
+        {
+            "company": "Pet Smart, CA",
+            "role": "BI Developer",
+            "dates": [
+                "April 2018 to Jan 2019"
+            ],
+            "responsibilities": [
+                "Gathered functional requirements, Business requirements and wrote the technical specifications for building the Global Enterprise Data warehouse",
+                "Worked in extracting transforming and loading (ETL) data across multiple databases using SSIS packages",
+                "Created SSIS Packages to export and import data from CSV files, Text files and Excel Spreadsheets",
+                "Created packages with different control flow options and data flow transformations such as Conditional Split, Derived Column, Look up, Data Conversion, Merge, Merge Join",
+                "Created SSIS packages to load data into Data Warehouse using Various SSIS tasks like Execute SQL Task, bulk insert task, data flow task, file system task, send mail task, active script task, and xml task",
+                "Used SSIS and SQL Server stored procedures to transfer data from OLTP databases to staging area and finally transfer into data marts",
+                "Used SSIS to implement the Slowly Changing Dimensions, to maintain Historical Data in Data warehouse",
+                "Extensively worked on production support that includes Deployment of SSIS Packages into Development, Production Servers, Creating, Scheduling and Managing the SQL Jobs",
+                "Extensively worked on Design and development of SSIS (ETL) packages to extract, transform and load data from Sources like Excel files, flat files to the Data warehouse using different tasks and transformations like File System Task, Data Flow Task, Derived Columns, and Execute SQL Task",
+                "Worked on Execution of the paths depending on the success, failure or Completion of other tasks with precedence constraints and expressions to determine the workflow",
+                "Created report snapshots to improve performance of SSRS"
+            ]
+        },
+        {
+            "company": "Cognizant, USA",
+            "role": "Developer",
+            "dates": [
+                "August 2011-Dec2017"
+            ],
+            "responsibilities": [
+                "Created different chart objects like Bar Chart, Line Chart, Text Tables, Tree Maps and Scatter Plot",
+                "Used Parameters, Aggregate Functions, Filters",
+                "Used Tableau Desktop to analyze and obtain insights into large data sets",
+                "Preparing Dashboards using calculations, parameters in SSRS",
+                "Find ways to make graphs and tables visually exciting, and aesthetically pleasing, while at the same time maintaining the accuracy of the core information content that is being communicated",
+                "Worked on both relational and dimensional Databases",
+                "Writing SQL queries for data validation by using join condition"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Cox Communications, USA",
+            "description": [
+                "Worked closely with business users to congregate and comprehend requirements",
+                "Designed and worked on extraction, Transformation and Loading (ETL) process by pulling up large volume of data from various data sources using SSIS",
+                "Designed SSIS packages for tracking the Audit time in multiple databases in multiple servers and Worked on data flow task, Script component, OLEDB command, derived column, data conversion",
+                "Extensively used SSIS transformations such as Lookup, Derived column, Data conversion, Aggregate, Conditional split, SQL task, Script task and Send mail task etc",
+                "Worked on execute package task, for each loop container, sequence container",
+                "Designed package by placing data flow task in parallel to improve performance",
+                "Effectively used various properties in SSIS package to improve the performance",
+                "Written complex stored procedures to load the data to tables according to the business rules",
+                "Developed drill down, drill through, cascaded and parameterized reports using SSRS and developed excel pivot chart reports and pivot tables"
+            ],
+            "skills": [
+                "T-SQL, MS SQL Server 2014/2012, SQL Server Integration Services (SSIS), SQL Server Reporting Services (SSRS), Visual studio 2012, 2013, Business Intelligence Development Studio (BIDS), XSLT, CSS, Team foundation Server (TFS), SharePoint, MS Excel, Microsoft windows server 2012"
+            ]
+        },
+        {
+            "project": "Pet Smart, CA",
+            "description": [
+                "Gathered functional requirements, Business requirements and wrote the technical specifications for building the Global Enterprise Data warehouse",
+                "Worked in extracting transforming and loading (ETL) data across multiple databases using SSIS packages",
+                "Created SSIS Packages to export and import data from CSV files, Text files and Excel Spreadsheets",
+                "Created packages with different control flow options and data flow transformations such as Conditional Split, Derived Column, Look up, Data Conversion, Merge, Merge Join",
+                "Created SSIS packages to load data into Data Warehouse using Various SSIS tasks like Execute SQL Task, bulk insert task, data flow task, file system task, send mail task, active script task, and xml task",
+                "Used SSIS and SQL Server stored procedures to transfer data from OLTP databases to staging area and finally transfer into data marts",
+                "Used SSIS to implement the Slowly Changing Dimensions, to maintain Historical Data in Data warehouse",
+                "Extensively worked on production support that includes Deployment of SSIS Packages into Development, Production Servers, Creating, Scheduling and Managing the SQL Jobs",
+                "Extensively worked on Design and development of SSIS (ETL) packages to extract, transform and load data from Sources like Excel files, flat files to the Data warehouse using different tasks and transformations like File System Task, Data Flow Task, Derived Columns, and Execute SQL Task",
+                "Worked on Execution of the paths depending on the success, failure or Completion of other tasks with precedence constraints and expressions to determine the workflow",
+                "Created report snapshots to improve performance of SSRS"
+            ],
+            "skills": [
+                "T-SQL, MS SQL Server 2014/2012, SQL Server Integration Services (SSIS), SQL Server Reporting Services (SSRS), Visual studio 2012, 2013, Business Intelligence Development Studio (BIDS), XSLT, CSS, Team foundation Server (TFS), SharePoint, MS Excel, Microsoft windows server 2012"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "Spire.Doc for Python",
+        "degree": "N/A",
+        "graduation": "N/A",
+        "courses": [
+            "N/A"
+        ],
+        "gpa": null
+    },
+    "certifications": [
+        "N/A"
+    ],
+    "activities": [
+        {
+            "activity": "N/A",
+            "role": "N/A",
+            "responsibility": [
+                "N/A"
+            ]
+        }
+    ],
+    "honors": [
+        "N/A"
+    ],
+    "userDetails": {
+        "name": "Hema",
+        "skills": [
+            "SQL Enterprise Manager, Query Analyzer, SQL Server Management Studio, Business Intelligence Development Studio, SQL Profiler, SQL Server Integration Services, SQL Server Analysis Service (SSAS), SQL Server Integration Services (SSIS), Data Transformation Service (DTS), SQL Server Reporting Services (SSRS), Crystal Reports, Report Studio, Report builder, Power BI, MS SQL Server 2016/2014/2012/2008R2/2005/2000, MS Access, Oracle 11g/10g/9i/8i, DB2, T-SQL, PL/SQL, C, HTML, DHTML, XML, VB.NET, C#.Net, SharePoint, HTML, DHTML, XML, XSL, Windows Server 2012, Windows 2008 R2, 2003 R2, 2003, 2000-Advanced Server, Windows XP, Windows 7, SVN, Team Foundation Server (TFS) ,GIT Hub and SharePoint"
+        ]
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "experiences": [
+        {
+            "company": "Kohler, WI",
+            "role": "Azure Data Engineer",
+            "dates": [
+                "July 2022 – Present"
+            ],
+            "responsibilities": [
+                "Designing and implementing data integration solutions using Azure Data Factory to move data between various data sources, including on-premises and cloud-based systems",
+                "Analyzing the functional requirement documents from Business",
+                "Developed multiple notebooks using Pyspark and Spark SQL in Databricks for data extraction, analyzing and transforming the data according to the business requirements",
+                "Ability to apply the spark Data Frame API to complete data manipulation within spark session",
+                "Created pipelines to load the data using ADF",
+                "Involved in monitoring and scheduling the pipelines using Triggers in Azure Data Factory",
+                "Implemented changes in the existing pipelines",
+                "Involved in data validations and reports using Power BI",
+                "Performed Unit, System Integration Testing",
+                "Implementing One time Data Migration of multistate level data from SQL server to Snowflake by using Python and SnowSQL",
+                "Identified defects and tracked them till closure using JIRA",
+                "Developing data pipelines and workflows using Azure Databricks to process and transform large volumes of data, utilizing programming languages such as Python, Scala, or SQL",
+                "Building and maintaining Logic Apps to automate business processes and data workflows, leveraging Azure services such as Azure Functions, Event Grid, and Service Bus",
+                "Developing and maintaining Azure Analysis Services models to support business intelligence and data analytics requirements, creating measures, dimensions, and hierarchies for reporting and visualization",
+                "Writing complex PL/SQL queries and procedures to extract, transform, and load data from various sources, ensuring data accuracy and completeness",
+                "Optimized Python code and SQL queries, created tables/views, and wrote custom queries and Hive-based exception processes",
+                "Working with stakeholders and business users to understand their data requirements, and designing and implementing data solutions that meet their needs",
+                "Troubleshooting data integration and processing issues, and ensuring data quality and consistency across various systems and applications",
+                "Keeping up-to-date with emerging technologies and best practices in data engineering, and applying them to improve data processing efficiency, scalability, and reliability",
+                "Collaborating with other teams, such as data scientists, developers, and architects, to ensure end-to-end data integration and management"
+            ]
+        },
+        {
+            "company": "General Dynamics Information Technology, Reston, VA",
+            "role": "Azure Data Engineer",
+            "dates": [
+                "July 2021–July 2022"
+            ],
+            "responsibilities": [
+                "Extract Transform and Load data from Sources Systems to Azure Data Storage services using a combination of Azure Data Factory, T-SQL, Spark SQL and U-SQLAzure Data Lake Analytics",
+                "Created Azure Data Lake Storage (ADLS) (Gen 1 and Gen 2), Blob Storage and Ingested the Data from Flat files, CSV Files and On-Premise Database Tables using Azure Data Factory V2(ADF).",
+                "Experience on Migrating SQL database to Azure Data Lake, Azure data lake Analytics, Azure SQL Database, Data Bricks and Azure SQL Data warehouse and Controlling and granting database access and Migrating On premise databases to Azure Data lake store using Azure Data factory(ADF).",
+                "Created Pipelines in ADF using Linked Services/Datasets/Pipeline/ to Extract, Transform, and Load data from different sources like Azure SQL, Blob storage, Azure SQLData warehouse, write-back tool and backwards",
+                "Created Linked Services, DataSets and Self hosted Integration Run times for On-Prem servers and maintained three environments Dev, UAT and Prod",
+                "Some of the SSIS Packages are Deployed into Cloud from On-Premises with “Lift and Shift” after making Minimum Configuration Changes",
+                "Worked on migration and conversion of data using Pyspark and Spark SQL for data extraction, transformation and aggregation from multiple file formats for analyzing and transforming using Python",
+                "Experienced in handling Python and spark context when writing Pyspark programs for ETL",
+                "Developed Spark applications using Pyspark and Spark-SQL for data extraction, transformation and aggregation from multiple file formats for analyzing",
+                "Transforming the data to uncover insights into the customer usage patterns",
+                "To meet specific business requirements wrote UDF's in Scala and Pyspark",
+                "Developed JSON Scripts for deploying the Pipeline in Azure Data Factory(ADF) that process the data using the SQL Activity",
+                "Interacts with Business Analysts, Users, and SMEs on requirements later Design Logical and Physical Data Model for Staging, DWH and Data Mart layer",
+                "Created DataBrickNotebooks using Python,Scala and Spark SQL to read and write JSON,CSV, and Parquet",
+                "Created Dataframes in Databricks and applied various transformations like string functions, aggregations, window functions, Filtering, Splitting, Renaming, Removing duplicates etc",
+                "Optimized Databricksnotebookstuning cluster configurations,Repartitioning, join types, Shuffling configurations, Memory settings and caching",
+                "Designed and developed ETL Integration patterns using Python on Spark",
+                "Created Databricks notebooks to Convert HQL Scripts to Spark SQL from Curated to Provisioned and mounted the External Tables to ADLS(Azure Data Lake Storage).",
+                "Created SQL Database and Tables to store all required meta data for external Tables and created stored procedures for Lookup activities",
+                "Migrated On Premise Datawarehouse to Azure Synapse Analytics using BACPAC and ADF",
+                "Moved data to Azure Data Lake to Azure data warehouse using polybase, created External tables in ADW with 4 compute nodes and scheduled",
+                "Responsible for estimating the cluster size, monitoring, and troubleshooting of the spark cluster in Databricks",
+                "Worked on creating Azure Blob for storing unstructured data in the cloud as blobs Data Modelling / Development of reports semantic layer on Azure Analysis services, Azure Synapses"
+            ]
+        },
+        {
+            "company": "Infosys / Schlumberger, Hyderabad, India",
+            "role": "Azure Data Engineer",
+            "dates": [
+                "July 2018–Dec 2020"
+            ],
+            "responsibilities": [
+                "Created database objects like tables, views, procedures, Functions, packages using Oracle Toad and SQL management Studio (SSMS).",
+                "Efficiently Implemented and Managed Both IaaS and PasS in Azure Cloud using Azure Portal and Powershell",
+                "Migrated On-Premise Databases namely SQL Server, Oracle to Azure SQL Databases using Various methods like Azure Migration services (Data migration Assistant), Azure Data Sync ,Azure Data Factory, SSIS, BACPAC and Restore",
+                "Created Azure Data Lake Storage (ADLS) (Gen 1 and Gen 2) and Ingested the Data from Flat files, CSV Files, Json Files and On-Premise Database Tables using Azure Data Factory V2(ADF)"
+            ]
+        },
+        {
+            "company": "KPMG/  C& S Wholesale Grocers, Hyderabad, India",
+            "role": "Azure Data Engineer",
+            "dates": [
+                "Mar 2015 –June 2018"
+            ],
+            "responsibilities": [
+                "Extract Transform and Load data from Sources Systems to Azure Data Storage services and Snowflake using a combination of Azure Data Factory, Azure DataBricks, T-SQL andSpark SQL. Data Ingestion to one or more Azure Services - (Azure Data Lake, Azure Storage, Azure SQL, Azure DW) and processing the data in In Azure Databricks",
+                "Build Complex distributed systems involving huge amount data handling, collecting metrics building data pipeline, and Analytics",
+                "Develop and implement database solutions in Azure SQL Data Warehouse, Azure SQL",
+                "Develop& implement medium to large scale BI solutions on Azure using Azure Data Platform services (Azure Data Lake, Data Factory, Data Bricks and Azure SQL DW) "
+            ]
+        }
+    ],
+    "education": {
+        "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+        "institution": "Keshav Memorial Institute of Technology, Hyderabad, Telangana, India",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": null
+    },
+    "projects": null,
+    "certifications": null,
+    "activities": null,
+    "honors": null,
+    "userDetails": {
+        "name": "Suraj",
+        "skills": [
+            "Azure",
+            "MSBI",
+            "T-SQL",
+            "PL/SQL",
+            "Python",
+            "Spark SQL",
+            "SQL Database",
+            "SQL Datawarehouse",
+            "Data lake store",
+            "Blob Storage",
+            "Data Factory",
+            "DataBricks",
+            "Devops",
+            "Virtual Machine",
+            "Azure Monitor",
+            "SSIS",
+            "Azure Data Factory",
+            "DataBricks",
+            "SSRS& Power BI",
+            "SSAS",
+            "Power BI",
+            "Azure Databricks",
+            "Visual Studio  2008, 2010, 2012, 2015, 2017, Data Tools",
+            "Toad, SQL * Plus, SQL Developer ,SQL Loader",
+            "T-SQL, Pl/SQL, JSON,C#.Net,Python, Spark SQL,",
+            "Power Shell, DAX",
+            "BCP, Performance Monitor, Database Tuning Advisor, SQL Profiler , Red gate SQL Monitor, Visio, Erwin",
+            "Team Foundation Server (TFS), Git, Git Hub, Bit Bucket, Jenkins, Red Gate Source Control, SQL Compare",
+            "Oracle 10g, 11g, 12c, MS-SQL Server, MySQL, PostgreSQL and DB2",
+            "Windows Server 2008, 2012, Unix, Windows 7 ,8&10",
+            "JIRA, Confluence, Clear Quest"
+        ]
+    }
+}

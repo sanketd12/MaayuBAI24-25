@@ -1,0 +1,222 @@
+{
+    "certifications": [
+        "ISTQB (International Software testing Qualifications board)",
+        "CSTE – Cognizant Certified Program",
+        "LOMA 280 - Insurance domain external certifications",
+        "L1 Software testing – Cognizant Certified Program"
+    ],
+    "education": {
+        "degree": "Master’s in business administration",
+        "institution": "Madras University India",
+        "gpa": null,
+        "graduation": "Sep 2007- Sep 2009",
+        "courses": [
+            "Bachelor’s in computer science",
+            "Madras University, India - Awarded First Class",
+            "Aug 2004- May 2007",
+            "Higher Secondary- A level equivalent",
+            "MCJ Higher secondary School India - Awarded First Class",
+            "Jun 2002- Mar 2004",
+            "Secondary –O level equivalent",
+            "SRKM Higher secondary School, India - Awarded First Class",
+            "Jun 2000- Apr 2002"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Underwriters Laboratories",
+            "role": "Software Quality Assurance Group Leader",
+            "dates": [
+                "Mar 2022",
+                "July 2023"
+            ],
+            "responsibilities": [
+                "Lead a 7-member team for two different project teams – WO and Courses",
+                "QA Point of Contact for all the PM’s, BA’s and Client questions to QA team",
+                "Works closely with software developers, BA’s and Product team to understand the requirement/Client specifications through WOR meetings from Definition stage",
+                "Involve in validating the Source data from customers, Data mart tables, staging data, Data flow analysis, data quality, data validation, snowflakes schema as per the business logic applied to the staging tables, to ensure the client specification is met",
+                "Execution of the test scripts against SQL source and validated the rules according to mapping documentation",
+                "Performed Integration, End to End, system, and Functional testing of the Compliance wire platform for Service Patch and Corrective patch tickets",
+                "Develop SQL queries for Back-end Testing / Database testing and participated in end –to-end testing /Sanity testing",
+                "Performed Data validation testing by writing SQL queries",
+                "Develop Test strategy, test plan/design, execute test cases and defect management in both JIRA, ADO",
+                "Tested various work order types like Data extracts (one-time, daily extract, Custom Extracts), Facilitated data upload into Compliance wire Platform, Data migration from one CW to another CW site, Feeds like HRMS, EDMS, UGM, Veeva connector, Content Server hosting, Company code change etc",
+                "Little Knowledge in testing AWS s3 and azure content hosting",
+                "Have posted a course in Production using Create tool for Create and SCORM courses. For that, created an extensive test strategy, SQL queries to test the posted courses in production. This is an Ad-on Value for the Project to save manual effort and time",
+                "Involved in automation and API testing for the Compliance Wire platform components using Postman based on client requirements",
+                "Working on developing the automation framework for some of Complainacewire reports using selenium/cucumber -BDD method",
+                "Well versed with creating, managing JIRA Kanban board for Project and test management activities by creating and maintaining projects, epics, features, tasks, and stories",
+                "Helped the team to update the existing cucumber automation framework for content upload and time zone change controls which drastically reduced the manual effort in checking multiple nodes",
+                "Responsible for identifying the automation scope for CW product and facilitating the automation effort with the automation team",
+                "Responsible for providing the estimation for the work orders based on WOR meeting discussion",
+                "Responsible for reviewing and approving various QA artifacts like FRD documents, Courses related to WO, Work instruction documents",
+                "Created an interactive Estimation template to calculate the estimation of various work order types based on multiple data points",
+                "Created an exclusive Relational database design diagrams for QA based on various work orders and its related tables",
+                "Successfully migrated the team from JIRA and QTEST to ADO (Azure Devops) by creating various boards, dashboards, test plans in ADO for WO Professional services team",
+                "Trained the team in ADO and helped them to adapt the new process efficiently",
+                "Ability to derive the test scenarios from Use case and User stories",
+                "Successfully performed an end-to-end testing of a custom report for a client by UI Functional testing, backend and reports validation",
+                "Part of User acceptance testing along with the Compliance and Validation team for every change control delivered to the customer, by involved in scaling the effort, test plan, test scenarios, test data, SQL scripts for UAT, testing data vaults and validation",
+                "Actively participated in UAT transition, retested UAT defects and updated comments in JIRA/Salesforce tickets on client feedback",
+                "Leading the Postproduction release testing cycle by strategizing the test coverage and effort in aligned with client validation",
+                "Created multiple and interactive KT documents for Various work order types for efficient knowledge transfer process",
+                "Streamlined the on-boarding process right from Knowledge transition, trainings to Compliance processes",
+                "Worked closely with the Compliance manager for Documents compliance guidelines of Various SOP documents and Processes and Audits"
+            ]
+        },
+        {
+            "company": "Anthem Inc",
+            "role": "QA Lead",
+            "dates": [
+                "Mar 2021",
+                "Dec 2021"
+            ],
+            "responsibilities": [
+                "Work closely with software developers/project owners and BAs to develop and execute thorough test suites in all phases of the software development cycle",
+                "Develop Test strategy, test plan/design, execute test cases and defect management for the ETL & BI systems",
+                "Develop and execute detailed ETL related functional, performance, integration and regression test cases, and documentation",
+                "Analyze and understand the ETL workflows developed",
+                "Perform data analytical testing for the BI systems",
+                "Validation of data transformations and perform End-to-End data validation for ETL & BI systems",
+                "Quality Management - Knowledge of quality management methods, tools and techniques",
+                "Communicate- and manage expectations of the senior management team and affected stakeholders during the planning and roll out of project releases",
+                "Strong knowledge on ETL and BI processes"
+            ]
+        },
+        {
+            "company": "Wells Fargo",
+            "role": "Lead Test Analyst",
+            "dates": [
+                "Dec’2014",
+                "Feb 2018"
+            ],
+            "responsibilities": [
+                "Study and analysis of the mapping document indicating the source tables, columns, data types, transformations required, business rules to be applied, target tables, columns and data types",
+                "Verification using Master Data Management",
+                "Full Ownership in testing the CUBE – SSRS",
+                "Involved in validating the data mart tables as per the business logic applied to the staging tables",
+                "Develop SQL queries for Back-end Testing / Database testing and participated in end –to-end testing",
+                "Involve in validating the Source data, Data mart tables, staging data, ODS as per the business logic applied to the staging tables",
+                "Execution of the test scripts against SQL source and validated the rules according to mapping documentation",
+                "Working with Business analysts to understand Business/System requirements in order to transform business requirements into functional test cases",
+                "Responsible for reviewing Functional specs, user documentation and use cases and developing manual test cases out of it",
+                "Coordinated in setting up Test Environments and Test Plan needs with team members",
+                "Developing Test Plans and Test Scripts, Test Execution using ALM based on the Functional Specifications",
+                "Involvement in all stages of Software Testing Life Cycle STLC /SDLC – Agile methodology",
+                "Manually performed Functional testing that includes system testing / Build acceptance testing (BAT), System integration Testing (SIT) ",
+                "Participate in the documentation of all ETL related activities, environmental specifications, ETL strategy document, recommendations on tool selection, and code migration",
+                "Worked with Testing of Flat File, source data, statements file page testing, mainframe load run testing",
+                "Tested the application on iPad and iPhone when the operating system was unveiled and made sure the application was enhanced to be compatible with the Android devices",
+                "Tested the application under different networks and Internet speeds including while on EDGE, 3G, 4G, LTE and Wi-Fi",
+                "Provide daily and weekly status reports",
+                "Supporting the UAT Team after QC completes",
+                "Log Project related issues in the defect tracking tool identified for the project"
+            ]
+        },
+        {
+            "company": "Cognizant Technology Solutions",
+            "role": "Associate",
+            "dates": [
+                "June’2007",
+                "Dec’2013"
+            ],
+            "responsibilities": [
+                "Team Lead for system Testing team",
+                "The key responsibilities are task allocation, tracking defects and PROD metrics, code management updates to client (on daily basis) and updating daily/weekly status to onsite manager & team",
+                "Followed the Waterfall Methodology for the developing life Cycle",
+                "Attended daily standup meetings and adapt waterfall methodology for project updates, business changes, discuss action items/plan of action for QA",
+                "Actively participated in testing phase of SDLC & STLC of application",
+                "Attended walkthroughs to understand the business requirements with BAs, Developers, and other team members",
+                "Created Test plan, Traceability matrix between requirements and test cases",
+                "Updated test cases by coming new CR",
+                "Performed Functional, Regression, Integration Testing, UAT (user acceptance) Testing",
+                "Data condition, verified & validated information in Mainframe",
+                "Participated in mapping Traceability Matrix between the requirements and test cases",
+                "Performed positive and negative scenario of the application to identify bugs",
+                "Responsible for finding bugs and reported it to development team by using Quality Center",
+                "Participated in the defect status meetings to discuss defects with developers and tracked till closure of the defect",
+                "Created and maintained schedules, project plans, tasks, and defect lists"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Work Order (WO) is the change control request, requested by clients to implement a customer specification in Compliance Wire. These features are specifically designed for the customer as per their needs. It is a process of describing the execution and Control of client implementation and changes",
+            "description": [
+                "Responsibilities: Lead a 7-member team for two different project teams – WO and Courses",
+                "QA Point of Contact for all the PM’s, BA’s and Client questions to QA team",
+                "Works closely with software developers, BA’s and Product team to understand the requirement/Client specifications through WOR meetings from Definition stage",
+                "Involve in validating the Source data from customers, Data mart tables, staging data, Data flow analysis, data quality, data validation, snowflakes schema as per the business logic applied to the staging tables, to ensure the client specification is met",
+                "Execution of the test scripts against SQL source and validated the rules according to mapping documentation",
+                "Performed Integration, End to End, system, and Functional testing of the Compliance wire platform for Service Patch and Corrective patch tickets",
+                "Develop SQL queries for Back-end Testing / Database testing and participated in end –to-end testing /Sanity testing",
+                "Performed Data validation testing by writing SQL queries",
+                "Develop Test strategy, test plan/design, execute test cases and defect management in both JIRA, ADO",
+                "Tested various work order types like Data extracts (one-time, daily extract, Custom Extracts), Facilitated data upload into Compliance wire Platform, Data migration from one CW to another CW site, Feeds like HRMS, EDMS, UGM, Veeva connector, Content Server hosting, Company code change etc",
+                "Little Knowledge in testing AWS s3 and azure content hosting",
+                "Have posted a course in Production using Create tool for Create and SCORM courses. For that, created an extensive test strategy, SQL queries to test the posted courses in production. This is an Ad-on Value for the Project to save manual effort and time",
+                "Involved in automation and API testing for the Compliance Wire platform components using Postman based on client requirements",
+                "Working on developing the automation framework for some of Complainacewire reports using selenium/cucumber -BDD method",
+                "Well versed with creating, managing JIRA Kanban board for Project and test management activities by creating and maintaining projects, epics, features, tasks, and stories",
+                "Helped the team to update the existing cucumber automation framework for content upload and time zone change controls which drastically reduced the manual effort in checking multiple nodes",
+                "Responsible for identifying the automation scope for CW product and facilitating the automation effort with the automation team",
+                "Responsible for providing the estimation for the work orders based on WOR meeting discussion",
+                "Responsible for reviewing and approving various QA artifacts like FRD documents, Courses related to WO, Work instruction documents",
+                "Created an interactive Estimation template to calculate the estimation of various work order types based on multiple data points",
+                "Created an exclusive Relational database design diagrams for QA based on various work orders and its related tables",
+                "Successfully migrated the team from JIRA and QTEST to ADO (Azure Devops) by creating various boards, dashboards, test plans in ADO for WO Professional services team",
+                "Trained the team in ADO and helped them to adapt the new process efficiently",
+                "Ability to derive the test scenarios from Use case and User stories",
+                "Successfully performed an end-to-end testing of a custom report for a client by UI Functional testing, backend and reports validation",
+                "Part of User acceptance testing along with the Compliance and Validation team for every change control delivered to the customer, by involved in scaling the effort, test plan, test scenarios, test data, SQL scripts for UAT, testing data vaults and validation",
+                "Actively participated in UAT transition, retested UAT defects and updated comments in JIRA/Salesforce tickets on client feedback",
+                "Leading the Postproduction release testing cycle by strategizing the test coverage and effort in aligned with client validation",
+                "Created multiple and interactive KT documents for Various work order types for efficient knowledge transfer process",
+                "Streamlined the on-boarding process right from Knowledge transition, trainings to Compliance processes",
+                "Worked closely with the Compliance manager for Documents compliance guidelines of Various SOP documents and Processes and Audits"
+            ],
+            "skills": [
+                "Quality Assurance tool: HP ALM, Q Test, QC, ADO",
+                "Project Management Tool: JIRA, ADO",
+                "Front End: Rest, SOAP APIs",
+                "Cloud Computing: MS Azure, S3",
+                "Programming and Scripting Language: Java script, SQL",
+                "SDLC methodologies: Waterfall, Agile: Scrum, Kanban",
+                "Datawarehouse ETL tools: SSIS, Informatica, Toad, SSMS",
+                "Databases: DB2, SQL server, Teradata, Oracle10g",
+                "Reporting tools: SSRS, Tableau",
+                "DevOps and SCM: TFS, GitHub, CICD Pipeline"
+            ]
+        }
+    ],
+    "userDetails": {
+        "name": "Venkatachalam. Hemalatha",
+        "skills": [
+            "Quality Assurance tool: HP ALM, Q Test, QC, ADO",
+            "Project Management Tool: JIRA, ADO",
+            "Front End: Rest, SOAP APIs",
+            "Cloud Computing: MS Azure, S3",
+            "Programming and Scripting Language: Java script, SQL",
+            "SDLC methodologies: Waterfall, Agile: Scrum, Kanban",
+            "Datawarehouse ETL tools: SSIS, Informatica, Toad, SSMS",
+            "Databases: DB2, SQL server, Teradata, Oracle10g",
+            "Reporting tools: SSRS, Tableau",
+            "DevOps and SCM: TFS, GitHub, CICD Pipeline"
+        ]
+    },
+    "activities": [
+        {
+            "activity": "Participated in various white papers contest: Manual Vs Automation, Process as a TOOL in IT, Cloud computing, agile basics, Investment banking top 3 ideas, underwriting skills",
+            "responsibility": [
+                "Assisted the project manager with activities like effort estimation, process redesigning, resource management, issue/risk analysis, milestone tracking and associated documentation"
+            ],
+            "role": "Quality Analyst"
+        }
+    ],
+    "honors": [
+        "ISTQB (International Software testing Qualifications board)",
+        "CSTE – Cognizant Certified Program",
+        "LOMA 280 - Insurance domain external certifications",
+        "L1 Software testing – Cognizant Certified Program"
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "certifications": [
+        "8 month of certificate course in I.T. security and Ethical hacking in ATL foundation.(appin technology, Bhopal)"
+    ],
+    "education": {
+        "degree": "B.E",
+        "institution": "SAM College of",
+        "graduation": "2017",
+        "gpa": 70,
+        "courses": [
+            "Information engg. & Tech. Proudyogiki Technology"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "online exam centre",
+            "role": "I.T. support/ Hardware support engineer",
+            "dates": [
+                "2016-01-01",
+                "2017-01-01"
+            ],
+            "responsibilities": [
+                "I.T. support",
+                "Hardware support"
+            ]
+        },
+        {
+            "company": "NSEIT",
+            "role": "I.T. supervisor",
+            "dates": [
+                "2017-01-01",
+                "2017-04-01"
+            ],
+            "responsibilities": [
+                "I.T. supervisor"
+            ]
+        }
+    ],
+    "honors": [],
+    "projects": [
+        {
+            "project": "Design website of sam college",
+            "skills": [
+                "Minor"
+            ],
+            "description": [
+                "Design website of sam college"
+            ]
+        },
+        {
+            "project": "Help Center app in Android",
+            "skills": [
+                "Major"
+            ],
+            "description": [
+                "Help Center app in Android with the help of Internet"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Attended 5 days’ workshop on Cloud Computing in Cloud Senze",
+            "role": "Attendee",
+            "responsibility": [
+                "Attended 5 days’ workshop on Cloud Computing in Cloud Senze"
+            ]
+        },
+        {
+            "activity": "Attended 1 month workshop on C &C++ in Radiance Education Services",
+            "role": "Attendee",
+            "responsibility": [
+                "Attended 1 month workshop on C &C++ in Radiance Education Services"
+            ]
+        },
+        {
+            "activity": "Attended A national Level seminar on VLSI Design and Embedded System for 2 days in Chip Focus(Oriental Institute Of Science and Technology, BHOPAL",
+            "role": "Attendee",
+            "responsibility": [
+                "Attended A national Level seminar on VLSI Design and Embedded System for 2 days in Chip Focus(Oriental Institute Of Science and Technology, BHOPAL"
+            ]
+        },
+        {
+            "activity": "Participated in Darma Competition in College and win with 2nd rank",
+            "role": "Participant",
+            "responsibility": [
+                "Participated in Darma Competition in College and win with 2nd rank"
+            ]
+        },
+        {
+            "activity": "Participated in Public Speaking Role Play and get 3rd position",
+            "role": "Participant",
+            "responsibility": [
+                "Participated in Public Speaking Role Play and get 3rd position"
+            ]
+        }
+    ],
+    "userDetails": {
+        "name": "RAJAT GAIN",
+        "skills": [
+            "Good knowledge of computer network, I.T. admin, technical support in network system"
+        ]
+    }
+}

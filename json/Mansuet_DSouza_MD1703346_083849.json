@@ -1,0 +1,150 @@
+{
+    "certifications": [
+        "Oracle",
+        "XML",
+        "Python"
+    ],
+    "education": {
+        "degree": "Bachelor of Engineering (Mechanical), Master of Arts in Computer Science",
+        "institution": "Engineering and Computer Science",
+        "courses": [
+            "Bachelor of Engineering (Mechanical), Master of Arts in Computer Science"
+        ],
+        "graduation": "Formal",
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "DCCA",
+            "dates": [
+                "August 2012",
+                "Present"
+            ],
+            "role": "Senior Analyst / Programmer",
+            "responsibilities": [
+                "Worked on APPS 3.0 modernization project for CMS. Developed software for APPS 3.0 in Python ( Libraries used Pandas dataframe, Numpy, Psycopg2 for database access, Boto3 to access AWS S3, openpyxl for Excel Spreadsheets, fpdf for PDF files.) to analyze, manipulate and report on data from AWS S3 buckets as well as data from PostgreSQL. Have used Amazon AWS S3 and Amazon EC2 to execute programs. Also wrote PostgreSQL Stored Procedures and Functions ( languages: plpgsql and sql) for loading batch data to PostgreSQL tables. I have completed working on a CMS / APPS 2.0 project. Wrote Program Specification documents for the APPS 2.0 System. This assignment involved writing program specifications and DB2 SQL for about 100 programs. Worked on enhancements / modifications / writing new online programs involving Mainframe Cobol II / DB2 / CICS / MQ Series and XML File formats. I provide support for CICS programming including CICS Abend Aid, MQ Series. Created Endevor packages for both batch and online modules. Worked with Project Proposal team for the MSIS / NMUD Project and provided initial write-up of Data Dissemination process in MSIS/NMUD. I have completed the migration of APPS from Cobol 4.2 to Cobol 6.3 version. Provided support for Batch and Online Endevor components. I also provide support for resolving Production problems."
+            ]
+        },
+        {
+            "company": "Mansai Corp. - On their State of Maryland, Judiciary Information Systems project.  ",
+            "dates": [
+                "August 2005",
+                "August 2012"
+            ],
+            "role": "Sr Analyst Programmer  (  Database Conversion) ",
+            "responsibilities": [
+                "Worked on data conversion projects at JIS, including conversion of IMS databases to DB2 and Oracle.  The scope of work included analyzing / mapping the IMS databases for District Court Civil to DB2 tables.  Extract, transform and load IMS data to DB2.  Worked on Civil data conversion for DataStage project.  I have also worked with the Case Management System team and written Java  J2EE 1.5 applications to mimic Mainframe CICS applications to display and  access Oracle Applications Server data for DC Civil and Criminal.  I have  also provided mentoring and debugging support on this project.   "
+            ]
+        },
+        {
+            "company": "Comsys - On their CareFirst - Blue Cross Blue Shield FEP  Washington DC, project",
+            "dates": [
+                "Jan 2005",
+                "August 2005"
+            ],
+            "role": "Senior Analyst  / Programmer",
+            "responsibilities": [
+                "The worked on both batch and online applications using Mainframe Technologies -Cobol II / CICS / DB2 /Websphere for MQ Series.  Used other software like File-Aid, Xpediter, PQEdit and Changeman.   "
+            ]
+        },
+        {
+            "company": "Bay Tek Systems - On their Department of Public Safety, State of Maryland project",
+            "dates": [
+                "November 2003",
+                "Jan  2005"
+            ],
+            "role": "Programmer / Analyst",
+            "responsibilities": [
+                "Background and fingerprint checking system.  The work involved both batch  and online applications using Mainframe Technologies -Cobol II /CICS/ DB2  / VSAM  and IMS databases and MQ Series.  Used software like File-Aid,  Xpediter, JES2Mail, and MQ Series.   "
+            ]
+        },
+        {
+            "company": "Legal and General America",
+            "dates": [
+                "September 2000",
+                "August 2003"
+            ],
+            "role": "Senior Programmer Analyst",
+            "responsibilities": [
+                "Maintenance and enhancing applications for Life Insurance in Cobol II and also creating new ones.  I have written applications in Realia COBOL and Delphi 5.0.  These applications include Delphi accessing MS Access database with ADO components and interfacing with COBOL modules.  These Realia COBOL programs were migrated from Cobol Mainframe environment.  "
+            ]
+        },
+        {
+            "company": "Citicorp Credit Services Inc., Hagerstown, MD 21742",
+            "dates": [
+                "September 1996",
+                "September 2000"
+            ],
+            "role": "Senior Programmer",
+            "responsibilities": [
+                "I was responsible for the full life cycle development of some applications of the Account Fulfillment System for BankCards.  My work here consisted of User requirement analysis and research to determine the scope of the programming effort.  Mainframe Application development (DB2 / Cobol II / CICS / NDM) that included logical and physical design, coding, user acceptance testing, taking part in regression testing and release implementation.  I was also involved with post release work involving maintenance and enhancements to the system on an ongoing basis, Production Support and attending other adhoc assignments / projects.  Our group was CMM level III certified.  "
+            ]
+        },
+        {
+            "company": "The Experts, Greenbelt, MD 20770. ( AT&T Project) ",
+            "dates": [
+                "July 1994",
+                "September 1996"
+            ],
+            "role": "Programmer ( Consultant) ",
+            "responsibilities": [
+                "I was part of a team of developers that implemented the account maintenance system for SDN group.  I was responsible for the physical design, coding and unit testing of about five applications using DB2 / Cobol II / CICS /NDM on a 3090 mainframe.  Worked on COBOL / IMS / DB2 /CICS  migration project and used Microfocus Cobol / CICS and XDB for some development work.  I also did Production support work at AT&T.  "
+            ]
+        },
+        {
+            "company": "Compuware Corp., Bethesda, M.D. 20814",
+            "dates": [
+                "October 1992",
+                "July 1994"
+            ],
+            "role": "Professional Staff - Professional Services Division",
+            "responsibilities": [
+                "Duties: At USF&G - Provided problem solving assistance.  This included Analysis, recommendation for issue resolution and development of easily maintainable and efficient programs and JCL procs that met business requirements.   "
+            ]
+        },
+        {
+            "company": "National Science Foundation",
+            "dates": [
+                "October 1992",
+                "July 1994"
+            ],
+            "role": "Programmer ( Consultant) ",
+            "responsibilities": [
+                "I was part of a team that designed and developed the Awards System for the National Science Foundation.  I wrote about 5 applications using DB2 / CSP / Cobol II / CICS on a 3090 E mainframe.  Used CLISTS / REXX in the TSO environment.  "
+            ]
+        },
+        {
+            "company": "The Orkand Corporation, Silver Spring, M.D",
+            "dates": [
+                "May 1989",
+                "September 1990"
+            ],
+            "role": "Staff Consultant",
+            "responsibilities": [
+                "Duties: For NIH project - Data Registry for National Cancer Institute. Coding programs using COBOL / DB2/SQL.  Created Dbedit 'Data Entry Panels'.  Designed QMF Forms, wrote QMF procedures for Reports.  Used Clists in the TSO environment.   "
+            ]
+        },
+        {
+            "company": "Dept. of Labor ( BLS) - IPP project",
+            "dates": [
+                "May 1989",
+                "September 1990"
+            ],
+            "role": "Staff Consultant",
+            "responsibilities": [
+                "Research for the Physical Design of a DB2 database.  This involved Creating DB2 Tables.   Defining data elements and creating a data dictionary.  "
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Mansuet G D’Souza",
+        "skills": [
+            "Analysis",
+            "Programming",
+            "Database design"
+        ]
+    }
+}

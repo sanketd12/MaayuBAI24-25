@@ -1,0 +1,49 @@
+{
+    "education": {
+        "institution": "Appa Institutes of Visvesvaraya Engineering and Technology",
+        "degree": "Bachelor of Electronics & Communication Engineering",
+        "graduation": "2019",
+        "gpa": 7.65,
+        "courses": [
+            "Electronics & Communication Engineering"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "GR IT Solutions",
+            "role": "System Administrator",
+            "dates": [
+                "19/04/2019",
+                "Present"
+            ],
+            "responsibilities": [
+                "Responding to employee's mails, chats, tickets & calls on any IT related issues",
+                "Handling Active Directory user and computer tools. Managing computers & user accounts, giving permission to the user in Active Directory, adding user to Security groups, VLAN groups & managing mail distribution groups",
+                "Creating and managing user accounts, giving permission to the user in Active Directory, adding user to Security groups & VLAN groups. DHCP Server management like Reservation of IP, manually IP pick up. & Print server management",
+                "Bitlocker(MBAM) configuration, troubleshooting and management for end users",
+                "White listing MAC address using Cisco ise portal, Managing mobile Wi-Fi access & Guest Wi-Fi access using cisco portal, WebEx Meeting management &Troubleshooting VPN related issues",
+                "Installation of OS using Clone images. Creating latest Clone images. Troubleshooting operating system related issues. Management of Apple Desktops and laptops. Installation of Mac OS and Configuration",
+                "Upgrading Computer Systems based on Employee requirements, Installations and hardware equipment changes. of Linux OS and configurations, Installation of OS in VMware, Virtual box Installation",
+                "Monitor and maintain office equipment, Computer systems, Video Conferencing Devices, Printers & network devices. Managing ticketing tool, network monitoring using cisco ise, Maintaining IT Assets & Managing stock details. Managing private cloud in open nebula for internal training"
+            ]
+        }
+    ],
+    "certifications": [
+        "CCNA"
+    ],
+    "honors": [],
+    "projects": [],
+    "activities": [],
+    "userDetails": {
+        "name": "CHAYAPPAGOUD PATIL",
+        "skills": [
+            "Computer assembling/disassembling, maintenance and diagnosing",
+            "Installing and configuring the peripherals, components and drivers",
+            "Windows OS installation, configuration, maintenance & troubleshooting",
+            "Windows Server: DNS Server, DHCP Server, Active Directory Domain Services, Configuration of WDS, Terminal Services",
+            "Networking: IP Addressing, Topologies, OSI model, TCP/IP, Networking Devices, Transmission Media",
+            "CCNA: Router Fundamentals, Static and Default Routing, Dynamic Routing (RIP, EIGRP, OSPF), Access Control List (ACL), like standard and extended, VLAN, NAT",
+            "Linux: Installing of Linux operating system, basic commands, creating user, modifying the user account, basic network configuration"
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Oregon Grad Institute",
+        "degree": "MSEE",
+        "graduation": "1996",
+        "courses": [
+            "High Speed Networking"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "AT&T Labs",
+            "role": "Principal Member of Technical Staff",
+            "dates": [
+                "3/2009",
+                "5/2017"
+            ],
+            "responsibilities": [
+                "Lead UVERSE Headend Architect. Plan, Specify, Test & Evaluate SDI uncompressed video, MPEG2 &IP packet based compressed video systems & transport technologies. Developed technical requirements, engineering guidelines, test plans&quantitative engg. analysis for Decoders, Encoders and Video frame synchronizers in the Headend. Subject Matter Expert in SDI Video, Dolby Audio and ASI & IP transcoding. Debugged Cloud / CDN based OTT service using Wireshark to root cause Video freezes. Developed VHDL code to program Altera FPGA / Gennumeval boards to test, evaluate & debug numerous complex audio & video issues to their root causes and actively engaged the vendors to introduce fixes and test them till they were resolved. Familiar with 4K VoD/HDR, IP SDVN workflows, ABR & HLS OTT video distribution. Experienced with National, Local Ad Insertion (SCTE 35, SCTE 104) ISILON, SAN, NAS, Omnibus iTX, Thomson Sapphire Playout automation, SinTECBXF (XML) ad scheduling. Experienced with providing Emergency Alerts for UVERSE using TrilithicEASyCAP."
+            ]
+        },
+        {
+            "company": "Nielsen Audio (Arbitron) ,MD",
+            "role": "Principal Engineer",
+            "dates": [
+                "1/2005",
+                "2/2009"
+            ],
+            "responsibilities": [
+                "Design, develop, debug DSP/FPGA/uC based Encoder systems for watermarking audio to enable audience monitoring for TV broadcasters Systems Engineering  for SDTV/ HDTV broadcast chains involving complex HW / DSP / FPGA for processing 270 Mbps / 1.485 Gbps uncompressed video stream and AES audio streams. Enhanced product quality by using field support feedback to tighten specifications. Upgraded PCB design using ORCAD for a making an Audio encoder RoHS compliant. Designed HW to interface Dolby E Digital Audio SIMM cards with FPGA;Designedan Analog Video Synch stripper circuit to feed Dolby E Codec card. Debugged / modified FPGA VHDL using Altera Quartus / SignalTap for complex watermarking / SDI Video IP. Developed Validation Test plans for video subsystems which reduced audio-video specific field support incidents. Wrote well illustrated User Manual / SDI Quality Whitepaper and facilitated ease of use and integration of Audio Watermarking Encoders in Television Broadcast facilities. Debugged AES Audio Noise due to skipped/repeated samples caused by an unstable Audio Word/Bit clock. Created a novel SDI test signal with multiple jitter spectral peaks to weed out Encoders with poorly performing PLLs (due to poor signal integrity in their control loop) which enabled us to install only the best performing encoders. Developed a novel method to measure PLL frequency response to identify abnormal SDI PLL circuits. Designed a SDI signal quality assessment (using Eye diagrams & Jitter spectra) process at Broadcast facilities to ensure our Encoders perform under all possible jitter conditions."
+            ]
+        },
+        {
+            "company": "Credence Inc",
+            "role": "Principal Engineer",
+            "dates": [
+                "12/2003",
+                "06/2004"
+            ],
+            "responsibilities": [
+                "Systems Performance Engineering.Rebuilt Verification, Validation, and Diagnostic application C/C++ software over a modular / shared library based ATE software system architecture for 8 channel / 4 quadrant power supply pin card for 1600 Mbps SoC ATE."
+            ]
+        },
+        {
+            "company": "Tektronix",
+            "role": "Sr.SW Design Engineer",
+            "dates": [
+                "01/2001",
+                "07/2003"
+            ],
+            "responsibilities": [
+                "Co verification and SW Design.  Built a behavioral model of an ASIC and validate functionality. Built a C based shared object library to model Rasterizer ASIC module and co verified with RTL to cut 20% time to develop ASIC drivers. Chip Bring up and SW Design Developed ASIC drivers to interface with Application SW for High Performance Oscilloscopes. Chip bring-up for DSP ASIC module. Integrated into Real Time Software Layer for Oscilloscopes. Developed DSP debugger, diagnostics. Wrote fixed point VLIW DSP code for trigger positioning calculation."
+            ]
+        },
+        {
+            "company": "Tektronix",
+            "role": "SW Design Engineer",
+            "dates": [
+                "11/1995",
+                "01/2001"
+            ],
+            "responsibilities": [
+                "Cash Award winning Architecture redesign proposal Reverse engineered, modeled and re-architected an analog video signal generator to save 300K$ PA. Video SW DevelopmentTo develop real time embedded firmware for sustaining instrumentation used to test video signals. Experienced with real time embedded C/C++/VxWorks, Motorola 56K DSP, 8X51 Assembler, PLDs and FPGA coding. Implemented new Video Test & Measurement features for products and enabled ~20% incremental revenue stream. Gained market share by being 1ST to provide HDTV waveform monitoring by modifying x51 code for an older product. FPGA Development Application specific Video / Audio design using programmable logic software tools. Developed an efficient FPGA scheme to de-embed AES Audio from SDI SDTV/HDTV streams using Altera tools. Software Quality Develop SW Quality plans to assure instrument’s SW functionality. Developed PC-DOS RS232 based SCPI test & firmware upload programs. Modified instrument SW for SCPI rear panel instrument interface. Developed software test plans and implemented Million SCPI command stress tests to qualify release. Video Research & Development Developed a computationally efficient algorithm for measuring DCT Blockiness in real time based on edge variance. Co-evaluated an algorithm for measuring Channel Impulse Response with Tektronix fellow."
+            ]
+        },
+        {
+            "company": "BHEL Hyderabad, India",
+            "role": "Gas Turbine Controls Engineer",
+            "dates": [
+                "7/1992",
+                "12/1994"
+            ],
+            "responsibilities": [
+                "Testing, Erection and Commissioning of Gas Turbine and auxiliary power generation equipment."
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [
+        "Awarded Arbitron Award 2008 for fixing issues for European TV broadcasters. NAB 1996 Award forTektronix WFM601M Video Monitor using some of my SW. 50% Tuition scholarship from Oregon Graduate Institute for MSEE. National Merit Scholarship from Junior College to Bachelor of Engineering. 800/800 in Quantitative ability in Graduate Record Exam. 11th rank from ~22000 applicants in Entrance Exam for MBA program."
+    ],
+    "activities": [],
+    "userDetails": {
+        "name": "Prasanna Ganta",
+        "skills": [
+            "SW",
+            "Broadcast Video & Audio",
+            "IP Network Programming & Management",
+            "MATLAB, C Programming, JIRA",
+            "Unix, VxWorks, Clearcase,Agile Methodology",
+            "Tek ASIC VLIW DSP,  x51 Assembly, C++",
+            "ORCAD Capture, Quartus Altera FPGA",
+            "FFMPEG"
+        ]
+    }
+}

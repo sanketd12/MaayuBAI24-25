@@ -1,0 +1,294 @@
+{
+    "certifications": [
+        "Project Management Institute - PMP",
+        "Vitria Business ware Version 3.0"
+    ],
+    "education": {
+        "degree": "Bachelor of Engineering in Instrumentation Technology",
+        "institution": "Bangalore University, India",
+        "gpa": null,
+        "graduation": "null",
+        "courses": null
+    },
+    "experiences": [
+        {
+            "company": "Frontier Communications",
+            "role": "Project Manager/Test Manager, Wholesale/retail",
+            "dates": [
+                "January 2010 to Current"
+            ],
+            "responsibilities": [
+                "Project management, managing retails and wholesale projects, managing delivery teams and testing team, managing the Additional responsibility included: Commercial End to End – Currently managing $16 million strategic project to Build out Sterling CRM for Small, Medium and Large Enterprise accounts for both complex and non-complex products. Managing 8 delivery teams, testing team and 3 project managers. Retail – Delivered several transformation retail gaps related to West Virginia conversion from Verizon to Frontier. The project was delivered on time and within the approved budget $1.2 million. Managed 9 delivery teams, testing team, 2 project managers and 3 trainers. Wholesale - Delivered several transformation Wholesale gaps related to West Virginia conversion from Verizon to Frontier. The project was delivered on time and within the approved budget of $4 million. Managed 10 delivery teams, testing team, 4 project managers and 5 trainers. Frontier Legacy LSR/ASR Embedded base conversion – Managed project to move the embedded base customers from Frontier LSR/ASR Online Ordering system to Synchronoss. The approved budget was $2 million and delivered the project on schedule and within the approved budget. Wholesale Automation – Managed the automation of LSR order and pre-order and achieved 75% of automation. The project was delivered on schedule and within the approved budget of $1million. Frontier 13 states conversion – Managed projects to support Frontier 13 conversion of customers from Verizon to Frontier which was achieved in 2 phases (phase 1- 4states and phase 2- 9 states) Automation Enhancements for Frontier 13 – Managed additional pre-order and wholesale automation enhancement Loop Make up automation - Managed the Cadtel vendor to deliver the automated engineering Loop Make up functionality. E911 Project – Managed E911 decommissioning project. Worked with external customers like ATT, IL Consolidated, Convergys, ATT SW Bell, Century Link and Wind Stream to move the existing files, jobs, programs from Mainframe to AS400. Creating, maintaining, and publishing project plans. Wholesale Projects – Delivery of several wholesale transformation gaps related to West Virginia conversion and Frontier 13 conversion which includes ASR/LSR/TA automation, embedded base projects for ASR, LSR and TA. Budget monitoring and time tracking Weekly status reporting and presentation to management. Issues and Risk Management - maintaining, managing, and publishing issues and risks, Task assignment and tracking of all phases of SDLC Change control management, Management of test team. Delivering the project on budget and schedule Vendor Management – management of vendor deliverables and SOW finalization"
+            ]
+        },
+        {
+            "company": "Information Builders",
+            "role": "Engagement Manager, Professional Services",
+            "dates": [
+                "November 2008 to April 2009"
+            ],
+            "responsibilities": [
+                "Project management, managing iWay middleware projects and WebFocus BI projects. Implementing project management discipline in the professional services practice. Developing project management best practices document and educating the professional services and sales teams. Responsible for managing the professional services projects from inception to completion. Responsible for managing professional services practice of 13 resources, mentoring, generate revenue, maintain customer relationship, participate in proposals and set the standard for professional services group."
+            ]
+        },
+        {
+            "company": "BearingPoint (formerly KPMG Consulting) – July 2000 to May 2008",
+            "role": "Manager",
+            "dates": [
+                "July 2000 to May 2008"
+            ],
+            "responsibilities": [
+                "Project management, design, systems architecting and developing solutions in SOA, EAI and BPM areas. Design, development, integration, testing, and deployment of various EAI solutions. Design, development, integration, testing, and deployment of various EAI solutions. Service Oriented Architecture, Web Services, J2EE, enterprise-wide systems, databases, application development, distributed systems, Message Oriented Middleware technologies and OSS/BSS systems."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Banamex",
+            "description": [
+                "PMO Manager for a SOA project in Mexico City for this second largest bank in Latin America. Responsible for all aspects of PMO including work planning, status reporting, issues management, and change control. Specific responsibilities included: Creating, maintaining, and publishing project baseline plans. Budget monitoring. Weekly and monthly status reporting and presentation to management. Issues Management - maintaining, managing, and publishing issues and risks, Task assignment and tracking of development. Change control management, Improved process – reduced time required to complete CR process by 80%. Management of test team."
+            ],
+            "skills": [
+                "Project Management",
+                "Design",
+                "Systems Architecting",
+                "Developing Solutions in SOA, EAI and BPM areas",
+                "Service Oriented Architecture",
+                "Web Services",
+                "J2EE",
+                "Enterprise-wide systems",
+                "Databases",
+                "Application development",
+                "Distributed systems",
+                "Message Oriented Middleware technologies",
+                "OSS/BSS systems"
+            ]
+        },
+        {
+            "project": "BearingPoint (Internal Project) - Enterprise-wide financial transformation SOX related software implementation project",
+            "description": [
+                "Guided 60 resources in technical, financial, and training. The new software improved the financial audit, reduced costs by 50%, and helped the company to become current on SEC 10K filing. Also responsible for leading and managing the design, development, testing and deployment of the tool. Additional responsibilities included: Leading the PMO team on the assessment project, Training resources on using the pre-audit tool, Developing user and training manuals, Tracking time and expenses, Managing and monitoring project plans, and Creating and presenting status and steering committee reports."
+            ],
+            "skills": [
+                "Project Management",
+                "Design",
+                "Developing Solutions in SOA, EAI and BPM areas",
+                "Service Oriented Architecture",
+                "Web Services",
+                "J2EE",
+                "Enterprise-wide systems",
+                "Databases",
+                "Application development",
+                "Distributed systems",
+                "Message Oriented Middleware technologies",
+                "OSS/BSS systems",
+                "Training",
+                "Leadership"
+            ]
+        },
+        {
+            "project": "McDonalds - Global ERP implementation project",
+            "description": [
+                "Project manager for the design and development of a global ERP implementation project. The new system provided activity reports for all the company restaurants across 120 countries. This project supported integration across 120 countries, 50,000 separate locations, and a large number of legacy applications. Responsible for a team of 11 EAI resources. Day to day responsibilities included managing project plan, project issues and risks."
+            ],
+            "skills": [
+                "Project Management",
+                "Design",
+                "Developing Solutions in SOA, EAI and BPM areas",
+                "Service Oriented Architecture",
+                "Web Services",
+                "J2EE",
+                "Enterprise-wide systems",
+                "Databases",
+                "Application development",
+                "Distributed systems",
+                "Message Oriented Middleware technologies",
+                "OSS/BSS systems",
+                "ERP",
+                "Integration"
+            ]
+        },
+        {
+            "project": "General Motors - Automated data entry and report creation",
+            "description": [
+                "Project Manager responsible for automated data entry and report creation. Responsibilities included requirements definition using SDP 21 standards (equivalent to CMMI Level 4). Also responsible for leading the testing team, issues and risk management, and creation and management of the project plan."
+            ],
+            "skills": [
+                "Project Management",
+                "Requirements Definition",
+                "Testing",
+                "Issues and Risk Management",
+                "Automated Data Entry",
+                "Report Creation"
+            ]
+        },
+        {
+            "project": "Ameritech - Implemented a pseudo-CLEC (co-simulated Local Exchange Carrier) to simulate actual CLEC operations",
+            "description": [
+                "Established a test environment to prove the ILEC's (incumbent Local Exchange Carrier) compliance with FCC 271 testing as set forth in the 1996 telecommunications act. Led a team of 8 Java developers and 5 Mercator developers. Also responsible for creating and maintaining the project plan, maintaining issue/risk list, and responsible for creating and presenting weekly status reports."
+            ],
+            "skills": [
+                "Project Management",
+                "Testing",
+                "Issues and Risk Management",
+                "Java Development",
+                "Mercator Development",
+                "Pseudo-CLEC Implementation",
+                "FCC 271 Compliance Testing"
+            ]
+        },
+        {
+            "project": "AOL Time Warner - Team Lead for design and development of a Marketing Retention Campaign Process using Kintana software",
+            "description": [
+                "This effort reduced the time for developing new campaigns by 70%. Specific responsibilities included: Development of Workflows using Kintana, Managing 3 Kintana developers, Writing the technical requirement document, Developing reports, unit testing, integration testing, end-to-end testing and creation of end-to-end test cases, and Creating and presenting weekly status reports."
+            ],
+            "skills": [
+                "Project Management",
+                "Team Leadership",
+                "Workflow Development",
+                "Kintana Development",
+                "Technical Requirement Writing",
+                "Report Development",
+                "Testing",
+                "Weekly Status Reporting"
+            ]
+        },
+        {
+            "project": "AETNA - Project Manager and working analyst responsible for the design of a Renewal Quote system for this leading health care provider",
+            "description": [
+                "The new system reduced the time required for renewal quotes by 50%. Specific responsibilities included: Leading 3 vendor companies, Creating High Level Design document, consolidating information different vendors, Creating and presenting weekly status and monthly steering committee reports, and Creating and maintaining project plans."
+            ],
+            "skills": [
+                "Project Management",
+                "Team Leadership",
+                "High Level Design",
+                "Vendor Management",
+                "Weekly Status Reporting",
+                "Project Planning"
+            ]
+        },
+        {
+            "project": "Bear Stearns - Project Manager and working analyst responsible for the implementation of “Customer Electronic Access” (CEA) system that provides customers with a consolidated view of their data",
+            "description": [
+                "Integration was done using TIBCO software. Additional responsibilities included: Proof of Concept (POC) for an Enterprise Information Integration (EII) tool. Tracking project plans, assigning work to development and testing teams, and monitoring functional and performance testing results. SNMP configuration of system alerts in WebLogic console."
+            ],
+            "skills": [
+                "Project Management",
+                "Team Leadership",
+                "Enterprise Information Integration",
+                "TIBCO Integration",
+                "Proof of Concept",
+                "Project Planning",
+                "System Alerts Configuration"
+            ]
+        },
+        {
+            "project": "Aventis Pharmaceuticals - Project Manager responsible for an EDI audit project for this major pharmaceutical company",
+            "description": [
+                "Responsible for conducting an audit of their EDI operations and controls in order to validate the environment, identify areas for improvement, and to stabilize the environment and its processes. Also responsible for creation of final report and recommendations for improvement."
+            ],
+            "skills": [
+                "Project Management",
+                "EDI Audit",
+                "Environment Validation",
+                "Process Stabilization",
+                "Report Creation"
+            ]
+        },
+        {
+            "project": "Blue Cross Blue Shield - Lead analyst and developer responsible for design and development of Vitria BusinessWare Connection Models using Advanced XML",
+            "description": [
+                "Transformer Paperfree was used in the Clearinghouse project for message translation from ANSI to Proprietary XML format and vice versa. Resolved system bottleneck by identifying single-threaded process."
+            ],
+            "skills": [
+                "Project Management",
+                "Lead Analyst",
+                "Lead Developer",
+                "Vitria BusinessWare Connection Models",
+                "Advanced XML",
+                "Message Translation",
+                "System Bottleneck Resolution"
+            ]
+        },
+        {
+            "project": "Bresnan Communications - Test Team Lead for implementation of a high-speed data cable provisioning system, the implementation of an ISP application, and an ISP network migration for a mid-western MSO",
+            "description": [
+                "The implementation involved replacement of the AT&T SAS systems with Alopa MetaServ for provisioning and CommuniGate Pro for ISP administration. Specific responsibilities included: Migration planning for provisioning system. Creation of integration test plan, integration test scenarios for two simultaneous application rollouts, migration of an ISP network, and the integration with the CSG billing system. Data migration for customers in four states."
+            ],
+            "skills": [
+                "Project Management",
+                "Test Team Leadership",
+                "High-speed Data Cable Provisioning System Implementation",
+                "ISP Application Implementation",
+                "ISP Network Migration",
+                "AT&T SAS System Replacement",
+                "Alopa MetaServ Provisioning",
+                "CommuniGate Pro ISP Administration",
+                "Migration Planning",
+                "Integration Test Plan Creation",
+                "Integration Test Scenario Creation",
+                "Data Migration"
+            ]
+        },
+        {
+            "project": "Bell South - Test Team Lead and Software Control Manager for implementation of a Build and Configuration Management System for Customer Care",
+            "description": [
+                "The new system provided access to the latest versions of software, data maps, etc. Also responsible for administrating new builds for the development team."
+            ],
+            "skills": [
+                "Project Management",
+                "Test Team Leadership",
+                "Software Control Management",
+                "Build and Configuration Management System Implementation",
+                "Software Version Control",
+                "Data Map Management"
+            ]
+        }
+    ],
+    "honors": null,
+    "activities": null,
+    "userDetails": {
+        "name": "Jay G. Rao",
+        "skills": [
+            "Project Management",
+            "Design",
+            "Systems Architecting",
+            "Developing Solutions in SOA, EAI and BPM areas",
+            "Service Oriented Architecture",
+            "Web Services",
+            "J2EE",
+            "Enterprise-wide systems",
+            "Databases",
+            "Application development",
+            "Distributed systems",
+            "Message Oriented Middleware technologies",
+            "OSS/BSS systems",
+            "Training",
+            "Leadership",
+            "ERP",
+            "Integration",
+            "Requirements Definition",
+            "Testing",
+            "Issues and Risk Management",
+            "Automated Data Entry",
+            "Report Creation",
+            "Java Development",
+            "Mercator Development",
+            "Pseudo-CLEC Implementation",
+            "FCC 271 Compliance Testing",
+            "Workflow Development",
+            "Kintana Development",
+            "Technical Requirement Writing",
+            "Vendor Management",
+            "High Level Design",
+            "EDI Audit",
+            "Vitria BusinessWare Connection Models",
+            "Advanced XML",
+            "Message Translation",
+            "System Bottleneck Resolution",
+            "TIBCO Integration",
+            "Proof of Concept",
+            "System Alerts Configuration"
+        ]
+    }
+}

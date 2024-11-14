@@ -1,0 +1,178 @@
+{
+    "certifications": [
+        "IBM Certified System Administrator - AIX 6.1"
+    ],
+    "education": {
+        "degree": "MS in Computer Science",
+        "institution": "N/A",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": null
+    },
+    "experiences": [
+        {
+            "company": "Omnicare Inc",
+            "role": "UNIX System Administrator",
+            "dates": [
+                "April 2012 - Present"
+            ],
+            "responsibilities": [
+                "Provide 24/ 7 Support for existing Unix Production environment which includes IBM AIX and RHEL Servers",
+                "Configuring new IBM Power 795 and 770 frames using HMC",
+                "Experience with performing system firmware upgrade on P-795s",
+                "Perform new AIX server builds leveraging NIM servers for various applications including Oracle, Informatica and Weblogic etc",
+                "Setting up new AIX LPAR’s using PowerVM technologies which include Virtual Ethernet using SEA’s, VSCSI and NPIV",
+                "Performed Live Partition Mobility (LPM) between Power 7 frames",
+                "Installation of VIOS and applying VIOS Fix packs via NIM Server",
+                "Migrated standalone severs to fully virtualize logical partitions on 770s and 795s",
+                "Deploying SAN from EMC Symmetrix VMAX and IBM XIV storage",
+                "Installed EMC powerpath and Solution Enable (SYMCLI) for EMC storage management on AIX hosts",
+                "Migrating storage from Virtual SCSI disks to direct attached SAN through NPIV and dedicated HBA's on AIX Servers",
+                "Performed migration from 5.3 to 6.1 and TL upgrades via NIM server",
+                "Experience in setting up cluster nodes for Oracle 11g RAC - deploying shared san for ASM, configuring VIPS and SCAN IPs",
+                "Setting up GPFS cluster nodes on AIX for Oracle RAC",
+                "Monitoring system performance using NMON, TOPAS, VMSTAT and IOSTAT",
+                "Installing CommVault Simpana Backup Agent on AIX and Linux servers",
+                "Setup RHEL Satellite Server to maintain Licensing and Patches",
+                "Deploying RHEL 5, 6 Servers using Cobbler kickstart server on VMware virtual machines",
+                "Patching RHEL Servers using the Satellite Servers",
+                "Installing and Configuring Big Brother Monitoring Agent on AIX and Linux servers",
+                "Cron administration and user management on AIX and Linux servers",
+                "Written Shell scripts to automate daily tasks",
+                "Installed, Configured, Administered, and Supported IBM Web Sphere Application Server 6.0/7.0 on Linux and AIX servers",
+                "Troubleshooting issues with Database and Application team during project implementation phase",
+                "Security enhancing and auditing, critical assessment and OS standard configuration"
+            ]
+        },
+        {
+            "company": "JP Morgan Chase & Co",
+            "role": "UNIX Implementation Engineer",
+            "dates": [
+                "Oct 2010 – April 2012"
+            ],
+            "responsibilities": [
+                "Configuring new IBM Power 795, 770 and 750 frames using HMC",
+                "Extensively worked with PowerVM including Shared Ethernet Adapters, VSCSI, NPIV and Live Partition Mobility",
+                "Creating Logical Partitions for VIO Servers and Clients on power frames and assigning processors, memory and Ethernet adapters to VIOS and assigning memory and processor to VIOC (LPARS).",
+                "Installation of VIOS 2.1.2 and applying VIOS Fixpacks via NIM Server",
+                "Installation of AIX 6.1 and performing TL upgrades via NIM Sever",
+                "Restoring the mksysb from NIM server",
+                "Setting up Shared Ethernet Adapter failover",
+                "Allocating SAN to client LPARS using NPIV by creating virtual fiber channel adapters using HMC and mapping Physical to Virtual adapters on VIO Server",
+                "Allocating SAN LUNs to Client LPARS using Virtual SCSI adapters in  which  LUN's are initially allocated to VIOS which were virtually allocated to client LPARS (VIOC’s) by Creating Virtual Disks/Virtual Target Devices (VTD) as per the disk requirement of each client LPAR (VIOC).",
+                "Installed EMC Powerpath and Solution Enabler on AIX hosts with EMC Storage",
+                "Setup new database servers for Oracle databases including standalone and RAC environments",
+                "Setting up GPFS cluster nodes on AIX for Informatica and Cognos Application servers",
+                "Monitoring system performance using NMON, TOPAS, VMSTAT and IOSTAT",
+                "Deploying Linux Virtual Machines on VMware ESX server",
+                "Installing Linux (RHEL) operating systems on virtual machines leveraging Cobbler Kickstart Server",
+                "Installing and Configuring NetBackup agent on AIX and Linux Servers over Ethernet and FC Network",
+                "Installing IBM Tivoli Monitoring (ITM) Agents on AIX and Linux hosts and setup thresholds for CPU, DISK alerts and Process Monitoring",
+                "Installing Boks KEON security software for user administration on AIX and Linux Servers",
+                "Creating Logical Access Templates which contain the information of user classes that will access the server for Boks KEON and requesting the KEON team to either create the new host group or add it to the existing KEON hostgroups",
+                "Installing Scheduling tools, Control-M and Autosys for scheduling database jobs",
+                "Installed, Configured, Administered, and Supported IBM Web Sphere Application Server 6.0/7.0 on Linux and AIX servers",
+                "Installing ESM agents on AIX and Linux hosts and remediating violations reported by Security Assessment team",
+                "Setup SSH keys for functional account for batch file transfers between various production servers for password less access",
+                "Disabling and enabling daemons and services and configuring them"
+            ]
+        },
+        {
+            "company": "MetLife",
+            "role": "AIX Systems administrator",
+            "dates": [
+                "June 2007 –   Sep 2010"
+            ],
+            "responsibilities": [
+                "AIX Server build and administration of p-series p590, 570, 550 RS6000 Servers, installing, configuring and maintaining Websphere Application Server",
+                "Configuration and Installation of VIO server POWER Virtualization on IBM P6 & P5 System also on Blade server which have POWER 6 processors",
+                "Installation of VIOS 1.5.2.5, VIOS Fixpack 11.1 Service Pack via NIM Server",
+                "Installation of AIX 5.3 on all VIOC/LPAR Clients, installation via NIM Sever",
+                "Installed, configured, administered and supported Web Sphere Application Server 6.1/6.0/5.0/4.0",
+                "Application deployment, testing and performance tuning",
+                "Seamless support during application deployment in to websphere application server",
+                "Created filesystems for websphere application team",
+                "Edited various application scripts and rc.shutdown script to add shutdown script of Websphere application server and DB2 database, edited server startup script to add the startup script of Websphere application server",
+                "Disaster Recovery of Servers through TSM, SAN Backups",
+                "Involved in writing DR scripts which will gather information about multiple servers and used the diagnostics in creating a backup server in case of a disaster",
+                "Performed server consolidation by migrating old standalone RS6000 servers in Logical Partitions (LPARS) on power6 frames",
+                "Heavy usage of mksysb export on to NIM master and restoring on to new LPARS for consolidation purpose",
+                "Coordinated with SAP team while performing Oracle patches for SAP applications, Coordinated with the SAP team on SAP migrations",
+                "Coordinated with the SAP team on a daily basis to fulfill their UNIX needs, assisted in installation, configuration and maintenance of SAP environments",
+                "Experience working in a SAP Environment and building the servers for SAP",
+                "Troubleshooting SAP issues from the O/S level",
+                "Coordinated for seamless installation and configuration of SAP R/3",
+                "Supported SAP Applications Group as a single point of contact from UNIX Server Side",
+                "Performed Day-to-Day changes per request of SAP Group",
+                "VM Tuning for Performance enhancement of SAP Applications",
+                "Coordinated with TSM Administrators to take backups and used the backup images in case of recoveries",
+                "Disaster Recovery Planning, setting up platform and implementing DR standards",
+                "Extensively worked on Mirroring of local disks as well as SAN disks to maintain Data Redundancy and performed Data Replication",
+                "Extensively worked with SAN storage IBM SVC and DS series, EMC Clariion, Symmetrix and Hitachi storage solutions",
+                "Configured 4.1TB and 3.2 TB of EMC SAN Storage for HACMP Cluster nodes and extended physical volumes on VG’s and increased filesystem sizes",
+                "Zoned and configured SAN Storage and extended LUNS VG’s in vanilla and Cluster environment",
+                "Extensively worked with SAN storage EMC Clariion, Symmetrix and Hitachi storage solutions",
+                "Configured SAN Storage in vanilla and Cluster environment",
+                "Configured EMC SAN for HACMP Clusters and ensured the LUNs are zoned as shared between the nodes",
+                "Extended SAN LUNS to VG’s in Vanilla and Cluster environment",
+                "IBM’s SVC and DS series, Power Path installation and involved in Storage Area Network (SAN) administration",
+                "Performed Disaster Recovery using mksysb and restored the system within 2 hours",
+                "Monitor components of TSM, including databases, logs, tape libraries, messages and backups",
+                "Administer TSM server environment(s) to monitor and manage enterprise data management processes. Monitor TSM application server processes and errors to ensure overall system performance and stability",
+                "Monitor and ensure that backup server maintenance tasks are successful on a daily basis, correcting any errors when necessary",
+                "Developed shell scripts to change prompt change of password after expiration"
+            ]
+        },
+        {
+            "company": "Catholic Health Care West",
+            "role": "UNIX/ AIX Production Support Engineer",
+            "dates": [
+                "Jul 05 – May 07"
+            ],
+            "responsibilities": [
+                "Administered multiple IBM machines running pSeries Hardware (POWER5 & POWER6) on  AIX 4.3/ 5.1/ 5.2/5.3",
+                "Co-ordinated application team to Upgrade AIX 5.1 to AIX 5.3",
+                "Worked closely with DBAs to install raid, disk areas for Oracle database instance installations, created Bourne shell database startup and shutdown scripts for UNIX servers. Wrote shell scripts for automated installations, to extract logs",
+                "Configured volume groups and logical volumes, extended logical volumes for file system growth needs using Logical Volume Manager (LVM) commands",
+                "Created and configured LPAR/DLPAR’s on p5-570s and p5-590s",
+                "Installation and Configuration of NIM",
+                "VIO server Planning and setup with Micro Partitions, Configuration of Dual VIO servers",
+                "Perform Field Verification Operation of Windows and Linux Patch in a VMWare ESX Server",
+                "Configured backup/archive policies using Tivoli Storage Manager (TSM)"
+            ]
+        },
+        {
+            "company": "SSInfotek",
+            "role": "UNIX/ AIX Admin/ Unix Developer",
+            "dates": [
+                "Jan 04 – Jun 05"
+            ],
+            "responsibilities": [
+                "Responsible for maintaining and administering 100 production IBM pSeries AIX based servers",
+                "Giving the Level 2 support and assisting the team members in fixing the AIX software problems",
+                "Built AIX OS complete/migration/preservation installation for the pSeries & RS 6000 servers",
+                "Responsible for NIM installation, setting up NIM servers, clients, define the resources, Alternate Disk Migration with NIM",
+                "Installation, Configuration and Administration of AIX 4.3, 5.1 & HACMP 4.4",
+                "Synchronize the HACMP cluster",
+                "Migrating AIX 4.3 to 5.1 Operating System",
+                "Involved in writing of UNIX Shell Scripts as per the requirements",
+                "Capacity planning of disk space and hardware resources required for production and developments servers (SAS)"
+            ]
+        }
+    ],
+    "projects": null,
+    "honors": null,
+    "activities": null,
+    "userDetails": {
+        "name": "Jaweed Shareef",
+        "skills": [
+            "IBM AIX (5.2, 5.3, 6.1,7.1) RHEL (4,5& 6), Windows 2000/NT4.0, Sun Solaris7/8/9/10, HP-UX11.x",
+            "IBM pSeries 795 770 750 570 590 595 IBM Blade Center JS22, JS23, RS/6000, SP2, p670/680/690(Regatta) series, Dell PE 2650, EMC Symmetrix ,Connectrix and IBM XIV",
+            "Active Directory, Veritas NetBackup, Veritas Volume Manager, Veritas Volume Replicator, BMC, Tivoli, NMON, NAS, Korn, C shell scripting",
+            "C, C++, VB, Java, Perl and Shell programming",
+            "Oracle 8i, 9i and 10G, DB2, MS SQL SERVER 7.0/2000",
+            "TCP/IP, HTTP/HTTPS, FTP, SMTP and SOAP",
+            "IBM WebSphere App Server (5.0,6.0,7.0), IBM HTTP Server (IHS), Apache Tomcat, iPlanet, Netscape Enterprise Server"
+        ]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "certifications": null,
+    "education": {
+        "institution": "Polytechnical engineering school of Mons Belgium",
+        "degree": "Not Specified",
+        "graduation": "1989",
+        "gpa": null,
+        "courses": null
+    },
+    "experiences": [
+        {
+            "company": "ADNEOM TECHNOLOGY SA –  GROUP VITAL PARIS FRANCE",
+            "role": "Senior Operation and Technical support engineer  team  leader  ( 20 persons)  Credit Lyonnnais bank   BNP PariBas Real Estate   GENERALLI insurance  CREDIT AGRICOLE bank",
+            "dates": [
+                "02/09",
+                "09/09"
+            ],
+            "responsibilities": [
+                "Installation administration technical support of new financial applications  PCE  Dollar univers and CFT •Administration • 1st and second level Put new websphere applications in production",
+                "Tech support document writting UNIX, SAP, AUTOSYS and CFT •trouble shooting UNIX, Windows, SAP • AUTOSYS  maintain storage system on good state"
+            ]
+        },
+        {
+            "company": "PROGRESSIVE -  EQUIVALENCE",
+            "role": "3rd and 2nd level technical support engineer leader ( 11 persons and many external companies)  ELECTRICITE  DE FRANCE",
+            "dates": [
+                "02/08",
+                "02/09"
+            ],
+            "responsibilities": [
+                "maintain and put application in good condition supervision via BMC software Patrol   TSM AIX 5.3, PATROL,ORACLE,Sybase,control M,cft",
+                "System solaris x.x , Aix 4.2, 5.3, linux red hat, Librairies i2000, i500, 7000 servers aix windows sun, bull"
+            ]
+        },
+        {
+            "company": "QUANTUM CORPORATION",
+            "role": "3rd level Advanced Product support spécialist for gold companies  Management of 100 fields engieeer over the world",
+            "dates": [
+                "02/08",
+                "02/09"
+            ],
+            "responsibilities": [
+                "Storage SAN Dxi 3500, DX3000, windows 2.x windows nt sql servers Software stornext 3.1, Snms, pvx 3.1 System solaris x.x , Aix 4.2, 5.3, linux red hat, Librairies i2000, i500"
+            ]
+        },
+        {
+            "company": "3NM Limited UK & 3nm informatique France",
+            "role": "Operation engineer leader   BNP PARIBAS  BANK",
+            "dates": [
+                "02/09",
+                "09/09"
+            ],
+            "responsibilities": [
+                "maintain 10 banking applications  under Unix  Aix 4.2 & 5.3",
+                "Training of my team members 10 persons  on application support  AIX 4.2 et Oracle , Put applications on  production , shell scripts writting , Storage management under netbackup. windows 2.x windows nt sql servers"
+            ]
+        },
+        {
+            "company": "SOGETI France Cap gemini group",
+            "role": "Senior Operation engenieur 2nd and 3rd level  chief of project managed 30 persons",
+            "dates": [
+                "11/01",
+                "11/07"
+            ],
+            "responsibilities": [
+                "Trouble shooting and maintain applications in good conditions",
+                "Training of my team members 10 persons  on application support  AIX 4.2 et Oracle , Put applications on  production , shell scripts writting , Storage management under netbackup. windows 2.x windows nt sql servers Websphere application installations."
+            ]
+        },
+        {
+            "company": "ATEMPO  France",
+            "role": "Skill center tech support engineer  (leads over 20 engineer)  Presales engineer",
+            "dates": [
+                "04/2001",
+                "10/2001"
+            ],
+            "responsibilities": [
+                "TimeNavigator V3.0 installation on Solaris, HP Ux, Aix, Oracle, Sql",
+                "Customer support, System tunning, Software update, storage librairies StorageTek, Tandberg, Magstar, ExaByte, Outil Netbackup, Backupexe  tests"
+            ]
+        },
+        {
+            "company": "ATOS ORIGIN",
+            "role": "Installation and technical support engineer  PARIS STOCK EXCHANGES  FIMATEX  EURONEXT",
+            "dates": [
+                "06/2000",
+                "03/2001"
+            ],
+            "responsibilities": [
+                "Solaris, SCO, Windows NT 4.0 et Windows 2000, Installations",
+                "Supervision systems tunning, Software updated, Operation management. Data base oracle, sybase, sql server Storage management via tng and cft."
+            ]
+        },
+        {
+            "company": "ALLEN SYSTEM GROUP;  ATTACHMATE",
+            "role": "2nd and 3rd  level technical  Support  engineer  GOLD CUSTOMERS  WORLD WIDE",
+            "dates": [
+                "12/85",
+                "05/97"
+            ],
+            "responsibilities": [
+                "Solaris, SCO, Windows 2000, Windows NT 4.0, Windows, HP UX 11, Hp 9000, RISC 6000 , Oracle, SQL Windows NT 4, Solaris, SCO, HP-UX, RISC 6000, VMS, NFS, Kea X, Client NFS, AWK, ,C-SHELL, Bourne Shell, Emulation vt et X."
+            ]
+        },
+        {
+            "company": "STERIA VERA INFORMATIQUE France",
+            "role": "Operation and tech support engineer",
+            "dates": [
+                "12/85",
+                "05/97"
+            ],
+            "responsibilities": [
+                "DASSAULT AVIATION l’U.N.E.D.I.C LYONNAISE DES EAUX La Compagnie Française pour le Commerce Extérieur (COFACE)  A.F.N.O.R   ACCOR",
+                "SMS, Windows NT 3.51, Windows xx, Lan Manager, Netware, Unix, OS2, CICS, TCP/IP, Lan Manager Réseaux DSA, Lan Manager, Datanet, I.B.M., Risc 6000 Networking technologies, TPC/IP, NFS, Windows 3.1, Access NCR, Netware 3.11, DOS, Unix"
+            ]
+        }
+    ],
+    "projects": null,
+    "honors": null,
+    "activities": null,
+    "userDetails": {
+        "name": "Jean Patrice TCHATAT",
+        "skills": [
+            "C PASCAL ADA FORTRAN",
+            "ORACLE SQL SERVER",
+            "SQL Language",
+            "SQL",
+            "unix windows linux",
+            "Merise, SADT, Semantic Data Model",
+            "linus solaris aix  windows",
+            "wifi LAN -TPC/IP,  FTP, SNMP, Lan Manager, Réseaux  Neuronnaux, Transpac DSA. Sunnet Manager",
+            "tcp ip    nfs",
+            "autosys  control m dollar Univers",
+            "many tools quantum  dxi",
+            "TNG 2.1 (Workload, Performance, Supervision, Advance storage option), Js-plan, websphere 6.0;PATROL, EMULATEURS X  (Keax, Exceed Hummingbird), EMULATEURS  Attachmate  NFS client & FTP, Humingbird, Pcanywhere, Dialogue 3. Webex, TSM ; CONTROL m",
+            "Sun, RISC 6000, Intel, Digital, MIPS, dxi7500, dxi3500, PC"
+        ]
+    }
+}

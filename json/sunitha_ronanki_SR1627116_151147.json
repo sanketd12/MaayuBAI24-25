@@ -1,0 +1,152 @@
+{
+    "certifications": [
+        "AWS Certified Solutions Architect",
+        "Certified Scrum Product Owner"
+    ],
+    "education": {
+        "institution": "Fairleigh Dickinson University, NewJersey",
+        "degree": "Master’s in computer science",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": null
+    },
+    "experiences": [
+        {
+            "company": "F5 Inc",
+            "role": "Data/Functional Analyst",
+            "dates": [
+                "08/22",
+                "Current"
+            ],
+            "responsibilities": [
+                "Used Agile - Scrum methodology",
+                "Implemented Benefit changes for Open Enrollment 2018 and 2019 including Benefit Viewer Changes for Essential Plan",
+                "Serves as a technical and subject matter expert for initiatives involving Member Portal to display the benefits, Accums and other member related information",
+                "Managed solution requirement communication, ensuring that stakeholders have a shared understanding of the requirements and their potential business impact",
+                "Define business requirements for technical development based on analysis of data sets",
+                "Work closely with Sales and Marketing business teams to support new innovations and market initiatives",
+                "Performed hands on detailed data research and analysis of a large data set; investigate, troubleshoot and resolve data quality issues",
+                "Identify process change impacts and providing inputs to change management plans",
+                "Responsible for providing business with optimal and better solutions for any change in PIMS application",
+                "Used multiple data sources by blending data on a single worksheet in Tableau Desktop",
+                "Serves as a Change Lead for coordinating and executing deployments every 3 weeks through Change Management process",
+                "Creating tickets in Jira for all the bi-weekly PIMS releases as a part of SDLC process",
+                "Work with customer teams to identify improvements in efficiency and controllership for their current data processes; teach them how to utilize the designed reporting and functionality in their processes",
+                "Acted as a SME for Benefit Viewer Re-write project which provides a standardized data for both member and provider portal",
+                "Used SQL tools like Toad, Pl/SQL to run SQL queries and validate the data in the warehouse and datamarts",
+                "Worked with Benefit and Claims team on 270/271 involving xml data and vendor response",
+                "Acted as a functional Analyst for Valera interface project that involved Facets Eligibility knowledge",
+                "Responsible for creating Functional Specs in Confluence",
+                "Interacted with developers, environment team to resolve production incidents",
+                "Provide Production Support for all releases",
+                "Interact with Business Team & Client to perform User Acceptance Testing"
+            ]
+        },
+        {
+            "company": "HPE",
+            "role": "Data Analyst",
+            "dates": [
+                "03/20",
+                "08/22"
+            ],
+            "responsibilities": [
+                "Converted data into actionable insights by predicting and modeling future outcomes",
+                "Utilized MS SQL, data warehousing programs, Tableau, and other dashboard/visualization toolsets for data intelligence and analysis",
+                "Prepared reports  that interpret consumer behavior, market opportunities and conditions, marketing results, trends and investment levels",
+                "Worked actively with a cross functional team to understand the requirements better",
+                "Responsible for answering data related questions",
+                "Responsible for writing queries for product build and in developing test plans and test cases based on high-level and detailed designs",
+                "Worked on creating Survey thru various Survey tools and MS Access",
+                "Responsible for creating adhoc, quarterly and annual reports in SAS and analyze the data"
+            ]
+        },
+        {
+            "company": "Infogroup",
+            "role": "Client Services Engineer",
+            "dates": [
+                "02/16",
+                "03/20"
+            ],
+            "responsibilities": [
+                "Worked as a developer in creating data transformation procedures that will support client implementations on Yesmail’s platform. This role involved a great exposure to new software (Pentaho Data Integration), AWS Redshift, AWS S3, Client engagement, agile Development methodology, API’s, Data analysis and large database implementations",
+                "Strong experience in designing, developing, and delivering business intelligence solutions using Pentaho Data Integration and migrating it to AWS Redshift and Scala for data transformation process",
+                "Design and test ETL (Extract, Transform and Load) data processes using Kettle server for pentaho data integration and for AWS migration purpose Scala and SQL procedure to transfer business logic to target tables",
+                "Extensive knowledge in AWS cloud architecture for a high availability business solution",
+                "Strong experience in implementing data warehouse solutions in Confidential Redshift and worked on project to migrate data from on premise databases to Confidential Redshift and S3",
+                "Involved in all stages of Software Development Life Cycle primarily in Database Architecture, Logical and Physical Modeling, Data Warehouse/ETL Development using ETL Solutions/Analytics Applications Development",
+                "Experience in migration of Data from different source system in the form of Excel, Flat file to Amazon S3",
+                "Good understanding of software development methodologies, including Agile (Scrum)"
+            ]
+        },
+        {
+            "company": "IBM India",
+            "role": "Application Developer",
+            "dates": [
+                "08/12",
+                "04/14"
+            ],
+            "responsibilities": [
+                "Developed an application called “Blue Harmony,” which provided a customized UI for IBM’s Hardware Department.  This enabled clients and the other users to customize and order the servers, products or services offered by IBM",
+                "Configuration of products using IPC Framework and Core Java and worked on the enhancements of the framework in Core Java",
+                "Requirement gathering and designing solution based on requirement. Participating in design making process & knowledge transfer meetings",
+                "Design review, code review, Defect fixing",
+                "Spearhead common modeling initiatives which involve coordinating with members of different teams",
+                "Unit and system testing in development and QA environment. And documenting the unit test scenarios and the concepts for the development"
+            ]
+        },
+        {
+            "company": "Ronanki Infotech",
+            "role": "Software Engineer",
+            "dates": [
+                "06/10",
+                "08/12"
+            ],
+            "responsibilities": [
+                "Developed “Auto Configuration Server” is an end-to-end TR-069 service fulfillment and device provisioning solution that lets you manage devices and services over TR-069 protocol.  Worked on-site at “Centre for Artificial Intelligence and Robotics (CAIR),” Bangalore"
+            ]
+        }
+    ],
+    "projects": null,
+    "honors": null,
+    "activities": null,
+    "userDetails": {
+        "name": "Sunitha Ronanki",
+        "skills": [
+            "Java",
+            "C++",
+            "GoLang",
+            "helm charts",
+            "DB2",
+            "MySQL",
+            "SQL Server",
+            "Git Bitbucket",
+            "Tableau",
+            "Service Now",
+            "RTC",
+            "Jira",
+            "Confluence",
+            "Udeploy",
+            "Jenkins",
+            "SQL",
+            "SAS",
+            "AWS",
+            "Agile",
+            "Scrum",
+            "Waterfall",
+            "Linux",
+            "Pentaho Data Integration Server",
+            "FTP",
+            "SFTP",
+            "SSH",
+            "HTTP",
+            "HTTPS",
+            "Teradata",
+            "Informatica",
+            "SAP NetWeaver",
+            "IBM Lotus Notes",
+            "JBoss",
+            "Apache Tomcat",
+            "Web Services (Soap)"
+        ]
+    }
+}

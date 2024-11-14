@@ -1,0 +1,87 @@
+{
+    "certifications": [
+        "SAP Certified in HANA & BI",
+        "SAP HANA (Trained at Bosch & Workshops by SAP)"
+    ],
+    "education": {
+        "institution": "Acharya Nagarjuna University, India",
+        "degree": "Master of Business Administration",
+        "graduation": "2005",
+        "courses": [
+            "Bachelors in commerce, Acharya Nagarjuna University, India",
+            "SAP HANA (Trained at Bosch & Workshops by SAP)"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Metropolitan Utilities District, Omaha, NE",
+            "role": "SAP BI/Analytics Consultant",
+            "responsibilities": [
+                "Designing and implementing various projects and end to end solutions for SAP Utilities, Purchasing, Inventory, CRM-ERMS, CRM-Interaction Records, Budget billing, Escheatment, FICA-AR-Dunning, one service on-One service off, Meter reading estimated, Off meter previous read, DOT, Accounts Receivables, Open Items etc."
+            ],
+            "dates": [
+                "July 2018 – Till date"
+            ]
+        },
+        {
+            "company": "Arthrex, Fort Myers, FL",
+            "role": "SAP BW/HANA Technical lead",
+            "responsibilities": [
+                "Experience in information gathering, analyzing and translating the client's business requirements and functional specifications into technical specifications, data flow design and data models."
+            ],
+            "dates": [
+                "Feb 2017 – Jun 2018"
+            ]
+        },
+        {
+            "company": "Cisco, San Jose, CA",
+            "role": "SAP BW/BO/HANA Technical Lead",
+            "responsibilities": [
+                "Created SQL Stored Procedures to implement complex logics and integrate them with HANA Views."
+            ],
+            "dates": [
+                "May 2016 – Jan 2017"
+            ]
+        },
+        {
+            "company": "Bosch – Automotive Technology, India, and Germany",
+            "role": "SAP BW/ABAP/HANA consultant",
+            "responsibilities": [
+                "Worked on Data Warehouse Workbench - Info Cubes, DSO Objects, Info Sources, Transformations, DTP Info packages, Data sources, Business Content & Data Marts, process chains to suit the Business requirements, ERP, LO Cockpit, Generic Extractions, Master and Transactional data Extraction, Activating Data sources, Setting of V3 update, deleting setup tables, and filling up of setup table."
+            ],
+            "dates": [
+                "Apr 2012 – Apr 2016"
+            ]
+        },
+        {
+            "company": "American Standard, India",
+            "role": "Sr. SAP BW Consultant",
+            "responsibilities": [
+                "Extensively worked on Extracting SD, MM, PP, PM, PM, QM and FI data from ECC."
+            ],
+            "dates": [
+                "Jan 2011 – Mar 2012"
+            ]
+        },
+        {
+            "company": "Luxottica Retail, India",
+            "role": "SAP BW Consultant",
+            "responsibilities": [
+                "Interacting with the onsite team/Client to understand the functionality with respect to the developments."
+            ],
+            "dates": [
+                "July 2008 – Dec 2010"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Hemanth Kumar Tatikonda",
+        "skills": [
+            "SAP BW4HANA technologies such as HANA 2.0, BW 3.x, BI 7.0, BW on HANA (7.3, 7.4,7.5), BW4HANA and BO-WebI, Sap Analytics Cloud (SAC)"
+        ]
+    }
+}
