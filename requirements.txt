@@ -5,3 +5,4 @@ python-dotenv
 pypdf
 langchain_community
 chromadb
+langchain-chroma>=0.1.2
