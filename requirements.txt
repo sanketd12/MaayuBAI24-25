@@ -3,3 +3,5 @@ openai
 pydantic
 python-dotenv
 pypdf
+langchain_community
+chromadb
