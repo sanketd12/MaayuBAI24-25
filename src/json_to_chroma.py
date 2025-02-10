@@ -31,7 +31,7 @@ texts = [doc['content'] for doc in documents]
 embeddings = embedding_model.embed_documents(texts)
 
 #Store embeddings in ChromaDB
-chroma_db = Chroma(collection_name="resume_embeddings", embedding_function=embedding_model)
+chroma_db = Chroma(collection_name="resume_embeddings", embedding_function=embedding_model, persist_directory="./chromadb")
 for doc, embedding in zip(documents, embeddings):
     chroma_db.add_texts([doc['content']], embeddings=[embedding], metadatas=[doc['metadata']])
 
