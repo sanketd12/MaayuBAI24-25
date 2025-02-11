@@ -130,6 +130,8 @@ env.bak/
 venv.bak/
 .venvpip/
 
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -139,6 +141,11 @@ venv.bak/
 
 # mkdocs documentation
 /site
+
+
+#folders that hold local files
+resume_folder/*
+json/*
 
 # mypy
 .mypy_cache/
