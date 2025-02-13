@@ -21,6 +21,7 @@ query = input("Query: ")
 most_sim = collection.query()
 
 prompt = f"Answer {query}, given {most_sim}"
+#client.prompt(prompt) // not correct syntax but right idea
 
 
 #prompt LLM with prompt
