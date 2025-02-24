@@ -1,8 +1,13 @@
+from flask import Flask, request, jsonify
 import os
 import openai
 import chromadb
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)  # Allow frontend requests
 
 # Load API Key from environment variable
 api_key = os.environ.get("TOGETHER_API_KEY")
@@ -32,20 +37,52 @@ embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-Mi
 query_embedding = embedding_model.embed_query(query)
 
 # Search for the most similar documents in ChromaDB
-most_sim = collection.query(query_embeddings=[query_embedding], n_results=3)  # Get top 3 matches
+# most_sim = collection.query(query_embeddings=[query_embedding], n_results=3)  # Get top 3 matches
 
-# Extract relevant text from the results
-relevant_contexts = "\n".join([doc for doc in most_sim["documents"][0]])
+# # Extract relevant text from the results
+# relevant_contexts = "\n".join([doc for doc in most_sim["documents"][0]])
 
-# Construct the prompt
-prompt = f"Answer the following question: {query}\nGiven the following relevant information:\n{relevant_contexts}"
+# # Construct the prompt
+# prompt = f"Answer the following question: {query}\nGiven the following relevant information:\n{relevant_contexts}"
 
-# Send prompt to LLM
-response = client.completions.create(
-    model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
-    prompt=prompt,
-    max_tokens=200
-)
+# # Send prompt to LLM
+# response = client.completions.create(
+#     model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+#     prompt=prompt,
+#     max_tokens=200
+# )
 
-# Print response
-print("\nResponse:\n", response.choices[0].text.strip())
+# # Print response
+# print("\nResponse:\n", response.choices[0].text.strip())
+
+@app.route("/query", methods=["POST"])
+def query_rag():
+    data = request.json
+    query = data.get("query")
+    
+    if not query:
+        return jsonify({"error": "Query is required"}), 400
+
+    # Embed the query
+    query_embedding = embedding_model.embed_query(query)
+
+    # Search for similar documents in ChromaDB
+    most_sim = collection.query(query_embeddings=[query_embedding], n_results=3)  
+
+    # Extract relevant text from results
+    relevant_contexts = "\n".join([doc for doc in most_sim["documents"][0]])
+
+    # Construct prompt
+    prompt = f"Answer the following question: {query}\nGiven the following relevant information:\n{relevant_contexts}"
+
+    # Get response from LLM
+    response = client.completions.create(
+        model="meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+        prompt=prompt,
+        max_tokens=200
+    )
+
+    return jsonify({"response": response.choices[0].text.strip()})
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
