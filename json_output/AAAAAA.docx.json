@@ -1,0 +1,95 @@
+{
+    "userDetails": {
+        "name": "John Doe",
+        "skills": [
+            "Python",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    "education": {
+        "institution": "University of Technology",
+        "degree": "Bachelor of Science in Computer Science",
+        "graduation": "May 2018",
+        "gpa": 3.8,
+        "courses": [
+            "Data Structures and Algorithms",
+            "Introduction to Machine Learning",
+            "Web Development",
+            "Database Systems"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "TechGiant Inc.",
+            "role": "Software Engineer Intern",
+            "dates": [
+                "May 2019",
+                "Aug 2019"
+            ],
+            "responsibilities": [
+                "Developed a web application for employee directory using React.",
+                "Assisted in designing database schema for the inventory management system.",
+                "Debugged and resolved issues in existing Python scripts and tools."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Personal Portfolio",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React"
+            ],
+            "description": [
+                "Created a personal portfolio website to showcase my work and skills.",
+                "Utilized React for creating reusable UI components.",
+                "Implemented responsive design for different screen sizes.",
+                "Used Bootstrap for styling and layout."
+            ]
+        },
+        {
+            "project": "Weather App",
+            "skills": [
+                "Python",
+                "Flask",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "OpenWeatherAPI"
+            ],
+            "description": [
+                "Developed a web application that fetches weather data based on the user's location.",
+                "Utilized Flask for server-side rendering.",
+                "Integrated OpenWeatherAPI for fetching weather data.",
+                "Implemented responsive design for different screen sizes.",
+                "Used Bootstrap for styling and layout."
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Hackathons",
+            "role": "Participant",
+            "responsibility": [
+                "Worked in a team of 4 to develop a web app for tracking mental health.",
+                "Utilized Node.js and Express for backend development.",
+                "Integrated Google Fit and Apple Health APIs for data collection.",
+                "Implemented real-time tracking and visualization of mental health indicators."
+            ]
+        }
+    ],
+    "honors": [
+        "Graduated Magna Cum Laude",
+        "Dean's List (2016-2018)",
+        "Best CS Project Award (2017)"
+    ],
+    "certifications": [
+        "Full Stack Web Development (Coursera)",
+        "Machine Learning (edX)",
+        "Python for Data Science (DataCamp)"
+    ]
+}
