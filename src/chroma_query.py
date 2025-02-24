@@ -10,11 +10,6 @@ if not api_key:
     raise ValueError("API key is missing. Set TOGETHER_API_KEY as an environment variable.")
 
 
-# Initialize OpenAI client (Together AI)
-client = openai.OpenAI(
-    base_url="https://api.together.xyz/v1",
-    api_key=api_key,
-)
 
 # Load ChromaDB collection
 db_file = chromadb.PersistentClient(path="chromadb")
