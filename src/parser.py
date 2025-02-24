@@ -1,6 +1,8 @@
 from langchain_community.document_loaders import PyPDFLoader
-from spire.doc import Document
-from os import path, listdir, environ
+#from spire.doc import Document\
+from docx import Document
+from os import path, listdir, environ, makedirs
+import pdfplumber
 import json
 import openai
 from data_models import UserInformation
@@ -42,15 +44,13 @@ def parse_pdf(pdf_path: str) -> str:
 
 def parse_doc(doc_path: str) -> str:
     # Loads DOC or DOCX content
-    document = Document()
-    document.LoadFromFile(doc_path)
-    content = document.GetText()
-    return content
-
+    doc = Document(doc_path)
+    return "\n".join([para.text for para in doc.paragraphs]).strip()
 
 def generate_json(content: str, output_json_path: str) -> None:
     # Generate structured JSON for each page of the resume (or multiple REMOVED_BUCKET_NAME)
     user_info = json.loads(get_user_details(content, UserInformation))
+    makedirs(path.dirname(output_json_path), exist_ok=True)
     
     # Save to JSON file
     with open(output_json_path, 'w', encoding='utf-8') as f:
@@ -80,7 +80,7 @@ def load_users(resume_folder_path: str, json_folder_path: str) -> None:
             generate_json_unique_name(resume_name)
         elif resume.lower().endswith('.docx'):
             content = parse_doc(resume_path)
-            resume_name = resume[:-5]
+            resume_name = resume[:-5] if resume.lower().endswith(".docx") else resume[:-4]
             generate_json_unique_name(resume_name)
         elif resume.lower().endswith('.doc'):
             content = parse_doc(resume_path)
