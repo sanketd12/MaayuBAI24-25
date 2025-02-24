@@ -14,9 +14,22 @@ jq_schema = '''
 '''
 
 #Set up the file path and load the JSON data
-data_file_path = os.path.join(os.path.dirname(__file__), '..', 'json', 'users_data.json')
-json_loader = JSONLoader(file_path=data_file_path, jq_schema=jq_schema, text_content=False)
-data = json_loader.load()
+import os
+import json
+from langchain.document_loaders import JSONLoader
+
+# Define the directory path
+data_dir_path = os.path.join(os.path.dirname(__file__), '..', 'json')
+
+# Get all JSON files in the directory
+json_files = [f for f in os.listdir(data_dir_path) if f.endswith('.json')]
+
+# Load data from all JSON files
+data = []
+for json_file in json_files:
+    file_path = os.path.join(data_dir_path, json_file)
+    json_loader = JSONLoader(file_path=file_path, jq_schema=jq_schema, text_content=False)
+    data.extend(json_loader.load())
 
 documents = []
 for item in data:
