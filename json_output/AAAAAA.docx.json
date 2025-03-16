@@ -1,95 +1,130 @@
 {
     "userDetails": {
-        "name": "John Doe",
+        "name": "Not provided",
         "skills": [
-            "Python",
-            "JavaScript",
-            "HTML",
-            "CSS"
+            "Software development",
+            "Machine learning",
+            "Data science",
+            "Project management",
+            "Teaching"
         ]
     },
     "education": {
-        "institution": "University of Technology",
-        "degree": "Bachelor of Science in Computer Science",
-        "graduation": "May 2018",
-        "gpa": 3.8,
+        "institution": "University of Virginia, Charlottesville, VA",
+        "degree": "BA Computer Science, BA Cognitive Science",
+        "graduation": "Expected 05/25",
+        "gpa": 3.7,
         "courses": [
+            "Computer Systems and Organizations",
             "Data Structures and Algorithms",
-            "Introduction to Machine Learning",
-            "Web Development",
-            "Database Systems"
+            "Software Development Essentials",
+            "Abnormal Psychology",
+            "Speech & Hearing Science",
+            "Psycholinguistics",
+            "Neuroscience",
+            "Language & Culture",
+            "Discrete Math",
+            "Statistics",
+            "Linear Algebra",
+            "Introduction to Probability",
+            "Data Science with Python"
         ]
     },
     "experiences": [
         {
-            "company": "TechGiant Inc.",
-            "role": "Software Engineer Intern",
+            "company": "Clair Global, Lititz, PA",
+            "role": "Software Development Intern",
             "dates": [
-                "May 2019",
-                "Aug 2019"
+                "July 2023 - Present"
             ],
             "responsibilities": [
-                "Developed a web application for employee directory using React.",
-                "Assisted in designing database schema for the inventory management system.",
-                "Debugged and resolved issues in existing Python scripts and tools."
+                "Implemented a project in C# and Python to collect sound data and train a CNN to predict dB SPL values",
+                "Created scripts in Python to interact with OpenAI for a vector embedding-based naïve RAG software",
+                "Generated responses based on reference files as a first step towards organizing a knowledge base"
+            ]
+        },
+        {
+            "company": "Business and Artificial Intelligence Club (BAI), Charlottesville, VA",
+            "role": "Project Lead",
+            "dates": [
+                "September 2023 - Present"
+            ],
+            "responsibilities": [
+                "Oversaw development of a graph RAG project by a team of 8 students",
+                "Developed a graph RAG application to screen REMOVED_BUCKET_NAME and give accurate responses",
+                "Acted as a pivot between the executive team, programming team, and third-party client"
+            ]
+        },
+        {
+            "company": "UVA Department of Computer Science, Charlottesville, VA",
+            "role": "Undergraduate Teaching Assistant",
+            "dates": [
+                "August 2024 - Present"
+            ],
+            "responsibilities": [
+                "Mentored over 540 students enrolled in Software Development Essentials",
+                "Coordinated office hours and grading alongside 30 other teaching assistants"
             ]
         }
     ],
     "projects": [
         {
-            "project": "Personal Portfolio",
+            "project": "BAI Graph RAG Project",
             "skills": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "React"
+                "Graph RAG",
+                "Resume screening",
+                "Bias reduction"
             ],
             "description": [
-                "Created a personal portfolio website to showcase my work and skills.",
-                "Utilized React for creating reusable UI components.",
-                "Implemented responsive design for different screen sizes.",
-                "Used Bootstrap for styling and layout."
-            ]
-        },
-        {
-            "project": "Weather App",
-            "skills": [
-                "Python",
-                "Flask",
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "OpenWeatherAPI"
-            ],
-            "description": [
-                "Developed a web application that fetches weather data based on the user's location.",
-                "Utilized Flask for server-side rendering.",
-                "Integrated OpenWeatherAPI for fetching weather data.",
-                "Implemented responsive design for different screen sizes.",
-                "Used Bootstrap for styling and layout."
+                "Development of a graph RAG application to screen REMOVED_BUCKET_NAME and give accurate responses",
+                "Reduced bias in generated responses and better extrapolated to generic queries"
             ]
         }
     ],
     "activities": [
         {
-            "activity": "Hackathons",
-            "role": "Participant",
+            "activity": "Guitar player and performer",
+            "role": "Guitar player for 15 years",
             "responsibility": [
-                "Worked in a team of 4 to develop a web app for tracking mental health.",
-                "Utilized Node.js and Express for backend development.",
-                "Integrated Google Fit and Apple Health APIs for data collection.",
-                "Implemented real-time tracking and visualization of mental health indicators."
+                "Performed in high school guitar ensemble and several bands"
+            ]
+        },
+        {
+            "activity": "Soccer player",
+            "role": "Played for 15+ years",
+            "responsibility": [
+                "Played for state semifinal high school varsity teams and other clubs"
+            ]
+        },
+        {
+            "activity": "Obstacle Course Races",
+            "role": "Training and participation",
+            "responsibility": [
+                "Training for long-distance obstacle races, such as Spartan races"
+            ]
+        },
+        {
+            "activity": "Hoohacks Participant",
+            "role": "Participant for 2 years",
+            "responsibility": [
+                "Learned from other developers and had fun"
+            ]
+        },
+        {
+            "activity": "Online Courses",
+            "role": "Participant in free time",
+            "responsibility": [
+                "Learned math, programming, business, and other technical skills"
+            ]
+        },
+        {
+            "activity": "French Language",
+            "role": "Language learner",
+            "responsibility": [
+                "Achieved comprehension levels to allow for French exchange program"
             ]
         }
     ],
-    "honors": [
-        "Graduated Magna Cum Laude",
-        "Dean's List (2016-2018)",
-        "Best CS Project Award (2017)"
-    ],
-    "certifications": [
-        "Full Stack Web Development (Coursera)",
-        "Machine Learning (edX)",
-        "Python for Data Science (DataCamp)"
-    ]
+    "honors": [],
+    "certifications": []
 }

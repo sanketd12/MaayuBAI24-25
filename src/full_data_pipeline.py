@@ -7,6 +7,8 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
 import parser
+from docx import Document
+import io
 
 # Load environment variables from .env
 load_dotenv()
@@ -86,10 +88,24 @@ def find_folder_by_path(service, folder_path):
     return parent_id  # Returns the final folder ID if the whole path is valid
 
 
+# def read_drive_file(service, file_id):
+#     try:
+#         request = service.files().get_media(fileId=file_id)
+#         return request.execute().decode("utf-8", errors="ignore")  # Convert bytes to text
+#     except HttpError as error:
+#         print(f"Error reading file {file_id}: {error}")
+#         return None
+
 def read_drive_file(service, file_id):
     try:
         request = service.files().get_media(fileId=file_id)
-        return request.execute().decode("utf-8", errors="ignore")  # Convert bytes to text
+        file_stream = io.BytesIO(request.execute())  # Read binary content into a BytesIO stream
+        
+        # Open DOCX file using python-docx
+        doc = Document(file_stream)
+        text = "\n".join([p.text for p in doc.paragraphs])  # Extract paragraphs
+        
+        return text
     except HttpError as error:
         print(f"Error reading file {file_id}: {error}")
         return None

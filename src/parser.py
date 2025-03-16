@@ -20,6 +20,7 @@ client = openai.OpenAI(
 
 # Function to call the LLM and get structured data
 def get_user_details(content, ObjOutput):
+    print(content)
     chat_completion = client.chat.completions.create(
         model="mistralai/Mixtral-8x7B-Instruct-v0.1",
         response_format={"type": "json_object", "schema": ObjOutput.model_json_schema()},
