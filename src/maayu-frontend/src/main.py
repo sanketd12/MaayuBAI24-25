@@ -1,6 +1,7 @@
 import flet as ft
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
+import requests
 
 
 def main(page: ft.Page):
@@ -35,12 +36,15 @@ def main(page: ft.Page):
         page.update()
     
     def fetch_results(query):
-        sample_data = [
-            "Alice - Python, ML, Data Science",
-            "Bob - JavaScript, React, Node.js",
-            "Charlie - Java, Spring, AWS"
-        ]
-        return [r for r in sample_data if any(skill.lower() in r.lower() for skill in query.split(","))]
+        try:
+            response = requests.post("http://localhost:8000/query", json={"query": query})
+            if response.status_code == 200:
+                return response.json().get("results", [])
+            else:
+                return [f"Error: {response.status_code}"]
+        except Exception as e:
+            return [f"Exception occurred: {e}"]
+
     
     search_button.on_click = search_REMOVED_BUCKET_NAME
     
