@@ -3,10 +3,14 @@
         "name": "Not provided",
         "skills": [
             "Software development",
-            "Machine learning",
             "Data science",
+            "Machine learning",
             "Project management",
-            "Teaching"
+            "Teaching",
+            "Music (guitar)",
+            "Soccer",
+            "Obstacle Course Races",
+            "French"
         ]
     },
     "education": {
@@ -38,9 +42,9 @@
                 "July 2023 - Present"
             ],
             "responsibilities": [
-                "Implemented a project in C# and Python to collect sound data and train a CNN to predict dB SPL values",
-                "Created scripts in Python to interact with OpenAI for a vector embedding-based naïve RAG software",
-                "Generated responses based on reference files as a first step towards organizing a knowledge base"
+                "Implemented a C# and Python project to collect sound data and train a CNN to predict dB SPL values",
+                "Created Python scripts to interact with OpenAI and develop a vector embedding based naïve RAG software",
+                "Generated responses based on reference files for organizing a knowledge base"
             ]
         },
         {
@@ -51,8 +55,8 @@
             ],
             "responsibilities": [
                 "Oversaw development of a graph RAG project by a team of 8 students",
-                "Developed a graph RAG application to screen REMOVED_BUCKET_NAME and give accurate responses",
-                "Acted as a pivot between the executive team, programming team, and third-party client"
+                "Operated as adviser and leader of group, developing a graph RAG application for resume screening",
+                "Acted as pivot between executive team, programming team, and third-party client"
             ]
         },
         {
@@ -69,59 +73,41 @@
     ],
     "projects": [
         {
-            "project": "BAI Graph RAG Project",
+            "project": "Graph RAG project",
             "skills": [
                 "Graph RAG",
-                "Resume screening",
-                "Bias reduction"
+                "Project management",
+                "Python"
             ],
             "description": [
-                "Development of a graph RAG application to screen REMOVED_BUCKET_NAME and give accurate responses",
-                "Reduced bias in generated responses and better extrapolated to generic queries"
+                "Oversaw development of a graph RAG project by a team of 8 students",
+                "Developed a graph RAG application for resume screening"
             ]
         }
     ],
     "activities": [
         {
-            "activity": "Guitar player and performer",
-            "role": "Guitar player for 15 years",
+            "activity": "Guided retreats for underclassmen in high school",
+            "role": "Mentor",
             "responsibility": [
-                "Performed in high school guitar ensemble and several bands"
+                "Helped students grow into themselves",
+                "Established strong relationships",
+                "Guided students through complex and challenging periods"
             ]
         },
         {
-            "activity": "Soccer player",
-            "role": "Played for 15+ years",
+            "activity": "Hoohacks",
+            "role": "Participant",
             "responsibility": [
-                "Played for state semifinal high school varsity teams and other clubs"
+                "Learned from other developers",
+                "Had fun"
             ]
         },
         {
-            "activity": "Obstacle Course Races",
-            "role": "Training and participation",
+            "activity": "French exchange program",
+            "role": "Participant",
             "responsibility": [
-                "Training for long-distance obstacle races, such as Spartan races"
-            ]
-        },
-        {
-            "activity": "Hoohacks Participant",
-            "role": "Participant for 2 years",
-            "responsibility": [
-                "Learned from other developers and had fun"
-            ]
-        },
-        {
-            "activity": "Online Courses",
-            "role": "Participant in free time",
-            "responsibility": [
-                "Learned math, programming, business, and other technical skills"
-            ]
-        },
-        {
-            "activity": "French Language",
-            "role": "Language learner",
-            "responsibility": [
-                "Achieved comprehension levels to allow for French exchange program"
+                "Achieved comprehension levels for the French language"
             ]
         }
     ],

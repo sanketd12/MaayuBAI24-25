@@ -88,14 +88,6 @@ def find_folder_by_path(service, folder_path):
     return parent_id  # Returns the final folder ID if the whole path is valid
 
 
-# def read_drive_file(service, file_id):
-#     try:
-#         request = service.files().get_media(fileId=file_id)
-#         return request.execute().decode("utf-8", errors="ignore")  # Convert bytes to text
-#     except HttpError as error:
-#         print(f"Error reading file {file_id}: {error}")
-#         return None
-
 def read_drive_file(service, file_id):
     try:
         request = service.files().get_media(fileId=file_id)

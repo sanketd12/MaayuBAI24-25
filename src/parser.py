@@ -63,7 +63,10 @@ def load_users(resume_folder_path: str, json_folder_path: str) -> None:
     already_used = set()
 
 
-    def generate_json_unique_name(resume_name):
+    def generate_json_unique_name(resume_name: str):
+        if '.docx' in resume_name:
+            resume_name.replace('.docx', '')
+            
         original = resume_name
         n = 1
         while resume_name in already_used:
