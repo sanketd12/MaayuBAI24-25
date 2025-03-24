@@ -1,4 +1,6 @@
 import flet as ft
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 import requests
 
 API_URL = "http://127.0.0.1:5000/query"  # Ensure Flask is running
@@ -20,23 +22,36 @@ def main(page: ft.Page):
         ))
 
         page.update()
+    
+    def fetch_results(query):
+        try:
+            response = requests.post("http://localhost:8000/query", json={"query": query})
+            if response.status_code == 200:
+                return response.json().get("results", [])
+            else:
+                return [f"Error: {response.status_code}"]
+        except Exception as e:
+            return [f"Exception occurred: {e}"]
 
-        # Send request to Flask API
-        response = requests.post(API_URL, json={"query": user_text})
-        bot_response = response.json().get("response", "Error fetching response")
-
-        # Show bot response
-        chat_container.controls.append(ft.Row(
-            [ft.Container(ft.Text(f"maayu: {bot_response}", size=14), padding=8, bgcolor=ft.colors.GREY_200, border_radius=8)],
-            alignment=ft.MainAxisAlignment.START
-        ))
-
-        user_input.value = ""
-        page.update()
-
-    user_input = ft.TextField(hint_text="Type a message...", expand=True)
-    send_button = ft.IconButton(icon=ft.icons.SEND, tooltip="Send", on_click=send_message)
-
+    
+    search_button.on_click = search_REMOVED_BUCKET_NAME
+    
+    # Input Container (Fix for border_radius issue)
+    input_row = ft.Container(
+        content=ft.Row([
+            upload_button,
+            query_input,
+            search_button
+        ], alignment=ft.MainAxisAlignment.CENTER, spacing=10),
+        height=50,
+        width=500,
+        border_radius=25,
+        bgcolor=ft.colors.GREY_300,
+        padding=10
+    )
+    
+    result_area = ft.Column(scroll=ft.ScrollMode.ALWAYS)
+    
     page.add(
         ft.Container(
             content=chat_container,
