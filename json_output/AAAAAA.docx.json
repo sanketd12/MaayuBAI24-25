@@ -1,0 +1,116 @@
+{
+    "userDetails": {
+        "name": "Not provided",
+        "skills": [
+            "Software development",
+            "Data science",
+            "Machine learning",
+            "Project management",
+            "Teaching",
+            "Music (guitar)",
+            "Soccer",
+            "Obstacle Course Races",
+            "French"
+        ]
+    },
+    "education": {
+        "institution": "University of Virginia, Charlottesville, VA",
+        "degree": "BA Computer Science, BA Cognitive Science",
+        "graduation": "Expected 05/25",
+        "gpa": 3.7,
+        "courses": [
+            "Computer Systems and Organizations",
+            "Data Structures and Algorithms",
+            "Software Development Essentials",
+            "Abnormal Psychology",
+            "Speech & Hearing Science",
+            "Psycholinguistics",
+            "Neuroscience",
+            "Language & Culture",
+            "Discrete Math",
+            "Statistics",
+            "Linear Algebra",
+            "Introduction to Probability",
+            "Data Science with Python"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Clair Global, Lititz, PA",
+            "role": "Software Development Intern",
+            "dates": [
+                "July 2023 - Present"
+            ],
+            "responsibilities": [
+                "Implemented a C# and Python project to collect sound data and train a CNN to predict dB SPL values",
+                "Created Python scripts to interact with OpenAI and develop a vector embedding based naïve RAG software",
+                "Generated responses based on reference files for organizing a knowledge base"
+            ]
+        },
+        {
+            "company": "Business and Artificial Intelligence Club (BAI), Charlottesville, VA",
+            "role": "Project Lead",
+            "dates": [
+                "September 2023 - Present"
+            ],
+            "responsibilities": [
+                "Oversaw development of a graph RAG project by a team of 8 students",
+                "Operated as adviser and leader of group, developing a graph RAG application for resume screening",
+                "Acted as pivot between executive team, programming team, and third-party client"
+            ]
+        },
+        {
+            "company": "UVA Department of Computer Science, Charlottesville, VA",
+            "role": "Undergraduate Teaching Assistant",
+            "dates": [
+                "August 2024 - Present"
+            ],
+            "responsibilities": [
+                "Mentored over 540 students enrolled in Software Development Essentials",
+                "Coordinated office hours and grading alongside 30 other teaching assistants"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Graph RAG project",
+            "skills": [
+                "Graph RAG",
+                "Project management",
+                "Python"
+            ],
+            "description": [
+                "Oversaw development of a graph RAG project by a team of 8 students",
+                "Developed a graph RAG application for resume screening"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Guided retreats for underclassmen in high school",
+            "role": "Mentor",
+            "responsibility": [
+                "Helped students grow into themselves",
+                "Established strong relationships",
+                "Guided students through complex and challenging periods"
+            ]
+        },
+        {
+            "activity": "Hoohacks",
+            "role": "Participant",
+            "responsibility": [
+                "Learned from other developers",
+                "Had fun"
+            ]
+        },
+        {
+            "activity": "French exchange program",
+            "role": "Participant",
+            "responsibility": [
+                "Achieved comprehension levels for the French language"
+            ]
+        }
+    ],
+    "honors": [],
+    "certifications": []
+}

@@ -1,6 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader
-from spire.doc import Document, FileFormat
-from os import path, listdir, environ
+from docx import Document
+from os import path, listdir, environ, makedirs
+import pdfplumber
 import json
 import openai
 from data_models import UserInformation
@@ -28,6 +29,7 @@ s3_client = boto3.client(
 # Function to call the LLM and get structured data
 def get_user_details(content, ObjOutput):
     cleaned_content = ''.join(char for char in content if ord(char) >= 32 or char in '\n\r\t') # removes invalid control characters that disrupt json format
+    print(content)
     chat_completion = client.chat.completions.create(
         model="mistralai/Mixtral-8x7B-Instruct-v0.1",
         response_format={"type": "json_object", "schema": ObjOutput.model_json_schema()},
@@ -50,13 +52,10 @@ def parse_pdf(pdf_path: str) -> str:
     return content
 
 
-
 def parse_doc(doc_path: str) -> str:
     # Loads DOC or DOCX content
-    document = Document()
-    document.LoadFromFile(doc_path)
-    content = document.GetText()
-    return content
+    doc = Document(doc_path)
+    return "\n".join([para.text for para in doc.paragraphs]).strip()
 
 def parse_doc_from_s3(bucket_name: str, file_key: str) -> str:
     try:
@@ -67,11 +66,8 @@ def parse_doc_from_s3(bucket_name: str, file_key: str) -> str:
         s3_client.download_file(bucket_name, file_key, temp_file_path)
         
         # Load the document using the file path
-        document = Document()
-        document.LoadFromFile(temp_file_path)
-        
-        # Get the text content
-        content = document.GetText()
+        doc = Document(temp_file_path)
+        content = "\n".join([para.text for para in doc.paragraphs]).strip()
         
         # Clean up the temporary file
         if path.exists(temp_file_path):
@@ -87,6 +83,7 @@ def parse_doc_from_s3(bucket_name: str, file_key: str) -> str:
 def generate_json(content: str, output_json_path: str) -> None:
     # Generate structured JSON for each page of the resume (or multiple REMOVED_BUCKET_NAME)
     user_info = json.loads(get_user_details(content, UserInformation))
+    makedirs(path.dirname(output_json_path), exist_ok=True)
     
     # Save to JSON file
     with open(output_json_path, 'w', encoding='utf-8') as f:
@@ -98,7 +95,10 @@ def load_users(resume_folder_path: str, json_folder_path: str) -> None:
     already_used = set()
 
 
-    def generate_json_unique_name(resume_name):
+    def generate_json_unique_name(resume_name: str):
+        if '.docx' in resume_name:
+            resume_name.replace('.docx', '')
+            
         original = resume_name
         n = 1
         while resume_name in already_used:
@@ -116,7 +116,7 @@ def load_users(resume_folder_path: str, json_folder_path: str) -> None:
             generate_json_unique_name(resume_name)
         elif resume.lower().endswith('.docx'):
             content = parse_doc(resume_path)
-            resume_name = resume[:-5]
+            resume_name = resume[:-5] if resume.lower().endswith(".docx") else resume[:-4]
             generate_json_unique_name(resume_name)
         elif resume.lower().endswith('.doc'):
             content = parse_doc(resume_path)
