@@ -1,0 +1,154 @@
+{
+    "certifications": null,
+    "education": {
+        "institution": "University of Calcutta",
+        "degree": "Master's degree in Computer Science",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": null
+    },
+    "experiences": [
+        {
+            "company": "Customs and Border Protection (CBP) - 01/14/23 - Current",
+            "role": "Sr. Database Engineer",
+            "responsibilities": [
+                "Involved in developing various data warehousing project,  ETL processing, master data, SQL, Business Intelligence, Visual Studio , Python, SQL Alchemy, Stream Sets, Kafka, Scala and various other ETL tools and various DevOps",
+                "Developed web application back end components while communicating with 30+ clients to identify their needs/goals and work on meeting them",
+                "Worked on the improvement of data protection and security, increasing security rate by 24 % while creating new user information solutions",
+                "Successfully automated the moving of 5 tests from production to staging and staging to production by carefully reading the keywords from NVbugs",
+                "Consumed APIs while utilizing Python requests to read numerous JSON reports",
+                "Designed and configured database and backend applications and programs, contributing to operations continuity and increasing efficiency by 14%",
+                "Obtained adequate experience in reviewing Python code for running the troubleshooting test-cases and bug issues, acquiring all necessary skills"
+            ],
+            "dates": [
+                "01/14/23 - Current"
+            ]
+        },
+        {
+            "company": "Center for Disease control and Prevention (CDC) - 03/2022 -12/2023",
+            "role": "Sr. Database Architect/Database Administration",
+            "responsibilities": [
+                "Heavily involved in Enterprise level software Architecture design and development, integration and implementation of full life cycle development in Sales force and SQL/data Modeling, AP and Restful programming",
+                "Single-handedly developed an ETL Tool for Migration of data from SQL Server to PostgreSQL – which can be implemented for various other databases – MySQL,  Oracle SQL development using Oracle11g, MySQL, PostgreSQL, No Sql like Mongo DB, Informatica application development",
+                "Exposure to Apache Spark, Apache Hadoop, Scala , AWS",
+                "Experience with Agile toolsets, such as JIRA and Confluence for maintaining  Project management, log and keep tracking software bugs and tracking the user stories",
+                "Expertise in designing modern cloud and hybrid solutions that runs on Microsoft Azure, including compute, network, storage, monitoring and security",
+                "Extensive experience in data warehousing, ETL processing, master data, SQL, Business Intelligence, and DevOps"
+            ],
+            "dates": [
+                "03/2022 -12/2023"
+            ]
+        },
+        {
+            "company": "Office of Personal management - 10/2019 – 08/2022",
+            "role": "Database Architect/Database Administration",
+            "responsibilities": [
+                "Design, development, testing, deployment, support and reporting of Medical Insurance Processing includes Benefit Plan, Claims processing systems, Security clearance processing system, USAJOBS processing systems - for USA government Agency",
+                "Extensively involved in development of data warehousing, ETL processing, master data, SQL, Business Intelligence, Erwin, ER Studio, Oracle Designer, Stream Sets, Kafka, Scala and various other ETL tools and various DevOps",
+                "Involved in developing data warehousing, ETL processing, master data, SQL, Business Intelligence, and DevOps.  Extensively worked on developing Crystal Reports for Healthcare system of Office of Personal Management",
+                "Experience with Agile toolsets, such as JIRA and Confluence for maintaining Project management, log and keep tracking software bugs and tracking the user stories",
+                "Involved in development in Oracle PL/SQL, Informatica application development, also working on PostgreSQL and JavaScript and Big Data and Cloud Database Platforms and assures their high availability and Data analytics BI tools, Analytics products - Tableau, Spotfire or micro strategy",
+                "Involved in working with agile toolsets, such as JIRA and Confluence for maintaining Project management, logging the, and keeping tracking software bugs, and tracking the user stories"
+            ],
+            "dates": [
+                "10/2019 – 08/2022"
+            ]
+        },
+        {
+            "company": "General Dynamics Inc. (GDIT Inc.) - 10/2015 - 10/2019",
+            "role": "Principal Database Developer/Engineer",
+            "responsibilities": [
+                "Primary responsibilities include design, development, testing, deployment, support and reporting of Center for Medicare/Medicaid system (CMS) for the USA government Agency",
+                "Involved in developing data warehousing, ETL processing, master data, SQL, Business Intelligence, and DevOps.  Extensively worked on developing Crystal Reports for Healthcare system of US Government",
+                "Experience in working with stakeholders to translate business requirements into designs for secure, scalable, and reliable Azure solutions",
+                "Extensive experience in data warehousing, ETL processing, master data, SQL, Business Intelligence, and DevOps",
+                "History of delivering data strategy implementations that are high in performance and throughput, emphasize data availability, and are cost efficient and scalable",
+                "Experience with Agile toolsets, such as JIRA and Confluence for  maintaining Project management, log and keep tracking software bugs and tracking the user stories",
+                "Working extensively with RDMS databases like SQL SERVER 2016/2017, JavaScript framework ,Oracle 11g and NO SQL databases like Redis, Mongo and Cloud Database Platforms"
+            ],
+            "dates": [
+                "10/2015 - 10/2019"
+            ]
+        },
+        {
+            "company": "GoDaddy.com - 10/2013 – 10/2015",
+            "role": "ETL Architect",
+            "responsibilities": [
+                "Day to day Activities involved in development in Agile Methodology - as a FULL STACK Software Developer/Engineer in enterprise level software - Architecture design and development and integration and implementation of SOA/Micro service architecture"
+            ],
+            "dates": [
+                "10/2013 – 10/2015"
+            ]
+        },
+        {
+            "company": "Rockwell Collins Inc - 05/06 – 10/13",
+            "role": "Principal Software Engineer",
+            "responsibilities": [
+                "The primary objective of this project to build a robust and intelligent system that will help Businesspeople to strategize based on analysis of conformed Facts and Dimensions. Designing and implementing the ETL processes which involve collection of data from heterogeneous sources like Lotus Notes Databases, Oracle 10g and SQL Server 2008. Provide maintenance support for ETL systems"
+            ],
+            "dates": [
+                "05/06 – 10/13"
+            ]
+        },
+        {
+            "company": "IBM Inc. - Sr. Peoplesoft ERP Consultant - 03/02 – 05/06",
+            "role": "Sr. Peoplesoft ERP Consultant",
+            "responsibilities": [],
+            "dates": [
+                "03/02 – 05/06"
+            ]
+        },
+        {
+            "company": "Accenture Inc, MD - Sr. Peoplesoft ERP Consultant - 2001 – 2002",
+            "role": "Sr. Peoplesoft ERP Consultant",
+            "responsibilities": [],
+            "dates": [
+                "2001 – 2002"
+            ]
+        },
+        {
+            "company": "Aegon USA Inc., IA - Sr. EPR Engineer (Consultant) - 2000 – 2001",
+            "role": "Sr. EPR Engineer (Consultant)",
+            "responsibilities": [],
+            "dates": [
+                "2000 – 2001"
+            ]
+        },
+        {
+            "company": "Verizon Inc., IA  - Sr. Systems Analyst (Subject Matter Expert) - 1993 – 2000",
+            "role": "Sr. Systems Analyst (Subject Matter Expert)",
+            "responsibilities": [],
+            "dates": [
+                "1993 – 2000"
+            ]
+        },
+        {
+            "company": "CBS Inc., MI - Sr. Software Engineer (Subject Matter Expert) - 1988 – 1993",
+            "role": "Sr. Software Engineer (Subject Matter Expert)",
+            "responsibilities": [],
+            "dates": [
+                "1988 – 1993"
+            ]
+        }
+    ],
+    "projects": null,
+    "honors": null,
+    "activities": null,
+    "userDetails": {
+        "name": "Kalyan (KAL) Moharar",
+        "skills": [
+            "IBM PC/compatibles, windows XP, IBM AIX, HP6200, UNIX/ULTRIX, HP-UX, SUN-OS, VAX/VMS, Harris VOS. Windows NT/XP, MS windows",
+            "Oracle 11g,MS Visual Studio 2017, MySQL, DB2,  PostgreSQL , T- SQL, SSIS, SSRS, MS Visio, HTML, XML, Unix, Python, OpenGL, HTML, ASP .NET 4.5, TCP/IP, MS Project, MS Office, Ftp and Visio  and SQL/data Modeling",
+            "ERP projects - Healthcare, Financial, payroll and CRM systems design, implementation, management; An experienced data warehouse consultant with 15 years of experience in multiple roles such as ETL developer, Data Modeler Data Warehouse Consultant and Programmer/Application Analyst. Well versed with a range of technologies including Data Warehousing Mining applications data warehouse conversion and integrations projects distributed",
+            "Expertise in designing modern cloud and hybrid solutions that runs on Microsoft Azure, including network, storage, monitoring and security",
+            "Experience in working with stakeholders to translate business requirements into designs for secure, scalable, and reliable Azure solutions",
+            "Extensive experience in data warehousing, ETL processing, master data, SQL, Business Intelligence, Erwin, ER Studio, Oracle Designer, Stream Sets, Kafka, Scala and various other ETL tools and various DevOps",
+            "History of delivering data strategy implementations that are high in performance and throughput, emphasize data availability, and are cost efficient and scalable",
+            "Experience working with clients in the digital transformation journey from On-premise to cloud solutions using MS Azure stack",
+            "Expert knowledge in MS Azure Data Lake, Synapse, Data bricks, Data Factory,        Spark",
+            "Experience with Agile toolsets, such as JIRA and Confluence for  maintaining Project management, log and keep tracking software bugs and tracking the user stories",
+            "Extensive experience in OLTP and OLAP principles. Also, involved in proactively work to identify and address any database/application performance issues. Experience with DB monitoring tools. Experience in managing, defining and executing Data Lifecycle for Enterprise level data architecture",
+            "Experience in Enterprise level data modeling - logical database modeling and physical database design Knowledge of distributed databases and partitioning and of scalable data architectures"
+        ]
+    }
+}

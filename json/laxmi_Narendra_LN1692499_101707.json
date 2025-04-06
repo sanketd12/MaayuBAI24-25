@@ -1,0 +1,105 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Not specified",
+        "degree": "Not specified",
+        "graduation": "Not specified",
+        "courses": [],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Med Star Health, Fort Worth, Texas",
+            "role": "Full Stack Developer",
+            "responsibilities": [
+                "Involved in the complete SDLC including design of System Architecture, development of System Use Cases based on the functional requirements.  Build the application based on new features of Java JDK1.8 at service layer level and worked on Java 8 Streams.  Developed the application using Eclipse and deployed the application in JBoss.  Applied Spring MVC for writing Spring Controllers and used core concepts like Collection, Multithreading (Concurrency), Exception Handling for performing changes in Business Layer, Service layer, Persistence Layer and Data Access Layer.  Designed, Developed and implemented a Lambda function to automate the firmware upload process to different environments in Node.js.  Involved in configuring and integrating JSF, spring and Hibernate frameworks.  Used Spring Framework for Dependency injection and integrated with the EJB using annotations.  Used Spring Boot to dynamically wire up beans and settings and applies them to the application context at start up of the application.  Responsible for creating Batch processes using different modules of Spring Boot like Spring Boot Batch, Spring data etc.  Designed and created Micro Services business segments and RESTful endpoints utilizing Spring Boot.  Used Spring Boot to dynamically wire up beans and settings and applies them to the application context at start up of the application.  Integrated spring and hibernate together and worked on developing backend components and services using Hibernate and spring.  Used Hibernate annotations for mapping objects to the relational database and Implemented persistence using Hibernate.  Designed dynamic and browser compatible pages using HTML/HTML5, CSS3 and JavaScript.  Developed web applications using latest JavaScript feature and frameworks such as React and Redux to build dynamic web pages.  Working experience with AWS Services: Lambda, S3, EC2, EB, CloudFront, SNS, DynamoDB and Docker Containerization.  Working experience on serverless deployments through AWS CLI.   Experience in Deploying Elastic Beanstalk Applications to various environments on AWS.  Used React.JS in components like JSX, creating React components.  Implemented and developed UI components using React.JS features like dependency Injection, Models, data binding and controllers.  Used Node.JS for heavy DOM manipulation.   Developed Message Driven Bean for asynchronous sending Messages using JMS.  Built Docker Images and used Docker Trusted Repository and Open shift console to maintain Docker Images.  Worked heavily in AWS cloud resources to better achieve a lower cost and higher performance/uptime.  Involved in developing Server-side EJB components and wrote session beans to perform the business logic.  Used SVN for version control and LOG4J for debugging.  Implemented to reprocess the failure messages in Kafka using offset id.  Implemented JUNIT test cases for unit testing and Suites for end-to-end testing.  Used Jenkins to provide continuous integration service for Server configuration management.  Involved in design and development of RESTful (JAX-RS) web services for other application to communicate and tested web services using SOAP UI and REST Client.  Developed REST services using Spring and used JAXB API for XML parsing.  Worked with Mongo DB to store non-relational data into collection and retrieve them whenever required.  Wrote SQL queries and stored procedures to interact with the DB.  Used Kubernetes to deploy scale, load balance, scale and manage docker containers with multiple name spaced versions.  Implemented agile methodology throughout the project development lifecycles.  Participated in the status meetings and status updating to the management team."
+            ],
+            "dates": [
+                "Jan 2021- Till date"
+            ]
+        },
+        {
+            "company": "Burberry, New York, NY",
+            "role": "Full Stack Developer",
+            "responsibilities": [
+                "Involved in design and development of SOA (Service Oriented Architecture) with Java Web Services/J2EE technologies.  Implemented modules using Core Java APIs, Java collection, Java 8 (Streams), multi-threading, and object-oriented design principles.  Design and develop application codes using Java/JEE, XML, SOAP, REST, Spring Framework, and Hibernate Framework.   Utilized working knowledge of J2EE/Java and Spring, and Hibernate to troubleshoot technical issues (error messages, bugs with the software, availability.  Using Eclipse IDE for bluestone application development of Java related classes and components.  Developed portlets using Spring MVC.  Configured Spring Web MVC Framework to implement Java Framework design patterns.  Implementation of authentication for Restful web services using Spring Boot Security Starter.  Developing the application for incident creation and retrieving the events using restful web services with spring Boot.  developed user management screens using JSF framework, business components using spring framework and DAO classes using Hibernate framework for persistence management and involved in integrating the frameworks for the project.  Worked extensively on spring boot for building REST API's.  Developed REST/SOAP based web Services as API using spring and deployed on Jetty/Tomcat containers.  Used Dependency Injection feature of build and release Spring Boot framework and O/R mapping tool Hibernate for rapid development and ease of maintenance.  Implemented DAO layer using different Hibernate techniques like strategies, Inheritance, annotations, and criteria interfaces.  Involved in implementation of the presentation layer (GUI) for the application using HTML5, XHTML, DHTML, CSS3 and JavaScript.  Implemented the architecture with Spring-Config, action from classes and action classes.  Used Angular.JS as framework to create a Single Page Application (SPA) which can bind data to specific views and synchronize data with server using Bootstrap, Angular.JS.   Involved in the creation of interface to manage user menu and Bulk update of Attributes using Node.JS.   Worked on JMS for developing messaging services and implemented message listeners for message processing and delivery.   Worked Docker container management along with volumes, container-based DB and services, Docker Artifactory configuration and setup.   Experience in developing Lambda functions in Node.JS.   Worked on creating server-less Micro services by integrating AWS Lambda, S3/Cloud watch/API Gateway.   Involved in setting up AWS services with EC2 instances, S3 bucket, IAM took part in deploying application in AWS along with writing and retrieving files to and from AWS S3 bucket for UI to render data faster.   Followed Scrum approach for the development process.   Worked on Spring Integration for communicating with business components and worked on spring with Hibernate Integration for ORM mappings.   Involved in developing applications with Stateless Session EJB’s and Message Driven EJB’s.   Log4J is used to print the logging, debugging, warning, info on the server console.   JUnit is used to performing Java Unit testing.   Responsible for process implementation using Jenkins.   Developed SOAP based JAX-WS Web Service interfaces for integrating multiple systems, code reusability.   Developed REST Web Services clients to consume those Web Services as well other enterprise-wide Web Services.   Worked on MongoDB database concepts such as locking, transactions, indexes, replication, schema design, etc.   Involved in writing SQL queries, PL/SQL stored procedures, Triggers and creating business tables.   Implemented the project under Agile Project Management Environment and followed SCRUM iterative incremental model and configured various sprints to execute.   Worked with Scrum teams on a Sprint-to-sprint basis adhering to all agreements set by the scrum masters utilizing full Agile methodologies.   Actively participated and provided feedback in a constructive and insightful manner during weekly Iterative review meetings to track the progress for each iterative cycle and figure out the issues."
+            ],
+            "dates": [
+                "Jul 2019– Dec 2020"
+            ]
+        },
+        {
+            "company": "Wauchula State Bank - Wauchula FL",
+            "role": "J2EE Developer",
+            "responsibilities": [
+                "Involved in designing, developing, and testing of J2EE components like Java Beans, Java, XML, Collection Framework, spring and hibernate.  Spring MVC Framework IOC (Inversion of Control) design pattern is used to have relationships between application components. It is also used to separate the application configuration and dependency specification from the actual application code.  Implement OAuth tokenization for RESTful web services using spring boot.  Involved in creating and Deployment of REST API and Micro services in Java J2EE using Spring Boot.  Provided Hibernate configuration file and mapping files and involved in the integration of spring with Hibernate libraries.  Extensively used MyEclipse as an IDE for building, developing, and integrating the application.  Designed the front-end applications, user interactive (UI) web pages using web technologies like HTML5, XHTML, and CSS3.  Worked on MVC framework like Angular.JS as a development framework to build single page applications.   Worked on Spring RESTful for dependency injection.   Used JMS for loosely coupled reliable and asynchronous exchange of information among J2EE components.   Wrote EJB Stateless session to communicate with Controller and Service layer i.e., make the EJB calls from Backing Beans.   Monitored the error logs using Log4J and fixed the problems.   Involved in creating test cases using JUnit for Java classes and Abstract spring dependency Injection test for spring beans.   Designed database and created tables, written the complex SQL Queries and stored procedures as per the requirements.   Involved in analysis, design, and Implementation applying the agile methodology.   Worked on an Agile (Scrum) Development Team to deliver regular updates to business team and project managers."
+            ],
+            "dates": [
+                "Mar 2018s – Jun 2019"
+            ]
+        },
+        {
+            "company": "Ravitch, Chennai, India",
+            "role": "Java Developer",
+            "responsibilities": [
+                "Involved in design, develop and implementation of the application using spring and J2ee framework.   Utilized Spring Framework including encouraging application architectures based on the MVC (J2EE Design Patterns) design paradigm.   Used spring framework for implementing Dependency Injection, Spring ORM.   Used Java Multi-Threading concept for downloading files from a URL.   Installation and Configuration of the Score Card GUI application over the grid in the production environment.   Used JAXB, JAXP for parsing auditing information in xml format.   Used XML Beans for data interchange.   Used various Core Java concepts such as Exception Handling, Collection APIs to implement various features and enhancements.   Used WSDL and SOAP protocol for Web Services implementation.   Implemented Log4J for Logging Errors, debugging and tracking using loggers, appenders components.   Focused on Test Driven Development (TDD) thereby creating detailed JUnit tests for every single piece of functionality before actually writing the functionality.   Performed a thorough unit testing and resolved several data related issues before migration to production."
+            ],
+            "dates": [
+                "Jul 2013 – Feb 2018"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Narendar",
+        "skills": [
+            "Java 8",
+            "J2EE Technologies",
+            "EJB",
+            "JMS",
+            "JDBC",
+            "Web Services",
+            "SOAP",
+            "WSDL",
+            "Java XML API (DOM & SAX",
+            "Tiles",
+            "ANT",
+            "JAXB",
+            "Spring 3.0",
+            "Hibernate 3.0",
+            "Tomcat",
+            "JBoss",
+            "WebSphere Studio (WSAD",
+            "Eclipse 3",
+            "JBuilder",
+            "RAD",
+            "REST",
+            "SOAP",
+            "WSDL",
+            "JAX-WS",
+            "JAXB",
+            "JAXP",
+            "HTML5",
+            "CSS3",
+            "Java Scripting",
+            "React.JS",
+            "REDUX",
+            "React Native",
+            "Oracle",
+            "DB2",
+            "SQL Server",
+            "SY base",
+            "Log4j",
+            "ANT",
+            "Maven",
+            "SVN",
+            "CVS",
+            "GIT",
+            "Windows NT/2000/XP/2003 Servers",
+            "UNIX",
+            "Linux"
+        ]
+    }
+}

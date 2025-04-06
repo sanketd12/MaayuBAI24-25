@@ -1,0 +1,112 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "",
+        "degree": "",
+        "graduation": "",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "USAA,TX",
+            "role": "Sr. Java Full Stack Developer",
+            "dates": [
+                "January 2022 to Present"
+            ],
+            "responsibilities": [
+                "Involved in Brain Storming sessions, Daily Scrum meetings, Sprint planning and estimation of the tasks for the user stories. Designed the project using MVC, Session Façade, and Service Locator and Business Delegate patterns. Active in coding some of the Core Java implementations, used Core Java concepts such as collections, generics, and multi-threading. Used Spring Kafka API calls to process the messages smoothly on Kafka Cluster setup and used Spark API to generate Pair RDD using Java programming. Experience in working on devOps teams and help automate server and infrastructure configuration using shell scripting, perl, chef cook books and building docker images. Utilized data binding in React to create dynamic relationship between templates and TypeScript logic. Good programmer in Perl and Unix Shell scripting (particularly ksh and bash). Developed micro apps with latest React. Micro apps are easy maintainable and highly reusable. Working currently as Java/ React Full Stack Developer with technical skills such as Core Java with Collections, Concurrency and Multi - Threading, Spring MVC, Spring Boot, Microservices with Spring Cloud, Hibernate, RESTful Web Services, JavaScript/Typescript, React, Node JS, Jenkins CI/CD, Docker and Kubernetes. Designed and Implemented SPA (single page application) using React Module, Component, Template, Metadata, Data Binding, Directives and Dependency Injection. Help devOps teams configuring serves by building cook books to install and configure tomcat. Experience in creating desktop client applications using UNIX shell scripts and java application. Created and Configure Microservices architecture for Directory project and integrated with React components. Maintaining Parent and child components by using State and Props in React JS. Experience in developing web-based enterprise applications using Java, J2EE, Servlets, JSP, EJB, JDBC, Hibernate, Spring IOC, Spring AOP, Spring MVC, Spring Web Flow, Spring Boot, Spring Security, Spring Batch, Spring Integration, Web Services (SOAP and REST) and ORM frameworks like Hibernate. Reading the out-bound Appia messages adhering to FIX protocol from Exchange for performing various business logic operations. Used Spark Streaming APIs to perform transformations and actions on the fly for building common learner data model which gets the data from Kafka in near real time and persist it to Cassandra. Understanding big data, technologies like Apache Kafka and Apache Spark Using Scala in Play framework. Defined AWS security groups which acted as virtual firewalls that controlled the traffic allowed to reach one or more AWS EC2 instance. Experienced in working with React concepts like Directives, Components, Router, Data Binding, Reactive Forms, Form Validations, pipes and Services. Developed UI modules using React, Node.js, React JS, JavaScript, Ajax, jQuery, CSS3 and HTML5. Command in ReactJS for creating interactive UI's using Virtual DOM, JSX, React Native concepts. Used Spring Kafka API calls to process the messages smoothly on Kafka Cluster setup. Configured Apache Webserver in the Linux AWS Cloud environment using Puppet automation. Have knowledge on partition of Kafka messages and setting up the replication factors in Kafka Cluster. Created database objects like Stored Procedures, Tables, Views, Sequences, Cursors, Packages and Triggers. Created session EJBs that retrieved information from the Oracle database using Hibernate. Implemented Microservice Architecture with Spring Boot based RESTful services and consumed SOAP based Web Services. Developed Merge jobs in Python to extract and load data into MySQL database. Involved in creating a reusable component using ReactJS for DOM manipulation. Implemented a Continuous Delivery pipeline with Docker, Jenkins, GitHub, and AWS. Worked on Spring Configurations and configuring order details service with Spring Boot Application. Creating Stored Procedures to handle huge number of transactions. Focused on Test Driven Development (TDD) thereby creating detailed JUnit tests for every single piece of functionality before writing the functionality. Worked on automation and deployment using configuration management tools like chef to provision amazon AWS. Expert on cross platform windows, UNIX and Linux development utilizing major database SQL. Experience with Docker images, Containers, push/pull with Spring Boot, used Jenkins for CI/CD and AI. Tuned and optimized databases and Apache Webserver on AWS. POC to identify the suitable telemetry tool for containers, service mesh tool like Linkered. Participated in front-end development using React, JavaScript, Typescript, HTML5, CSS, and JSON. Used JUnit for test driven development and perform unit testing using JMock. Involved in design, development and maintenance of applications that utilizes Microservices, J2EE, Spring Framework, Spring MVC, Spring Integrations, Spring Data, React JS, and HTML5. Used connection pooling for optimization using JDBC interface. Developed major websites and services by including Mongo DB as backend software. Conducted code reviews, participated in daily scrums and agile planning sessions thru out the development process. Implemented batch configuration in Spring Boot application. Environment: Java, React, Spring, Hibernate, UNIX, Spring, Spring Boot, HTML,AWS, CSS, Oracle, WebSphere Application Server, JBPM, Oracle, SOAP, Junit, GIT, XML, Web Services, TDD."
+            ]
+        },
+        {
+            "company": "Ford , Dearborn, MI",
+            "role": "Sr. Java Full Stack Developer",
+            "dates": [
+                "July 2019 to December 2021"
+            ],
+            "responsibilities": [
+                "Involved in Brain Storming sessions, Daily Scrum meetings, Sprint planning and estimation of the tasks for the user stories. Implemented the application using design patterns such as Session Façade, Business Delegate, Bean Factory, Singleton, Data Access Object, and Service Locator. Developed the application using Angular, HTML5, Bootstrap, CSS and JavaScript. Created webservices using CXF to invoke the DB components. Done the POCs on Atlassian tools like Bamboo, Clover and JIRA. Helped devOps team with POC for docker by containerizing the web application. Experience in working in both windows and UNIX platforms including programming and debugging skills in UNIX shell scripting. Migrated Cassandra cluster from one AWS account to another AWS account by cloud formation templates in JSON. Administrated and managed Atlassian tool suites, (installation, deployment, configuration, migration, upgrade, patching, provisioning, server management etc.) Involved in writing Thread Safe blocks for Multithread access to make valid transactions. Worked extensively in Core Java Concepts like OOP, Exception Handling, Collections, Multi-Threading and Java. Lang Packages. Implemented UI components using Angular dependency Injection, Models, data binding and controllers. Developed internal application using Angular and Node.JS connecting to Mongo DB on the backend. Performed unit testing and deploying for use. Involved in writing Microservices using Spring Boot. Identify and address areas for improvement in end technical development, devOps, cloud lifecycle. Worked on the Multithreading Concepts Using executor framework for file parsing the data or scheduling the Data into the application from the vendor services Which are in both text and Xml into Json. Used JBPM to model and design complex scenarios. Used Apache Kafka cluster as messaging system between the APIs and Microservices. Created and injected Spring services, Spring controllers and DAOs to achieve dependency injection and to wire objects of business classes. Developed Single page application and structured the JavaScript code using AngularJS framework including MVC architectures, different modules, specific controllers, templates, custom directives and custom filters. Developed Web Application using Client Script design technologies like Angular JS, Backbone, JQuery as well as HTML, CSS, XML. Involved in designing the data stage job to implement ILOG JRules Component. Implemented tools UNIX script to help infrastructure team move XML files across environments dev/test/prod. All the functionality is implemented using Spring Boot, Microservices and Hibernate ORM. Designed and implemented a complex Ext JS tree component for selecting company division information. Designed RESTful, XML web service for handling AJAX requests. Led development efforts in migrating Newsday from old Tribune CMS system to Polypody CMS. This effort required agile development and daily scrums to build new ant scripts, convert data to xml templates and development of new java code. Make JavaScript/HTML modifications and add features to Mapping Locators on clients' pages as per Client. Used Hibernate for accessing database and mapping the entities by using hibernate annotations. Used Hibernate Transaction Management, Hibernate Batch Transactions, cache concepts. Created session EJBs that retrieved information from the Oracle database using Hibernate. Used AWS deploy the project on EC2 instance. Implementation of the Business logic layer for MongoDB Services. Installation of MongoDB RPM’s, Tar Files and preparing YAML config files. Used MongoDB internal tools like Mongo Compass, Mongo Atlas Manager & Ops Manager, Cloud Manager etc. Involved in designing, developing and testing of J2EE components like Java Beans, Java, XML, Collection Framework, JSP, Servlets, JMS, JDBC, and JNDI and deployments in JBoss Server. Worked with core java and Drool’s rule engine and participated in all aspects of software life cycle including analysis, design, development, production deployment and support. Created and injected Spring services, Spring controllers and DAOs to achieve dependency injection and to wire objects of business classes. Configured and deployed the application on JBoss application Server. Environment: Java, Spring, Hibernate, Spring, Angular, JBPM, UNIX, HTML, CSS, EXT JS, GIT, JMS, Oracle, WebSphere Application Server, Eclipse, SOAP, Maven, Junit, XML, Web Services"
+            ]
+        },
+        {
+            "company": "Centene Corporation, St. Louis, MO",
+            "role": "Java Full Stack Developer",
+            "dates": [
+                "March 2017 to June 2019"
+            ],
+            "responsibilities": [
+                "Struts and Tiles framework were used for developing front-end pages, which are then customized according to the requirements using tiles templates. Implemented JSP custom tags, JSTL, developed Struts Actions, Action Forms and Value Objects for Presentation Tier and JavaScript for validation and interaction for Presentation Layer. Exposing web-services (WSDL) interface for all the business functions. iBATIS ORM tool is used for the SQL Maps framework. SQL Maps provides an efficient way to graph database values to Java objects using XML configuration files. Used Hibernate to persist the Data into the Database. Having experience in developing a data pipeline using Kafka to store data into HDFS. Developed multiple Kafka Producers and Consumers from as per the software requirement specifications. Involved in Client side and Server-side Development. Developed the administrative UI using Backbone.JS and Backbone.Marionette.JS. Used MKS for change management and followed Agile (scrum) development. Crystal Reports were used for Reports generating. Designing the User Interface using HTML, Java script, Flash and CSS. Used Ant build scripts for application build process and code generation. Unit tested the changes based on TDD and performed the code review. Have experience working with various SQL databases like MySQL, Oracle, and PostgreSQL and with NoSQL databases like MongoDB and Cassandra. Developed Node.js based web application connecting backend using MongoDB as NoSQL database. Wrote and executed automated test cases using Selenium WebDriver to automate Protractor solutions. Involved in writing automated scripts for angular JS application using protractor and Java scripts. Developed Applications related to Raptor Framework using Rest API, BES Messaging Framework, and Spring Batch using MongoDB. Used Elastic search as the data indexer and query parser. Created various spring boot and spring batch applications to connect them to various databases and created queries to retrieve data and modify the tables for the databases. Implemented JSP, spring, Java Script, and CSS for developing User Interfaces. For exchanging the text and communication with web service JSON is used extensively. Developed Rich UI applications using JavaScript, HTML, and CSS. Used the JavaScript alert dialog boxes with my Perl CGI program. Implemented Collection Framework and used the Thread, I/O functionalities for meeting access. Used Hibernate for database and to manage Transactions. Hibernate as an ORM tool for OR mappings and configured hibernate.cfg.xml and hibernate.hbm.xml files to create the connection pool. Environment: Java, J2EE, XML, JavaScript, CSS, Web Services (SOAP, WSDL), JBoss, Oracle, Shell Scripts, Eclipse, ANT, WebLogic, Windows"
+            ]
+        },
+        {
+            "company": "Maisa Solutions Private Limited, Hyderabad, India",
+            "role": "Java Full Stack Developer",
+            "dates": [
+                "June 2015 to November 2016"
+            ],
+            "responsibilities": [
+                "Developed Servlets and Java Server Pages (JSP). Developed PL/SQL queries to generate reports based on client requirements. Enhancement of the System according to the customer requirements. Created test case scenarios for Functional Testing. Used Java Script validation in JSP pages. Overcame challenges like data migration from MySQL to MongoDB. Helped design the database tables for optimal storage of data. Coded JDBC calls in the servlets to access the Oracle database tables. Responsible for Integration, unit testing, system testing and stress testing for all the phases of project. Prepared final guideline document that would serve as a tutorial for the users of this application. Responsible for writing functional and technical specifications. Extensively used J2EE design Patterns. Worked with ELK (Elasticsearch, Logstash, Kibana) for log Analytics, security purposes, collects the real-time data from various sources, analyze the data available, to create attractive dashboards. Implemented the DOJO API for powerful scripting. Working knowledge of various AWS technologies like SQS Queuing, SNS Notification, S3 storage etc. Excellent understanding of AWS infrastructure services like EC2, VPC, Security Groups, ELB and S3. Using the Protractor Automation Tool to Test AngularJS Applications. Implement EAI, B2B integration, EDI, and Service Oriented Architecture (SOA) applications using technologies J2EE, XML, DB2 and Red Hat Linux. Created AWS Security Groups for deploying and configuring AWS EC2 instances. Created Single page web application framework using Angular JS and HTML. Integrated various OLTP to the OLAP using Informatica as an ETL tool and used Tableau as a reporting tool"
+            ]
+        },
+        {
+            "company": "Cyient Ltd ,Hyderabad, India",
+            "role": "Java Developer",
+            "dates": [
+                "June  2013 to May 2015"
+            ],
+            "responsibilities": [
+                "Preparation of Technical Specs using UML including class diagrams, sequence diagrams. Designed, developed, and deployed server-side Java, Servlets, and Java server pages (JSPs) for browser-based conference software. Implemented Form classes, Action classes for the entire application domain module using Strut’s framework. Developed advanced Java Script modules such as capture visitor information, browser version, button animation, and timing object. Extensively used JSTL tag libraries. Developed the Business Delegate classes to delegate the application flow from action classes. Created struts-config.xml, application-resources. Properties for the project. Used Session beans to implement Session façade design pattern. Involved in the UI development using HTML5, CSS3, JavaScript, and jQuery, JSON, AngularJS, Bootstrap and AJAX. AngularJS Ajax module is used to handle RESTful calls to enable communication between view components and server. Responsible for building a custom single-page, responsive web application to replace a legacy line-of-business web application using AngularJS client side MVC design. Designed the database and modelled the database. Developed Data access bean and developed EJBs that are used to access data from the database. Developed the applications using WebLogic to create the transactional business logic like EJB, JSP of a WebLogic Application. Transactions for the result sets of queries were processed by business logic methods using Session Bean and Entity bean. Developed reporting dashboards, which processes large amount data that are stored in Elastic search and My SQL platforms and generates reports and displays in dashboards. Worked extensively with GWT to implement server calls and HTML pages. Advanced search functionality to retrieve Business/Residence customer information. Using java, JSP, Servlets, SQL, Oracle, JavaScript, DHTML, and CSS"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Barbara Pridgen",
+        "skills": [
+            "Java",
+            "J2EE",
+            "XML",
+            "JavaScript",
+            "CSS",
+            "Web Services (SOAP, WSDL), JBoss, Oracle, Shell Scripts, Eclipse, ANT, WebLogic, Windows",
+            "Spring",
+            "Hibernate",
+            "Angular",
+            "JBPM",
+            "UNIX",
+            "HTML",
+            "CSS",
+            "EXT JS",
+            "GIT",
+            "JMS",
+            "Oracle",
+            "WebSphere Application Server",
+            "Eclipse",
+            "SOAP",
+            "Maven",
+            "Junit",
+            "XML",
+            "Web Services",
+            "Node.js",
+            "MongoDB",
+            "Cassandra",
+            "Kafka",
+            "Spark",
+            "Scala",
+            "Play framework",
+            "AWS",
+            "Docker",
+            "Jenkins",
+            "GitHub",
+            "CI/CD",
+            "AI",
+            "React",
+            "Typescript",
+            "HTML5",
+            "CSS",
+            "JSON"
+        ]
+    }
+}

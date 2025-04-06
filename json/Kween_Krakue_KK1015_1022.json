@@ -1,0 +1,131 @@
+{
+    "certifications": [
+        "Cisco CCNA Routing & Switching 03/2016 – 03/2019",
+        "Cisco CCNA Security 04/2016 – 04/2019"
+    ],
+    "education": {
+        "institution": "Cal State University East Bay, CA",
+        "degree": "BS, MIS",
+        "graduation": "02/2007 – 05/2011",
+        "courses": [],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Bankers Life – Campbell, CA",
+            "role": "System Admin/Help Desk",
+            "dates": [
+                "03/2014 – 06/2016"
+            ],
+            "responsibilities": [
+                "Performing fast and efficient network support including troubleshooting, help desk functions, and correction of Windows 2008/2012-related problems on servers and workstations",
+                "Assist with providing system support services, including service outage diagnosis, troubleshooting and restoration of service, virus protection management",
+                "Provide on-site support and troubleshooting of network equipment – router, switch and firewalls",
+                "Responsible for the installation, configuration and maintenance of Windows 2008 servers and workstations.  Perform all Helpdesk functions independently which included PC setups, Active Directory, Symantec Endpoint antivirus, LANDesk software cleanup and maintenance, and issue resolution.  Responsible for the acquisition, deployment, and repair of personal computers, related hardware, operating systems, and software throughout the corporation, in addition to helping corporate-wide internal customers with technical issues.  Responsible for customer software application issues and problems reported to helpdesk via phone or email."
+            ]
+        },
+        {
+            "company": "Fry’s Electronic – Fremont, CA",
+            "role": "PC Technician",
+            "dates": [
+                "07/2010 – 11/2013"
+            ],
+            "responsibilities": [
+                "Installed and maintained computer operating systems hardware and software packages.  Provided technical assistance and resources on a regular basis.  Verified fresh hardware and software for compatibility with company systems.  Uphold technology procedures in coordination with information technology teams Maintained and updated Windows operating system monitors platforms and network infrastructure.  Oversaw new installation wiring projects.  Responded to and resolved computer system problems as required."
+            ]
+        },
+        {
+            "company": "Trident Microsystem - San Jose, CA",
+            "role": "Jr. Python Developer",
+            "dates": [
+                "08/2016 – 11/2016"
+            ],
+            "responsibilities": [
+                "Help to develop, test and debug software tools utilized by clients and internal customers.  Coded test programs and evaluated existing engineering processes.  Designed and configured database and back end applications and programs.  Performed research to explore and identify new technological platforms.  Collaborated with internal teams to convert end user feedback into improved solutions.  Resolved ongoing problems and accurately documented progress of Python project.  Designed and developed backend application servers.  Generated, reshaped and molded large data in a variety of form formats using CSV, JSON, and XML Developed best-practices and mentored junior developers.  Help to managed application deployment."
+            ]
+        },
+        {
+            "company": "Omnitech Institutes – Atlanta, GA",
+            "role": "Jr. Python Developer",
+            "dates": [
+                "02/2017 – 05/2017"
+            ],
+            "responsibilities": [
+                "Extracted, cleaned, and joined data from various storage format using  CSV, JSON, Excel, HTML  Utilized Python, Django, Jinja2, Bootstrap, JavaScript and Java to design server applications and client interfaces.  Evaluated development standards and procedures of engineering processes.  Managed continuous maintenance and troubleshooting of Python Django projects.  Help with development and management of front end user interfaces with help of HTML, CSS, JavaScript and Bootstrap.  Created and deployed applications on diverse range of platforms including Linux and Windows.  Collaborated with senior developers to handle complicated issues related with deployment of Django based applications."
+            ]
+        },
+        {
+            "company": "RegeSolutions - Fort Myers, FL",
+            "role": "Jr. Python developer/Jr. QA Analyst",
+            "dates": [
+                "07/2017 – 03/2018"
+            ],
+            "responsibilities": [
+                "Shared responsibility for administration of Hadoop, Hive and Pig.  Help to managed and reviewed Hadoop log files.  Tested raw data and executed performance scripts.  Used Spark API over ClouderaHadoop YARN to perform analytics on data in Hive.  Developed Spark scripts by using Scala shell commands as per the requirement.  Prepared test plan and test cases for testing one or more mission-critical applications for quality engineers and application development departments.  Worked with senior members of the application development team during development to define test plans and test cases (based on application standards) for the testingof components and modules deemed necessary formajor projects  Prepared test plans and test cases used for testing web services administered by centralized systems designed for that purpose.  Web services allowed the facilitation of data exchange between one or incompatible disparate systems built in .net and java.  Services were tested using applications specifically designed for that purpose like MS Visual Studio Team and SoapUI Manipulated raw CSV, XML, and JSON files using python and Jupyter Notebook.  Assisted with data integrations and processing using SQL (SqlServer, MySql and Oracle), web services (REST, Soap, XML, JSON and HTTPs), FTP and CSV"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Kween Krakue",
+        "skills": [
+            "Python",
+            "Java",
+            "C#",
+            "Django",
+            "Flask",
+            "Jinja2",
+            "Jupyter Notebook",
+            "Microsoft .Net",
+            "Pandas",
+            "Numpy",
+            "Matplotlib",
+            "Ipython",
+            "Pygame",
+            "UnitTest",
+            "Scrapy",
+            "Beautiful Soup",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "SOAP",
+            "JSON",
+            "REST",
+            "XML",
+            "CSV",
+            "HTTP/HTTPs",
+            "Git",
+            "GitHub",
+            "SVN",
+            "VSS",
+            "Jira",
+            "BugZilla",
+            "VersionOne",
+            "Oracle",
+            "SQL Server",
+            "DB2",
+            "MS Sql",
+            "PostgreSql",
+            "Sqlite3",
+            "MongoDB",
+            "Cassandra",
+            "Agile Methodology/Waterfall/Scrum",
+            "Selenium",
+            "Maven",
+            "Gradle",
+            "Browserstack",
+            "Selenium",
+            "JUnit",
+            "TestNG",
+            "SoupUI",
+            "Linux",
+            "Ubuntu",
+            "Centos",
+            "Mac OS",
+            "Windows"
+        ]
+    }
+}

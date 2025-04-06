@@ -1,0 +1,87 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Saurashtra University",
+        "degree": "B.E./ B. Tech. I.T",
+        "graduation": "2009",
+        "gpa": 64.0,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "INFIBEAM INDIA-BuildaBazaar Team",
+            "role": "Not Specified",
+            "dates": [
+                "October 2012",
+                "January 2013"
+            ],
+            "responsibilities": [
+                "To understand organization/client ’s requirements",
+                "Hands hold organization/client ’s to set up the web store building process",
+                "To ensure/test smooth functionality of newly built stores",
+                "Co-ordinate with internal departments to improve quality",
+                "Help organizations to make their presence online",
+                "Work on multiple projects at same time",
+                "Work with HTML, JavaScript"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Developed and handled store creation process of www.justaquariumstuff.com",
+            "description": [],
+            "skills": [
+                "HTML",
+                "JavaScript"
+            ]
+        },
+        {
+            "project": "Handled project of Moriah Retail and developing their online web store www.moriahretail.in",
+            "description": [],
+            "skills": [
+                "HTML",
+                "JavaScript"
+            ]
+        },
+        {
+            "project": "Handled project for M/s Srithee Traders and worked for their online store www.creamtarts.in",
+            "description": [],
+            "skills": [
+                "HTML",
+                "JavaScript"
+            ]
+        },
+        {
+            "project": "Currently handling project for a business and developing their store www.studncutie.com",
+            "description": [],
+            "skills": [
+                "HTML",
+                "JavaScript"
+            ]
+        },
+        {
+            "project": "Currently handling project of web store development of www.appareltree.in",
+            "description": [],
+            "skills": [
+                "HTML",
+                "JavaScript"
+            ]
+        }
+    ],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "Jatin Patel",
+        "skills": [
+            "C",
+            "C++",
+            "JAVA",
+            "JSP",
+            "PHP",
+            "MS Office 2003/2007/2010",
+            "MS Access",
+            "SQL Server 2005",
+            "Windows 98/2000/XP/Vista/7"
+        ]
+    }
+}

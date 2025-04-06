@@ -1,0 +1,233 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Not specified",
+        "degree": "Not specified",
+        "graduation": "Not specified",
+        "courses": [],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Verizon",
+            "role": "Full Stack Developer",
+            "dates": [
+                "March to Present"
+            ],
+            "responsibilities": [
+                "Expertise in Development of web-based applications in Java, J2EE (Servlets, JSP, EJB, JDBC, JNDI and JMS), REST and Restful Web Services, SOAP, Axis2, Spring 3.0/2.5, Hibernate 3.0, JPA, XML, XL, XSLT, CSS",
+                "Web designing & development using HTML5, CSS3, JavaScript, React Js and Ajax",
+                "Developing React Js pages, Web services calls and AJAx calls for the application",
+                "Developing the web application to bind the data/model that is being retrieved from a database through services provided in a controller to the view using scope",
+                "Working with React Router for developing Single Page Applications",
+                "Designing and Creating rich featured Action Creators and corresponding reducers to handle the state changes in Redux Store",
+                "Using React Axios to call web APIs to fetch data from backend and update state in the store of Redux",
+                "Participated in a 2 day Hackathon and implemented APIs using GraphQL, Apollo server & Designed and worked on UI using React Redux, Apollo Client",
+                "Developing Backend web services using Node.JS and stores dependencies using NPM",
+                "Build prototype for various services such as Logging, Scheduling, and Notification Service using third party NodeJS based Javascript library",
+                "Working with Express JS which gives MVC Structure to the Node JS",
+                "Working with GraphQL Schema, queries and mutations to interact with Mongo DB and several other data layers",
+                "Working with Apollo Client to interact with GraphQL Server",
+                "Designing and Implementing GraphQL types and resolvers to provide the necessary data for frontend development while maintaining minimal calls to the database",
+                "Build Restful API Web services using Node JS and Express JS and used a full complement of Express, Angular JS, Node JS, and Oracle DB to store and present assessments",
+                "Using Spring Framework in all layers of the application including UI, backend and integration",
+                "Configuring Struts, Hibernate Framework with Spring MVC",
+                "Extensively utilized the features provided by Struts and Spring framework in various projects for MVC architecture",
+                "Designing and developing the REST based Microservices using the Spring Boot",
+                "Developed Server side application to interact with Database using Spring Boot and Hibernate",
+                "Monitoring Applications using AWS CloudWatch, including creating alarms to monitor metrics such as EC2, EBS and configured notifications for the alarms generated based on events defined",
+                "Involved in creating and extracting data from database using SQL Queries, Stored Procedures, triggers, and packages on Oracle database",
+                "Developing User Interface using JSP with JavaBeans, JSTL and Custom Tag libraries, JS, CSS, JQuery, Node.js and HTML to speed the application",
+                "Experience working in Build and deployment automation through tools like Jenkins",
+                "Working on unit test cases using Karma and Jasmine on client side",
+                "Working with latest React library like rf-canvas with latest version to develop the Frontend application",
+                "Working with GIT, Visual Studio code and participate in Unit Testing and Performance Testing"
+            ]
+        },
+        {
+            "company": "USAA",
+            "role": "Full Stack Developer",
+            "dates": [
+                "July 2020 to March 2023"
+            ],
+            "responsibilities": [
+                "Used HTML5, CSS3, JavaScript and JSP to construct the dynamic web pages (presentation Layer) for the application",
+                "Developed internal coding using JEE technologies based on the MVC Architecture. Developed client user interface using JSPs and Servlets",
+                "Used Spring Core annotations for Spring Dependency Injection, Spring MVC for Rest API’s and Spring Boot for microservices Used AngularJS and Backbone.JS for client-side validation",
+                "Created different services using Spring Boot, Hibernate, Data JPA and other dependencies and plugins",
+                "Worked on Lamda Expressions, Functional interfaces Stream API’s, Time API, and Improvements on Collection, Concurrency, and IO improvements by using Java 8",
+                "Develop various screens for the front end using AngularJS and used various predefined components from NPM",
+                "Experienced in developing React components. Used Axios with ReactJs for making AJAX Calls. Worked on Webpack for build and webpack-dev-server a server",
+                "Experience in implementing Component life cycle architecture, store actions, using socket.io in React-Redux app to handle real time data, installing React Router, Thunk Redux for API calls in React JS",
+                "Experience with State Management in the projects using Angular 13. Implemented State Management service with functions for setting, getting and syncing the application state",
+                "Used Bootstrap front-end framework for faster and easier web development",
+                "For Responsive Web design used React-Bootstrap to build grids, layouts and components. Used Bootstrap components like dropdown menus, navigation bar, alerts, and labels",
+                "Working experience with Node environment using Node JS, NPM, Grunt JS",
+                "Experience in using Node JS and Express for making calls for triggering or fetching data from Restful API's provided by the backend team",
+                "Used Rest client – POSTMAN to test REST API services; Testing JSON output using Advanced REST Client or POSTMAN",
+                "Developed micro-services in the form of multiple lambdas and are hosted in AWS cloud platform",
+                "Experience in Integration of Amazon Web Services AWS with other applications infrastructure",
+                "Experience in different data sources ranging from flat files SQL Server, Apache spark, Oracle 11g/ PL/SQL Packages, Procedures, Functions, Triggers and other objects and apache Kafka",
+                "Worked on complex SQL Queries in Oracle 11g database. Wrote SQL queries for CRUD operations for UI functionalities for filtering, adding, deleting and sorting of the elements",
+                "Worked with Kibana & SplunkSearch tools for viewing logs",
+                "Worked in Unit testing, Performance Testing and reviewing Test plans for Stories",
+                "Responsible for identifying the root cause, investigate and provide a solution for the escalated and critical production tickets",
+                "Working experience with Eclipse, Putty & winSCP"
+            ]
+        },
+        {
+            "company": "Humana Inc",
+            "role": "Front-End Developer",
+            "dates": [
+                "Oct 2019 to June 2020"
+            ],
+            "responsibilities": [
+                "Mainly involved in development and maintenance of the website using HTML5, CSS, Ajax, and jQuery, JavaScript, AngularJS and Node.js",
+                "Designed the front-end applications and user interactive web pages using web technologies like HTML5, CSS3, Angular7 and  Typescript",
+                "Used Spring 2 & 4 framework to implement the MVC design pattern in the application",
+                "Used Spring MVC to handle/intercept the user requests and used various controllers to delegate the request flow to the back-end tier of the application",
+                "Consumed RESTFUL web services using Angular HTTP Module and transformed the response using RXJS operators",
+                "Implemented nested views and routing using Angular UI Router as per the requirement",
+                "Good Experience in React.js for creating interactive UI's using One-way data flow, Virtual DOM, JSX, React Native concepts; Created and used Reducers that received said Actions to modify the Store State Tree",
+                "Added redux-thunk, redux-promise as middleware and original store.dispatch/getstate to handle different actions requirements such as asynchronous promise handle in components",
+                "Experience in implementing usage of Node.js and NPM, especially for Node build processes like GULP; Implement modules into Node JS to integrate with designs and requirements; Consuming NodeJS RestFul API services",
+                "Extensively used Node.js tools like Gulp, Grunt, Web pack; Developed internal CLI applications using Commander Module for application build",
+                "Used Node.JS to structure JavaScript code to build Restful webservices",
+                "Developed code to call the web service/APIs to fetch the data and populate on the UI using jQuery/AJAX and Vue.js/AJAX",
+                "Worked with VUE JS Forms, Validations, Modules, Components, directives, controllers and HTTP Request",
+                "Used Rest client – POSTMAN to test REST API services; Testing JSON output using Advanced REST Client or POSTMAN",
+                "Experienced in moving data from different sources using Kafka producers, consumers and preprocess data using Storm topologies",
+                "Experienced with AWS services to smoothly manage application in the cloud and creating or modifying instances. Checking the health and utilization of AWS resources using AWS CloudWatch",
+                "Used Ag-Grid for grid view, UI- Select for custom dropdowns and controls",
+                "Experience with tools like Experience with Docker Images/containers",
+                "Involved in testing the application using TestNG testing framework and designing test cases for the project",
+                "Used karma and jasmine to do unit testing and end to end testing",
+                "Used log4j to print the logging, debugging, warning, info statements"
+            ]
+        },
+        {
+            "company": "XL Catlin Insurance",
+            "role": "ReactJs Front-end Developer",
+            "dates": [
+                "March 2019 - Oct 2019"
+            ],
+            "responsibilities": [
+                "Designed and Developed J2EE web-based consumer applications using spring, DHTML, and Ajax. Developed Web Pages using HTML, CSS, JavaScript, ReactJS and Bootstrap",
+                "Exposure to creating SPA using ReactJS, by using the concept of virtual DOM",
+                "Experienced in working with Redux Architecture using complex object-oriented concepts in improving the performance of the websites",
+                "Implemented File-Upload and typeahead functionalities using ReactJs",
+                "Worked in using React JS components, Forms, Events, Keys, Router, Animations",
+                "Created and used Reducers that received said Actions to modify the Store State Tree",
+                "Added Dynamic Functionality by creating and dispatching Action Creators that deployed Actions",
+                "Experience in Working with ES6 Features",
+                "Enhanced application performance by Angular 6 Component based development in view of future Angular framework transitions",
+                "Implemented Angular Router to enable navigation from one view to the next as customer performs application tasks",
+                "Built Angular 2/4 components, UI services to consume restful services using component based architecture provided by Angular 2",
+                "Used Viewbag, Viewmodel and Partialview to achieve the data transfer in the MVC architecture",
+                "Implemented React JS and C# code to handle cross browser compatibility issues in IE and chrome",
+                "Used AWS to deploy the project on an EC2 instance. Created highly fault tolerant, highly scalable Java application using AWS Elastic Load Balancing , EC2, VPC and S3 as part of process and security improvements",
+                "Experience in using Vue JS to create a simple API to loop through an array of bound data and also done two way binding of data using Vue JS",
+                "Worked on Vue.js events distribution and parent chain for parent-child component communication",
+                "Familiar with MongoDB write concern to avoid loss of data during system failures and implemented read preferences in MongoDB replica set",
+                "Used GIT for version control and used Visual Studio as the IDE for developing the application"
+            ]
+        },
+        {
+            "company": "Deutsche Bank",
+            "role": "Front-end UI Developer",
+            "dates": [
+                "October 2016 - March 2019"
+            ],
+            "responsibilities": [
+                "Writing front-end code like HTML, CSS, jQuery for assigned User requirements using JavaScript frameworks",
+                "Wrote application level code to perform client-side validation using jQuery and JavaScript",
+                "Designed dynamic client-side JavaScript codes to build web forms and simulate process for web application, page navigation and form validation",
+                "Experience with features of Angular 2 such as directives, dependency injection, modules and routing",
+                "Highly used Angular 2 router to build single page application for navigate through the different status and multiple models",
+                "Created and maintained a slideshow component with prev/next buttons using React",
+                "Developed user interface by using the React JS, React-Router for SPA development; Involved in creating a reusable component using React JS for DOM manipulation",
+                "Researching JavaScript based frameworks like React Native for frontend",
+                "Involved to implement various screens for the front end using React.js and used various predefined components from NPM (Node Package Manager) and redux library",
+                "Called the Restful web services calls for POST, PUT, DELETE and GET methods"
+            ]
+        },
+        {
+            "company": "Department of Environmental Quality",
+            "role": "UI Developer",
+            "dates": [
+                "February 2016 - Sep 2016"
+            ],
+            "responsibilities": [
+                "Involved designing in web pages using HTML 5, CSS3, JavaScript, Bootstrap, SASS, LESS, React.js, Redux, Flex, Mongo DB",
+                "Worked with backend developers to convert HTML/CSS non-functional pages into dynamic JSP",
+                "Strong knowledge JavaScript objects, prototypes, closures, callback functions and promise",
+                "Good experience in Document Object Model (DOM) and DOM Functions",
+                "Expertise in using Angular JS - directives, Controllers, Filters, Services, Templets, Events and Injectors",
+                "Implemented stable React components and stand-alone functions to be added to any future pages",
+                "Used React JS for templating for faster compilation and developing reusable components",
+                "Worked on React JS Virtual Dom and React views, rendering using components which contains additional components called custom HTML tags",
+                "Used Node.js to run Grunt tasks and build the project properly (compile, minify, concat etc.)",
+                "Implementation of ES6 features: Arrow functions, spread operator, Array & Object matching, classes and Import/Export Modules"
+            ]
+        },
+        {
+            "company": "Baxter Innovations and Business Solutions",
+            "role": "Software Engineer",
+            "dates": [
+                "June 2013 – Dec 2015"
+            ],
+            "responsibilities": [
+                "Implemented user interface guidelines and standards throughout the development and maintenance of the website using JavaScript, jQuery, CSS and HTML",
+                "Developing and designing SPA user interfaces in AngularJS",
+                "Implemented Angular.js $http service; Used AngularJS multiple in-built directives such as filters, root scope, scope, model, template, state etc",
+                "Used Jenkins to deploy web services and run unit tests, REST API test",
+                "Create branch and Commit the code changes to Master branch using SVN version control and commands in Linux",
+                "Involved in writing application level code to interact with APIs, Web Services using AJAX, JSON and XML",
+                "Used jQuery extensively for event handling, DOM manipulation and cross-browser compatibility",
+                "Developed Mock-up designs as per the requirements of Business"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Kamakshi",
+        "skills": [
+            "Java",
+            "J2EE",
+            "C",
+            "C++",
+            "SQL",
+            "JavaScript",
+            "CSS",
+            "AJAX",
+            "XML",
+            "XSLT",
+            "HTML",
+            "NodeJS",
+            "Bootstrap",
+            "Spring",
+            "Hibernate",
+            "AWS",
+            "MicroServices",
+            "Lamda",
+            "EC2",
+            "Elastic BeanStallk",
+            "Api Gateway",
+            "JavaScript",
+            "CSS",
+            "Ajax",
+            "Angular2/4/6/7",
+            "AngularJS",
+            "ReactJS",
+            "Ajax",
+            "PHP",
+            "JSON",
+            "Bootstrap",
+            "NodeJS",
+            "XML",
+            "BackboneJS"
+        ]
+    }
+}

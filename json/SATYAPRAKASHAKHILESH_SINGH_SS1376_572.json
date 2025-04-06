@@ -1,0 +1,58 @@
+{
+    "certifications": [
+        "Cisco Certified Network Associate (CCNA)"
+    ],
+    "education": {
+        "institution": "Brahma Valley College of Engineering & Research Institute of Pune University",
+        "degree": "Bachelor of Engineering (Computer Science and Engineering) with 57.86%",
+        "graduation": "2011 - 2016",
+        "gpa": 57.86,
+        "courses": [
+            "C",
+            "C++"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Central Excise Government Office",
+            "role": "Residential Engineer",
+            "responsibilities": [
+                "Configure and Install various network devices and services (e.g. routers, switches, firewalls, desktop, VPN, QoS).",
+                "Install computer networks such as local area network (LANs), wide area networks (WANs), the Internet and other data communications system",
+                "Perform network maintenance and system upgrades including services packs, patches and security configurations",
+                "Monitor performance and ensure system availability and reliability",
+                "Provide level-1/2 support and troubleshooting to resolve issues",
+                "Ensure networks are running smoothly"
+            ],
+            "dates": [
+                "April 2017 - Present"
+            ]
+        },
+        {
+            "company": "IT Source Technologies Ltd",
+            "role": "Hardware and Networking Engineer",
+            "responsibilities": [
+                "Assembling and disassembling the computer, Cabling",
+                "Troubleshooting all Hardware parts",
+                "Installing and Configuring all Windows and Windows Server 2008 & 2012",
+                "Managing and Administrating all user domain and accounts",
+                "Networking, LAN & WAN Trouble shooting",
+                "Cisco Certified Network Associate (CCNA)"
+            ],
+            "dates": [
+                "August 2016 - January 2017"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "SATYAPRAKASH AKHILESH SINGH",
+        "skills": [
+            "Easy adaptability to new environment",
+            "Good problem solving",
+            "Dedicated toward work"
+        ]
+    }
+}

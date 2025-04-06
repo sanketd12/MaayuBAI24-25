@@ -1,0 +1,155 @@
+{
+    "experiences": [
+        {
+            "company": "TIAA-CREF",
+            "role": "Senior DevOps Engineer - Site Reliability Engineer",
+            "dates": [
+                "Apr 2017 – Present"
+            ],
+            "responsibilities": [
+                "Implemented and managed company-wide fully automate continuous integration build and deployments using Chef, Jenkins and Octopus Deploy",
+                "Implemented new projects build framework using Jenkins, MSBuild, and ANT & Maven as build framework tools",
+                "Setup and build various AWS infrastructure resources, VPC, EC2, S3, IAM, EBS, Security Groups, Auto Scaling, and RDS in Cloud Formation JSON templates",
+                "Maintained the user accounts (IAM), RDS, Route 53, VPC, RDB, Lambda, SES, SQS, and SNS services in AWS Cloud",
+                "Configured Elastic Load Balancers with EC2 Auto Scaling groups",
+                "Configuring, Managing, and Scheduling CRONTABs for Server monitoring, App Accounts and Backup management on a day-to-day basis",
+                "Installed Workstation, Bootstrapped Nodes, wrote Recipes and cookbooks from scratch and uploaded them to Chef Server and managed AWS for EC2/S3 & ELB with Chef Cookbooks",
+                "Creating new nodes and Pools in F5 Load Balancers to support newly added servers in Layer 3 environment",
+                "Worked on Terraform, which is used to create and compose all the components necessary to run application",
+                "Created Infrastructure Git repositories for Terraforrm to spin up appropriate stacks",
+                "Created Chef Cookbooks and modules to automate system operations. Tested cookbooks with chef-spec and server specs. Used Kitchen as a platform to test our cookbooks",
+                "Building/Maintaining Docker Container clusters managed by Kubernetes, Linux, Bash, GIT, Docker. Utilized Kubenetes and Docker for the runtime environment of the CI/CD system to build, test and deploy",
+                "Involved in standardizing Splunk Forwarder deployment, configuration and maintenance across UNIX and Windows platforms. Automated installation of Splunk Forwarders across all environments using Chef and Octopus Deploy",
+                "Developing scripts for build, deployment, maintenance and related tasks using Jenkins, Docker, ANT, Maven, Python and Bash",
+                "Setup and configured New Relic monitoring and ELK stack across all our environments using Chef Cookbooks",
+                "Migrated Legacy VMWare infrastructure to AWS Cloud using Chef Cookbooks, Terraform, CloudFormation templates",
+                "Worked on POC for Docker Data Center (DDC). Setup Universal Control Plane (UCP) for management and orchestration of the Docker environment and Trusted Registry (DTR) for Docker image collaboration, management and security",
+                "Utilized Kubenetes and Docker for the runtime environment of the CI/CD system to build, test and deploy",
+                "Setup and configured New Relic monitoring and ELK stack across all our environments using Chef Cookbooks",
+                "Migrated Legacy VMWare infrastructure to AWS Cloud using Chef Cookbooks, Terraform, CloudFormation templates",
+                "Worked on POC for Docker Data Center (DDC). Setup Universal Control Plane (UCP) for management and orchestration of the Docker environment and Trusted Registry (DTR) for Docker image collaboration, management and security"
+            ]
+        },
+        {
+            "company": "SunTrust",
+            "role": "Senior DevOps Consultant – Chef Developer",
+            "dates": [
+                "Feb 2015 – Jan 2017"
+            ],
+            "responsibilities": [
+                "Rapid-Provisioning and Configuration Management for Linux, Windows using Chef and Cloud Formation Templates on Amazon Web Services",
+                "Developed cookbooks to spin up our Dev, Test, Stage environments",
+                "Worked on Chef Delivery for Continuous Delivery. Introduced HashiCorp Vault for secure secret storage",
+                "Implemented Hashicorp Consul for service discovery",
+                "Developed multiple cookbooks from scratch. Developed cookbooks to configure Biztalk, SQL, IIS, MongoDB, and Custom NetSuite Applications. Used Kitchen as a platform to test the cookbooks. Used Food Critic and Rubocop as linting tools",
+                "Implemented Chef-best practices and introduced Berkshelf and Test Kitchen to facilitate a more natural cookbook development work-flow",
+                "Automated AWS components like EC2 instances, Security Groups, S3, ELB, RDS and IAM through Cloud Formation templates",
+                "Introduced load-based Autoscaling to increase capacity at peak times and reduce the costs at off-peaks times",
+                "Worked on Docker to create Containers for the application using Gradle",
+                "Virtualized the servers using Docker for the test environments and dev-environment needs. And also, configuration automation for Docker containers",
+                "Used Kubernetes to deploy scale, load balance and manage Docker containers with multiple name spaced versions",
+                "Managed deployment of Nagios monitoring to insure 99.9% uptime",
+                "Evaluated Apache Mesos and Kubernetes for Docker Container Orchestration",
+                "Worked with TeamCity to create CI/CD process. Created TeamCity Builds for BizTalk projects using build runners to generate MSI applications",
+                "Used Artifactory to deploy the build Artifacts from TeamCity builds",
+                "Administered TeamCity, setup master/slave and assigning different users permissions",
+                "Developed Ruby, PowerShell, shell scripts to automate tasks and the build process",
+                "Use GITLAB as a Version Control with GIT branching strategy that included develop branches, feature branches, staging branches and master. Pull requests and code reviews were performed"
+            ]
+        },
+        {
+            "company": "Kroger Stores",
+            "role": "Senior DevOps Consultant",
+            "dates": [
+                "May 2013 – Dec 2014"
+            ],
+            "responsibilities": [
+                "Designed and Provisioned AWS infrastructure using Cloud Formation",
+                "Designed and developed automated deployment and scaling processes based on Vagrant and Chef for a wide range of server types and application tiers",
+                "Managed Servers on the Amazon Web Services (AWS) platform instances using Chef Configuration Management",
+                "Created Cloud Formation template to build a repeatable process to stand up various application deployment environments in AWS",
+                "Configured Auto Scaling, Route 53, and Custom Cloud Watch metrics for various J2EE and .net applications",
+                "Developed automation and deployment utilities using Ruby, Bash and PowerShell",
+                "Developed PowerShell, Bash scripts for automated deployment of set of inbuilt tools to AWS instances, with required configurations and settings to meet the business requirements",
+                "Installed Workstation, Bootstrapped Nodes, Wrote Recipes and Cookbooks and uploaded them to Chef-Server, Managed On-site OS/Applications/Services/Packages using Chef as well as AWS for EC2, S3 & ELB with Chef Cookbooks",
+                "Converting production support scripts to Chef Recipes. And AWS server provisioning using Chef Recipes",
+                "Setup continuous integration and formal builds using Jenkins with Maven and Tomcat repository"
+            ]
+        },
+        {
+            "company": "Blue Cross Blue Shield",
+            "role": "DevOps Engineer",
+            "dates": [
+                "Nov 2011 – Mar 20013"
+            ],
+            "responsibilities": [
+                "Working for DevOps Platform team responsible for specialization areas related to Chef for AWS Cloud Automation",
+                "Actively involved in architecture of DevOps platform and cloud solutions",
+                "Build Automation and Build Pipe Development using Jenkins and Maven",
+                "Integration of Automated Build with Deployment Pipeline. Currently installed Chef Server and clients to pick up the Build from Jenkins repository and deploy in target environments (Integration, QA, and Production).",
+                "Implemented Vagrant, a production like virtual development environment for developers",
+                "Implemented scheduled downtime for non-prod servers for optimizing AWS pricing",
+                "Created proper documentation for new server setups and existing servers",
+                "Maintaining a farm of AWS EC2 instances, ELB’s and RDS",
+                "Wrote shell scripts to automate daily tasks like DNS entries to Route53, checking connectivity etc",
+                "Implemented Chef Recipes for Deployment on build on internal Data Centre Servers. Also re-used and modified same Chef Recipes to create a Deployment directly into Amazon EC2 instances",
+                "Evaluating testing of Chef Recipes – Concept of Test Driven Development for Infrastructure as a Code",
+                "Debugging Chef Recipes and their execution trying to pull logs into Splunk and monitor deployments",
+                "Integrating various provisioning and monitoring modules into a single platform"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "Spire.Doc for Python",
+        "degree": "N/A",
+        "graduation": "N/A",
+        "courses": [
+            "DevOps",
+            "Configuration Management",
+            "Build and Release",
+            "Software Configuration Management (SCM) in Agile, Scrum, and Waterfall methodologies",
+            "AWS Cloud platform and its features which includes EC2, VPC, EBS, AMI, SNS, RDS, EBS, Cloud Watch",
+            "Application Deployments & Environment configuration using Chef",
+            "Cloud automation using AWS Cloud Formation templates",
+            "Migration to Amazon web Services AWS",
+            "Jenkins, ANT & Maven as build framework Tools",
+            "Continuous Integration (CI) and Continuous Development (CD) Pipelines",
+            "HashiCorp tools like Vagrant, Terraform, Consul, and Vault",
+            "Docker containers for managing the application life cycle",
+            "Monitoring tools like Nagios, ELK Stack, Splunk, and New Relic",
+            "Version Control Tools GIT, Sub-Version, perforce",
+            "Linux and Windows environments",
+            "Tomcat, Apache, Nginx, Sensu, Logstash",
+            "Ruby, Python, PowerShell and shell scripts for compilation and deployment process",
+            "build tools such as Maven, ANT, Jenkins, TeamCity"
+        ],
+        "gpa": null
+    },
+    "projects": [],
+    "certifications": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "Steve Belbot",
+        "skills": [
+            "DevOps",
+            "Configuration Management",
+            "Build and Release",
+            "Software Configuration Management (SCM) in Agile, Scrum, and Waterfall methodologies",
+            "AWS Cloud platform and its features which includes EC2, VPC, EBS, AMI, SNS, RDS, EBS, Cloud Watch",
+            "Application Deployments & Environment configuration using Chef",
+            "Cloud automation using AWS Cloud Formation templates",
+            "Migration to Amazon web Services AWS",
+            "Jenkins, ANT & Maven as build framework Tools",
+            "Continuous Integration (CI) and Continuous Development (CD) Pipelines",
+            "HashiCorp tools like Vagrant, Terraform, Consul, and Vault",
+            "Docker containers for managing the application life cycle",
+            "Monitoring tools like Nagios, ELK Stack, Splunk, and New Relic",
+            "Version Control Tools GIT, Sub-Version, perforce",
+            "Linux and Windows environments",
+            "Tomcat, Apache, Nginx, Sensu, Logstash",
+            "Ruby, Python, PowerShell and shell scripts for compilation and deployment process",
+            "build tools such as Maven, ANT, Jenkins, TeamCity"
+        ]
+    }
+}

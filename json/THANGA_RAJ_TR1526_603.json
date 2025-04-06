@@ -1,0 +1,171 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Bharathidasan University, India",
+        "degree": "Master of Science in Computer Application (MCA) - 2004",
+        "gpa": null,
+        "graduation": "2004",
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Tiffany & Co, Parsippany, NJ",
+            "role": "MuleSoft Developer",
+            "dates": [
+                "May 2018 – Till date"
+            ],
+            "responsibilities": [
+                "Involved in Requirement Gathering, analysis, design and development of the project",
+                "Designed and developed enterprise services using RAML and REST based APIs and used various transformers in Mule ESB based on use case and had implemented the custom transformations",
+                "Fixing the production issues within a short frame of time to manage the continuity of business.  Involved in fixing bugs, issues for various applications Such as (Compass, Global Engage, E-store Application, and Product Management Application",
+                "Used DataMapper as well as DataWeave for data transformations and data validations within flows & sub flows",
+                "Developed RESTful/SOAP web services in Mule ESB based on SOA architecture",
+                "Used Database Connectors to connect with respective systems using Mule ESB",
+                "Work closely with functional leads/PMs to understand the partner integration requirements",
+                "Understanding business needs and preparing high level technical specifications to translate business requirements into design documents",
+                "Working on SOA Design patterns for building middleware systems ground up using Message Routing, Message Filtering, Message Transformation, Batch message processing and Error handling in Mule ESB",
+                "Identifying the services required for functionalities and then develop API LED architecture based on requirement",
+                "Fixing the production issues within a short frame of time to manage the continuity of business.  Involved in fixing bugs, issues for various applications Such as (Compass, Global Engage, E-store Application, and Product Management Application).",
+                "Handling issue escalation and resolution for the project defects. Primary point of contact and will be responsible to provide regular updates to Senior Leadership",
+                "Conducting technical discussions and clarifications with the offshore team and customers to set the technical direction of the team effectively",
+                "Responsible for reviewing coding standards and suggesting best practices in application development",
+                "Providing training/mentoring to new entrants and take care of daily activities such as attending meetings, providing project updates, addressing management inquiries etc",
+                "Implement error handling through exception strategies and generated exception in CloudHub",
+                "Perform unit testing through MUnit test cases for mule flows and deploy to CloudHub"
+            ]
+        },
+        {
+            "company": "Ernest & Young (EY), Schaumburg, IL",
+            "role": "SQL Server Developer",
+            "dates": [
+                "May 2016 – Apr 2018"
+            ],
+            "responsibilities": [
+                "Worked closely with UI/Front end developers to address client business requirements using Agile methodology Sprint",
+                "Collaborating with Scrum Master to help develop User stories and accelerators to drive combined analytics and cognitive solutions for client",
+                "Analyzed the User stories and providing the necessary business solution",
+                "Transformed complex business logic into Database design and maintaining it by using SQL objects like Stored Procedures, User Defined Functions, and Views",
+                "Modifies, as necessary, existing data conversion routines and designs, develops, and tests new data conversion routines to meet User Stories that are added to sprints",
+                "Maintain referential integrity, domain integrity and column integrity by using the available options such as constraints etc",
+                "Conducted Code Review for the Fit Gap done by the team members",
+                "Responsible for performance tuning and Optimization of stored procedures using SQL Profiler and Database tuning wizard",
+                "Collaborate with onsite/Offshore developers to execute project through full Lifecyle software development",
+                "Gathered business requirements and converted it into SQL stored procedures for database specific projects",
+                "Write and optimize large complicated SQL statements",
+                "Ensure performance, security, and availability of databases",
+                "Create database objects such as tables, views, stored procedures, Triggers etc",
+                "Maintain referential integrity, domain integrity and column integrity by using the available options such as constraints etc",
+                "Responsible for performance tuning and Optimization of stored procedures using SQL Profiler and Database tuning wizard",
+                "Designed SQL SSIS Packages to extract data from various data sources such as Access database, Excel spreadsheet, and flat files into SQL Server for further Data Analysis and Reporting by using multiple transformations provided by SSIS such as Data Conversion, Conditional Split, Bulk Insert, Merge and Union all"
+            ]
+        },
+        {
+            "company": "Zoetis Inc (Previously known as Pfizer Animal Health), Exton, PA",
+            "role": "Application Developer",
+            "dates": [
+                "Jul 2009 – Feb 2016"
+            ],
+            "responsibilities": [
+                "Provided offshore support to North American Regional Customer (NARC) application",
+                "Tracked, logged, and responded to support tickets. Performed user account maintenance, managed incidents, and provided resolution for end-user’s technical challenges",
+                "Utilized knowledgebase tools to transfer technical & business knowledge to team member",
+                "Reduced redundancy of report requests from business users by creating daily, weekly, and monthly reports using SQL Query",
+                "Implement improvements to reduce the bugs and common problems had by users",
+                "Reporting the progress of the task/phase on daily basis or weekly basis to the Project Lead",
+                "Gathering the requirements and translate them to design documents",
+                "Coding for the requirements",
+                "Creating test cases to test the enhancements",
+                "Testing the enhancements and log the errors in Service Center tool",
+                "Meeting the BT Managers and users on daily basis to give update on the tasks"
+            ]
+        },
+        {
+            "company": "Johnson & Johnson, Kolkata, India",
+            "role": "System Analyst",
+            "dates": [
+                "Oct 2008 – Jun 2009"
+            ],
+            "responsibilities": [
+                "Responsibilities of proper delivery by my team by ensuring timely and through review, good coordination, and communication amongst the team members",
+                "Distributing Packages to Team Members and giving guidance to Team members",
+                "Creation of Package in standard 4.5 that is currently followed by J&J",
+                "Use of Wise Package Studio (WPS) to create Windows Installers like MSI and MST",
+                "Modification of Windows registry, dlls, files using WPS to make them error free",
+                "Addition of Custom Action by using VB script to the WSI"
+            ]
+        },
+        {
+            "company": "Lucas TVS Group Companies, Chennai, India",
+            "role": "Analyst programmer",
+            "dates": [
+                "Mar 2008 – Sep 2008"
+            ],
+            "responsibilities": [
+                "Involved in the design, development in the Web-based ERP with MS SQL Server database",
+                "Rule writing for Employee Induction, Leave Management, Hire Process",
+                "Fixed ALM defects",
+                "Responsible for Data Migration and End-user Training",
+                "I was given an opportunity to lead a small Team of 3 Members during my tenure based on my consistent performance and capabilities"
+            ]
+        },
+        {
+            "company": "SingHealth, Singapore",
+            "role": "Analyst programmer",
+            "dates": [
+                "Jan 2007 – Feb 2008"
+            ],
+            "responsibilities": [
+                "Involved in the design, development in the Web-based ERP with MS SQL Server database",
+                "Development for the Payroll System",
+                "Screen Design for the Payroll System and write Workflow Rules, Payroll rules and Leave Rules",
+                "Responsible for Data Migration"
+            ]
+        },
+        {
+            "company": "Hindustan Latex Family Planning Promotion Truest (HLFPPT), New Delhi",
+            "role": "Software Engineer",
+            "dates": [
+                "May 2006 – Jan 2007"
+            ],
+            "responsibilities": [
+                "Involved in the design, development in the web-based application",
+                "Distributing Modules to Team Members and giving guidance to Team members",
+                "Involved in creating tables and writing procedures",
+                "Responsible for Data Migration & End -User Training"
+            ]
+        },
+        {
+            "company": "Tamilnadu Industrial Explosives Limited, India",
+            "role": "Software Engineer",
+            "dates": [
+                "Aug 2004 – Apr 2006"
+            ],
+            "responsibilities": [
+                "Developed and design windows-based commerce application",
+                "Involved in the design, development in the windows-based application",
+                "Actively involved most of the front-end development and database design",
+                "Actively involved in Creation and Modification of more than 100 reports using crystal report",
+                "Fixed ALM defects",
+                "Created technical documentation",
+                "Testing to make sure all components are working"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "THANGARAJ",
+        "skills": [
+            "MS-SQL Server 2000, 2005, 2008, 2012,2016",
+            "Oracle 9i",
+            "MuleSoft Anypoint Studio, VB.Net, C#, Asp.Net, PowerShell Scripting, Ajax, Jquery, Mule Anypoint Platform, Web Service, Web API",
+            "MS Visio",
+            "SQL Server 2005 Reporting Services, Crystal Reports",
+            "Windows Server 2003/ 2008, IIS",
+            "TFS Source Control, Visual Source Safe",
+            "SSIS, DTS, MuleSoft Anypoint Studio, Infragistics",
+            "Agile, SCRUM"
+        ]
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Bachelor’s in Computer Science",
+        "degree": "Bachelor’s",
+        "graduation": "",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Cetera Financial Group, El Segundo, CA",
+            "role": "Advisor Works Project- 3",
+            "dates": [
+                "Mar 2018 - Present"
+            ],
+            "responsibilities": [
+                "Experience as a Build and Release Engineering in automating, building, deploying, and releasing of code from one environment to another environment",
+                "Automated the Build & Deployment environment end -to-end using Jenkins & Bamboo",
+                "Analyze and resolve conflicts related to merging of source code for SVN and Git",
+                "Responsible for the Plugin Management, User Management, Build/Deploy Pipeline Setup and End-End Job Setup of all the projects",
+                "Set up CI (Continuous Integration) for major releases in Jenkins",
+                "Troubleshooted and resolved Build failures due to infrastructure issues reduced by 95% stabilizing the build process",
+                "Isolated and reported bugs using Jira, verified fixes through regression testing",
+                "Setting up the Build environment across different applications using Gradle and maven",
+                "Setting up the auto deployment process for different applications in different environments and implementing the auto deployment process",
+                "Created Cloud Formation template to assign EC2, Volume and S3 storage to create an AMI in Amazon web services",
+                "Used to install Ansible in the AWS EC2 instance and deploy the application in AWS",
+                "Worked with Source Code Management System Git/Bitbucket and with build manager for Java projects Maven",
+                "Developed containerized docker architecture solutions",
+                "Developed and maintained containers on a private Docker Hub",
+                "Maintained 24/7 high volume availability demands using open source tools such as Linux, MySQL",
+                "Worked on cloud-based servers like AWS and Rackspace",
+                "Managed Clusters with various Servers in Amazon Cloud Resource Group",
+                "Deliver and manage infrastructure as code using Ansible and Terraform, adopting blue-green deployment approach by using Autoscaling, ELB and Route53 services",
+                "Experience in writing playbooks for Ansible and deploying applications using Ansible",
+                "Improved department process by designing and implementing a Groovy/JavaScript application for project activity planning activities",
+                "Experience in Converting the existing AWS Infrastructure to serverless architecture with AWS Lambda and Kinesis deployed using Terraform templates",
+                "Used Chef to automate the node configuration setup and maintenance",
+                "Involved in editing the existing MAVEN files in case of errors or changes in the project requirements",
+                "Performed weekly and on-call deployments of application codes to production environments",
+                "Performed SCM audits and provided reports against process and procedures in development, build and releases of the Projects as per internal proprietary defined standards and steps",
+                "Work with development/testing, deployment, systems/infrastructure and project teams to ensure continuous operation of build and test systems also used Selenium",
+                "Responsible for creating different versions of Docker images from the application source code and pushing them to nexus repository",
+                "Created and managed Jenkins pipelines for kubernetes deployment and responsible for maintaining the kubernetes clusters",
+                "Created looper pipelines from the GitHub source code for creating Docker images",
+                "Responsible for migration of some Jenkins pipelines from existing to one to another",
+                "Authorized deployment files for deploying applications on kubernetes cluster",
+                "Responsible for maintaining target management and config management which provides targets and configs for application deployment",
+                "Written many Docker files, Docker compose files for creating Docker images with different versions",
+                "Responsible for troubleshooting the servers which cause errors for the deployments",
+                "Written Ansible playbooks for deployments in the kubernetes cluster"
+            ]
+        },
+        {
+            "company": "Smart works-Project-2",
+            "role": "Sr DevOps Engineer",
+            "dates": [
+                "Jun 2015 - Feb 2018"
+            ],
+            "responsibilities": [
+                "Provisioned and administered EC2 instances and configuring EBS, Simple Storage(S3) cross region replication, Elastic Load Balancer, configure Auto scaling, setting up CloudWatch alarms, Virtual Private Cloud (VPC), mapping with multi AZ VPC instances and RDS, based on architecture",
+                "Worked on Amazon EC2 setting up instances, virtual private cloud (VPCs), and security groups and created AWS Route53 to route traffic between different regions and used BOTO3 and Fabric for launching and deploying instances in AWS",
+                "Configured Amazon S3, Elastic Load Balancing, IAM and Security Groups in Public and Private Subnets in VPC, created storage cached and storage volume gateways to store data and other services in the AWS",
+                "Architected and configured a virtual data center in the AWS cloud to support Enterprise Data Warehouse hosting including Virtual Private Cloud (VPC), Public and Private Subnets, Security Groups and Route Tables",
+                "Used Security Groups, Network ACLs, Internet Gateways, NAT instances and Route tables to ensure a secure zone for organizations in AWS public cloud",
+                "Worked on migration services like AWS Server Migration Service (SMS) to migrate on-premises workloads to AWS in easier and faster way using Rehost 'lift and shift' methodology and AWS Database Migration Service (DMS), AWS Snowball to transfer large amounts of data and Amazon S3 Transfer Acceleration",
+                "Worked in an Agile development team to deliver an end to end continuous integration/continuous delivery product in an open source environment using tools like Puppet & Chef",
+                "Written Terraform scripts to automate AWS services which include ELB, CloudFront distribution, RDS, EC2, database security groups, Route 53, VPC, Subnets, Security Groups, and S3 Bucket and converted existing AWS infrastructure to AWS Lambda deployed via Terraform and AWS CloudFormation",
+                "Implemented AWS Elastic Container Service (ECS) scheduler to automate application deployment in the cloud using Docker Automation techniques",
+                "Implemented Docker - maven-plugin in Maven pom.xml files to build Docker images for all microservices and later used Docker File to build the Docker images from the Java jar files also Created Docker images using a Docker File, worked on Docker container snapshots, removing images and managing Docker volumes",
+                "Wrote Python scripts using the Boto3 library to automatically sign up the instances in AWS EC2 and OpsWorks stacks and integrated with Auto Scaling with configured AMIs",
+                "Used Git version control to manage the source code and integrating Git with Jenkins to support build automation and integrated with Jira to monitor the commits",
+                "Worked on AWS costs by writing the Ansible Playbooks for auto Start/Stop of AWS resources at the time of the day by triggering it from Jenkins and knowledge on RHEL on Ansible Playbooks, Modules and Roles",
+                "Designed various Jenkins jobs to continuously integrate the processes and executed CI/CD pipeline using Jenkins, Ansible Playbooks and Ansible Tower",
+                "Deployed and configured Chef server including bootstrapping of Chef client nodes for provisioning and experience in developing Chef recipes through Knife command-line tool, customized Ruby scripts to create Chef cookbooks to manage systems configuration on Chef Server to initiate Chef Nodes",
+                "AWS Cloud management using Chef Automation and automated the cloud deployments using chef, python and AWS Cloud Formation Templates",
+                "Using Ansible created multiple playbooks for machine creations and SQL server, cluster server and my SQL installations",
+                "Used Ansible to Setup/teardown of ELK stack (Elasticsearch, Log stash, Kibana) and troubleshoot the build issues with ELK and work towards the solution",
+                "Written Ansible handlers with multiple tasks to trigger multiple handlers and to decouple handlers from their names, making it easier to share handlers among Playbooks and Roles",
+                "Used Jenkins and pipelines to drive all micro services builds out to the Docker-registry and then deployed to Kubernetes, Created Pods and managed using Kubernetes",
+                "Set up and managed ELK ( Elasticsearch, Logstash & Kibana) Stack to collect, search and analyze log files across servers, log monitoring and created geo-mapping visualizations using Kibana in integration with AWS CloudWatch and Lambda. Evaluated system logs using ELK software stack",
+                "Created automation and deployment templates for relational and NOSQL databases including MongoDB and Redis"
+            ]
+        },
+        {
+            "company": "Smart works Project-1",
+            "role": "DevOps Engineer",
+            "dates": [
+                "Jan 2013 - May 2015"
+            ],
+            "responsibilities": [
+                "Involved in designing and deploying multitude applications utilizing almost all AWS stack (Including EC2, S3, AMI, Route53, RDS, SNS, SQS, IAM) focusing on high-availability, fault tolerance, and Auto-Scaling in AWS Cloud Formation",
+                "Maintained the user accounts IAM Roles, Route 53(CNAME), VPC, RDB, MongoDB, SQS & SNS services in AWS cloud",
+                "Created Python scripts to totally automate AWS services which includes web servers, ELB, Cloud Front distribution, database, EC2 and database security groups and application configuration, this script creates stacks, single servers, or joins web servers to stacks",
+                "Involved in creating the company's DevOps strategy in a mixed environment of Linux (Ubuntu, CentOS, RHEL) servers",
+                "Experience in writing Ansible playbooks by using YAML script to launch AWS instances and used to manage web applications, configuration files, used mount points and packages",
+                "Wrote Ansible playbooks, inventories created custom playbooks written in YAML language, encrypted the data using Ansible Vault & maintained role-based access control by using Ansible Tower & Implemented IT orchestration using Ansible to run tasks in a sequence which can work on different servers",
+                "Virtualized the servers using the Docker for the test environments and development environment and performed configuration automation using Docker containers",
+                "Wrote CI/CD pipeline in Groovy scripts to enable end to end setup of build & deployment using Cloud Bees Jenkins & Developed an end to end CI/CD Pipelines in Jenkins to retrieve code, perform tests and push build artifacts to Nexus",
+                "Wrote scripts for the build, deploy, maintain using Jenkins, Git, Maven, Python, and Bash and worked on CI/CD involving Run Deck Jenkins & Ansible to complete the automation from commit to deploy",
+                "Wrote Python scripts using the Boto3 library to automatically sign up the instances in AWS EC2 and Ops Works stacks and integrated with Auto Scaling with configured AMIs",
+                "Used Git version control to manage the source code and integrating Git with Jenkins to support build automation and integrated with Jira to monitor the commits",
+                "Integrated Docker container-based test infrastructure to Jenkins CI test flow and set up build environment integrating with Git and Jira to trigger builds using Webhooks and Slave Machines",
+                "Implemented Git for Branching, Merging, Tagging and maintaining the version across the environments on Linux platforms and, designed and implemented Git Metadata including elements, labels, attributes, triggers, hyperlinks",
+                "Installed and configured DHCP, DNS, and web servers like Apache, IIS, and mail servers like SMTP, IMAP, POP3, and file servers on RHEL servers",
+                "Implemented a CI/CD framework using Jenkins, Maven & Artifactory in Linux environment and Integration of Maven/Nexus, Jenkins, Git and JIRA",
+                "Maintained Jenkins continuous integration tool using shell/Perl and ruby scripts for automating releases to different environments"
+            ]
+        },
+        {
+            "company": "Cetera Financial Group, El Segundo, CA",
+            "role": "ETL & DW/BI",
+            "dates": [
+                "Mar 2011 - Dec 2012"
+            ],
+            "responsibilities": [
+                "Interact with end users and business analysts in gathering business requirements and translating the requirements to technical documents",
+                "Involved in Data warehouse design",
+                "Create Users, Groups and Folders in BO XI3.1 system and set up security",
+                "Provide training to users in Web Intelligence to develop Ad hoc reports",
+                "Involve in Performance tuning of Universes and Reports",
+                "Work Allocation among the development team members (on-shore), ensuring the development activities to happen as per the design"
+            ]
+        },
+        {
+            "company": "Parker Aerospace, Irvine, CA",
+            "role": "ETL & BI Lead developer",
+            "dates": [
+                "Apr 2009 - Feb 2011"
+            ],
+            "responsibilities": [
+                "Participated in project planning sessions with business managers, business analysts and team members to analyze business requirements and outline the proposed solution",
+                "Developed scope of work documents, technical architecture, and test plans",
+                "Involved in Operational Data Stores Design. Review and maintain the schema, its tables, indexes, views and PL/SQL procedures in Oracle 10g",
+                "Responsible for writing Program Specifications and Functional Specifications",
+                "Led the development team by proving technical and functional support",
+                "Planned, scheduled, reviewed and performed analysis, design, coding, testing and implementation of simple to more complex reports",
+                "Analyzed and produced ad-hoc reports for the user community",
+                "Involved in design and development of Oracle stored procedures in an optimized manner",
+                "Designed and Documents Universe and Report Requirements Definition templates, Security strategies, Migration strategies and Report Distribution strategies",
+                "Involved in Migration from SAP BO XI R2 version to SAP BO XI 3.1",
+                "Expertise in Universe Designing and Documentation",
+                "Involved in the troubleshooting of universe schema with loops, chasm and fan traps, and cardinality problems",
+                "Created Hierarchies from providing drill down options for the end-user",
+                "Evaluated the possible use of aggregated tables and worked with DBA to create aggregated tables",
+                "Implemented derived table concept in the Universe",
+                "Analyze the reporting requirements with the business users and the QA team and come up with the technical specifications for the BO Reports",
+                "Created Database Objects such as Views, Functions, Stored Procedures with Respect to the Requirements of Universe and Reports Development",
+                "Provided time and cost estimates and feasibility assessments for projects",
+                "Onsite, Offshore team and client coordination",
+                "Migration of PBC Bi-Query reports in to SAP Business Objects universe"
+            ]
+        },
+        {
+            "company": "Parker Aerospace, Irvine, CA",
+            "role": "ETL/BI",
+            "dates": [
+                "Jun 2007 - Mar 2009"
+            ],
+            "responsibilities": [
+                "Work with Business system analyst’s team to understand and finalize functional requirement",
+                "Requirements gathering / analysis of the requirements",
+                "Identify data source and design solution for the project",
+                "Creating the technical design document for various phases of the delivery",
+                "Design and develop the technical/functional specification for ETL development and implement using Informatica",
+                "Analyze dependencies for workflow for various ETL processes, handle exception, and maintain logs",
+                "Work Allocation among the development team members (on-shore & off-shore), ensuring the development activities to happen as per the design",
+                "Extensively used Central Management Console (CMC) in setting up new user groups and also manages security configuration for various reports and universe in both development and production environment",
+                "SAP Business Objects administration through CMC & prod deployment of Business Objects components (crystal reports, universes & web Intelligence reports)"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "BALA REDDY",
+        "skills": [
+            "Build & Release Management",
+            "SCM Tools",
+            "Continuous Integration(CI) & Continuous Delivery(CD) & DevOps Methodologies",
+            "Amazon Web Services(AWS) & Infrastructure Development & Operations",
+            "Linux (RHEL, Ubuntu, CentOS) & Windows 98/NT/XP/Vista/7/8 & UNIX",
+            "Subversion, GIT, Bit Bucket, TFS & SVN, Git, Bitbucket",
+            "Ant, Maven & MAVEN",
+            "Jenkins/Hudson, Anthill Pro, Bamboo & Jenkins/Hudson, Anthill Pro, Bamboo",
+            "Docker, Kubernetes & Docker, Kubernetes",
+            "Chef, Puppet, Ansible & Chef, Puppet, Ansible",
+            "JIRA, Junit & JIRA, Junit",
+            "Nexus, Artifactory & Nexus, Artifactory",
+            "JBOSS, Apache Tomcat, IntelliJ IDEA, Oracle Web logic, IBM Web sphere, IIS Server, VMware & JBOSS, Apache Tomcat, IntelliJ IDEA, Oracle Web logic, IBM Web sphere, IIS Server, VMware",
+            "Shell Script, ANT Script, Batch Script, Ruby, Perl, C, C++, Objective C, Python, Java, J2EE & Shell Script, ANT Script, Batch Script, Ruby, Perl, C, C++, Objective C, Python, Java, J2EE",
+            "TCP/IP, NIS, NFS, DNS, DHCP, CiscoRouters/Switches, WAN, SMTP, LAN, FTP/TFTP & TCP/IP, NIS, NFS, DNS, DHCP, CiscoRouters/Switches, WAN, SMTP, LAN, FTP/TFTP",
+            "Open Stack, AWS (EC2, S3, EBS, ELB, Elastic IP, RDS, SNS, SQS, Glacier, IAM, VPC, Cloud Formation, Red shift, Kinesis, LambdaRoute53, CloudWatch, cloud trail), Microsoft Azure, Spinnaker, Rackspace, pivotal cloud Foundry & Open Stack, AWS (EC2, S3, EBS, ELB, Elastic IP, RDS, SNS, SQS, Glacier, IAM, VPC, Cloud Formation, Red shift, Kinesis, LambdaRoute53, CloudWatch, cloud trail), Microsoft Azure, Spinnaker, Rackspace, pivotal cloud Foundry",
+            "Oracle 11g/ 10g/9i/8i , Server 2008/2012/2016 , Oracle, DB2, Teradata & Oracle 11g/ 10g/9i/8i , Server 2008/2012/2016 , Oracle, DB2, Teradata",
+            "Splunk, kibana, Logstash & Splunk, kibana, Logstash",
+            "TCP/IP, VOIP, 802.11, RF Theory & TCP/IP, VOIP, 802.11, RF Theory",
+            "Eclipse, NetBeans, Android Studio, PyCharm, Putty, Packet Tracer & Eclipse, NetBeans, Android Studio, PyCharm, Putty, Packet Tracer",
+            "Agile Scrum / GIT Familiar Technologies Shell Scripting (Python/Bash), OpenStack and Junit & Agile Scrum / GIT Familiar Technologies Shell Scripting (Python/Bash), OpenStack and Junit",
+            "Machine Learning, Big Data, Data Analytics, Cloud Computing & Machine Learning, Big Data, Data Analytics, Cloud Computing"
+        ]
+    }
+}
