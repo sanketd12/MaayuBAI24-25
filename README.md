@@ -1,65 +1,134 @@
-# Project README
+# Maayu Resume Analysis System
 
-## Git Strategy
+A comprehensive system for analyzing and processing REMOVED_BUCKET_NAME using AI and vector databases.
 
-**Always do work and run the development server in your virtual environment**
+## Features
 
-### 1. Checkout `main` and pull the latest changes:
+- Resume parsing (PDF and DOCX formats)
+- AI-powered resume analysis
+- Vector database storage and retrieval
+- RESTful API for querying REMOVED_BUCKET_NAME
+- S3 integration for document storage
+- Modern web frontend
 
-    git checkout main
-    git pull
+## Prerequisites
 
+- Python 3.9+
+- AWS account with S3 access
+- Together AI API key
 
-### 2. Create feature branch off `main` for the feature you are working on and push to set up remote feature branch:
+## Installation
 
-    git checkout -b feature/branch-name main
-    git push -u origin feature/branch-name
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/maayu-resume-analysis.git
+cd maayu-resume-analysis
+```
 
-**OR create a new branch from an existing remote feature branch:**
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-    git checkout -b feature/branch-name origin/remote-branch-name
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
+4. Set up environment variables:
+Create a `.env` file in the project root with the following variables:
+```env
+TOGETHER_API_KEY=your_together_api_key
+AWS_ACCESS_KEY_ID=your_aws_access_key
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+AWS_BUCKET_NAME=your_s3_bucket_name
+```
 
-### 3. Within your virtual environment, install any packages that may have been added:
-    pip install -r requirements.txt
+## Project Structure
 
+```
+maayu-resume-analysis/
+├── src/
+│   ├── backend_api.py      # FastAPI backend
+│   ├── parser.py           # Resume parsing
+│   ├── data_models.py      # Pydantic models
+│   ├── config.py           # Configuration
+│   └── maayu-frontend/     # Frontend code
+├── tests/                  # Test files
+├── json/                   # Processed JSON files
+├── chromadb/              # Vector database storage
+└── logs/                  # Application logs
+```
 
-### 4. Make changes to implement the feature, add files and commit changes:
+## Usage
 
-    git add .
-    git commit -m “your commit message”
+### Processing Resumes
 
+1. Place REMOVED_BUCKET_NAME in your S3 bucket
+2. Run the parser:
+```bash
+python src/parser.py
+```
 
-### 5. Push changes to the remote feature branch:
+### Running the API
 
-    git push
+1. Start the FastAPI server:
+```bash
+uvicorn src.backend_api:app --reload
+```
 
+2. Access the API documentation at:
+- Swagger UI: http://localhost:8000/docs
+- ReDoc: http://localhost:8000/redoc
 
-### 6. When the feature is complete, make a pull request into the test branch. If the feature works in the test environment and does not cause any breaking changes or bugs, make a pull request into `main`.
+### Running Tests
 
+```bash
+pytest tests/
+```
 
+## API Endpoints
 
-## Virtual Environments + Package Management
+### Health Check
+- `GET /health`
+- Returns API status and version
 
-**Virtual envs do NOT get committed/pushed to the remote repository to prevent exposed API keys. Make sure the virtual env (`venv/`) on your local machine is included in the `.gitignore` file.**
+### Query Resumes
+- `POST /query`
+- Request body:
+```json
+{
+    "query": "Python developer with AWS experience",
+    "limit": 5
+}
+```
 
-### 1. Create a virtual env on your local machine in the project root folder with:
+## Development
 
--    Windows/Linux/Mac: `python3 -m venv .venv`
+### Code Style
+- Follow PEP 8 guidelines
+- Use type hints
+- Document all functions and classes
 
+### Testing
+- Write unit tests for new features
+- Run tests before committing
+- Maintain test coverage
 
-### 2. Activate the virtual env:
+### Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
--   Windows: `.venv\Scripts\activate`
--   Linux/Mac: `source .venv/bin/activate`
+## License
 
-### 3. Install necessary dependencies:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-`pip install -r requirements.txt`
+## Acknowledgments
 
-
-<!-- ### 4. Update requirements.txt dependency list:
-<!-- -   If you install any additional packages while implementing a feature, install (if you have not already) and run the `pipreqs` command in the project root folder to generate a `requirements.txt` file that lists all of the projects dependencies
-
-    pip install pipreqs
-    pipreqs /path/to/project/root --> -->
+- Together AI for the LLM API
+- ChromaDB for vector storage
+- FastAPI for the web framework

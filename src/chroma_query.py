@@ -2,8 +2,8 @@ from flask import Flask, request, jsonify
 import os
 import openai
 import chromadb
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_chroma import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
 from flask_cors import CORS
 
 app = Flask(__name__)
