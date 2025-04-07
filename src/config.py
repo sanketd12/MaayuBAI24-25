@@ -3,6 +3,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 import logging
 from typing import Dict, Any
+import os
+from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
@@ -53,7 +55,6 @@ OPENAI_CONFIG = {
     "api_key": os.getenv("TOGETHER_API_KEY"),
     "model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
 }
-
 # CORS Configuration
 CORS_CONFIG = {
     "allow_origins": os.getenv("ALLOWED_ORIGINS", "*").split(","),
