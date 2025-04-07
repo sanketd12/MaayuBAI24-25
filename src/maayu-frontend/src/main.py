@@ -26,10 +26,11 @@ def main(page: ft.Page):
 
     # Input field
     user_input = ft.TextField(
-        hint_text="Type a message...",
-        border_radius=20,
-        expand=True,
-        bgcolor=ft.colors.GREY_200
+    hint_text="Type a message...",
+    expand=True,
+    border_radius=20,
+    bgcolor=ft.colors.GREY_200,
+    color=ft.colors.BLACK  # 👈 Add this
     )
 
     send_button = ft.IconButton(
@@ -63,11 +64,13 @@ def main(page: ft.Page):
         chat_area.controls.append(
             ft.Row([
                 ft.Container(
-                    content=ft.Text(f"You: {query}", size=14),
+                    content=ft.Text(f"You: {query}", size=14, color=ft.colors.BLACK),
                     padding=10,
-                    bgcolor=ft.colors.BLUE_100,
+                    bgcolor=ft.colors.BLUE_200,
                     border_radius=10
-                )
+                ),
+                ft.Icon(ft.icons.ACCOUNT_CIRCLE, size=30, color=ft.colors.BLUE_700)
+                
             ], alignment=ft.MainAxisAlignment.END)
         )
 
@@ -77,10 +80,11 @@ def main(page: ft.Page):
             chat_area.controls.append(
                 ft.Row([
                     ft.Container(
-                        content=ft.Text(res, size=14),
+                        content=ft.Text(res, size=14, color = ft.colors.BLACK, no_wrap=False),
                         padding=10,
-                        bgcolor=ft.colors.GREY_200,
-                        border_radius=10
+                        bgcolor=ft.colors.GREY_400,
+                        border_radius=1,
+                        width=500
                     )
                 ], alignment=ft.MainAxisAlignment.START)
             )
