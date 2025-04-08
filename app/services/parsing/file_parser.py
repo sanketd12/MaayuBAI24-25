@@ -21,42 +21,50 @@ class FileProcessor:
     def __init__(self):
         llm = ChatGoogleGenerativeAI(model=settings.GOOGLE_PARSING_MODEL, api_key=settings.GOOGLE_API_KEY)
         self.client = llm.with_structured_output(Resume)
+    
+    async def get_image_urls(self, file: UploadFile) -> list[str]:
+        # Read uploaded file into memory
+        pdf_data = await file.read()
 
-    async def parse(self, file: UploadFile) -> Resume:
-        try:
-            # Read uploaded file into memory
-            pdf_data = await file.read()
+        # Open PDF with PyMuPDF
+        pdf_document = fitz.open(stream=pdf_data, filetype="pdf")
 
-            # Open PDF with PyMuPDF
-            pdf_document = fitz.open(stream=pdf_data, filetype="pdf")
+        async def fitz_image_conversion(page_num):
+            page = pdf_document[page_num]
 
-            async def fitz_image_conversion(page_num):
-                page = pdf_document[page_num]
+            # Convert page to image pixels
+            pix = page.get_pixmap()
 
-                # Convert page to image pixels
-                pix = page.get_pixmap()
+            # Convert to PNG format and then to base64
+            img_bytes = pix.tobytes("png")
+            base64_string = base64.b64encode(img_bytes).decode("utf-8")
 
-                # Convert to PNG format and then to base64
-                img_bytes = pix.tobytes("png")
-                base64_string = base64.b64encode(img_bytes).decode("utf-8")
+            # Add the required data URI prefix
+            return f"data:image/png;base64,{base64_string}"
 
-                # Add the required data URI prefix
-                return f"data:image/png;base64,{base64_string}"
-
-            # Process all pages concurrently using asyncio.gather
-            page_images = await asyncio.gather(
-                *[fitz_image_conversion(page_num) for page_num in range(len(pdf_document))]
-            )
-
-            messages = [HumanMessage(
+        # Process all pages concurrently using asyncio.gather
+        return await asyncio.gather(
+            *[fitz_image_conversion(page_num) for page_num in range(len(pdf_document))]
+        )
+    
+    async def extract_resume(self, image_urls: list[str]) -> Resume:
+        messages = [HumanMessage(
                 content="Extract all appropriate information from this resume. Do not make anything up"
             )]
 
-            for image_url in page_images:
-                messages.append(get_langchain_message(image_url))
+        for image_url in image_urls:
+            messages.append(get_langchain_message(image_url))
 
-            return await self.client.ainvoke(messages)
+        return await self.client.ainvoke(messages)
 
+    async def parse(self, file: UploadFile) -> Resume:
+        try:
+            image_paths = await self.get_image_urls(file)
+            resume = await self.extract_resume(image_paths)
+
+            # TODO: upsert into Vector DB service
+            return resume
+        
         except Exception as e:
             logger.error(f"Error parsing file {file.filename}: {e}")
             raise e
