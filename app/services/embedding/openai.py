@@ -17,10 +17,3 @@ class OpenAIEmbeddingService(EmbeddingServiceBase):
             input=text,
         )
         return response.data[0].embedding
-
-    async def embed_batch(self, texts: list[str], **kwargs) -> list[list[float]]:
-        response = await self.client.embeddings.create(
-            model=self.embedding_model,
-            input=texts,
-        )
-        return [d.embedding for d in response.data]
