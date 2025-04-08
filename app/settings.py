@@ -15,6 +15,10 @@ class Settings(BaseSettings):
     QDRANT_URL: str
     QDRANT_API_KEY: str
     QDRANT_COLLECTION_NAME: str = "REMOVED_BUCKET_NAME"
+    AWS_ACCESS_KEY_ID: str
+    AWS_SECRET_ACCESS_KEY: str
+    AWS_REGION: str = "us-east-1"
+    AWS_S3_BUCKET: str = "REMOVED_BUCKET_NAME"
     # prompts: PromptsConfig
     # db_config: DBConfig
     # throttling_config: ThrottlingConfig

@@ -5,6 +5,7 @@ description = "A suite of MCP servers and extraction tools for Maayu AI"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "boto3>=1.37.29",
     "fastapi[standard]>=0.112.1",
     "google>=3.0.0",
     "google-genai>=1.9.0",

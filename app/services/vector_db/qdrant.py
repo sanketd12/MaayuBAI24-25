@@ -84,8 +84,6 @@ class QdrantVectorDBService(VectorDBServiceBase):
                 limit=num_REMOVED_BUCKET_NAME,
                 with_payload=True
             )
-            logger.info(f"Results: {results}")
-
             REMOVED_BUCKET_NAME: list[Resume] = []
             for result in results:
                 if result.payload and "resume" in result.payload:
