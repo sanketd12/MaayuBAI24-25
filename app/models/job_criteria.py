@@ -1,9 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import Literal
-
-class Skill(BaseModel):
-    name: str = Field(description="The name of the skill - e.g. 'Kubernetes'")
-    proficiency_level: Literal["beginner", "intermediate", "advanced", "expert"] = Field(description="The proficiency level of the skill")
+from app.models.skill import Skill
 
 class JobCriteria(BaseModel):
     """Always use this tool to extract the relevant job criteria from this job description"""

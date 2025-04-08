@@ -1,39 +1,62 @@
-from io import BytesIO
-from docling.datamodel.base_models import DocumentStream
-from docling.document_converter import DocumentConverter
 from fastapi import UploadFile
-
+from langchain_google_genai import ChatGoogleGenerativeAI
 import structlog
+from app.settings import settings
+import asyncio
+import base64
+import fitz
+from app.models.resume import Resume
+from langchain_core.messages import HumanMessage
 
 logger = structlog.get_logger(__name__)
 
+def get_langchain_message(image_url: str) -> HumanMessage:
+    return HumanMessage(
+        content=[
+            {"type": "image_url", "image_url": {"url": image_url}},
+        ],
+    )
+
 class FileProcessor:
     def __init__(self):
-        self.converter = DocumentConverter()
+        llm = ChatGoogleGenerativeAI(model=settings.GOOGLE_PARSING_MODEL, api_key=settings.GOOGLE_API_KEY)
+        self.client = llm.with_structured_output(Resume)
 
-    async def parse(self, file: UploadFile) -> str:
+    async def parse(self, file: UploadFile) -> Resume:
         try:
-            content = await file.read()
-            file_stream = BytesIO(content)
-            doc_stream = DocumentStream(name=file.filename, stream=file_stream)
-            # Ensure convert is awaited if it's async, otherwise remove await
-            # Assuming convert might not be async based on common usage, let's remove await first.
-            # If it fails, we know convert is indeed async.
-            parsed_document_result = self.converter.convert(doc_stream)
-            return parsed_document_result.document.export_to_markdown()
+            # Read uploaded file into memory
+            pdf_data = await file.read()
+
+            # Open PDF with PyMuPDF
+            pdf_document = fitz.open(stream=pdf_data, filetype="pdf")
+
+            async def fitz_image_conversion(page_num):
+                page = pdf_document[page_num]
+
+                # Convert page to image pixels
+                pix = page.get_pixmap()
+
+                # Convert to PNG format and then to base64
+                img_bytes = pix.tobytes("png")
+                base64_string = base64.b64encode(img_bytes).decode("utf-8")
+
+                # Add the required data URI prefix
+                return f"data:image/png;base64,{base64_string}"
+
+            # Process all pages concurrently using asyncio.gather
+            page_images = await asyncio.gather(
+                *[fitz_image_conversion(page_num) for page_num in range(len(pdf_document))]
+            )
+
+            messages = [HumanMessage(
+                content="Extract all appropriate information from this resume. Do not make anything up"
+            )]
+
+            for image_url in page_images:
+                messages.append(get_langchain_message(image_url))
+
+            return await self.client.ainvoke(messages)
+
         except Exception as e:
             logger.error(f"Error parsing file {file.filename}: {e}")
-            # Re-raise the exception or handle it as appropriate
             raise e
-        finally:
-            # Ensure the file cursor is reset if needed, though UploadFile handles this.
-            # Close the BytesIO stream
-            if 'file_stream' in locals() and file_stream:
-                 file_stream.close()
-
-    async def batch_parse(self, files: list[UploadFile]) -> list[str]:
-        conv_results = self.converter.convert_all(
-            [file.file for file in files],
-            raises_on_error=False,  # to let conversion run through all and examine results at the end
-        )
-        return [conv_result.document.export_to_markdown() for conv_result in conv_results]

@@ -8,6 +8,7 @@ from typing import Literal
 class Settings(BaseSettings):
     debug: bool = True
     GOOGLE_API_KEY: str
+    GOOGLE_PARSING_MODEL: Literal["gemini-2.0-flash-lite", "gemini-2.0-flash", "gemini-2.5-pro-preview-03-25"] = "gemini-2.0-flash-lite"
     OPENAI_API_KEY: str
     OPENAI_EMBEDDING_MODEL: Literal["text-embedding-3-small", "text-embedding-3-large"] = "text-embedding-3-small"
     QDRANT_URL: str
