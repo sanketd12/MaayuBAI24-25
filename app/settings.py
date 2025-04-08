@@ -1,11 +1,17 @@
 from app.utils.filesystem import get_project_root
 from pydantic_settings import BaseSettings, SettingsConfigDict, PydanticBaseSettingsSource, YamlConfigSettingsSource
+from typing import Literal
+
 # from app.models.config import DBConfig, ThrottlingConfig
 # from app.models.prompt import PromptsConfig
 
 class Settings(BaseSettings):
     debug: bool = True
     GOOGLE_API_KEY: str
+    OPENAI_API_KEY: str
+    OPENAI_EMBEDDING_MODEL: Literal["text-embedding-3-small", "text-embedding-3-large"] = "text-embedding-3-small"
+    QDRANT_URL: str
+    QDRANT_API_KEY: str
     # prompts: PromptsConfig
     # db_config: DBConfig
     # throttling_config: ThrottlingConfig

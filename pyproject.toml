@@ -9,7 +9,9 @@ dependencies = [
     "langchain-google-genai>=2.1.2",
     "langchain-mcp-adapters>=0.0.7",
     "langgraph>=0.3.25",
+    "openai>=1.71.0",
     "pydantic-settings>=2.8.1",
+    "qdrant-client>=1.13.3",
     "rich>=13.7.1",
     "structlog>=25.2.0",
 ]
