@@ -74,3 +74,37 @@ class QdrantVectorDBService(VectorDBServiceBase):
         except Exception as e:
             logger.error(f"Error upserting resume: {e}")
             raise e
+        
+    async def retrieve_REMOVED_BUCKET_NAME(self, query: str, num_REMOVED_BUCKET_NAME: int = 10, stringify: bool = False) -> list[Resume] | str:
+        try:
+            embedded_query = await self.embedder.embed(query)
+            results = await self.client.search(
+                collection_name=settings.QDRANT_COLLECTION_NAME,
+                query_vector=embedded_query,
+                limit=num_REMOVED_BUCKET_NAME,
+                with_payload=True
+            )
+            logger.info(f"Results: {results}")
+
+            REMOVED_BUCKET_NAME: list[Resume] = []
+            for result in results:
+                if result.payload and "resume" in result.payload:
+                    try:
+                        resume_obj = Resume.model_validate(result.payload["resume"])
+                        REMOVED_BUCKET_NAME.append(resume_obj)
+                    except Exception as parse_error:
+                        logger.error(f"Failed to parse resume payload: {result.payload.get('resume')}, Error: {parse_error}")
+                else:
+                     logger.warning(f"Found result with missing or empty payload: {result.id}")
+
+            if stringify:
+                resume_strings = []
+                for resume in REMOVED_BUCKET_NAME:
+                    resume_string = self._resume_to_string(resume)
+                    resume_strings.append(resume_string)
+                return "\n\n ---------- \n\n".join(resume_strings)
+            else:
+                return REMOVED_BUCKET_NAME
+        except Exception as e:
+            logger.error(f"Error retrieving REMOVED_BUCKET_NAME: {e}")
+            raise e

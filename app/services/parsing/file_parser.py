@@ -11,20 +11,20 @@ from app.services.vector_db.qdrant import QdrantVectorDBService
 
 logger = structlog.get_logger(__name__)
 
-def get_langchain_message(image_url: str) -> HumanMessage:
-    return HumanMessage(
-        content=[
-            {"type": "image_url", "image_url": {"url": image_url}},
-        ],
-    )
-
 class FileProcessor:
     def __init__(self):
         llm = ChatGoogleGenerativeAI(model=settings.GOOGLE_PARSING_MODEL, api_key=settings.GOOGLE_API_KEY)
         self.client = llm.with_structured_output(Resume)
         self.vector_db = QdrantVectorDBService()
     
-    async def get_image_urls(self, file: UploadFile) -> list[str]:
+    async def _get_langchain_message(self, image_url: str) -> HumanMessage:
+        return HumanMessage(
+            content=[
+                {"type": "image_url", "image_url": {"url": image_url}},
+            ],
+        )
+    
+    async def _get_image_urls(self, file: UploadFile) -> list[str]:
         # Read uploaded file into memory
         pdf_data = await file.read()
 
@@ -49,20 +49,20 @@ class FileProcessor:
             *[fitz_image_conversion(page_num) for page_num in range(len(pdf_document))]
         )
     
-    async def extract_resume(self, image_urls: list[str]) -> Resume:
+    async def _extract_resume(self, image_urls: list[str]) -> Resume:
         messages = [HumanMessage(
                 content="Extract all appropriate information from this resume. Do not make anything up"
             )]
 
         for image_url in image_urls:
-            messages.append(get_langchain_message(image_url))
+            messages.append(self._get_langchain_message(image_url))
 
         return await self.client.ainvoke(messages)
 
     async def parse(self, file: UploadFile) -> Resume:
         try:
-            image_paths = await self.get_image_urls(file)
-            resume = await self.extract_resume(image_paths)
+            image_paths = await self._get_image_urls(file)
+            resume = await self._extract_resume(image_paths)
 
             # TODO: upsert into Vector DB service
             await self.vector_db.upsert_resume(resume)

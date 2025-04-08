@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     OPENAI_EMBEDDING_MODEL: Literal["text-embedding-3-small", "text-embedding-3-large"] = "text-embedding-3-small"
     QDRANT_URL: str
     QDRANT_API_KEY: str
-    QDRANT_COLLECTION_NAME: str
+    QDRANT_COLLECTION_NAME: str = "REMOVED_BUCKET_NAME"
     # prompts: PromptsConfig
     # db_config: DBConfig
     # throttling_config: ThrottlingConfig
