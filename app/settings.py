@@ -9,10 +9,12 @@ class Settings(BaseSettings):
     debug: bool = True
     GOOGLE_API_KEY: str
     GOOGLE_PARSING_MODEL: Literal["gemini-2.0-flash-lite", "gemini-2.0-flash", "gemini-2.5-pro-preview-03-25"] = "gemini-2.0-flash-lite"
-    OPENAI_API_KEY: str
+    GOOGLE_EMBEDDING_MODEL: Literal["gemini-embedding-exp-03-07"] = "gemini-embedding-exp-03-07"
+    OPENAI_API_KEY: str | None = None
     OPENAI_EMBEDDING_MODEL: Literal["text-embedding-3-small", "text-embedding-3-large"] = "text-embedding-3-small"
     QDRANT_URL: str
     QDRANT_API_KEY: str
+    QDRANT_COLLECTION_NAME: str
     # prompts: PromptsConfig
     # db_config: DBConfig
     # throttling_config: ThrottlingConfig

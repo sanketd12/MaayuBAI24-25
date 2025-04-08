@@ -7,6 +7,7 @@ import base64
 import fitz
 from app.models.resume import Resume
 from langchain_core.messages import HumanMessage
+from app.services.vector_db.qdrant import QdrantVectorDBService
 
 logger = structlog.get_logger(__name__)
 
@@ -21,6 +22,7 @@ class FileProcessor:
     def __init__(self):
         llm = ChatGoogleGenerativeAI(model=settings.GOOGLE_PARSING_MODEL, api_key=settings.GOOGLE_API_KEY)
         self.client = llm.with_structured_output(Resume)
+        self.vector_db = QdrantVectorDBService()
     
     async def get_image_urls(self, file: UploadFile) -> list[str]:
         # Read uploaded file into memory
@@ -63,6 +65,7 @@ class FileProcessor:
             resume = await self.extract_resume(image_paths)
 
             # TODO: upsert into Vector DB service
+            await self.vector_db.upsert_resume(resume)
             return resume
         
         except Exception as e:
