@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import Optional, Literal
+from typing import Literal
 
 class Skill(BaseModel):
     name: str = Field(description="The name of the skill - e.g. 'Kubernetes'")

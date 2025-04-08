@@ -2,7 +2,7 @@ from langgraph.graph import StateGraph, START, END
 from langchain_core.runnables import RunnableConfig
 
 from app.services.candidate_finder.config import Configuration
-from app.services.candidate_finder.state import CandidateFinderState, CandidateFinderStateInput, CandidateFinderStateOutput
+from app.services.candidate_finder.state import CandidateFinderState, CandidateFinderStateInput
 from rich import print
 
 from langchain_google_genai import ChatGoogleGenerativeAI
