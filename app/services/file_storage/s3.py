@@ -5,7 +5,6 @@ import boto3
 from typing import BinaryIO
 import uuid
 import structlog
-import os
 
 from fastapi import UploadFile
 
@@ -40,7 +39,7 @@ class S3FileStorageService(BaseFileStorageService):
         try:
             # convert file_obj
             file_obj = await self._convert_file_obj(file_obj)
-            
+
             key = f"{uuid.uuid4()}/{filename}"
             self._client.upload_fileobj(
                 file_obj,
