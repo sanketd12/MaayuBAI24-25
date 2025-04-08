@@ -1,11 +1,10 @@
 from langgraph.graph import StateGraph, START, END
 from langchain_core.runnables import RunnableConfig
 
-from app.agent.configuration import Configuration
-from app.agent.state import SlackbotState, SlackbotStateInput, SlackbotStateOutput
-from baml_client.types import Category
-from baml_client.async_client import b
+from app.services.agent.config import Configuration
+from app.services.agent.state import SlackbotState, SlackbotStateInput, SlackbotStateOutput
 from rich import print
+from app.settings import Settings
 
 async def categorize_message(state: SlackbotState, config: RunnableConfig) -> SlackbotState:
     configurable = Configuration.from_runnable_config(config)

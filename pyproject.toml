@@ -10,4 +10,6 @@ dependencies = [
     "langchain-mcp-adapters>=0.0.7",
     "langgraph>=0.3.25",
     "pydantic-settings>=2.8.1",
+    "rich>=13.7.1",
+    "structlog>=25.2.0",
 ]

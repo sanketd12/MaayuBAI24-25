@@ -1,38 +1,18 @@
-from app.models.config import DBConfig, ThrottlingConfig
-from app.models.prompt import PromptsConfig
 from app.utils.filesystem import get_project_root
 from pydantic_settings import BaseSettings, SettingsConfigDict, PydanticBaseSettingsSource, YamlConfigSettingsSource
-from enum import Enum
-
-
-class LLMProvider(str, Enum):
-    OPENAI = "openai"
-    ANTHROPIC = "anthropic"
-
+# from app.models.config import DBConfig, ThrottlingConfig
+# from app.models.prompt import PromptsConfig
 
 class Settings(BaseSettings):
     debug: bool = True
-    llm_api_key: str
-    llm_model: str
-    llm_provider: LLMProvider = LLMProvider.OPENAI
-    lemonsqueezy_api_key: str
-    lemonsqueezy_webhook_secret: str = 'test123'   # TODO: change to real secret
-    lemonsqueezy_product_id: int
-    lemonsqueezy_store_id: str
-    lemonsqueezy_default_variant_id: str
-    redis_host: str = "localhost"
-    redis_port: int = 6379
-    sentry_dsn: str
-    rephrase_temperature: float = 1
-    fix_grammar_temperature: float = 1
-    mixpanel_api_key: str
-    prompts: PromptsConfig
-    db_config: DBConfig
-    throttling_config: ThrottlingConfig
+    GOOGLE_API_KEY: str
+    # prompts: PromptsConfig
+    # db_config: DBConfig
+    # throttling_config: ThrottlingConfig
 
     model_config = SettingsConfigDict(
         env_file=get_project_root() / ".env",
-        yaml_file=[get_project_root() / "config.yaml", get_project_root() / "prompts.yaml"]
+        # yaml_file=[get_project_root() / "config.yaml", get_project_root() / "prompts.yaml"]
     )
 
     @classmethod
