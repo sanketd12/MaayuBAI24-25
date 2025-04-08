@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api import agent_router
+from app.api import agent_router, ingestion_router
 
 from app.settings import settings
 
@@ -16,6 +16,7 @@ app.add_middleware(
 )
 
 app.include_router(agent_router)
+app.include_router(ingestion_router)
 
 if __name__ == "__main__":
     import uvicorn
