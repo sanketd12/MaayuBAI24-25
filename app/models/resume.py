@@ -30,3 +30,6 @@ class Resume(BaseModel):
     honors: list[Honor]
     certificates: list[Certificate]
     miscellaneous: Optional[str] = Field(description="OPTIONAL - anything else included in the resume that doesn't fall into one of these categories")
+
+class ResumeWithMetadata(Resume):
+    aws_key: str = Field(description="The AWS key for the resume")
