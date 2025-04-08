@@ -1,7 +1,7 @@
 [project]
-name = "uv-fastapi-example"
+name = "maayu"
 version = "0.1.0"
-description = "Add your description here"
+description = "A suite of MCP servers and extraction tools for Maayu AI"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
