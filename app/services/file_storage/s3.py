@@ -3,12 +3,12 @@ from app.settings import settings
 
 import boto3
 from typing import BinaryIO
-import uuid
 import structlog
 
 from fastapi import UploadFile
 
 logger = structlog.get_logger(__name__)
+
 class S3FileStorageService(BaseFileStorageService):
     _client = None
 
@@ -35,12 +35,11 @@ class S3FileStorageService(BaseFileStorageService):
         await file_obj.seek(0)
         return file_obj.file
     
-    async def upload_object(self, file_obj: UploadFile, filename: str, content_type: str):
+    async def upload_object(self, file_obj: UploadFile, key: str, content_type: str):
         try:
             # convert file_obj
             file_obj = await self._convert_file_obj(file_obj)
 
-            key = f"{uuid.uuid4()}/{filename}"
             self._client.upload_fileobj(
                 file_obj,
                 settings.AWS_S3_BUCKET,

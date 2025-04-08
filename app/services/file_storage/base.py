@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-
+from fastapi import UploadFile
 from app.utils.singleton import AbstractSingleton
 
 
@@ -16,14 +16,14 @@ class BaseFileStorageService(ABC, metaclass=AbstractSingleton):
         return self.client
     
     @abstractmethod
-    async def upload_object(self, file_path: str, bucket_name: str, key: str):
+    async def upload_object(self, file_obj: UploadFile, key: str, content_type: str):
         raise NotImplementedError()
     
     @abstractmethod
-    async def get_object(self, bucket_name: str, key: str):
+    async def get_object(self, key: str):
         raise NotImplementedError()
     
     @abstractmethod
-    async def delete_object(self, bucket_name: str, key: str):
+    async def delete_object(self, key: str):
         raise NotImplementedError()
     
