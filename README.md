@@ -1,17 +1,33 @@
-# uv-fastapi-example
+# Maayu FastAPI Candidate Selection System
 
-An example of a [FastAPI](https://github.com/fastapi/fastapi) application managed as a
-[uv](https://github.com/astral-sh/uv) project.
+To run this FastAPI app:
 
-Based on the [multi-file example](https://fastapi.tiangolo.com/tutorial/bigger-applications/) from
-the FastAPI documentation.
+1. Install `uv`:
+https://docs.astral.sh/uv/getting-started/installation/
 
-## License
+2. Create a virtual environment:
+`uv venv --python=3.12`
 
-MIT
+3. Activate the virtual environment
 
-<div align="center">
-  <a target="_blank" href="https://astral.sh" style="background:none">
-    <img src="https://raw.githubusercontent.com/astral-sh/uv/main/assets/svg/Astral.svg" alt="Made by Astral">
-  </a>
-</div>
+4. Install dependencies
+`uv sync`
+
+5. Add the .env variables (all of this is free so no worry about sharing them):
+
+GOOGLE_API_KEY=REMOVED_GOOGLE_KEY
+
+QDRANT_URL=REMOVED_QDRANT_URL
+QDRANT_API_KEY=REMOVED_QDRANT_KEY
+QDRANT_COLLECTION_NAME=REMOVED_BUCKET_NAME
+
+AWS_ACCESS_KEY_ID=REMOVED_AWS_KEY_ID
+AWS_SECRET_ACCESS_KEY=REMOVED_AWS_SECRET
+AWS_REGION=us-east-1
+AWS_S3_BUCKET=REMOVED_BUCKET_NAME
+
+
+6. Run the FastAPI server:
+`uv run fastapi dev`
+
+7. Navigate to `http://127.0.0.1:8000/docs` in your browser to test out the apps
