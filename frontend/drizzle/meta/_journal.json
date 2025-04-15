@@ -8,6 +8,13 @@
       "when": 1744677092660,
       "tag": "0000_keen_doctor_faustus",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1744679576394,
+      "tag": "0001_shallow_jack_power",
+      "breakpoints": true
     }
   ]
 }
