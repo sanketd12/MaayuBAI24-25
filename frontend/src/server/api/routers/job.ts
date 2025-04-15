@@ -6,11 +6,15 @@ import { jobs } from "~/server/db/schema";
 
 export const jobRouter = createTRPCRouter({
   create: authedProcedure
-    .input(z.object({ name: z.string().min(1), description: z.string().min(1) }))
+    .input(z.object({ name: z.string().min(1), description: z.string().min(1), salary: z.number().int().positive(), type: z.enum(["full-time", "part-time", "internship"]), work_mode: z.enum(["remote", "hybrid", "office"]), location: z.string() }))
     .mutation(async ({ ctx, input }) => {
       await ctx.db.insert(jobs).values({
         name: input.name,
         description: input.description,
+        salary: input.salary,
+        type: input.type,
+        work_mode: input.work_mode,
+        location: input.location,
         status: "open",
         userId: ctx.userId,
       });
