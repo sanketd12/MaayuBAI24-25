@@ -41,11 +41,15 @@ export const jobRouter = createTRPCRouter({
     }),
 
   updateJobDetails: authedProcedure
-    .input(z.object({ id: z.number(), name: z.string().min(1), description: z.string().min(1) }))
+    .input(z.object({ id: z.number(), name: z.string().min(1), description: z.string().min(1), salary: z.number().int().positive(), type: z.enum(["full-time", "part-time", "internship"]), work_mode: z.enum(["remote", "hybrid", "office"]), location: z.string() }))
     .mutation(async ({ ctx, input }) => {
       await ctx.db.update(jobs).set({
         name: input.name,
         description: input.description,
+        salary: input.salary,
+        type: input.type,
+        work_mode: input.work_mode,
+        location: input.location,
       }).where(and(eq(jobs.id, input.id), eq(jobs.userId, ctx.userId)));
     }),
 
