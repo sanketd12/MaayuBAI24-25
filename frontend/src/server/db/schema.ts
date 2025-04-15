@@ -85,7 +85,7 @@ export const candidates = createTable(
     email: d.varchar({ length: 256 }).notNull(),
     bucketId: d.integer().references(() => buckets.id, { onDelete: 'cascade' }).notNull(),
     resume_file_name: d.varchar({ length: 256 }).notNull(),
-    resume_aws_key: d.varchar({ length: 256 }).notNull(),
+    // resume_aws_key: d.varchar({ length: 256 }).notNull(),
     createdAt: d
       .timestamp({ withTimezone: true })
       .default(sql`CURRENT_TIMESTAMP`)
