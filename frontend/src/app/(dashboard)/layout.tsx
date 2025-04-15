@@ -6,6 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { cn } from "~/lib/utils";
+import PlatformHeader from "./_header";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   const links = [
@@ -69,9 +70,20 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           </div>
         </SidebarBody>
       </Sidebar>
-      {children}
+      <ContentLayout>
+        {children}
+      </ContentLayout>
     </div>
   );
+}
+
+function ContentLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden px-2 py-2">
+        <PlatformHeader />
+        {children}
+    </div>
+  )
 }
 
 export const Logo = () => {
