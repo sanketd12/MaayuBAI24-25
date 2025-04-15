@@ -15,6 +15,20 @@
       "when": 1744679576394,
       "tag": "0001_shallow_jack_power",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1744752041454,
+      "tag": "0002_cuddly_cardiac",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1744752384768,
+      "tag": "0003_unique_captain_america",
+      "breakpoints": true
     }
   ]
 }
