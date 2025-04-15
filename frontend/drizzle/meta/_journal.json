@@ -36,6 +36,13 @@
       "when": 1744754328767,
       "tag": "0004_supreme_wrecking_crew",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1744755059589,
+      "tag": "0005_curved_sleepwalker",
+      "breakpoints": true
     }
   ]
 }

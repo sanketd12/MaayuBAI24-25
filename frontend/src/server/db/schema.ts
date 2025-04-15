@@ -105,6 +105,10 @@ export const jobs = createTable(
     id: d.integer().primaryKey().generatedByDefaultAsIdentity(),
     name: d.varchar({ length: 256 }).notNull(),
     description: d.text().notNull(),
+    salary: d.integer().notNull(),
+    type: d.text("type", { enum: ["full-time", "part-time", "internship"] }).notNull(),
+    work_mode: d.text("work_mode", { enum: ["remote", "hybrid", "office"] }).notNull(),
+    location: d.varchar({ length: 256 }).notNull(),
     createdAt: d
       .timestamp({ withTimezone: true })
       .default(sql`CURRENT_TIMESTAMP`)
