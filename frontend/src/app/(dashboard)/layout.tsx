@@ -79,9 +79,9 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
 function ContentLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden px-2 py-2">
+    <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
         <PlatformHeader />
-        {children}
+        <div className="px-4 mt-4">{children}</div>
     </div>
   )
 }

@@ -179,7 +179,7 @@ export default function JobManagement() {
         </Dialog>
       </div>
 
-      <div className="grid gap-6">
+      <div className="grid gap-6 px-6">
         {jobs.map((job) => (
           <Card key={job.id}>
             <CardHeader className="pb-3">
