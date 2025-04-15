@@ -11,6 +11,7 @@ import superjson from "superjson";
 import { ZodError } from "zod";
 import { auth } from "~/lib/auth";
 import { TRPCError } from "@trpc/server";
+import { env } from "~/env";
 
 import { db } from "~/server/db";
 
@@ -114,5 +115,12 @@ export const authedProcedure = t.procedure.use(async ({ ctx, next }) => {
   if (!authSession) {
     throw new TRPCError({ code: "UNAUTHORIZED" });
   }
-  return next({ ctx: { userId: authSession.session.userId } });
+
+  // get the Python backend URL
+  const pythonBackendUrl = env.PYTHON_BACKEND_URL;
+
+  return next({ ctx: { 
+    userId: authSession.session.userId,
+    pythonBackendUrl: pythonBackendUrl
+  } });
 });

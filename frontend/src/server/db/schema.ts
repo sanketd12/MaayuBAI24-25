@@ -91,6 +91,7 @@ export const candidates = createTable(
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
     updatedAt: d.timestamp({ withTimezone: true }).$onUpdate(() => new Date()).notNull(),
+    userId: d.text('user_id').notNull().references(()=> user.id, { onDelete: 'cascade' }),
   }),
 );
 
