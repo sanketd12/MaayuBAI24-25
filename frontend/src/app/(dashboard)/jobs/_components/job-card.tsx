@@ -46,7 +46,7 @@ import Link from "next/link";
 import React from "react";
 
 // Helper to format salary nicely
-const formatSalary = (salary: number | null | undefined) => {
+export const formatSalary = (salary: number | null | undefined) => {
     if (salary === null || salary === undefined) return "N/A";
     return new Intl.NumberFormat("en-US", {
         style: "currency",
