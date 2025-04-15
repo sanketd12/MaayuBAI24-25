@@ -26,7 +26,7 @@ export function LatestPost() {
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          createPost.mutate({ name });
+          createPost.mutate({ name, description: "None" });
         }}
         className="flex flex-col gap-2"
       >
