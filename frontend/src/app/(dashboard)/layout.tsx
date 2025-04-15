@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "~/components/ui/sidebar";
-import { LayoutDashboard, UserCog, Settings, LogOut, User } from "lucide-react";
+import { LayoutDashboard, UserCog, Settings, LogOut, User, Briefcase } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -17,11 +17,18 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       ),
     },
     {
-      label: "Candidate Pool",
-      href: "/candidates",
+      label: "Jobs",
+      href: "/jobs",
       icon: (
-        <UserCog className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <Briefcase className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
+    },
+    {
+        label: "Candidate Pool",
+        href: "/candidates",
+        icon: (
+          <UserCog className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        ),
     },
     {
       label: "Settings",
@@ -40,7 +47,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       )}
     >
       <Sidebar open={open} setOpen={setOpen}>
-        <SidebarBody className="justify-between gap-10">
+        <SidebarBody className="justify-between gap-10 bg-gray-200">
           <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
             {open ? <Logo /> : <LogoIcon />}
             <div className="mt-8 flex flex-col gap-2">
