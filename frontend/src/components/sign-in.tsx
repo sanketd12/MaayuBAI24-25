@@ -16,9 +16,11 @@ import { useState } from "react";
 import { Loader2 } from "lucide-react";
 import { signIn } from "~/lib/auth-client";
 import Link from "next/link";
-import { cn } from "~/lib/utils";
+import { toast } from "sonner";
+import { useRouter } from "next/navigation";
 
 export default function SignIn() {
+	const router = useRouter();
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 	const [loading, setLoading] = useState(false);
@@ -81,7 +83,26 @@ export default function SignIn() {
 						className="w-full"
 						disabled={loading}
 						onClick={async () => {
-							await signIn.email({ email, password });
+							setLoading(true);
+							await signIn.email({ 
+								email, 
+								password,
+								callbackURL: "/dashboard",
+								fetchOptions: {
+									onResponse: () => {
+										setLoading(false);
+									},
+									onRequest: () => {
+										setLoading(true);
+									},
+									onError: (ctx) => {
+										toast.error(ctx.error.message);
+									},
+									onSuccess: async () => {
+										router.push("/dashboard");
+									},
+								},
+							});
 						}}
 					>
 						{loading ? <Loader2 size={16} className="animate-spin" /> : "Login"}
