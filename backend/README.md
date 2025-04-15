@@ -13,19 +13,7 @@ https://docs.astral.sh/uv/getting-started/installation/
 4. Install dependencies
 `uv sync`
 
-5. Add the .env variables (all of this is free so no worry about sharing them):
-
-GOOGLE_API_KEY=REMOVED_GOOGLE_KEY
-
-QDRANT_URL=REMOVED_QDRANT_URL
-QDRANT_API_KEY=REMOVED_QDRANT_KEY
-QDRANT_COLLECTION_NAME=REMOVED_BUCKET_NAME
-
-AWS_ACCESS_KEY_ID=REMOVED_AWS_KEY_ID
-AWS_SECRET_ACCESS_KEY=REMOVED_AWS_SECRET
-AWS_REGION=us-east-1
-AWS_S3_BUCKET=REMOVED_BUCKET_NAME
-
+5. Create a `.env` file within the root folder and paste in the environment variables (see the groupchat for exact credentials)
 
 6. Run the FastAPI server:
 `uv run fastapi dev`
