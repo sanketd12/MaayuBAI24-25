@@ -83,7 +83,7 @@ export default function CreateBucketDialog({ open, setOpen }: CreateBucketDialog
 
     return (
         <Dialog open={open} onOpenChange={handleOpenChange}>
-            <DialogContent className="sm:max-w-[425px]"> {/* Adjusted width */}
+            <DialogContent className="sm:max-w-[425px] border-border"> {/* Adjusted width */}
                 <DialogHeader>
                     <DialogTitle>Create New Bucket</DialogTitle>
                     <DialogDescription>

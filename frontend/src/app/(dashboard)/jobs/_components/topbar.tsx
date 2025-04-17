@@ -17,7 +17,7 @@ export default function JobTopBar({
 
     return (
         <>
-            <div className="flex flex-wrap items-center gap-4 border-b pb-4">
+            <div className="flex flex-wrap items-center gap-4 pb-4">
                 <div className="flex-grow">
                     <JobSearchBar value={searchTerm} onChange={onSearchChange} />
                 </div>

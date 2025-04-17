@@ -103,7 +103,7 @@ export default function CreateJobDialog({ open, setOpen }: { open: boolean, setO
 
     return (
         <Dialog open={open} onOpenChange={handleOpenChange}>
-            <DialogContent className="sm:max-w-[600px]">
+            <DialogContent className="sm:max-w-[600px] border-border">
                 <DialogHeader>
                     <DialogTitle>Create Job Posting</DialogTitle>
                     <DialogDescription>

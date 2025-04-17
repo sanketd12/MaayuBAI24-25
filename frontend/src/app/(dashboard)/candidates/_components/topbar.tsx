@@ -9,7 +9,7 @@ interface BucketTopBarProps {
 
 export default function BucketTopBar({ onCreateNew }: BucketTopBarProps) {
     return (
-        <div className="flex flex-wrap items-center justify-between gap-4 border-b pb-4">
+        <div className="flex flex-wrap items-center justify-between gap-4 pb-4">
             <h1 className="text-2xl font-semibold tracking-tight">Candidate Buckets</h1>
             <Button onClick={onCreateNew}>
                 <FolderPlus className="mr-2 h-4 w-4" />
