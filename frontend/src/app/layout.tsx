@@ -1,10 +1,25 @@
 import "~/styles/globals.css";
 
 import { type Metadata } from "next";
-import { Geist } from "next/font/google";
 import { Toaster } from "~/components/ui/sonner"
+import { Plus_Jakarta_Sans, Lora, Roboto_Mono } from "next/font/google";
 
 import { TRPCReactProvider } from "~/trpc/react";
+
+const fontSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
+
+const fontSerif = Lora({
+  subsets: ["latin"],
+  variable: "--font-serif",
+});
+
+const fontMono = Roboto_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+});
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -12,17 +27,12 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
-});
-
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable}`}>
-      <body>
+    <html lang="en" className={`${fontSans.variable} ${fontSerif.variable} ${fontMono.variable} dark`}>
+      <body className={`font-sans`}>
         <TRPCReactProvider>{children}</TRPCReactProvider>
         <Toaster />
       </body>

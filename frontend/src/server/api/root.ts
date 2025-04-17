@@ -1,4 +1,6 @@
 import { jobRouter } from "~/server/api/routers/job";
+import { bucketRouter } from "~/server/api/routers/bucket";
+import { candidateRouter } from "~/server/api/routers/candidate";
 import { createCallerFactory, createTRPCRouter } from "~/server/api/trpc";
 
 /**
@@ -8,6 +10,8 @@ import { createCallerFactory, createTRPCRouter } from "~/server/api/trpc";
  */
 export const appRouter = createTRPCRouter({
   job: jobRouter,
+  bucket: bucketRouter,
+  candidate: candidateRouter,
 });
 
 // export type definition of API
