@@ -31,7 +31,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${fontSans.variable} ${fontSerif.variable} ${fontMono.variable} dark`}>
+    <html lang="en" className={`${fontSans.variable} ${fontSerif.variable} ${fontMono.variable} dark bg-background text-white`}>
       <body className={`font-sans`}>
         <TRPCReactProvider>{children}</TRPCReactProvider>
         <Toaster />

@@ -108,7 +108,7 @@ export default function BucketCard({ bucket }: { bucket: Bucket }) {
 
     return (
         <>
-            <Card className="w-full max-w-sm transition-shadow duration-200 hover:shadow-md">
+            <Card className="w-full max-w-sm transition-shadow duration-200 hover:shadow-md border-none">
                 <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-4">
                     <div className="flex-grow space-y-1 pr-2">
                         {isEditing ? (

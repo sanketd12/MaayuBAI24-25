@@ -166,7 +166,7 @@ export default function JobCard({ job }: { job: Job }) {
     return (
         <>
             <LinkWrapper {...linkProps}>
-                <Card className={`w-full transition-shadow duration-200 ${!isEditing ? 'hover:shadow-lg cursor-pointer' : ''}`}>
+                <Card className={`w-full transition-shadow duration-200 border-none ${!isEditing ? 'hover:shadow-lg cursor-pointer' : ''}`}>
                     <CardHeader className="flex flex-row items-start justify-between space-y-0 pb-2">
                         <div className="space-y-1">
                             {isEditing ? (
