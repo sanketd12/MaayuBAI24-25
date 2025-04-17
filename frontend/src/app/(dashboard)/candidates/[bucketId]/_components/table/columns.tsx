@@ -14,6 +14,7 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "~/components/ui/dropdown-menu"
+import { DataTableColumnHeader } from "~/components/ui/column-header";
 
 export const columns: ColumnDef<Candidate>[] = [
     {
@@ -40,29 +41,27 @@ export const columns: ColumnDef<Candidate>[] = [
     },
     {
         accessorKey: "name",
-        header: "Name",
+        header: ({ column }) => (
+            <DataTableColumnHeader column={column} title="Name" />
+        )
     },
     {
         accessorKey: "email",
-        header: ({ column }) => {
-            return (
-                <Button
-                    variant="ghost"
-                    onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
-                >
-                    Email
-                    <ArrowUpDown className="ml-2 h-4 w-4" />
-                </Button>
-            )
-        },
+        header: ({ column }) => (
+            <DataTableColumnHeader column={column} title="Email" />
+        )
     },
     {
         accessorKey: "createdAt",
-        header: "Created At",
+        header: ({ column }) => (
+            <DataTableColumnHeader column={column} title="Created At" />
+        )
     },
     {
         accessorKey: "updatedAt",
-        header: "Updated At",
+        header: ({ column }) => (
+            <DataTableColumnHeader column={column} title="Updated At" />
+        )
     },
     {
         id: "actions",
