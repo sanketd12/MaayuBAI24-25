@@ -12,6 +12,7 @@ import {
     getSortedRowModel,
     useReactTable,
 } from "@tanstack/react-table"
+import UploadResumeDialog from "./upload-resume-dialog"
 
 import {
     Table,
@@ -52,6 +53,8 @@ export function DataTable<TData, TValue>({
     const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({})
     const [rowSelection, setRowSelection] = useState({})
 
+    const [uploadResumeDialogOpen, setUploadResumeDialogOpen] = useState(false)
+
     const table = useReactTable({
         data,
         columns,
@@ -73,6 +76,7 @@ export function DataTable<TData, TValue>({
 
     return (
         <div>
+            <UploadResumeDialog open={uploadResumeDialogOpen} onOpenChange={setUploadResumeDialogOpen} />
             <div className="flex items-center py-2 gap-2">
                 <div className="relative flex-1">
                     <Search className="absolute left-2.5 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -96,7 +100,7 @@ export function DataTable<TData, TValue>({
                         )}
                     </div>
                     <DataTableViewOptions table={table} />
-                    <Button variant="outline" size="icon">
+                    <Button variant="outline" size="icon" onClick={() => setUploadResumeDialogOpen(true)}>
                         <Plus className="w-4 h-4" />
                     </Button>
                 </div>

@@ -1,7 +1,7 @@
 "use client";
  
 import { Button } from "~/components/ui/button";
-import { uploadFiles } from "@/lib/uploadthing";
+import { uploadFiles } from "~/lib/uploadthing";
 import {
   FileUpload,
   FileUploadDropzone,
@@ -18,7 +18,7 @@ import * as React from "react";
 import { toast } from "sonner";
 import { UploadThingError } from "uploadthing/server";
  
-export function FileUploadUploadThingDemo() {
+export function UploadBox() {
   const [isUploading, setIsUploading] = React.useState(false);
   const [files, setFiles] = React.useState<File[]>([]);
  

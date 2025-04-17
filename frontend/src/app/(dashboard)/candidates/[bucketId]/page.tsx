@@ -1,6 +1,5 @@
-import CandidateTable from "./_components/candidate-table";
-import { DataTable } from "./_components/table/data-table";
-import { columns } from "./_components/table/columns";
+import { DataTable } from "./_components/data-table";
+import { columns } from "./_components/columns";
 
 export default function CandidateBucketPage() {
     return (
