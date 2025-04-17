@@ -120,7 +120,7 @@ export default function BucketCard({ bucket }: { bucket: Bucket }) {
                                 placeholder="Bucket Name"
                                 autoFocus
                                 onKeyDown={(e) => { if (e.key === 'Enter') handleSave(); if (e.key === 'Escape') handleCancelEdit(); }}
-                                disabled={updateBucketMutation.isLoading}
+                                disabled={updateBucketMutation.isPending}
                             />
                         ) : (
                             <CardTitle className="truncate text-lg leading-tight">{editedName}</CardTitle>

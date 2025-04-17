@@ -44,6 +44,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "~/components/ui/collapsible"
 import { Progress } from "~/components/ui/progress"
 import { Avatar, AvatarFallback, AvatarImage } from "~/components/ui/avatar"
+import { FileUpload } from "~/components/ui/file-upload"
 
 // Mock data for candidates
 const initialCandidates = [
@@ -323,7 +324,7 @@ export default function CandidatesPool() {
               <div className="grid gap-4 py-4">
                 <div className="grid gap-2">
                   <Label htmlFor="files">Resume Files</Label>
-                  <Input id="files" type="file" multiple accept=".pdf,.doc,.docx" onChange={handleFileChange} />
+                  <FileUpload />
                   <p className="text-xs text-muted-foreground">
                     Supported formats: PDF, DOC, DOCX. Maximum file size: 10MB.
                   </p>
