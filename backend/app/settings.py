@@ -19,6 +19,9 @@ class Settings(BaseSettings):
     AWS_SECRET_ACCESS_KEY: str
     AWS_REGION: str = "us-east-1"
     AWS_S3_BUCKET: str = "REMOVED_BUCKET_NAME"
+    TWILIO_ACCOUNT_SID: str
+    TWILIO_AUTH_TOKEN: str
+    TWILIO_WHATSAPP_FROM: str
     # prompts: PromptsConfig
     # db_config: DBConfig
     # throttling_config: ThrottlingConfig
