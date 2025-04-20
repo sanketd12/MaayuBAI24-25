@@ -1,16 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { WebsiteHeader } from '@/components/website-header'
 import { Outlet } from '@tanstack/react-router'
 
-export const Route = createFileRoute('/_website')({
+export const Route = createFileRoute('/_auth')({
   component: RouteComponent,
 })
 
 function RouteComponent() {
   return (
-    <>
-      <WebsiteHeader />
+    <div className="flex h-svh flex-col items-center justify-center">
       <Outlet />
-    </>
+    </div>
   )
 }

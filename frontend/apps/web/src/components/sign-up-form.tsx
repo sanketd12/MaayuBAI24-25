@@ -8,11 +8,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 
-export default function SignUpForm({
-	onSwitchToSignIn,
-}: {
-	onSwitchToSignIn: () => void;
-}) {
+export default function SignUpForm() {
 	const navigate = useNavigate({
 		from: "/",
 	});
@@ -153,7 +149,7 @@ export default function SignUpForm({
 			<div className="mt-4 text-center">
 				<Button
 					variant="link"
-					onClick={onSwitchToSignIn}
+					onClick={() => navigate({ to: "/sign-in" })}
 					className="text-indigo-600 hover:text-indigo-800"
 				>
 					Already have an account? Sign In

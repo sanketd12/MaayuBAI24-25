@@ -37,6 +37,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-  ],
+, "../frontend/apps/web/src/components/hero-section copy.tsx"  ],
   "exclude": ["node_modules"]
 }

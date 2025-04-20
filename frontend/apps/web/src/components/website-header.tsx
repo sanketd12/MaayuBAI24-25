@@ -1,13 +1,12 @@
 'use client'
 
-import Link from 'next/link'
-import { Logo } from './logo'
+import { Link } from '@tanstack/react-router'
 import { Menu, X } from 'lucide-react'
-import { Button } from '~/components/ui/button'
+import { Button } from '@/components/ui/button'
 import React from 'react'
 import { useScroll } from 'motion/react'
-import { cn } from '~/lib/utils'
-
+import { cn } from '@/lib/utils'
+import { Logo } from '@/components/logo'
 const menuItems = [
     { name: 'Features', href: '#link' },
     { name: 'Solution', href: '#link' },
@@ -15,7 +14,7 @@ const menuItems = [
     { name: 'About', href: '#link' },
 ]
 
-export const HeroHeader = () => {
+export const WebsiteHeader = () => {
     const [menuState, setMenuState] = React.useState(false)
     const [scrolled, setScrolled] = React.useState(false)
 
@@ -37,7 +36,7 @@ export const HeroHeader = () => {
                     <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
                         <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
                             <Link
-                                href="/"
+                                to="/"
                                 aria-label="home"
                                 className="flex items-center space-x-2">
                                 <Logo />
@@ -56,7 +55,7 @@ export const HeroHeader = () => {
                                     {menuItems.map((item, index) => (
                                         <li key={index}>
                                             <Link
-                                                href={item.href}
+                                                to={item.href}
                                                 className="text-muted-foreground hover:text-accent-foreground block duration-150">
                                                 <span>{item.name}</span>
                                             </Link>
@@ -72,7 +71,7 @@ export const HeroHeader = () => {
                                     {menuItems.map((item, index) => (
                                         <li key={index}>
                                             <Link
-                                                href={item.href}
+                                                to={item.href}
                                                 className="text-muted-foreground hover:text-accent-foreground block duration-150">
                                                 <span>{item.name}</span>
                                             </Link>
@@ -85,14 +84,14 @@ export const HeroHeader = () => {
                                     asChild
                                     variant="outline"
                                     size="sm">
-                                    <Link href="/sign-in">
+                                    <Link to="/sign-in">
                                         <span>Login</span>
                                     </Link>
                                 </Button>
                                 <Button
                                     asChild
                                     size="sm">
-                                    <Link href="/sign-up">
+                                    <Link to="/sign-up">
                                         <span>Sign Up</span>
                                     </Link>
                                 </Button>
