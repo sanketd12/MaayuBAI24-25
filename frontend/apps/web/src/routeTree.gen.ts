@@ -17,7 +17,10 @@ import { Route as WebsiteImport } from './routes/_website'
 import { Route as PlatformImport } from './routes/_platform'
 import { Route as AuthImport } from './routes/_auth'
 import { Route as WebsiteIndexImport } from './routes/_website/index'
+import { Route as PlatformSettingsImport } from './routes/_platform/settings'
+import { Route as PlatformJobsImport } from './routes/_platform/jobs'
 import { Route as PlatformDashboardImport } from './routes/_platform/dashboard'
+import { Route as PlatformCandidatesImport } from './routes/_platform/candidates'
 import { Route as AuthSignUpImport } from './routes/_auth/sign-up'
 import { Route as AuthSignInImport } from './routes/_auth/sign-in'
 
@@ -56,9 +59,27 @@ const WebsiteIndexRoute = WebsiteIndexImport.update({
   getParentRoute: () => WebsiteRoute,
 } as any)
 
+const PlatformSettingsRoute = PlatformSettingsImport.update({
+  id: '/settings',
+  path: '/settings',
+  getParentRoute: () => PlatformRoute,
+} as any)
+
+const PlatformJobsRoute = PlatformJobsImport.update({
+  id: '/jobs',
+  path: '/jobs',
+  getParentRoute: () => PlatformRoute,
+} as any)
+
 const PlatformDashboardRoute = PlatformDashboardImport.update({
   id: '/dashboard',
   path: '/dashboard',
+  getParentRoute: () => PlatformRoute,
+} as any)
+
+const PlatformCandidatesRoute = PlatformCandidatesImport.update({
+  id: '/candidates',
+  path: '/candidates',
   getParentRoute: () => PlatformRoute,
 } as any)
 
@@ -127,11 +148,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthSignUpImport
       parentRoute: typeof AuthImport
     }
+    '/_platform/candidates': {
+      id: '/_platform/candidates'
+      path: '/candidates'
+      fullPath: '/candidates'
+      preLoaderRoute: typeof PlatformCandidatesImport
+      parentRoute: typeof PlatformImport
+    }
     '/_platform/dashboard': {
       id: '/_platform/dashboard'
       path: '/dashboard'
       fullPath: '/dashboard'
       preLoaderRoute: typeof PlatformDashboardImport
+      parentRoute: typeof PlatformImport
+    }
+    '/_platform/jobs': {
+      id: '/_platform/jobs'
+      path: '/jobs'
+      fullPath: '/jobs'
+      preLoaderRoute: typeof PlatformJobsImport
+      parentRoute: typeof PlatformImport
+    }
+    '/_platform/settings': {
+      id: '/_platform/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof PlatformSettingsImport
       parentRoute: typeof PlatformImport
     }
     '/_website/': {
@@ -159,11 +201,17 @@ const AuthRouteChildren: AuthRouteChildren = {
 const AuthRouteWithChildren = AuthRoute._addFileChildren(AuthRouteChildren)
 
 interface PlatformRouteChildren {
+  PlatformCandidatesRoute: typeof PlatformCandidatesRoute
   PlatformDashboardRoute: typeof PlatformDashboardRoute
+  PlatformJobsRoute: typeof PlatformJobsRoute
+  PlatformSettingsRoute: typeof PlatformSettingsRoute
 }
 
 const PlatformRouteChildren: PlatformRouteChildren = {
+  PlatformCandidatesRoute: PlatformCandidatesRoute,
   PlatformDashboardRoute: PlatformDashboardRoute,
+  PlatformJobsRoute: PlatformJobsRoute,
+  PlatformSettingsRoute: PlatformSettingsRoute,
 }
 
 const PlatformRouteWithChildren = PlatformRoute._addFileChildren(
@@ -187,7 +235,10 @@ export interface FileRoutesByFullPath {
   '/todos': typeof TodosRoute
   '/sign-in': typeof AuthSignInRoute
   '/sign-up': typeof AuthSignUpRoute
+  '/candidates': typeof PlatformCandidatesRoute
   '/dashboard': typeof PlatformDashboardRoute
+  '/jobs': typeof PlatformJobsRoute
+  '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
 }
 
@@ -197,7 +248,10 @@ export interface FileRoutesByTo {
   '/todos': typeof TodosRoute
   '/sign-in': typeof AuthSignInRoute
   '/sign-up': typeof AuthSignUpRoute
+  '/candidates': typeof PlatformCandidatesRoute
   '/dashboard': typeof PlatformDashboardRoute
+  '/jobs': typeof PlatformJobsRoute
+  '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
 }
 
@@ -210,7 +264,10 @@ export interface FileRoutesById {
   '/todos': typeof TodosRoute
   '/_auth/sign-in': typeof AuthSignInRoute
   '/_auth/sign-up': typeof AuthSignUpRoute
+  '/_platform/candidates': typeof PlatformCandidatesRoute
   '/_platform/dashboard': typeof PlatformDashboardRoute
+  '/_platform/jobs': typeof PlatformJobsRoute
+  '/_platform/settings': typeof PlatformSettingsRoute
   '/_website/': typeof WebsiteIndexRoute
 }
 
@@ -222,10 +279,23 @@ export interface FileRouteTypes {
     | '/todos'
     | '/sign-in'
     | '/sign-up'
+    | '/candidates'
     | '/dashboard'
+    | '/jobs'
+    | '/settings'
     | '/'
   fileRoutesByTo: FileRoutesByTo
-  to: '' | '/login' | '/todos' | '/sign-in' | '/sign-up' | '/dashboard' | '/'
+  to:
+    | ''
+    | '/login'
+    | '/todos'
+    | '/sign-in'
+    | '/sign-up'
+    | '/candidates'
+    | '/dashboard'
+    | '/jobs'
+    | '/settings'
+    | '/'
   id:
     | '__root__'
     | '/_auth'
@@ -235,7 +305,10 @@ export interface FileRouteTypes {
     | '/todos'
     | '/_auth/sign-in'
     | '/_auth/sign-up'
+    | '/_platform/candidates'
     | '/_platform/dashboard'
+    | '/_platform/jobs'
+    | '/_platform/settings'
     | '/_website/'
   fileRoutesById: FileRoutesById
 }
@@ -283,7 +356,10 @@ export const routeTree = rootRoute
     "/_platform": {
       "filePath": "_platform.tsx",
       "children": [
-        "/_platform/dashboard"
+        "/_platform/candidates",
+        "/_platform/dashboard",
+        "/_platform/jobs",
+        "/_platform/settings"
       ]
     },
     "/_website": {
@@ -306,8 +382,20 @@ export const routeTree = rootRoute
       "filePath": "_auth/sign-up.tsx",
       "parent": "/_auth"
     },
+    "/_platform/candidates": {
+      "filePath": "_platform/candidates.tsx",
+      "parent": "/_platform"
+    },
     "/_platform/dashboard": {
       "filePath": "_platform/dashboard.tsx",
+      "parent": "/_platform"
+    },
+    "/_platform/jobs": {
+      "filePath": "_platform/jobs.tsx",
+      "parent": "/_platform"
+    },
+    "/_platform/settings": {
+      "filePath": "_platform/settings.tsx",
       "parent": "/_platform"
     },
     "/_website/": {

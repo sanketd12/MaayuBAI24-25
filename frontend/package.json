@@ -14,7 +14,8 @@
 	},
 	"dependencies": {
 		"@radix-ui/react-separator": "^1.1.4",
-		"motion": "^12.7.4"
+		"motion": "^12.7.4",
+		"redaxios": "^0.5.1"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4"

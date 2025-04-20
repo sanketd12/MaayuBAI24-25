@@ -15,10 +15,18 @@ export const protectedProcedure = t.procedure.use(({ ctx, next }) => {
 			cause: "No session",
 		});
 	}
+	if (!process.env.PYTHON_BACKEND_URL) {
+		throw new TRPCError({
+			code: "INTERNAL_SERVER_ERROR",
+			message: "Python backend URL not set",
+		});
+	}
 	return next({
 		ctx: {
 			...ctx,
 			session: ctx.session,
+			userId: ctx.session.session.userId,
+			pythonBackendUrl: process.env.PYTHON_BACKEND_URL,
 		},
 	});
 });
