@@ -9,7 +9,7 @@ import { JobSearch } from '@/components/platform/jobs/job-search'
 import { JobCard } from '@/components/platform/jobs/job-card'
 import { useCallback, useMemo } from 'react'
 
-export const Route = createFileRoute('/_platform/jobs')({
+export const Route = createFileRoute('/_platform/jobs/')({
     component: RouteComponent,
     loader: async ({ context }) => {
         const jobs = await context.queryClient.ensureQueryData(context.trpc.job.getAll.queryOptions());
@@ -19,7 +19,6 @@ export const Route = createFileRoute('/_platform/jobs')({
 
 function RouteComponent() {
     const [dialogOpen, setDialogOpen] = useState(false);
-    const trpc = useTRPC();
     const { jobs } = Route.useLoaderData();
 
     const [searchQuery, setSearchQuery] = useState("")
