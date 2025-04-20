@@ -4,12 +4,12 @@ import { useQuery } from "@tanstack/react-query";
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 
-export const Route = createFileRoute("/dashboard")({
-	component: RouteComponent,
-});
+export const Route = createFileRoute('/_platform/dashboard')({
+  component: RouteComponent,
+})
 
 function RouteComponent() {
-	const navigate = Route.useNavigate();
+    const navigate = Route.useNavigate();
 	const trpc = useTRPC();
 	const { data: session, isPending } = authClient.useSession();
 

@@ -13,6 +13,7 @@
 		"db:studio": "bun run --filter server db:studio"
 	},
 	"dependencies": {
+		"@radix-ui/react-separator": "^1.1.4",
 		"motion": "^12.7.4"
 	},
 	"devDependencies": {
