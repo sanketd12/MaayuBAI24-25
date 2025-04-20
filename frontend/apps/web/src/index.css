@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@theme {
+/* @theme {
 	--font-sans: "Inter", "Geist", ui-sans-serif, system-ui, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+} */
 
 html,
 body {
@@ -97,7 +99,7 @@ body {
 	--sidebar-accent-foreground: oklch(0.92 0.03 285.88);
 	--sidebar-border: oklch(0.33 0.06 282.58);
 	--sidebar-ring: oklch(0.72 0.16 290.40);
-	--font-sans: Inter, sans-serif;
+	--font-sans: Plus Jakarta Sans, sans-serif;
 	--font-serif: Georgia, serif;
 	--font-mono: JetBrains Mono, monospace;
 	--radius: 0.5rem;
@@ -169,6 +171,6 @@ body {
 		@apply border-border outline-ring/50;
 	}
 	body {
-		@apply bg-background text-foreground;
+		@apply font-sans antialiased bg-background text-foreground;
 	}
 }
