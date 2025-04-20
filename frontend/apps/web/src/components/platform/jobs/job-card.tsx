@@ -14,6 +14,7 @@ import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Textarea } from "@/components/ui/textarea"
 import type { Job } from "../../../../../server/src/db/schema/platform"
+import { useNavigate } from "@tanstack/react-router"
 
 interface JobCardProps {
   job: Job
@@ -22,6 +23,7 @@ interface JobCardProps {
 export function JobCard({ job }: JobCardProps) {
   const [isEditing, setIsEditing] = useState(false)
   const [editedJob, setEditedJob] = useState(job)
+  const navigate = useNavigate()
 
   const formatSalary = (salary: number) => {
     return new Intl.NumberFormat("en-US", {
@@ -29,6 +31,12 @@ export function JobCard({ job }: JobCardProps) {
       currency: "USD",
       maximumFractionDigits: 0,
     }).format(salary)
+  }
+
+  const handleCardClick = () => {
+    if (!isEditing) {
+      navigate({ to: "/jobs/$jobId", params: { jobId: job.id.toString() } })
+    }
   }
 
   const handleEdit = () => {
@@ -79,7 +87,7 @@ export function JobCard({ job }: JobCardProps) {
   }
 
   return (
-    <Card className="w-full transition-all hover:shadow-md">
+    <Card className="w-full transition-all hover:shadow-md cursor-pointer" onClick={handleCardClick}>
       {isEditing ? (
         <>
           <CardHeader className="pb-2">

@@ -23,6 +23,7 @@ import { Route as PlatformDashboardImport } from './routes/_platform/dashboard'
 import { Route as PlatformCandidatesImport } from './routes/_platform/candidates'
 import { Route as AuthSignUpImport } from './routes/_auth/sign-up'
 import { Route as AuthSignInImport } from './routes/_auth/sign-in'
+import { Route as PlatformJobsJobIdImport } from './routes/_platform/jobs.$jobId'
 
 // Create/Update Routes
 
@@ -93,6 +94,12 @@ const AuthSignInRoute = AuthSignInImport.update({
   id: '/sign-in',
   path: '/sign-in',
   getParentRoute: () => AuthRoute,
+} as any)
+
+const PlatformJobsJobIdRoute = PlatformJobsJobIdImport.update({
+  id: '/$jobId',
+  path: '/$jobId',
+  getParentRoute: () => PlatformJobsRoute,
 } as any)
 
 // Populate the FileRoutesByPath interface
@@ -183,6 +190,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WebsiteIndexImport
       parentRoute: typeof WebsiteImport
     }
+    '/_platform/jobs/$jobId': {
+      id: '/_platform/jobs/$jobId'
+      path: '/$jobId'
+      fullPath: '/jobs/$jobId'
+      preLoaderRoute: typeof PlatformJobsJobIdImport
+      parentRoute: typeof PlatformJobsImport
+    }
   }
 }
 
@@ -200,17 +214,29 @@ const AuthRouteChildren: AuthRouteChildren = {
 
 const AuthRouteWithChildren = AuthRoute._addFileChildren(AuthRouteChildren)
 
+interface PlatformJobsRouteChildren {
+  PlatformJobsJobIdRoute: typeof PlatformJobsJobIdRoute
+}
+
+const PlatformJobsRouteChildren: PlatformJobsRouteChildren = {
+  PlatformJobsJobIdRoute: PlatformJobsJobIdRoute,
+}
+
+const PlatformJobsRouteWithChildren = PlatformJobsRoute._addFileChildren(
+  PlatformJobsRouteChildren,
+)
+
 interface PlatformRouteChildren {
   PlatformCandidatesRoute: typeof PlatformCandidatesRoute
   PlatformDashboardRoute: typeof PlatformDashboardRoute
-  PlatformJobsRoute: typeof PlatformJobsRoute
+  PlatformJobsRoute: typeof PlatformJobsRouteWithChildren
   PlatformSettingsRoute: typeof PlatformSettingsRoute
 }
 
 const PlatformRouteChildren: PlatformRouteChildren = {
   PlatformCandidatesRoute: PlatformCandidatesRoute,
   PlatformDashboardRoute: PlatformDashboardRoute,
-  PlatformJobsRoute: PlatformJobsRoute,
+  PlatformJobsRoute: PlatformJobsRouteWithChildren,
   PlatformSettingsRoute: PlatformSettingsRoute,
 }
 
@@ -237,9 +263,10 @@ export interface FileRoutesByFullPath {
   '/sign-up': typeof AuthSignUpRoute
   '/candidates': typeof PlatformCandidatesRoute
   '/dashboard': typeof PlatformDashboardRoute
-  '/jobs': typeof PlatformJobsRoute
+  '/jobs': typeof PlatformJobsRouteWithChildren
   '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
+  '/jobs/$jobId': typeof PlatformJobsJobIdRoute
 }
 
 export interface FileRoutesByTo {
@@ -250,9 +277,10 @@ export interface FileRoutesByTo {
   '/sign-up': typeof AuthSignUpRoute
   '/candidates': typeof PlatformCandidatesRoute
   '/dashboard': typeof PlatformDashboardRoute
-  '/jobs': typeof PlatformJobsRoute
+  '/jobs': typeof PlatformJobsRouteWithChildren
   '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
+  '/jobs/$jobId': typeof PlatformJobsJobIdRoute
 }
 
 export interface FileRoutesById {
@@ -266,9 +294,10 @@ export interface FileRoutesById {
   '/_auth/sign-up': typeof AuthSignUpRoute
   '/_platform/candidates': typeof PlatformCandidatesRoute
   '/_platform/dashboard': typeof PlatformDashboardRoute
-  '/_platform/jobs': typeof PlatformJobsRoute
+  '/_platform/jobs': typeof PlatformJobsRouteWithChildren
   '/_platform/settings': typeof PlatformSettingsRoute
   '/_website/': typeof WebsiteIndexRoute
+  '/_platform/jobs/$jobId': typeof PlatformJobsJobIdRoute
 }
 
 export interface FileRouteTypes {
@@ -284,6 +313,7 @@ export interface FileRouteTypes {
     | '/jobs'
     | '/settings'
     | '/'
+    | '/jobs/$jobId'
   fileRoutesByTo: FileRoutesByTo
   to:
     | ''
@@ -296,6 +326,7 @@ export interface FileRouteTypes {
     | '/jobs'
     | '/settings'
     | '/'
+    | '/jobs/$jobId'
   id:
     | '__root__'
     | '/_auth'
@@ -310,6 +341,7 @@ export interface FileRouteTypes {
     | '/_platform/jobs'
     | '/_platform/settings'
     | '/_website/'
+    | '/_platform/jobs/$jobId'
   fileRoutesById: FileRoutesById
 }
 
@@ -392,7 +424,10 @@ export const routeTree = rootRoute
     },
     "/_platform/jobs": {
       "filePath": "_platform/jobs.tsx",
-      "parent": "/_platform"
+      "parent": "/_platform",
+      "children": [
+        "/_platform/jobs/$jobId"
+      ]
     },
     "/_platform/settings": {
       "filePath": "_platform/settings.tsx",
@@ -401,6 +436,10 @@ export const routeTree = rootRoute
     "/_website/": {
       "filePath": "_website/index.tsx",
       "parent": "/_website"
+    },
+    "/_platform/jobs/$jobId": {
+      "filePath": "_platform/jobs.$jobId.tsx",
+      "parent": "/_platform/jobs"
     }
   }
 }
