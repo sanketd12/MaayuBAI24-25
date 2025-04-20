@@ -1,12 +1,11 @@
-import { and, eq } from "drizzle-orm";
+import { eq, and } from "drizzle-orm";
 import { z } from "zod";
-
-import { protectedProcedure, router } from "@/lib/trpc";
-import { jobs } from "@/db/schema/platform";
-import { db } from "@/db";
+import { db } from "../db";
+import { jobs } from "../db/schema/platform";
+import { protectedProcedure, router } from "../lib/trpc";
 
 export const jobRouter = router({
-  create: protectedProcedure
+	create: protectedProcedure
     .input(z.object({ name: z.string().min(1), description: z.string().min(1), salary: z.number().int().positive(), type: z.enum(["full-time", "part-time", "internship"]), work_mode: z.enum(["remote", "hybrid", "office"]), location: z.string() }))
     .mutation(async ({ ctx, input }) => {
       await db.insert(jobs).values({

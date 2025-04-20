@@ -1,14 +1,13 @@
-import { and, eq } from "drizzle-orm";
+import { eq, and } from "drizzle-orm";
 import { z } from "zod";
-
-import { protectedProcedure, router } from "@/lib/trpc";
-import { buckets, candidates } from "@/db/schema/platform";
+import { db } from "../db";
+import { candidates } from "../db/schema/platform";
+import { protectedProcedure, router } from "../lib/trpc";
 import axios from "redaxios";
 import { TRPCError } from "@trpc/server";
-import { db } from "@/db";
 
 export const candidateRouter = router({
-    create: protectedProcedure
+	create: protectedProcedure
         .input(z.object({ name: z.string().min(1), email: z.string().email(), bucketId: z.number(), uploadedResume: z.instanceof(File) }))
         .mutation(async ({ ctx, input }) => {
             // Handle resume parsing on Python backend

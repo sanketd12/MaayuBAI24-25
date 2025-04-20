@@ -1,12 +1,11 @@
-import { and, eq } from "drizzle-orm";
+import { eq, and } from "drizzle-orm";
 import { z } from "zod";
-
-import { buckets } from "@/db/schema/platform";
-import { protectedProcedure, router } from "@/lib/trpc";
 import { db } from "../db";
+import { buckets } from "../db/schema/platform";
+import { protectedProcedure, router } from "../lib/trpc";
 
 export const bucketRouter = router({
-    create: protectedProcedure
+	create: protectedProcedure
         .input(z.object({ name: z.string().min(1) }))
         .mutation(async ({ ctx, input }) => {
             await db.insert(buckets).values({

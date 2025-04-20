@@ -7,6 +7,7 @@ import React from 'react'
 import { useScroll } from 'motion/react'
 import { cn } from '@/lib/utils'
 import { Logo } from '@/components/logo'
+
 const menuItems = [
     { name: 'Features', href: '#link' },
     { name: 'Solution', href: '#link' },

@@ -23,7 +23,7 @@ function TodosRoute() {
 
 	const [newTodoText, setNewTodoText] = useState("");
 
-	const todos = useQuery(trpc.todo.getAll.queryOptions());
+	const todos = useQuery(trpc.bucket.getAll.queryOptions());
 	const createMutation = useMutation(
 		trpc.todo.create.mutationOptions({
 			onSuccess: () => {

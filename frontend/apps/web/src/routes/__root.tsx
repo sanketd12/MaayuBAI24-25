@@ -12,7 +12,6 @@ import {
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import type { TRPCOptionsProxy } from "@trpc/tanstack-react-query";
 import type { AppRouter } from "../../../server/src/routers";
-import Header from "../components/header";
 import appCss from "../index.css?url";
 
 export interface RouterAppContext {
