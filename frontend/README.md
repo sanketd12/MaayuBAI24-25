@@ -1,31 +1,70 @@
-# Create T3 App
+# frontend
 
-FINAL BRANCH
+This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines React, TanStack Start, Hono, tRPC, and more.
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+## Features
 
-## What's next? How do I make an app with this?
+- **TypeScript** - For type safety and improved developer experience
+- **TanStack Start** - SSR framework with TanStack Router
+- **TailwindCSS** - Utility-first CSS for rapid UI development
+- **shadcn/ui** - Reusable UI components
+- **Hono** - Lightweight, performant server framework
+- **tRPC** - End-to-end type-safe APIs
+- **Bun** - Runtime environment
+- **Drizzle** - TypeScript-first ORM
+- **PostgreSQL** - Database engine
+- **Authentication** - Email & password authentication with Better Auth
+- **Biome** - Linting and formatting
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Getting Started
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+First, install the dependencies:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+```bash
+bun install
+```
 
-## Learn More
+## Database Setup
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+This project uses PostgreSQL with Drizzle ORM.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+1. Make sure you have a PostgreSQL database set up.
+2. Update your `apps/server/.env` file with your PostgreSQL connection details.
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+3. Apply the schema to your database:
+```bash
+bun db:push
+```
 
-## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Then, run the development server:
+
+```bash
+bun dev
+```
+
+Open [http://localhost:3001](http://localhost:3001) in your browser to see the web application.
+
+The API is running at [http://localhost:3000](http://localhost:3000).
+
+
+
+## Project Structure
+
+```
+frontend/
+├── apps/
+│   ├── web/         # Frontend application (React + TanStack Start)
+│   └── server/      # Backend API (Hono, tRPC)
+```
+
+## Available Scripts
+
+- `bun dev`: Start all applications in development mode
+- `bun build`: Build all applications
+- `bun dev:web`: Start only the web application
+- `bun dev:server`: Start only the server
+- `bun check-types`: Check TypeScript types across all apps
+- `bun db:push`: Push schema changes to database
+- `bun db:studio`: Open database studio UI
+- `bun check`: Run Biome formatting and linting
