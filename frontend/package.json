@@ -12,7 +12,9 @@
 		"db:push": "bun run --filter server db:push",
 		"db:studio": "bun run --filter server db:studio"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"motion": "^12.7.4"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4"
 	},

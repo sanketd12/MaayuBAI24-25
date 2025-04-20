@@ -14,7 +14,8 @@ import { Route as rootRoute } from './routes/__root'
 import { Route as TodosImport } from './routes/todos'
 import { Route as LoginImport } from './routes/login'
 import { Route as DashboardImport } from './routes/dashboard'
-import { Route as IndexImport } from './routes/index'
+import { Route as WebsiteImport } from './routes/_website'
+import { Route as WebsiteIndexImport } from './routes/_website/index'
 
 // Create/Update Routes
 
@@ -36,21 +37,26 @@ const DashboardRoute = DashboardImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
-const IndexRoute = IndexImport.update({
+const WebsiteRoute = WebsiteImport.update({
+  id: '/_website',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const WebsiteIndexRoute = WebsiteIndexImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => WebsiteRoute,
 } as any)
 
 // Populate the FileRoutesByPath interface
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexImport
+    '/_website': {
+      id: '/_website'
+      path: ''
+      fullPath: ''
+      preLoaderRoute: typeof WebsiteImport
       parentRoute: typeof rootRoute
     }
     '/dashboard': {
@@ -74,51 +80,77 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TodosImport
       parentRoute: typeof rootRoute
     }
+    '/_website/': {
+      id: '/_website/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof WebsiteIndexImport
+      parentRoute: typeof WebsiteImport
+    }
   }
 }
 
 // Create and export the route tree
 
+interface WebsiteRouteChildren {
+  WebsiteIndexRoute: typeof WebsiteIndexRoute
+}
+
+const WebsiteRouteChildren: WebsiteRouteChildren = {
+  WebsiteIndexRoute: WebsiteIndexRoute,
+}
+
+const WebsiteRouteWithChildren =
+  WebsiteRoute._addFileChildren(WebsiteRouteChildren)
+
 export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute
+  '': typeof WebsiteRouteWithChildren
   '/dashboard': typeof DashboardRoute
   '/login': typeof LoginRoute
   '/todos': typeof TodosRoute
+  '/': typeof WebsiteIndexRoute
 }
 
 export interface FileRoutesByTo {
-  '/': typeof IndexRoute
   '/dashboard': typeof DashboardRoute
   '/login': typeof LoginRoute
   '/todos': typeof TodosRoute
+  '/': typeof WebsiteIndexRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
-  '/': typeof IndexRoute
+  '/_website': typeof WebsiteRouteWithChildren
   '/dashboard': typeof DashboardRoute
   '/login': typeof LoginRoute
   '/todos': typeof TodosRoute
+  '/_website/': typeof WebsiteIndexRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/dashboard' | '/login' | '/todos'
+  fullPaths: '' | '/dashboard' | '/login' | '/todos' | '/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/dashboard' | '/login' | '/todos'
-  id: '__root__' | '/' | '/dashboard' | '/login' | '/todos'
+  to: '/dashboard' | '/login' | '/todos' | '/'
+  id:
+    | '__root__'
+    | '/_website'
+    | '/dashboard'
+    | '/login'
+    | '/todos'
+    | '/_website/'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute
+  WebsiteRoute: typeof WebsiteRouteWithChildren
   DashboardRoute: typeof DashboardRoute
   LoginRoute: typeof LoginRoute
   TodosRoute: typeof TodosRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
-  IndexRoute: IndexRoute,
+  WebsiteRoute: WebsiteRouteWithChildren,
   DashboardRoute: DashboardRoute,
   LoginRoute: LoginRoute,
   TodosRoute: TodosRoute,
@@ -134,14 +166,17 @@ export const routeTree = rootRoute
     "__root__": {
       "filePath": "__root.tsx",
       "children": [
-        "/",
+        "/_website",
         "/dashboard",
         "/login",
         "/todos"
       ]
     },
-    "/": {
-      "filePath": "index.tsx"
+    "/_website": {
+      "filePath": "_website.tsx",
+      "children": [
+        "/_website/"
+      ]
     },
     "/dashboard": {
       "filePath": "dashboard.tsx"
@@ -151,6 +186,10 @@ export const routeTree = rootRoute
     },
     "/todos": {
       "filePath": "todos.tsx"
+    },
+    "/_website/": {
+      "filePath": "_website/index.tsx",
+      "parent": "/_website"
     }
   }
 }
