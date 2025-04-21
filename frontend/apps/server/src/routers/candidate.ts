@@ -86,4 +86,9 @@ export const candidateRouter = router({
       .mutation(({ input }) => {
         console.log(input);
       }),
+    emailCandidate: protectedProcedure
+        .input(z.object({ candidateEmailAddress: z.string().email(), title: z.string(), body: z.string() }))
+        .mutation(async ({ ctx, input }) => {
+            
+        }),
 });
