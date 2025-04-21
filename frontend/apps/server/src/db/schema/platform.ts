@@ -42,7 +42,10 @@ export const buckets = createTable(
   );
   
   export const candidateRelations = relations(candidates, ({ one }) => ({
-    bucket: one(buckets),
+    bucket: one(buckets, {
+      fields: [candidates.bucketId],
+      references: [buckets.id]
+    }),
   }));
   
   export const jobs = createTable(

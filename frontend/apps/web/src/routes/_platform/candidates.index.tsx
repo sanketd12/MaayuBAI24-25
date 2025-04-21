@@ -5,26 +5,21 @@ import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { Folder, Plus, User } from "lucide-react";
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { useTRPC } from '@/utils/trpc';
+import CreateBucketDialog from '@/components/platform/buckets/create-bucket-dialog';
 
 export const Route = createFileRoute('/_platform/candidates/')({
   component: RouteComponent,
+  loader: async ({ context }) => {
+    const buckets = await context.queryClient.ensureQueryData(context.trpc.bucket.getNamesAndCounts.queryOptions());
+    return { buckets };
+  },
 })
 
 // Mock data for buckets
@@ -62,8 +57,8 @@ const mockBuckets = [
 ];
 
 function RouteComponent() {
-  const [buckets, setBuckets] = useState(mockBuckets);
-  const [newBucketName, setNewBucketName] = useState("");
+  const trpc = useTRPC();
+  const { data: buckets } = useSuspenseQuery(trpc.bucket.getNamesAndCounts.queryOptions());
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   const getRandomColor = () => {
@@ -71,23 +66,9 @@ function RouteComponent() {
     return colors[Math.floor(Math.random() * colors.length)];
   };
 
-  const handleCreateBucket = () => {
-    if (!newBucketName.trim()) return;
-    
-    const newBucket = {
-      id: `${Date.now()}`,
-      name: newBucketName,
-      count: 0,
-      color: getRandomColor(),
-    };
-    
-    setBuckets([...buckets, newBucket]);
-    setNewBucketName("");
-    setIsDialogOpen(false);
-  };
-
   return (
     <div className="container mx-auto py-8 px-4">
+      <CreateBucketDialog open={isDialogOpen} onOpenChange={setIsDialogOpen} />
       <div className="flex justify-between items-center mb-8">
         <div>
           <h1 className="text-3xl font-bold">Candidate Buckets</h1>
@@ -95,52 +76,23 @@ function RouteComponent() {
             Organize candidates into logical groups
           </p>
         </div>
-
-        <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-          <DialogTrigger asChild>
-            <Button className="gap-2">
-              <Plus size={18} /> Create New Bucket
-            </Button>
-          </DialogTrigger>
-          <DialogContent>
-            <DialogHeader>
-              <DialogTitle>Create a new bucket</DialogTitle>
-              <DialogDescription>
-                Add a name for your new candidate bucket.
-              </DialogDescription>
-            </DialogHeader>
-            <div className="py-4">
-              <Label htmlFor="name">Bucket name</Label>
-              <Input
-                id="name"
-                value={newBucketName}
-                onChange={(e) => setNewBucketName(e.target.value)}
-                placeholder="e.g., Frontend Developers"
-                className="mt-2"
-              />
-            </div>
-            <DialogFooter>
-              <Button variant="outline" onClick={() => setIsDialogOpen(false)}>
-                Cancel
-              </Button>
-              <Button onClick={handleCreateBucket}>Create Bucket</Button>
-            </DialogFooter>
-          </DialogContent>
-        </Dialog>
+        <Button onClick={() => setIsDialogOpen(true)}>
+          <Plus size={18} /> Create Bucket
+        </Button>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {buckets.map((bucket) => (
+        {buckets.map((bucket, index) => (
           <Link 
-            to="/candidates/$candidateId" 
-            params={{ candidateId: bucket.id }}
-            key={bucket.id} 
+            to="/candidates/$bucketId" 
+            params={{ bucketId: bucket.id.toString() }}
+            key={index} 
             className="block group"
           >
             <Card className="h-full transition-all duration-200 hover:shadow-md hover:border-primary/20 group-hover:-translate-y-1">
               <CardHeader className="pb-4">
                 <div className="flex items-center gap-3">
-                  <div className={`${bucket.color} w-10 h-10 rounded-lg flex items-center justify-center text-white`}>
+                  <div className={`w-10 h-10 rounded-lg flex items-center justify-center text-white`}>
                     <Folder className="h-5 w-5" />
                   </div>
                   <CardTitle>{bucket.name}</CardTitle>
@@ -149,7 +101,7 @@ function RouteComponent() {
               <CardContent className="pb-4">
                 <div className="flex items-center gap-2">
                   <User className="h-4 w-4 text-muted-foreground" />
-                  <span>{bucket.count} candidates</span>
+                  <span>{bucket.candidateCount || 0} candidates</span>
                 </div>
               </CardContent>
               <CardFooter>

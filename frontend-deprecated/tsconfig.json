@@ -37,6 +37,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-, "../frontend/apps/web/src/components/hero-section copy.tsx", "../frontend/apps/web/src/components/ui/separator copy.tsx", "../frontend/apps/server/src/routers/bucket copy.ts", "../frontend/apps/server/src/routers/candidate copy.ts", "../frontend/apps/server/src/routers/job copy.ts"  ],
+, "../frontend/apps/web/src/components/hero-section copy.tsx", "../frontend/apps/web/src/components/ui/separator copy.tsx", "../frontend/apps/server/src/routers/bucket copy.ts", "../frontend/apps/server/src/routers/candidate copy.ts", "../frontend/apps/server/src/routers/job copy.ts", "../frontend/apps/web/src/components/ui/table-pagination copy.tsx", "../frontend/apps/web/src/components/ui/table-visibility-toggle copy.tsx"  ],
   "exclude": ["node_modules"]
 }

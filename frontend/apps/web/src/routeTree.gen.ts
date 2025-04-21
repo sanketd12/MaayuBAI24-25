@@ -24,7 +24,7 @@ import { Route as AuthSignInImport } from './routes/_auth/sign-in'
 import { Route as PlatformJobsIndexImport } from './routes/_platform/jobs.index'
 import { Route as PlatformCandidatesIndexImport } from './routes/_platform/candidates.index'
 import { Route as PlatformJobsJobIdImport } from './routes/_platform/jobs.$jobId'
-import { Route as PlatformCandidatesCandidateIdImport } from './routes/_platform/candidates.$candidateId'
+import { Route as PlatformCandidatesBucketIdImport } from './routes/_platform/candidates.$bucketId'
 import { Route as PlatformCandidateInfoCandidateIdImport } from './routes/_platform/candidate-info.$candidateId'
 
 // Create/Update Routes
@@ -104,12 +104,13 @@ const PlatformJobsJobIdRoute = PlatformJobsJobIdImport.update({
   getParentRoute: () => PlatformRoute,
 } as any)
 
-const PlatformCandidatesCandidateIdRoute =
-  PlatformCandidatesCandidateIdImport.update({
-    id: '/candidates/$candidateId',
-    path: '/candidates/$candidateId',
+const PlatformCandidatesBucketIdRoute = PlatformCandidatesBucketIdImport.update(
+  {
+    id: '/candidates/$bucketId',
+    path: '/candidates/$bucketId',
     getParentRoute: () => PlatformRoute,
-  } as any)
+  } as any,
+)
 
 const PlatformCandidateInfoCandidateIdRoute =
   PlatformCandidateInfoCandidateIdImport.update({
@@ -199,11 +200,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PlatformCandidateInfoCandidateIdImport
       parentRoute: typeof PlatformImport
     }
-    '/_platform/candidates/$candidateId': {
-      id: '/_platform/candidates/$candidateId'
-      path: '/candidates/$candidateId'
-      fullPath: '/candidates/$candidateId'
-      preLoaderRoute: typeof PlatformCandidatesCandidateIdImport
+    '/_platform/candidates/$bucketId': {
+      id: '/_platform/candidates/$bucketId'
+      path: '/candidates/$bucketId'
+      fullPath: '/candidates/$bucketId'
+      preLoaderRoute: typeof PlatformCandidatesBucketIdImport
       parentRoute: typeof PlatformImport
     }
     '/_platform/jobs/$jobId': {
@@ -248,7 +249,7 @@ interface PlatformRouteChildren {
   PlatformDashboardRoute: typeof PlatformDashboardRoute
   PlatformSettingsRoute: typeof PlatformSettingsRoute
   PlatformCandidateInfoCandidateIdRoute: typeof PlatformCandidateInfoCandidateIdRoute
-  PlatformCandidatesCandidateIdRoute: typeof PlatformCandidatesCandidateIdRoute
+  PlatformCandidatesBucketIdRoute: typeof PlatformCandidatesBucketIdRoute
   PlatformJobsJobIdRoute: typeof PlatformJobsJobIdRoute
   PlatformCandidatesIndexRoute: typeof PlatformCandidatesIndexRoute
   PlatformJobsIndexRoute: typeof PlatformJobsIndexRoute
@@ -258,7 +259,7 @@ const PlatformRouteChildren: PlatformRouteChildren = {
   PlatformDashboardRoute: PlatformDashboardRoute,
   PlatformSettingsRoute: PlatformSettingsRoute,
   PlatformCandidateInfoCandidateIdRoute: PlatformCandidateInfoCandidateIdRoute,
-  PlatformCandidatesCandidateIdRoute: PlatformCandidatesCandidateIdRoute,
+  PlatformCandidatesBucketIdRoute: PlatformCandidatesBucketIdRoute,
   PlatformJobsJobIdRoute: PlatformJobsJobIdRoute,
   PlatformCandidatesIndexRoute: PlatformCandidatesIndexRoute,
   PlatformJobsIndexRoute: PlatformJobsIndexRoute,
@@ -289,7 +290,7 @@ export interface FileRoutesByFullPath {
   '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
   '/candidate-info/$candidateId': typeof PlatformCandidateInfoCandidateIdRoute
-  '/candidates/$candidateId': typeof PlatformCandidatesCandidateIdRoute
+  '/candidates/$bucketId': typeof PlatformCandidatesBucketIdRoute
   '/jobs/$jobId': typeof PlatformJobsJobIdRoute
   '/candidates': typeof PlatformCandidatesIndexRoute
   '/jobs': typeof PlatformJobsIndexRoute
@@ -305,7 +306,7 @@ export interface FileRoutesByTo {
   '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
   '/candidate-info/$candidateId': typeof PlatformCandidateInfoCandidateIdRoute
-  '/candidates/$candidateId': typeof PlatformCandidatesCandidateIdRoute
+  '/candidates/$bucketId': typeof PlatformCandidatesBucketIdRoute
   '/jobs/$jobId': typeof PlatformJobsJobIdRoute
   '/candidates': typeof PlatformCandidatesIndexRoute
   '/jobs': typeof PlatformJobsIndexRoute
@@ -324,7 +325,7 @@ export interface FileRoutesById {
   '/_platform/settings': typeof PlatformSettingsRoute
   '/_website/': typeof WebsiteIndexRoute
   '/_platform/candidate-info/$candidateId': typeof PlatformCandidateInfoCandidateIdRoute
-  '/_platform/candidates/$candidateId': typeof PlatformCandidatesCandidateIdRoute
+  '/_platform/candidates/$bucketId': typeof PlatformCandidatesBucketIdRoute
   '/_platform/jobs/$jobId': typeof PlatformJobsJobIdRoute
   '/_platform/candidates/': typeof PlatformCandidatesIndexRoute
   '/_platform/jobs/': typeof PlatformJobsIndexRoute
@@ -342,7 +343,7 @@ export interface FileRouteTypes {
     | '/settings'
     | '/'
     | '/candidate-info/$candidateId'
-    | '/candidates/$candidateId'
+    | '/candidates/$bucketId'
     | '/jobs/$jobId'
     | '/candidates'
     | '/jobs'
@@ -357,7 +358,7 @@ export interface FileRouteTypes {
     | '/settings'
     | '/'
     | '/candidate-info/$candidateId'
-    | '/candidates/$candidateId'
+    | '/candidates/$bucketId'
     | '/jobs/$jobId'
     | '/candidates'
     | '/jobs'
@@ -374,7 +375,7 @@ export interface FileRouteTypes {
     | '/_platform/settings'
     | '/_website/'
     | '/_platform/candidate-info/$candidateId'
-    | '/_platform/candidates/$candidateId'
+    | '/_platform/candidates/$bucketId'
     | '/_platform/jobs/$jobId'
     | '/_platform/candidates/'
     | '/_platform/jobs/'
@@ -427,7 +428,7 @@ export const routeTree = rootRoute
         "/_platform/dashboard",
         "/_platform/settings",
         "/_platform/candidate-info/$candidateId",
-        "/_platform/candidates/$candidateId",
+        "/_platform/candidates/$bucketId",
         "/_platform/jobs/$jobId",
         "/_platform/candidates/",
         "/_platform/jobs/"
@@ -469,8 +470,8 @@ export const routeTree = rootRoute
       "filePath": "_platform/candidate-info.$candidateId.tsx",
       "parent": "/_platform"
     },
-    "/_platform/candidates/$candidateId": {
-      "filePath": "_platform/candidates.$candidateId.tsx",
+    "/_platform/candidates/$bucketId": {
+      "filePath": "_platform/candidates.$bucketId.tsx",
       "parent": "/_platform"
     },
     "/_platform/jobs/$jobId": {

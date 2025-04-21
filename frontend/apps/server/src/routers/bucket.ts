@@ -20,11 +20,42 @@ export const bucketRouter = router({
         });
     }),
 
+    getNamesAndCounts: protectedProcedure.query(async ({ ctx }) => {
+        // Fetch buckets with their related candidates
+        const bucketsWithCandidates = await db.query.buckets.findMany({
+            where: eq(buckets.userId, ctx.userId),
+            // Select only the necessary columns from the bucket table
+            columns: {
+                id: true, // Needed for mapping if done separately, or just good practice
+                name: true,
+            },
+            // Use 'with' to load related candidates
+            with: {
+                candidates: {
+                    // Select only the 'id' column from candidates to minimize data transfer
+                    columns: {
+                        id: true,
+                    }
+                },
+            },
+        });
+
+        // Map the results to include the count
+        return bucketsWithCandidates.map(bucket => ({
+            id: bucket.id,
+            name: bucket.name,
+            candidateCount: bucket.candidates.length,
+        }));
+    }),
+
     getById: protectedProcedure
         .input(z.object({ id: z.number() }))
         .query(async ({ ctx, input }) => {
             return await db.query.buckets.findFirst({
                 where: and(eq(buckets.id, input.id), eq(buckets.userId, ctx.userId)),
+                with: {
+                    candidates: true,
+                },
             });
         }),
 
