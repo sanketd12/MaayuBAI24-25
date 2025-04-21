@@ -3,8 +3,8 @@ import { z } from "zod";
 import { db } from "../db";
 import { candidates } from "../db/schema/platform";
 import { protectedProcedure, router } from "../lib/trpc";
-import axios from "redaxios";
 import { TRPCError } from "@trpc/server";
+import { sendInterviewEmail } from "../lib/email";
 
 export const candidateRouter = router({
 	create: protectedProcedure
@@ -89,6 +89,6 @@ export const candidateRouter = router({
     emailCandidate: protectedProcedure
         .input(z.object({ candidateEmailAddress: z.string().email(), title: z.string(), body: z.string() }))
         .mutation(async ({ ctx, input }) => {
-            
+            await sendInterviewEmail(input.candidateEmailAddress, input.title, input.body);
         }),
 });

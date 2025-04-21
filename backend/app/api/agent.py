@@ -34,7 +34,7 @@ async def generate_outreach_email(request: GenerateOutreachEmailRequest, llm = D
         return await structured_llm.ainvoke([HumanMessage(content=f"""
         Generate a friendly and professional outreach email to the candidate {request.candidate_name} for the job described below.
         Job Description: {request.job_description}
-        Reasoning: {request.reasoning}. You should ask the candidate when they're free to interview, and also compliment them (not excessively, but politely) on their skills and experience.
+        Reasoning: {request.reasoning}. \nYou should ask the candidate when they're free to interview, and also compliment them  on their skills and experience. ONLY COMPLIMENT THEM LIGHTLY - don't seem desperate or overly praiseful, still keep the power and authority in your court as the recruiter.
         """), HumanMessage(content=f"""
         Title:
         Body:

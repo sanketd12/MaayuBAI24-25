@@ -210,9 +210,25 @@ function EmailGeneratedState({ email, candidateEmail }: { email: { subject: stri
     const [editedSubject, setEditedSubject] = useState(email.subject);
     const [editedBody, setEditedBody] = useState(email.body);
 
+    const trpc = useTRPC();
+
+    const emailMutation = useMutation(
+        trpc.candidate.emailCandidate.mutationOptions({
+            onSuccess: () => {
+                toast.success("Email sent successfully!");
+            },
+            onError: (error) => {
+                console.error("Failed to send email:", error);
+                toast.error("Failed to send email. Please try again.");
+            },
+            onMutate: () => {
+                toast.info("Sending email...");
+            }
+        }),
+    );
+
     const handleAutosend = () => {
-        toast.info("Autosend functionality not yet implemented.");
-        console.log("Autosend clicked:", { subject: editedSubject, body: editedBody, recipient: candidateEmail });
+        emailMutation.mutate({ candidateEmailAddress: candidateEmail, title: editedSubject, body: editedBody });
     };
 
     return (

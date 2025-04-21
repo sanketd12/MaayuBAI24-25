@@ -5,6 +5,7 @@ import { Link, type LinkProps } from "@tanstack/react-router";
 import React, { useState, createContext, useContext } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { useLocation } from "@tanstack/react-router";
 
 interface Links {
   label: string;
@@ -89,7 +90,7 @@ export const DesktopSidebar = ({
   return (
     <motion.div
       className={cn(
-        "h-full px-4 py-4 hidden md:flex md:flex-col w-[300px] flex-shrink-0",
+        "h-full px-4 py-4 hidden md:flex md:flex-col w-[300px] flex-shrink-0 bg-background",
         className
       )}
       animate={{
@@ -164,11 +165,12 @@ export const SidebarLink = ({
   props?: LinkProps;
 }) => {
   const { open, animate } = useSidebar();
+
   return (
     <Link
       to={link.href}
       className={cn(
-        "flex items-center justify-start gap-2 group/sidebar py-2",
+        "flex items-center justify-start gap-2 group/sidebar py-2 rounded-md",
         className
       )}
       {...props}
@@ -179,7 +181,9 @@ export const SidebarLink = ({
           display: animate ? (open ? "inline-block" : "none") : "inline-block",
           opacity: animate ? (open ? 1 : 0) : 1,
         }}
-        className="text-neutral-700 dark:text-neutral-200 text-sm group-hover/sidebar:translate-x-1 transition duration-150 whitespace-pre inline-block !p-0 !m-0"
+        className={cn(
+          "text-neutral-700 dark:text-neutral-200 text-sm group-hover/sidebar:translate-x-1 transition duration-150 whitespace-pre inline-block !p-0 !m-0",
+        )}
       >
         {link.label}
       </motion.span>

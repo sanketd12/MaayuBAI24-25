@@ -75,7 +75,7 @@ export function CandidateTable<TData, TValue>({
                 <div className="relative flex-1">
                     <Search className="absolute left-2.5 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                     <Input
-                        placeholder="Search by name..."
+                        placeholder="Search by name"
                         value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
                         onChange={(event) =>
                             table.getColumn("name")?.setFilterValue(event.target.value)
