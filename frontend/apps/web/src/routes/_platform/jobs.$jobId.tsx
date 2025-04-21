@@ -17,6 +17,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { toast } from "sonner";
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import FindCandidateSection from '@/components/platform/jobs/find-candidate-section';
 
 export const Route = createFileRoute('/_platform/jobs/$jobId')({
   component: JobDetailPage,
@@ -204,110 +205,7 @@ function JobDetailPage() {
 
           {/* AI Candidate Finder Section */}
           <div>
-            <Card>
-              <CardHeader>
-                <CardTitle>AI Candidate Finder</CardTitle>
-                <CardDescription>
-                  Find the best matching candidates for this job using our AI
-                  technology.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                {!isSearching && !showResult ? (
-                  <Button
-                    className="w-full"
-                    onClick={startCandidateSearch}
-                    disabled={!isJobOpen}
-                  >
-                    {isJobOpen ? 'Find Best Candidate' : 'Job Closed'}
-                  </Button>
-                ) : isSearching ? (
-                  <div className="space-y-4">
-                    <div className="space-y-2">
-                      <div className="flex justify-between text-sm">
-                        <span>{currentStep}</span>
-                        <span>{Math.round(progress)}%</span>
-                      </div>
-                      <Progress value={progress} className="h-2" />
-                    </div>
-                    <Button disabled className="w-full opacity-75 cursor-not-allowed">
-                      Searching...
-                    </Button>
-                  </div>
-                ) : (
-                  <div className="space-y-4">
-                    <div className="text-center mb-2">
-                      <Badge variant="outline" className="bg-green-100 text-green-800 border-green-200 dark:bg-green-900/50 dark:text-green-300 dark:border-green-700">
-                        Top Match Found
-                      </Badge>
-                    </div>
-
-                    <Card>
-                      <CardHeader className="pb-2">
-                        <div className="flex justify-between items-start">
-                          <div>
-                            <CardTitle>{candidateMatch.name}</CardTitle>
-                            <CardDescription>{candidateMatch.title} at {candidateMatch.company}</CardDescription>
-                          </div>
-                          <Badge>{candidateMatch.matchScore}% Match</Badge>
-                        </div>
-                      </CardHeader>
-                      <CardContent className="space-y-3 pt-2">
-                        <div>
-                          <p className="text-sm font-medium">Top Skills</p>
-                          <div className="flex flex-wrap gap-1.5 mt-1.5">
-                            {candidateMatch.topSkills.map((skill, i) => (
-                              <Badge key={i} variant="secondary" className="font-normal">
-                                {skill}
-                              </Badge>
-                            ))}
-                          </div>
-                        </div>
-                        <div>
-                          <p className="text-sm font-medium">Match Reasons</p>
-                          <ul className="text-sm pl-5 list-disc mt-1.5 space-y-0.5">
-                            {candidateMatch.matchReasons.map((reason, i) => (
-                              <li key={i}>{reason}</li>
-                            ))}
-                          </ul>
-                        </div>
-
-                        <div className="flex gap-2 pt-2">
-                          <Button
-                            variant="outline"
-                            className="flex-1"
-                            asChild
-                          >
-                            <Link to="/candidate-info/$candidateId" params={{ candidateId: candidateMatch.id }}>
-                              View Profile
-                            </Link>
-                          </Button>
-                          <Button
-                            className="flex-1 gap-1.5"
-                            asChild
-                          >
-                            <a href={`mailto:example@example.com?subject=Regarding your potential fit for ${jobData.name}`}>
-                              <Mail className="h-4 w-4" /> Contact
-                            </a>
-                          </Button>
-                        </div>
-                      </CardContent>
-                    </Card>
-
-                    <Button
-                      variant="outline"
-                      className="w-full"
-                      onClick={() => {
-                        setShowResult(false);
-                      }}
-                      disabled={!isJobOpen}
-                    >
-                      Search Again
-                    </Button>
-                  </div>
-                )}
-              </CardContent>
-            </Card>
+            <FindCandidateSection jobDescription={jobData.description} />
           </div>
         </div>
       </div>

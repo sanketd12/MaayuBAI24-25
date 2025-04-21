@@ -64,7 +64,6 @@ def build_graph(debug: bool = False) -> StateGraph:
     # Construct the agentic workflow 
     builder = StateGraph(CandidateFinderState, 
                          input=CandidateFinderStateInput, 
-                        #  output=CandidateFinderStateOutput, 
                          config_schema=Configuration(debug=debug))
 
     builder.add_node("extract_job_criteria", extract_job_criteria)

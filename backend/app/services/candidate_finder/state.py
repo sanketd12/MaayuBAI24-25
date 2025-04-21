@@ -15,4 +15,4 @@ class CandidateFinderStateInput:
 
 @dataclass(kw_only=True)
 class CandidateFinderStateOutput:
-    final_response: str = field(default=None) # Final response
+    best_candidate: Candidate = field(default=None) # Best candidate
