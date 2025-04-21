@@ -19,11 +19,13 @@ import { Route as AuthImport } from './routes/_auth'
 import { Route as WebsiteIndexImport } from './routes/_website/index'
 import { Route as PlatformSettingsImport } from './routes/_platform/settings'
 import { Route as PlatformDashboardImport } from './routes/_platform/dashboard'
-import { Route as PlatformCandidatesImport } from './routes/_platform/candidates'
 import { Route as AuthSignUpImport } from './routes/_auth/sign-up'
 import { Route as AuthSignInImport } from './routes/_auth/sign-in'
 import { Route as PlatformJobsIndexImport } from './routes/_platform/jobs.index'
+import { Route as PlatformCandidatesIndexImport } from './routes/_platform/candidates.index'
 import { Route as PlatformJobsJobIdImport } from './routes/_platform/jobs.$jobId'
+import { Route as PlatformCandidatesCandidateIdImport } from './routes/_platform/candidates.$candidateId'
+import { Route as PlatformCandidateInfoCandidateIdImport } from './routes/_platform/candidate-info.$candidateId'
 
 // Create/Update Routes
 
@@ -72,12 +74,6 @@ const PlatformDashboardRoute = PlatformDashboardImport.update({
   getParentRoute: () => PlatformRoute,
 } as any)
 
-const PlatformCandidatesRoute = PlatformCandidatesImport.update({
-  id: '/candidates',
-  path: '/candidates',
-  getParentRoute: () => PlatformRoute,
-} as any)
-
 const AuthSignUpRoute = AuthSignUpImport.update({
   id: '/sign-up',
   path: '/sign-up',
@@ -96,11 +92,31 @@ const PlatformJobsIndexRoute = PlatformJobsIndexImport.update({
   getParentRoute: () => PlatformRoute,
 } as any)
 
+const PlatformCandidatesIndexRoute = PlatformCandidatesIndexImport.update({
+  id: '/candidates/',
+  path: '/candidates/',
+  getParentRoute: () => PlatformRoute,
+} as any)
+
 const PlatformJobsJobIdRoute = PlatformJobsJobIdImport.update({
   id: '/jobs/$jobId',
   path: '/jobs/$jobId',
   getParentRoute: () => PlatformRoute,
 } as any)
+
+const PlatformCandidatesCandidateIdRoute =
+  PlatformCandidatesCandidateIdImport.update({
+    id: '/candidates/$candidateId',
+    path: '/candidates/$candidateId',
+    getParentRoute: () => PlatformRoute,
+  } as any)
+
+const PlatformCandidateInfoCandidateIdRoute =
+  PlatformCandidateInfoCandidateIdImport.update({
+    id: '/candidate-info/$candidateId',
+    path: '/candidate-info/$candidateId',
+    getParentRoute: () => PlatformRoute,
+  } as any)
 
 // Populate the FileRoutesByPath interface
 
@@ -155,13 +171,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthSignUpImport
       parentRoute: typeof AuthImport
     }
-    '/_platform/candidates': {
-      id: '/_platform/candidates'
-      path: '/candidates'
-      fullPath: '/candidates'
-      preLoaderRoute: typeof PlatformCandidatesImport
-      parentRoute: typeof PlatformImport
-    }
     '/_platform/dashboard': {
       id: '/_platform/dashboard'
       path: '/dashboard'
@@ -183,11 +192,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WebsiteIndexImport
       parentRoute: typeof WebsiteImport
     }
+    '/_platform/candidate-info/$candidateId': {
+      id: '/_platform/candidate-info/$candidateId'
+      path: '/candidate-info/$candidateId'
+      fullPath: '/candidate-info/$candidateId'
+      preLoaderRoute: typeof PlatformCandidateInfoCandidateIdImport
+      parentRoute: typeof PlatformImport
+    }
+    '/_platform/candidates/$candidateId': {
+      id: '/_platform/candidates/$candidateId'
+      path: '/candidates/$candidateId'
+      fullPath: '/candidates/$candidateId'
+      preLoaderRoute: typeof PlatformCandidatesCandidateIdImport
+      parentRoute: typeof PlatformImport
+    }
     '/_platform/jobs/$jobId': {
       id: '/_platform/jobs/$jobId'
       path: '/jobs/$jobId'
       fullPath: '/jobs/$jobId'
       preLoaderRoute: typeof PlatformJobsJobIdImport
+      parentRoute: typeof PlatformImport
+    }
+    '/_platform/candidates/': {
+      id: '/_platform/candidates/'
+      path: '/candidates'
+      fullPath: '/candidates'
+      preLoaderRoute: typeof PlatformCandidatesIndexImport
       parentRoute: typeof PlatformImport
     }
     '/_platform/jobs/': {
@@ -215,18 +245,22 @@ const AuthRouteChildren: AuthRouteChildren = {
 const AuthRouteWithChildren = AuthRoute._addFileChildren(AuthRouteChildren)
 
 interface PlatformRouteChildren {
-  PlatformCandidatesRoute: typeof PlatformCandidatesRoute
   PlatformDashboardRoute: typeof PlatformDashboardRoute
   PlatformSettingsRoute: typeof PlatformSettingsRoute
+  PlatformCandidateInfoCandidateIdRoute: typeof PlatformCandidateInfoCandidateIdRoute
+  PlatformCandidatesCandidateIdRoute: typeof PlatformCandidatesCandidateIdRoute
   PlatformJobsJobIdRoute: typeof PlatformJobsJobIdRoute
+  PlatformCandidatesIndexRoute: typeof PlatformCandidatesIndexRoute
   PlatformJobsIndexRoute: typeof PlatformJobsIndexRoute
 }
 
 const PlatformRouteChildren: PlatformRouteChildren = {
-  PlatformCandidatesRoute: PlatformCandidatesRoute,
   PlatformDashboardRoute: PlatformDashboardRoute,
   PlatformSettingsRoute: PlatformSettingsRoute,
+  PlatformCandidateInfoCandidateIdRoute: PlatformCandidateInfoCandidateIdRoute,
+  PlatformCandidatesCandidateIdRoute: PlatformCandidatesCandidateIdRoute,
   PlatformJobsJobIdRoute: PlatformJobsJobIdRoute,
+  PlatformCandidatesIndexRoute: PlatformCandidatesIndexRoute,
   PlatformJobsIndexRoute: PlatformJobsIndexRoute,
 }
 
@@ -251,11 +285,13 @@ export interface FileRoutesByFullPath {
   '/todos': typeof TodosRoute
   '/sign-in': typeof AuthSignInRoute
   '/sign-up': typeof AuthSignUpRoute
-  '/candidates': typeof PlatformCandidatesRoute
   '/dashboard': typeof PlatformDashboardRoute
   '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
+  '/candidate-info/$candidateId': typeof PlatformCandidateInfoCandidateIdRoute
+  '/candidates/$candidateId': typeof PlatformCandidatesCandidateIdRoute
   '/jobs/$jobId': typeof PlatformJobsJobIdRoute
+  '/candidates': typeof PlatformCandidatesIndexRoute
   '/jobs': typeof PlatformJobsIndexRoute
 }
 
@@ -265,11 +301,13 @@ export interface FileRoutesByTo {
   '/todos': typeof TodosRoute
   '/sign-in': typeof AuthSignInRoute
   '/sign-up': typeof AuthSignUpRoute
-  '/candidates': typeof PlatformCandidatesRoute
   '/dashboard': typeof PlatformDashboardRoute
   '/settings': typeof PlatformSettingsRoute
   '/': typeof WebsiteIndexRoute
+  '/candidate-info/$candidateId': typeof PlatformCandidateInfoCandidateIdRoute
+  '/candidates/$candidateId': typeof PlatformCandidatesCandidateIdRoute
   '/jobs/$jobId': typeof PlatformJobsJobIdRoute
+  '/candidates': typeof PlatformCandidatesIndexRoute
   '/jobs': typeof PlatformJobsIndexRoute
 }
 
@@ -282,11 +320,13 @@ export interface FileRoutesById {
   '/todos': typeof TodosRoute
   '/_auth/sign-in': typeof AuthSignInRoute
   '/_auth/sign-up': typeof AuthSignUpRoute
-  '/_platform/candidates': typeof PlatformCandidatesRoute
   '/_platform/dashboard': typeof PlatformDashboardRoute
   '/_platform/settings': typeof PlatformSettingsRoute
   '/_website/': typeof WebsiteIndexRoute
+  '/_platform/candidate-info/$candidateId': typeof PlatformCandidateInfoCandidateIdRoute
+  '/_platform/candidates/$candidateId': typeof PlatformCandidatesCandidateIdRoute
   '/_platform/jobs/$jobId': typeof PlatformJobsJobIdRoute
+  '/_platform/candidates/': typeof PlatformCandidatesIndexRoute
   '/_platform/jobs/': typeof PlatformJobsIndexRoute
 }
 
@@ -298,11 +338,13 @@ export interface FileRouteTypes {
     | '/todos'
     | '/sign-in'
     | '/sign-up'
-    | '/candidates'
     | '/dashboard'
     | '/settings'
     | '/'
+    | '/candidate-info/$candidateId'
+    | '/candidates/$candidateId'
     | '/jobs/$jobId'
+    | '/candidates'
     | '/jobs'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -311,11 +353,13 @@ export interface FileRouteTypes {
     | '/todos'
     | '/sign-in'
     | '/sign-up'
-    | '/candidates'
     | '/dashboard'
     | '/settings'
     | '/'
+    | '/candidate-info/$candidateId'
+    | '/candidates/$candidateId'
     | '/jobs/$jobId'
+    | '/candidates'
     | '/jobs'
   id:
     | '__root__'
@@ -326,11 +370,13 @@ export interface FileRouteTypes {
     | '/todos'
     | '/_auth/sign-in'
     | '/_auth/sign-up'
-    | '/_platform/candidates'
     | '/_platform/dashboard'
     | '/_platform/settings'
     | '/_website/'
+    | '/_platform/candidate-info/$candidateId'
+    | '/_platform/candidates/$candidateId'
     | '/_platform/jobs/$jobId'
+    | '/_platform/candidates/'
     | '/_platform/jobs/'
   fileRoutesById: FileRoutesById
 }
@@ -378,10 +424,12 @@ export const routeTree = rootRoute
     "/_platform": {
       "filePath": "_platform.tsx",
       "children": [
-        "/_platform/candidates",
         "/_platform/dashboard",
         "/_platform/settings",
+        "/_platform/candidate-info/$candidateId",
+        "/_platform/candidates/$candidateId",
         "/_platform/jobs/$jobId",
+        "/_platform/candidates/",
         "/_platform/jobs/"
       ]
     },
@@ -405,10 +453,6 @@ export const routeTree = rootRoute
       "filePath": "_auth/sign-up.tsx",
       "parent": "/_auth"
     },
-    "/_platform/candidates": {
-      "filePath": "_platform/candidates.tsx",
-      "parent": "/_platform"
-    },
     "/_platform/dashboard": {
       "filePath": "_platform/dashboard.tsx",
       "parent": "/_platform"
@@ -421,8 +465,20 @@ export const routeTree = rootRoute
       "filePath": "_website/index.tsx",
       "parent": "/_website"
     },
+    "/_platform/candidate-info/$candidateId": {
+      "filePath": "_platform/candidate-info.$candidateId.tsx",
+      "parent": "/_platform"
+    },
+    "/_platform/candidates/$candidateId": {
+      "filePath": "_platform/candidates.$candidateId.tsx",
+      "parent": "/_platform"
+    },
     "/_platform/jobs/$jobId": {
       "filePath": "_platform/jobs.$jobId.tsx",
+      "parent": "/_platform"
+    },
+    "/_platform/candidates/": {
+      "filePath": "_platform/candidates.index.tsx",
       "parent": "/_platform"
     },
     "/_platform/jobs/": {
