@@ -1,6 +1,8 @@
 from app.utils.filesystem import get_project_root
 from pydantic_settings import BaseSettings, SettingsConfigDict, PydanticBaseSettingsSource, YamlConfigSettingsSource
 from typing import Literal
+from typing import Optional
+
 
 # from app.models.config import DBConfig, ThrottlingConfig
 # from app.models.prompt import PromptsConfig
@@ -21,7 +23,7 @@ class Settings(BaseSettings):
     AWS_S3_BUCKET: str = "REMOVED_BUCKET_NAME"
     TWILIO_ACCOUNT_SID: str
     TWILIO_AUTH_TOKEN: str
-    TWILIO_WHATSAPP_FROM: str
+    TWILIO_WHATSAPP_FROM: Optional[str] = None
     # prompts: PromptsConfig
     # db_config: DBConfig
     # throttling_config: ThrottlingConfig
