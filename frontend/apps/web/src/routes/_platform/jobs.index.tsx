@@ -12,14 +12,20 @@ import { useCallback, useMemo } from 'react'
 export const Route = createFileRoute('/_platform/jobs/')({
     component: RouteComponent,
     loader: async ({ context }) => {
-        const jobs = await context.queryClient.ensureQueryData(context.trpc.job.getAll.queryOptions());
-        return { jobs };
+        // Ensure data is fetched and cached before component mounts
+        await context.queryClient.ensureQueryData(context.trpc.job.getAll.queryOptions());
+        // Return value is optional if you primarily use useSuspenseQuery in the component
+        return {};
     },
 })
 
 function RouteComponent() {
     const [dialogOpen, setDialogOpen] = useState(false);
-    const { jobs } = Route.useLoaderData();
+    // const { jobs } = Route.useLoaderData(); // No longer needed for jobs data
+    const trpc = useTRPC();
+
+    // Use useSuspenseQuery to read directly from the cache, ensuring fresh data
+    const { data: jobs } = useSuspenseQuery(trpc.job.getAll.queryOptions());
 
     const [searchQuery, setSearchQuery] = useState("")
 

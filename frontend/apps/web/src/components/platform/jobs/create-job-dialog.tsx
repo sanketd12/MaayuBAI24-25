@@ -34,7 +34,7 @@ import {
 import { useNavigate } from "@tanstack/react-router";
 import { toast } from "sonner";
 import { useTRPC } from "@/utils/trpc";
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 
 // Define the Zod schema based on the tRPC input validation
 // Match this exactly with the input schema in job.ts
@@ -71,8 +71,7 @@ export default function CreateJobDialog({ open, setOpen }: { open: boolean, setO
     });
     
     const trpc = useTRPC();
-
-    const getAllJobsQuery = useQuery(trpc.job.getAll.queryOptions());
+    const queryClient = useQueryClient();
 
     const createJobMutation = useMutation(
         trpc.job.create.mutationOptions({
@@ -81,7 +80,7 @@ export default function CreateJobDialog({ open, setOpen }: { open: boolean, setO
                 setOpen(false); // Close dialog on success
                 form.reset(); // Reset form fields
                 // invalidate the trpc query
-                getAllJobsQuery.refetch();
+                queryClient.invalidateQueries({ queryKey: trpc.job.getAll.queryKey() });
             },
             onError: () => {
                 toast.error("Failed to create job. Please try again.");
