@@ -2,6 +2,7 @@ import type { ColumnDef } from "@tanstack/react-table"
 import type { Candidate } from "../../../../../../server/src/db/schema/platform"
 import { MoreHorizontal } from "lucide-react"
 import { Checkbox } from "@/components/ui/checkbox"
+import { format, formatDistanceToNow, differenceInDays } from 'date-fns';
 
 import { Button } from "@/components/ui/button"
 import {
@@ -52,14 +53,34 @@ export const columns: ColumnDef<Candidate>[] = [
     {
         accessorKey: "createdAt",
         header: ({ column }) => (
-            <DataTableColumnHeader column={column} title="Created At" />
-        )
+            <DataTableColumnHeader column={column} title="Created" />
+        ),
+        cell: ({ row }) => {
+            const date = row.getValue("createdAt") as Date;
+            const now = new Date();
+            const daysDiff = differenceInDays(now, date);
+
+            if (daysDiff < 7) {
+                return <span>{formatDistanceToNow(date, { addSuffix: true })}</span>;
+            }
+            return <span>{format(date, 'PPP')}</span>;
+        }
     },
     {
         accessorKey: "updatedAt",
         header: ({ column }) => (
-            <DataTableColumnHeader column={column} title="Updated At" />
-        )
+            <DataTableColumnHeader column={column} title="Updated" />
+        ),
+        cell: ({ row }) => {
+            const date = row.getValue("updatedAt") as Date;
+            const now = new Date();
+            const daysDiff = differenceInDays(now, date);
+
+            if (daysDiff < 7) {
+                return <span>{formatDistanceToNow(date, { addSuffix: true })}</span>;
+            }
+            return <span>{format(date, 'PPP')}</span>;
+        }
     },
     {
         id: "actions",

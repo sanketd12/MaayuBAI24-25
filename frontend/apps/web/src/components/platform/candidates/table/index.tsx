@@ -32,11 +32,13 @@ import { DataTablePagination } from "@/components/ui/table-pagination"
 interface DataTableProps<TData, TValue> {
     columns: ColumnDef<TData, TValue>[]
     data: TData[]
+    bucketId: number
 }
 
 export function CandidateTable<TData, TValue>({
     columns,
     data,
+    bucketId,
 }: DataTableProps<TData, TValue>) {
     const [sorting, setSorting] = useState<SortingState>([])
     const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>(
@@ -68,7 +70,7 @@ export function CandidateTable<TData, TValue>({
 
     return (
         <div>
-            <UploadResumeDialog open={uploadResumeDialogOpen} onOpenChange={setUploadResumeDialogOpen} />
+            <UploadResumeDialog open={uploadResumeDialogOpen} onOpenChange={setUploadResumeDialogOpen} bucketId={bucketId} />
             <div className="flex items-center py-2 gap-2">
                 <div className="relative flex-1">
                     <Search className="absolute left-2.5 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />

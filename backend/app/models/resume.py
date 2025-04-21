@@ -23,6 +23,7 @@ class Certificate(BaseModel):
 
 class Resume(BaseModel):
     name: str = Field(description="The full name of the candidate")
+    email: str = Field(description="The email address of the candidate")
     summary: str = Field(description="A concise, entity-dense summary of this candidate and his/her qualifications")
     education: list[EducationExperience]
     work_experience: list[WorkExperience]

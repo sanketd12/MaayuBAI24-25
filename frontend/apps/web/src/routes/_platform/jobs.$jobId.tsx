@@ -1,4 +1,4 @@
-import { createFileRoute, useParams } from '@tanstack/react-router'
+import { createFileRoute, useParams, Link } from '@tanstack/react-router'
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -11,43 +11,26 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Progress } from "@/components/ui/progress";
-import { CalendarDays, MapPin, DollarSign, Link, Mail } from "lucide-react";
+import { CalendarDays, MapPin, DollarSign, Link as LinkIcon, Mail, Briefcase, Info } from "lucide-react";
+import { useTRPC } from '@/utils/trpc';
+import { Skeleton } from '@/components/ui/skeleton';
+import { toast } from "sonner";
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
 export const Route = createFileRoute('/_platform/jobs/$jobId')({
   component: JobDetailPage,
+  loader: async ({ context, params }) => {
+    const jobIdInt = parseInt(params.jobId);
+    if (isNaN(jobIdInt)) {
+      console.error("Invalid Job ID provided in URL");
+    } else {
+      await context.queryClient.ensureQueryData(context.trpc.job.getById.queryOptions({ id: jobIdInt }));
+    }
+  },
 })
 
-// Mock job data
-const jobData = {
-  id: "1",
-  title: "Senior Full Stack Developer",
-  company: "TechCorp Inc.",
-  location: "San Francisco, CA",
-  status: "Open",
-  postedDate: "2023-12-01",
-  salary: "$120,000 - $150,000",
-  applicationUrl: "https://example.com/apply",
-  description:
-    "We are seeking an experienced Full Stack Developer to join our growing team. The ideal candidate will have a strong background in both front-end and back-end development, with a passion for creating clean, efficient code.",
-  requirements: [
-    "5+ years of experience with JavaScript/TypeScript",
-    "Strong experience with React and Node.js",
-    "Experience with SQL and NoSQL databases",
-    "Knowledge of cloud services (AWS/GCP/Azure)",
-    "Understanding of CI/CD principles",
-    "Excellent communication skills",
-  ],
-  responsibilities: [
-    "Design and implement new features and functionality",
-    "Build reusable code and libraries for future use",
-    "Optimize applications for maximum speed and scalability",
-    "Collaborate with other team members and stakeholders",
-    "Ensure the technical feasibility of UI/UX designs",
-    "Stay updated with emerging technologies",
-  ],
-};
-
-// Mock candidate match data
+// Mock candidate match data - Re-adding this
 const candidateMatch = {
   id: "c123",
   name: "Alex Johnson",
@@ -63,8 +46,45 @@ const candidateMatch = {
   ],
 };
 
+// Helper function to format salary
+const formatSalary = (salary: number | null | undefined): string => {
+  if (!salary) return 'Not specified';
+  return `${salary.toLocaleString()}`;
+};
+
+// Helper function to format job type
+const formatJobType = (type: string | undefined): string => {
+  if (!type) return 'N/A';
+  switch (type) {
+    case 'full-time': return 'Full-Time';
+    case 'part-time': return 'Part-Time';
+    case 'internship': return 'Internship';
+    default: return type;
+  }
+};
+
+// Helper function to format date
+const formatDate = (dateString: string | Date | undefined): string => {
+  if (!dateString) return 'N/A';
+  const date = typeof dateString === 'string' ? new Date(dateString) : dateString;
+  if (isNaN(date.getTime())) {
+    return 'Invalid Date';
+  }
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+};
+
 function JobDetailPage() {
   const { jobId } = useParams({ from: Route.id });
+  const jobIdInt = parseInt(jobId);
+
+  const trpc = useTRPC();
+
+  const jobQuery = useSuspenseQuery(trpc.job.getById.queryOptions({ id: jobIdInt }));
+
   const [isSearching, setIsSearching] = useState(false);
   const [progress, setProgress] = useState(0);
   const [currentStep, setCurrentStep] = useState("");
@@ -99,20 +119,34 @@ function JobDetailPage() {
         setTimeout(() => {
           setIsSearching(false);
           setShowResult(true);
+          toast.success("Candidate search complete!");
         }, 500);
       }
-    }, 1000);
+    }, 800);
   };
 
-  // Format date function
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    });
-  };
+  if (jobQuery.isLoading) {
+    return <JobDetailSkeleton />;
+  }
+
+  if (!jobQuery.data) {
+    return (
+      <div className="container mx-auto py-8 px-4">
+        <Alert>
+          <Info className="h-4 w-4" />
+          <AlertTitle>Job Not Found</AlertTitle>
+          <AlertDescription>
+            The requested job could not be found. It might have been removed or the ID is incorrect.
+          </AlertDescription>
+        </Alert>
+      </div>
+    );
+  }
+
+  const jobData = jobQuery.data;
+
+  const jobStatus = jobData.status || 'Unknown';
+  const isJobOpen = jobStatus === 'open';
 
   return (
     <div className="container mx-auto py-8 px-4">
@@ -120,87 +154,57 @@ function JobDetailPage() {
         {/* Job Header */}
         <div>
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold">{jobData.title}</h1>
+            <h1 className="text-3xl font-bold">{jobData.name}</h1>
             <Badge
-              variant={jobData.status === "Open" ? "default" : "secondary"}
-              className="text-sm"
+              variant={isJobOpen ? "default" : "secondary"}
+              className="text-sm capitalize"
             >
-              {jobData.status}
+              {jobStatus}
             </Badge>
           </div>
-          <div className="text-xl mt-1">{jobData.company}</div>
           <div className="flex flex-wrap gap-4 mt-3 text-sm text-muted-foreground">
+            {jobData.location && (
+              <div className="flex items-center gap-1.5">
+                <MapPin className="h-4 w-4" />
+                <span>{jobData.location}</span>
+              </div>
+            )}
             <div className="flex items-center gap-1.5">
-              <MapPin className="h-4 w-4" />
-              <span>{jobData.location}</span>
+              <Briefcase className="h-4 w-4" />
+              <span>{formatJobType(jobData.type)}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <CalendarDays className="h-4 w-4" />
-              <span>Posted {formatDate(jobData.postedDate)}</span>
+              <span>Posted {formatDate(jobData.createdAt)}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <DollarSign className="h-4 w-4" />
-              <span>{jobData.salary}</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <Link className="h-4 w-4" />
-              <a
-                href={jobData.applicationUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                Application Link
-              </a>
+              <span>{formatSalary(jobData.salary)}</span>
             </div>
           </div>
         </div>
 
         <Separator />
 
-        {/* Main content */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Job Details */}
-          <div className="lg:col-span-2 space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle>Job Description</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p>{jobData.description}</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Requirements</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="list-disc pl-6 space-y-1">
-                  {jobData.requirements.map((req, index) => (
-                    <li key={index}>{req}</li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Responsibilities</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="list-disc pl-6 space-y-1">
-                  {jobData.responsibilities.map((resp, index) => (
-                    <li key={index}>{resp}</li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
+        {/* Main content - Changed to vertical stack */}
+        <div className="flex flex-col space-y-6">
+          {/* Job Details Section */}
+          <div className="space-y-6">
+            {jobData.description && (
+              <Card>
+                <CardHeader>
+                  <CardTitle>Job Description</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="whitespace-pre-wrap">{jobData.description}</p>
+                </CardContent>
+              </Card>
+            )}
           </div>
 
-          {/* AI Candidate Finder */}
+          {/* AI Candidate Finder Section */}
           <div>
-            <Card className="sticky top-6">
+            <Card>
               <CardHeader>
                 <CardTitle>AI Candidate Finder</CardTitle>
                 <CardDescription>
@@ -210,11 +214,12 @@ function JobDetailPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 {!isSearching && !showResult ? (
-                  <Button 
+                  <Button
                     className="w-full"
                     onClick={startCandidateSearch}
+                    disabled={!isJobOpen}
                   >
-                    Find Best Candidate
+                    {isJobOpen ? 'Find Best Candidate' : 'Job Closed'}
                   </Button>
                 ) : isSearching ? (
                   <div className="space-y-4">
@@ -225,18 +230,18 @@ function JobDetailPage() {
                       </div>
                       <Progress value={progress} className="h-2" />
                     </div>
-                    <Button disabled className="w-full">
+                    <Button disabled className="w-full opacity-75 cursor-not-allowed">
                       Searching...
                     </Button>
                   </div>
                 ) : (
                   <div className="space-y-4">
                     <div className="text-center mb-2">
-                      <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200">
-                        Top Match
+                      <Badge variant="outline" className="bg-green-100 text-green-800 border-green-200 dark:bg-green-900/50 dark:text-green-300 dark:border-green-700">
+                        Top Match Found
                       </Badge>
                     </div>
-                    
+
                     <Card>
                       <CardHeader className="pb-2">
                         <div className="flex justify-between items-start">
@@ -266,40 +271,101 @@ function JobDetailPage() {
                             ))}
                           </ul>
                         </div>
-                        
+
                         <div className="flex gap-2 pt-2">
-                          <Button 
-                            variant="outline" 
+                          <Button
+                            variant="outline"
                             className="flex-1"
                             asChild
                           >
-                            <a href={`/candidate-info/${candidateMatch.id}`}>
+                            <Link to="/candidate-info/$candidateId" params={{ candidateId: candidateMatch.id }}>
                               View Profile
-                            </a>
+                            </Link>
                           </Button>
-                          <Button 
+                          <Button
                             className="flex-1 gap-1.5"
                             asChild
                           >
-                            <a href={`mailto:alex.johnson@example.com?subject=Regarding your application for ${jobData.title}`}>
+                            <a href={`mailto:example@example.com?subject=Regarding your potential fit for ${jobData.name}`}>
                               <Mail className="h-4 w-4" /> Contact
                             </a>
                           </Button>
                         </div>
                       </CardContent>
                     </Card>
-                    
-                    <Button 
-                      variant="outline" 
+
+                    <Button
+                      variant="outline"
                       className="w-full"
                       onClick={() => {
                         setShowResult(false);
                       }}
+                      disabled={!isJobOpen}
                     >
                       Search Again
                     </Button>
                   </div>
                 )}
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Skeleton component for loading state
+function JobDetailSkeleton() {
+  return (
+    <div className="container mx-auto py-8 px-4 animate-pulse">
+      <div className="space-y-6">
+        {/* Header Skeleton */}
+        <div>
+          <div className="flex items-center justify-between">
+            <Skeleton className="h-8 w-3/5 rounded" />
+            <Skeleton className="h-6 w-16 rounded-full" />
+          </div>
+          <Skeleton className="h-6 w-2/5 mt-2 rounded" />
+          <div className="flex flex-wrap gap-4 mt-3">
+            <Skeleton className="h-5 w-24 rounded" />
+            <Skeleton className="h-5 w-28 rounded" />
+            <Skeleton className="h-5 w-32 rounded" />
+            <Skeleton className="h-5 w-20 rounded" />
+          </div>
+        </div>
+
+        <Separator />
+
+        <div className="flex flex-col space-y-6">
+          {/* Main Content Skeleton */}
+          <div className="space-y-6">
+            {[...Array(3)].map((_, i) => (
+              <Card key={i}>
+                <CardHeader>
+                  <Skeleton className="h-6 w-1/4 rounded" />
+                </CardHeader>
+                <CardContent className="space-y-2">
+                  <Skeleton className="h-4 w-full rounded" />
+                  <Skeleton className="h-4 w-full rounded" />
+                  <Skeleton className="h-4 w-4/5 rounded" />
+                  {i > 0 && <Skeleton className="h-4 w-3/5 rounded pt-4" />}
+                  {i > 0 && <Skeleton className="h-4 w-full rounded" />}
+                  {i > 0 && <Skeleton className="h-4 w-1/2 rounded" />}
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          {/* Sidebar Skeleton */}
+          <div>
+            <Card>
+              <CardHeader>
+                <Skeleton className="h-6 w-1/2 rounded" />
+                <Skeleton className="h-4 w-3/4 mt-1 rounded" />
+              </CardHeader>
+              <CardContent>
+                <Skeleton className="h-10 w-full rounded" />
               </CardContent>
             </Card>
           </div>

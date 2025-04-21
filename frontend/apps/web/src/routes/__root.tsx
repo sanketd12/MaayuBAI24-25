@@ -14,8 +14,6 @@ import type { TRPCOptionsProxy } from "@trpc/tanstack-react-query";
 import type { AppRouter } from "../../../server/src/routers";
 import appCss from "../index.css?url";
 
-import uploadthingCss from "@uploadthing/react/styles.css?url";
-
 export interface RouterAppContext {
 	trpc: TRPCOptionsProxy<AppRouter>;
 	queryClient: QueryClient;
@@ -40,26 +38,11 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
 				rel: "stylesheet",
 				href: appCss,
 			},
-			{
-				rel: "stylesheet",
-				href: uploadthingCss,
-			},
 		],
 	}),
 
 	component: RootDocument,
-	errorComponent: ErrorState,
 });
-
-function ErrorState() {
-	return (
-		<div className="flex h-svh items-center justify-center">
-			<div className="text-sm text-muted-foreground">
-				An error occurred buddy!
-			</div>
-		</div>
-	)
-}
 
 function RootDocument() {
 	const isFetching = useRouterState({ select: (s) => s.isLoading });

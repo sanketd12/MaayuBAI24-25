@@ -55,7 +55,7 @@ class FileProcessor:
             )]
 
         for image_url in image_urls:
-            messages.append(self._get_langchain_message(image_url))
+            messages.append(await self._get_langchain_message(image_url))
 
         return await self.client.ainvoke(messages)
 

@@ -16,9 +16,17 @@ function RouteComponent() {
   const trpc = useTRPC();
   const { bucketId } = useParams({ from: '/_platform/candidates/$bucketId' });
   const { data: bucketWithCandidates } = useSuspenseQuery(trpc.bucket.getById.queryOptions({ id: parseInt(bucketId) }));
+
+  // Transform candidate dates from string to Date objects
+  const candidatesWithDates = bucketWithCandidates?.candidates.map(candidate => ({
+    ...candidate,
+    createdAt: new Date(candidate.createdAt),
+    updatedAt: new Date(candidate.updatedAt),
+  })) || [];
+
   return (
     <>
-        <CandidateTable columns={columns} data={bucketWithCandidates?.candidates || []} />
+        <CandidateTable columns={columns} data={candidatesWithDates} bucketId={parseInt(bucketId)} />
     </>
   )
 }

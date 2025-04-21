@@ -3,6 +3,7 @@ import { todoRouter } from "./todo";
 import { jobRouter } from "./job";
 import { candidateRouter } from "./candidate";
 import { bucketRouter } from "./bucket";
+import { agentRouter } from "./agent";
 
 export const appRouter = router({
 	healthCheck: publicProcedure.query(() => {
@@ -18,5 +19,6 @@ export const appRouter = router({
 	job: jobRouter,
 	candidate: candidateRouter,
 	bucket: bucketRouter,
+	agent: agentRouter,
 });
 export type AppRouter = typeof appRouter;

@@ -1,32 +1,73 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-// import { UploadBox } from "@/components/platform/upload-box"
-import {
-    UploadButton,
-    UploadDropzone,
-    useUploadThing,
-} from "@/utils/uploadthing";
+import { FileUpload } from "@/components/ui/file-upload";
+import { useState } from "react";
+import { useTRPC } from "@/utils/trpc";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { toast } from "sonner";
+import axios from "redaxios";
+
+export default function UploadResumeDialog({ open, onOpenChange, bucketId }: { open: boolean, onOpenChange: (open: boolean) => void, bucketId: number }) {
+    const [files, setFiles] = useState<File[]>([]);
+    const [isUploading, setIsUploading] = useState(false);
+
+    const trpc = useTRPC();
+    const queryClient = useQueryClient(); // Get query client for potential refetching
+
+    const handleFileUpload = (files: File[]) => {
+        setFiles(files);
+        console.log(files);
+    };
+
+    const createCandidateMutation = useMutation(trpc.candidate.create.mutationOptions({
+        onError: (error) => {
+            toast.error(error.message);
+        }
+    }));
+
+    const handleUpload = async () => {
+        console.log("@ bucketId", bucketId);
+        if (files.length === 0) return;
+
+        setIsUploading(true);
+        const formData = new FormData();
+        formData.set("resume", files[0]);
+        // files.forEach((file) => {
+        //     formData.append("resume", file); // Use "files" as the key, matching common FastAPI file upload patterns
+        // });
+
+        try {
+            // Replace '/api/upload-resume' with your actual FastAPI endpoint
+            const response = await axios.post(`http://127.0.0.1:8000/ingestion/add-resume`, formData, {
+                // headers: {
+                //     'Content-Type': 'multipart/form-data',
+                // },
+            });
+
+            console.log("@ response", response);
+
+            createCandidateMutation.mutate({
+                bucketId: bucketId,
+                name: response.data.name,
+                email: response.data.email,
+            });
+
+            toast.success("Resumes uploaded successfully!");
+
+            // take the parsed resume and create a candidate
 
 
-export default function UploadResumeDialog({ open, onOpenChange }: { open: boolean, onOpenChange: (open: boolean) => void }) {
-    const { startUpload } = useUploadThing("resumeUploader", {
-        /**
-         * @see https://docs.uploadthing.com/api-reference/react#useuploadthing
-         */
-        onBeforeUploadBegin: (files) => {
-            console.log("Uploading", files.length, "files");
-            return files;
-        },
-        onUploadBegin: (name) => {
-            console.log("Beginning upload of", name);
-        },
-        onClientUploadComplete: (res) => {
-            console.log("Upload Completed.", res.length, "files uploaded");
-        },
-        onUploadProgress(p) {
-            console.log("onUploadProgress", p);
-        },
-    });
+            setFiles([]); // Clear files after successful upload
+            onOpenChange(false); // Close the dialog
+            // Optionally, invalidate queries to refetch data related to the bucket
+            queryClient.invalidateQueries({ queryKey: trpc.bucket.getById.queryKey({ id: bucketId }) });
+        } catch (error) {
+            console.error("Upload failed:", error);
+            toast.error("Upload failed. Please try again.");
+        } finally {
+            setIsUploading(false);
+        }
+    };
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
@@ -37,48 +78,14 @@ export default function UploadResumeDialog({ open, onOpenChange }: { open: boole
                 <DialogDescription>
                     Upload one or more REMOVED_BUCKET_NAME to this bucket.
                 </DialogDescription>
-                <UploadButton
-                    /**
-                     * @see https://docs.uploadthing.com/api-reference/react#uploadbutton
-                     */
-                    endpoint="resumeUploader"
-                    onClientUploadComplete={(res) => {
-                        console.log(`onClientUploadComplete`, res);
-                        alert("Upload Completed");
-                    }}
-                    onUploadBegin={() => {
-                        console.log("upload begin");
-                    }}
-                    config={{ appendOnPaste: true, mode: "manual" }}
-                />
-                <UploadDropzone
-                    /**
-                     * @see https://docs.uploadthing.com/api-reference/react#uploaddropzone
-                     */
-                    endpoint={(routeRegistry) => routeRegistry.resumeUploader}
-                    onUploadAborted={() => {
-                        alert("Upload Aborted");
-                    }}
-                    onClientUploadComplete={(res) => {
-                        console.log(`onClientUploadComplete`, res);
-                        alert("Upload Completed");
-                    }}
-                    onUploadBegin={() => {
-                        console.log("upload begin");
-                    }}
-                />
-                <input
-                    type="file"
-                    multiple
-                    onChange={async (e) => {
-                        const files = Array.from(e.target.files ?? []);
-
-                        // Do something with files
-
-                        // Then start the upload
-                        await startUpload(files);
-                    }}
-                />
+                <div className="w-full max-w-4xl mx-auto min-h-96 border border-dashed bg-background border-neutral-200 dark:border-neutral-800 rounded-lg">
+                    <FileUpload onChange={handleFileUpload} />
+                </div>
+                <DialogFooter>
+                    <Button disabled={files.length === 0 || isUploading} variant="default" onClick={handleUpload}>
+                        {isUploading ? "Uploading..." : "Upload"}
+                    </Button>
+                </DialogFooter>
             </DialogContent>
         </Dialog>
     )

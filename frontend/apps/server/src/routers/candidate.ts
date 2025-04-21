@@ -8,28 +8,21 @@ import { TRPCError } from "@trpc/server";
 
 export const candidateRouter = router({
 	create: protectedProcedure
-        .input(z.object({ name: z.string().min(1), email: z.string().email(), bucketId: z.number(), uploadedResume: z.instanceof(File) }))
+        .input(z.object({ name: z.string().min(1), email: z.string().email(), bucketId: z.number() }))
         .mutation(async ({ ctx, input }) => {
-            // Handle resume parsing on Python backend
-            const formData = new FormData();
-            // Append the file using the field name expected by FastAPI ('resume')
-            formData.append("resume", input.uploadedResume, input.uploadedResume.name);
 
             try {
                 // Call the correct FastAPI endpoint with FormData
-                const response = await axios.post(`${ctx.pythonBackendUrl}/ingestion/add-resume`, formData);
 
                 // Assuming the response contains the parsed data
-                const parsedData = response.data;
                 // You might want to use `parsedData` here instead of just `input`
-                console.log("Resume parsed successfully:", parsedData);
 
                 // Insert into the database (consider using data from parsedData if needed)
                 await db.insert(candidates).values({
                     name: input.name, // Or potentially parsedData.name if available
                     email: input.email, // Or potentially parsedData.email
                     bucketId: input.bucketId,
-                    resume_file_name: input.uploadedResume.name,
+                    resume_file_name: "RESUME_FILE_NAME", // TODO: get the actual file name
                     userId: ctx.userId,
                 });
 
@@ -76,4 +69,21 @@ export const candidateRouter = router({
         .mutation(async ({ ctx, input }) => {
             await db.delete(candidates).where(and(eq(candidates.id, input.id), eq(candidates.userId, ctx.userId)));
         }),
+    
+    uploadResume: protectedProcedure
+    .input(
+        z
+          .instanceof(FormData)
+          .transform((fd) => Object.fromEntries(fd.entries()))
+          .pipe(
+            z.object({
+              text: z.string(),
+              fileOne: z.instanceof(File).refine((f) => f.size > 0),
+              fileTwo: z.instanceof(File).optional(),
+            })
+          )
+      )
+      .mutation(({ input }) => {
+        console.log(input);
+      }),
 });
