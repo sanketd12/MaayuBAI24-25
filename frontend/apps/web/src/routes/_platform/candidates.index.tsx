@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -86,7 +85,7 @@ function RouteComponent() {
                 <CardContent className="flex-grow pt-0 pb-4">
                   <div className="flex items-center gap-1.5 text-sm text-muted-foreground">
                     <User className="h-3.5 w-3.5" />
-                    <span>{bucket.candidateCount || 0} candidates</span>
+                    <span>{bucket.candidateCount || 0} {bucket.candidateCount === 1 ? "candidate" : "candidates"}</span>
                   </div>
                 </CardContent>
               </Card>

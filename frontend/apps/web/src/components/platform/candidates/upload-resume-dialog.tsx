@@ -20,6 +20,10 @@ export default function UploadResumeDialog({ open, onOpenChange, bucketId }: { o
     };
 
     const createCandidateMutation = useMutation(trpc.candidate.create.mutationOptions({
+        onSuccess: () => {
+            queryClient.invalidateQueries({ queryKey: trpc.bucket.getById.queryKey({ id: bucketId }) });
+            queryClient.invalidateQueries({ queryKey: trpc.bucket.getNamesAndCounts.queryKey() });
+        },
         onError: (error) => {
             toast.error(error.message);
         }
@@ -51,7 +55,7 @@ export default function UploadResumeDialog({ open, onOpenChange, bucketId }: { o
                 name: response.data.name,
                 email: response.data.email,
             });
-
+            
             toast.success("Resumes uploaded successfully!");
 
             // take the parsed resume and create a candidate
@@ -59,8 +63,6 @@ export default function UploadResumeDialog({ open, onOpenChange, bucketId }: { o
 
             setFiles([]); // Clear files after successful upload
             onOpenChange(false); // Close the dialog
-            // Optionally, invalidate queries to refetch data related to the bucket
-            queryClient.invalidateQueries({ queryKey: trpc.bucket.getById.queryKey({ id: bucketId }) });
         } catch (error) {
             console.error("Upload failed:", error);
             toast.error("Upload failed. Please try again.");
