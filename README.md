@@ -63,3 +63,6 @@
 
     pip install pipreqs
     pipreqs /path/to/project/root --> -->
+
+### Here is a link to the slides and demo!
+https://drive.google.com/file/d/1Dup5gWQPZVHRTdqvIfZTzWPw60mwNcJD/view?usp=sharing 
