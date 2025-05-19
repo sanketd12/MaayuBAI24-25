@@ -1,0 +1,220 @@
+{
+    "experiences": [
+        {
+            "company": "Texas Association of School Boards, TX",
+            "role": "Senior Mule ESB Developer",
+            "responsibilities": [
+                "Responsible and active in the analysis, definition, design, implementation and deployment of full software development life-cycle (SDLC) of the project",
+                "Analyzed the functional specifications and translate them into technical specifications",
+                "Meet the Business Line Team for translating business requirements to functional specifications",
+                "Understand the existing systems and design for introducing industry Collections",
+                "Developed REST APIs using API KIT ROUTER",
+                "Designed and Developed the data validation integration interfaces for various projects",
+                "Developed transformation using Data weave in Any point studio",
+                "Created Exceptional handling framework",
+                "Developed Mule ESB projects for the services with synchronous and asynchronous Mule Flows",
+                "Creating cluster environment using Mule ESB with Mule Any Point Studio and Creating Active MQ with different topologies in Enterprise Integration",
+                "Created http inbound & outbound flows, routing, orchestration, transformations and Security of Mule ESB application using OAuth",
+                "Strong experience in designing REST API's using RAML File",
+                "Gathered requirements and planned on integration of both SAS applications using Mule ESB and Integrated Mule ESB system while utilizing Rabbit MQ, JMS, Http, File system and SFTP transports",
+                "Edited, stored, and retrieved configuration settings for the transport and format of B2B messages using Any point manager",
+                "Experience working on hybrid platform for integration",
+                "Work with Mule Any point connectors: Kafka, Salesforce, FTP, Database, web services and JMS etc",
+                "Integrate order processing system SAP with CRM Salesforce and SQL database",
+                "Used AMQP Endpoints to connect to Rabbit MQ which is a messaging queue",
+                "Implement Security for connecting to Salesforce by using OAUTH2",
+                "Deploy, Configure, tune and monitor API Gateways",
+                "Create continuous integration with Jenkins",
+                "Create few API's to fetch the license details from Account Portal by using API Kit router",
+                "Develop API's using RAML",
+                "Experience in writing MUnit test cases to validate the Mule flows",
+                "Maintained Source code of the applications for various releases on GitHub",
+                "Deployed and scheduled Mule project on Cloud hub"
+            ],
+            "dates": [
+                "September2019– Till Date"
+            ]
+        },
+        {
+            "company": "Mercedes Benz Financial services, MI",
+            "role": "Mule ESB Developer",
+            "responsibilities": [
+                "Involved in Agile-Sprint methodologies to do requirements gathering, analysis and planning. Involved in gathering requirements from existing functionality for the custodians",
+                "Gather requirements and planning on integration of both SAS applications using Mule ESB",
+                "Integration of Mule ESB system while utilizing Queues, Topics, Http, File system and SFTP transports",
+                "Implemented data transformation using XPATH, XSLT, Data Weave, custom java classes",
+                "Worked on components that includes File, SMTP, FTP, SFTP, JDBC Connector (Sales force, HL7, SAP, Data Base, HTTP, FTP) and Transaction Manager",
+                "Migrated Mule ESB 3.5 apps to Mule ESB 3.7.3 and updated all the dependencies",
+                "Migrated deprecated Data Mapper mapping to Data Weave in MULE ESB",
+                "Responsible in developing integration workflows using Mule ESB framework and implemented Data weave and content-based routing using Mule ESB",
+                "Developed RESTful web services in Mule ESB based on SOA architecture",
+                "Design and Implemented Restful Web Services using various data format (JSON, XML) to provide the interface to the various third-party applications",
+                "Experience in Mule Soft Any point platform on designing and implementing Mule APIs",
+                "Created various RAML resources to implement REST Based APIs as a part of project implementation",
+                "Hand-on experience with transformers, exception handling, testing & Security of Mule ESB endpoint through OAuth",
+                "Code walk-throughs, Mule Debugging and Error fixing",
+                "Implemented clustering and throttling concepts for Mule based solutions",
+                "Used MMC (Mule management console to monitor the request and response payload",
+                "Have written MUnit test cases to validate the Mule flows",
+                "Involved in achieving more than 75% of code coverage for unit tests, which was a requirement for committing to a repository",
+                "Developed Mule flows to integrate Data from various sources into Database from ActiveMQ topics and queues and some transformations were also done at the integration layer",
+                "Developed interfaces between SAP, Sales Force and REST web-services",
+                "Developing Mule ESB projects for the services with synchronous and asynchronous Mule flows",
+                "Used CVS (Concurrent Version System) as the configuration management tool",
+                "Used CloudHub connector in the flows to trigger alerts during exceptions and captured the failed records for further recovery",
+                "Used Log4J components for logging. Perform daily monitoring of log files and resolve issues",
+                "Used GitHub for the version control",
+                "Involved in installing and configuring Eclipse IDE, Ant, Web Logic and Maven for development"
+            ],
+            "dates": [
+                "Sep 2018– Aug 2019"
+            ]
+        },
+        {
+            "company": "JPMorgan Chase, Ohio",
+            "role": "Mule ESB Developer",
+            "responsibilities": [
+                "Used Agile methodology was to emphasize on face-to-face communication over written documents and make sure that iteration is passing through a full software development cycle",
+                "Designed UML diagrams like Use case, Class and Activity diagram based on the requirements gathered",
+                "Deployed Mule ESB applications into MMC (Mule Management Console",
+                "Extensively used Mule components that include File, SMTP, FTP, SFTP, JDBC Connector and Transaction Manager",
+                "Experience with implementing Service-Oriented Architecture (SOA) environment, Reliability Patterns with Mule ESB and Enterprise Application Integration (EAI",
+                "Excellent abilities to develop Message flows using Mule Runtimes 3/4, Any point studio across integrating variety of business applications with connectors including Salesforce, Intacct, DB, SMTP and using wide variety of transport layers including HTTP, HTTPS, JMS, VM",
+                "Eexperienced in using the enterprise security, notifications features provide by Mule",
+                "Worked on API Manager, Runtime Manager and Exchange in any point Cloud hub",
+                "Installation and configuration of Development Environment using Anypoint studio with Mule Application server on cloud and premises",
+                "Created MULE ESB artifact and configured the MULE configurations files and deployed",
+                "Created REST API's using RAML and developed flows using APIKIT Router",
+                "Performed integrations with other sub-systems through JMS, XML and XSLT",
+                "Developed an Integration Component with third party application using Mule ESB",
+                "Used Soap UI, POSTMAN, Advanced Rest client to test the services",
+                "Designed RESTful Web services using RAML and shared with internal clients",
+                "Worked on creating http inbound and outbound flows, orchestration, drools and custom flows",
+                "Worked on migration from Data Mapper to Data Weave and submitted the effort estimates",
+                "Worked on implementing Synchronous and Asynchronous messaging scopes using Active MQ in Mule",
+                "Used GIT as version controlling tool and Maven for building and deployed application to Cloudhub",
+                "Integrating the salesforce with Mulesoft for connecting applications, data sources and APIs with cloud",
+                "Experience in integrating Cloud applications like SFDC and Cloud Database using Mule ESB",
+                "Utilized custom logging framework for Mule ESB application",
+                "Created http inbound & outbound flows, routing, orchestration, transformations and security of MULE ESB application",
+                "Used Anypoint Studio to connect to REST, SOAP, MySQL Database and Active MQ by implementing integration flows",
+                "Strong application integration experience using Mule ESB with connectors, transformations, Routing, ActiveMQ, JMS",
+                "Developing Mule ESB projects for the services with synchronous and asynchronous Mule flows",
+                "Integration of Mule ESB system while utilizing MQ Series, Http, File system and SFTP transports",
+                "Integrating data using SAP, Sales Force, JMS, HTTP, Web-Service connectors",
+                "Involved in Transformations using XSLT, Data Weave, and Custom Java Transformers to transform data from one format to another format using Mule ESB",
+                "Developed Mule flows to integrate Data from various sources into Database, from ActiveMQ topics and queues, some transformations were also done at the integration layer",
+                "Used MUnit for Mocking and Unit testing Mule flows",
+                "Used Log4j to capture the log that includes runtime exception and for logging info and are helpful in debugging the issues"
+            ],
+            "dates": [
+                "Jan 2017 – July 2018"
+            ]
+        },
+        {
+            "company": "Cisco, San Jose",
+            "role": "Mulesoft Developer",
+            "responsibilities": [
+                "Participated Agile training and daily scrum meeting to discuss the progress of project and any blockage of the work and the solution of the block",
+                "Worked on preparing the technical specification documents (TSD’S) for all the services that are to be implemented",
+                "Implemented data transformation using XSLT, Data Weave and custom transformation using java",
+                "Created http inbound & outbound flows, routing, orchestration, transformations and security of MULE ESB application",
+                "Worked on API Manager, Runtime Manager and Exchange in any point Cloud hub",
+                "Used Anypoint Studio to connect to REST, SOAP, MySQL Database and Active MQ by implementing integration flows",
+                "Worked extensively on MULE ESB artifacts, created flows and configured the MULE configuration files",
+                "Developed Restful API’s using the API designer and generated flows using RAML file",
+                "Extensively worked on debugging the XML flows using Mule Debugger and wrote MUnit Test Cases",
+                "Used Core Java concepts like Collections, Generics, Exception handling, Concurrency and Java I/O to develop business logic",
+                "Used various transformers in Mule ESB based on use case and had implemented the custom transformations",
+                "Implemented both Synchronous and Asynchronous messaging scopes using Active MQ in Mule",
+                "Implemented data transformation using XPATH, XSLT and custom java classes",
+                "Worked on developing REST based API’s",
+                "Involved in creation, deployment of the application which includes unit testing",
+                "Designed and developed enterprise REST based APIs using RAML",
+                "Created MULE ESB artifact and configured the MULE configuration files and deployed",
+                "Used data weave expressions for transformations",
+                "Design and Implemented RESTFUL Web Services using various data formats (JSON, XML) to provide the interface to various third-party applications",
+                "Used various connectors like Database, SAP, VM, HTTP, JMS to design Mules flows",
+                "Developed RAML based RESTful API’s and built custom components, connectors and transformers",
+                "Designed and developed several mediation flows using the Mule Anypoint Studio of Mule ESB and integrated with API’s, Databases",
+                "Performed Web services integration through Mule ESB and applied Integration patterns as per SOA architecture",
+                "Implemented REST services in Mule respectively and tested them using Postman"
+            ],
+            "dates": [
+                "Feb 2015 - Dec 2016"
+            ]
+        },
+        {
+            "company": "Tech Mahindra, Hyderabad India",
+            "role": "Message Broker Developer",
+            "responsibilities": [
+                "Design and develop web services, File Based and MQ based message flows in Message broker using MQ, File, Transformation, HTTP, Webservices, Routing and construction category nodes",
+                "Developed message flows and configured services to provide REST and SOAP based web services in message broker",
+                "Created Message Sets, Message definitions, message models, XSLT and type trees to perform message transformation",
+                "Developed services in message broker for SAP integration using SAP adapter nodes for inbound and outbound calls",
+                "Involved in configuring of deployment policies for code migrations between various application domains in message broker",
+                "Developed type trees and functional maps, worked with EDI message transformation to XML and extensively used number to text, text to number, extract, search up, lookup, from date time, today time functions in WTX",
+                "Created exception handling framework in Message broker. Use throw statement to handle business exceptions and catch exceptions by connecting to failure and catch terminals",
+                "Involved in requirement gathering, Analysis, documentation, Design, Development and testing of project interface",
+                "Implemented Global Caching, shared variables, configurable services in message broker",
+                "Configured node level monitoring and record and replay capabilities in message broker",
+                "Developed message flows using java compute node to perform XML message transformation and configured JDBC service in MQ explorer to connect to the database",
+                "Involved in all phases of the Software development life cycle (SDLC) and responsible for planning and development of various modules",
+                "Interaction with the developers and technical content writers on daily basis to update the test documents",
+                "Reviewed existing Test Scripts and modified as required for new changes"
+            ],
+            "dates": [
+                "Jan 2013 - July 2014"
+            ]
+        }
+    ],
+    "education": {
+        "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+        "institution": "N/A",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": null
+    },
+    "certifications": [
+        "Certified Mule ESB Developer"
+    ],
+    "projects": [
+        {
+            "project": "N/A",
+            "description": [
+                "N/A"
+            ],
+            "skills": [
+                "N/A"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "N/A",
+            "role": "N/A",
+            "responsibility": [
+                "N/A"
+            ]
+        }
+    ],
+    "honors": [
+        "N/A"
+    ],
+    "userDetails": {
+        "name": "Rama Krishna",
+        "skills": [
+            "Certified Mule ESB Developer",
+            "Any Point Platform: ESB, Anypoint API Designer, web sphere message broker MMC, Cloud Hub, Runtime Manager, Anypoint Studio, RAML",
+            "Web: HTTP, REST, XML, JSON",
+            "Connectors: HTTP, Salesforce, Database, Workday, File, FTP/SFTP, AMQP, Microsoft Service Bus",
+            "Environment: JAVA, Mule ESB, Mule Management Console, Anypoint Studio, Apache-Maven, ActiveMQ, Cloudhub, RAML, Nexus, Putty, XML, JSON, PL/SQL, SQL, Log4J, CVS",
+            "Message Transformation: JSON, XML, Data Weave, Java Collections, Data Mapper, IDOC, fixed width",
+            "Database: MS SQL Server, Oracle, MySQL",
+            "SDLC Methodologies: Waterfall, Agile",
+            "Tools: Anypoint Studio, Eclipse, SQL Developer",
+            "Operating Systems: Window 7/8/10, Linux",
+            "CI / CD: Maven, Jenkins, GitHub, Artifactory"
+        ]
+    }
+}

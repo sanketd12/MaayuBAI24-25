@@ -1,0 +1,80 @@
+{
+    "certifications": [
+        "NCFM – 94% in NSE’s Certification in Financial Markets, National Stock Exchange. (2011)",
+        "Successfully cleared Sun Certified Java Professional (SCJP) J2SE 1.5 with a score of 98%. (2008)",
+        "Finance Foundation Program (FFP),  Oracle Financial Services Software Limited ( formerly  i-flex Solutions). (2005)"
+    ],
+    "education": {
+        "institution": "Institute of Technology for Women , S.N.D.T Women’s University, Mumbai, India",
+        "degree": "Bachelor of Technology in Computer Science & Technology",
+        "graduation": "2004",
+        "gpa": 77,
+        "courses": [
+            "Human Resource Management System (HRMS) –Final Year Project. (2003-04)",
+            "Tally Data Conversion Utility – Third Year Project. (2003)"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "JP Morgan Chase & Co",
+            "role": "Associate",
+            "dates": [
+                "12 April 2010 – Till date"
+            ],
+            "responsibilities": [
+                "Working as Team Member as part of Application Development Team in India team along with global team of 25 to 30 spread across US and UK. Work includes onboarding Risk and Scope Feeds from internal strategic systems , Co-ordinating with Business users (Front and /or Middle office) for report specifications & implementing required configuration, building necessary APIs and Reports. Technology used spring, Hibernate, Oracle 10g and Oracle coherence."
+            ]
+        },
+        {
+            "company": "Oracle Financial Services Software Ltd",
+            "role": "Associate Consultant",
+            "dates": [
+                "14 February 2005 – 2010"
+            ],
+            "responsibilities": [
+                "Design and Develop APIs for Bank Release specific requirement. Handling the version up-gradation, enhancements and Customizations of the banking transactions within FLEXCUBE for CASA, ACH and Settlement module. Provide support for SIT, UAT, QAT and manage issues identifies by QA Team. Technology used Java/J2EE, Hibernate, Oracle 10G, VB."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "FIBRE",
+            "description": [
+                "Project Leader and Key person as Technical and Functional Analyst in understanding and explaining user’s requirements and participating in developing the application. Developed API to source Client and accounts data from golden source and distribute it to end systems in form of xml messages / AQ updates. Technology used Spring, Hibernate, Flax, Oracle 10g and Ehcache."
+            ],
+            "skills": [
+                "Spring, Hibernate, Flax, Oracle 10g and Ehcache"
+            ]
+        },
+        {
+            "project": "HRMS",
+            "description": [
+                "Designed and developed HRMS for integrating 3 major modules of Recruitment, Payroll Module and Leave & Loan Policy using C# and ASP.NET."
+            ],
+            "skills": [
+                "C#, ASP.NET"
+            ]
+        }
+    ],
+    "honors": [
+        "Appreciated for having through Analytical skills and quick learning ability to grasp business domain knowledge by Vice President, JPMorgan Chase, India. (2010- 2011)",
+        "Commended for multitasking capabilities & professionalism for FIBRE by Vice President, JPMorgan Chase. (2010- 2011)",
+        "Awarded JPMorgan Chase’s Investment banking technology’s Annual R & R Winner for Best Team in India for FIBRE Project. (2010)",
+        "Appreciated for requiring minimal monitoring ,showcasing flexibility ,ownership  and providing high quality deliverables for FLEXCUBE by Senior Project  Manager ,Oracle Financial Services Software Ltd. (2008)"
+    ],
+    "activities": [
+        {
+            "activity": "Drawing, Painting, Sketching, Watching Animation Movies, Sports.",
+            "role": "Interest",
+            "responsibility": [
+                "Interest"
+            ]
+        }
+    ],
+    "userDetails": {
+        "name": "JAYSHREE SOLANKI",
+        "skills": [
+            "Java /J2EE Technologies, Spring, Hibernate, SQL, Oracle AQ, Ehcache,Oracle Coherence, XML, HTML, UML ,C, C++, JavaScript, Oracle10g, SQL Server 2000, MS – Access, Adobe Flex, Jack Be Presto 5.0, Java script , JSP and Servlets, Microsoft Visual Source Safe, SVN tortoise, Eclipse 3.0, Tomcat , SQL Developer, Jetty ,Web Sphere MQ, Issue tracking and source control tool –JIRA, Putty, Microsoft Windows (98,2000,XP), UNIX"
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "New Orleans, LA",
+        "degree": "Master of Computer Science and BBA",
+        "graduation": "",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Tate and Lyle, IL",
+            "role": "SAP FSCM Consultant",
+            "dates": [
+                "Apr 11",
+                "Current"
+            ],
+            "responsibilities": [
+                "FSCM Dispute Management: Configured dispute case type, Configured Dispute Case Attribute profile, created case search profile, text profile, status profile and assigned to dispute case type, Gathered business requirements on Dispute Case Categories and Configured along with Dispute Reason codes, Configured Root cause codes for identifying the main causes for the dispute cases so that they can be reviewed over periodically to improve the business process efficiency, Defined escalation reason codes, explained and trained users to use the escalation reason code to auto write-off small balanced dispute cases, Worked on setting up the system to Auto create dispute case and auto write-off for approved dispute cases. Configured Automatic Dispute Case creation from Residual Items with the batch job, In Dispute Management, captured the disputes where and when they arise, optimized the collaboration between the AR Accounting and Dispute department, streamlined the Dispute resolution process and handled cross-department dispute resolution, In Dispute Management created case record model, element type, case type, attribute profile, status profile, function profile, text profile and set up workflow correspondence, Involved in integration between Dispute management and AR. Involved in advanced customization for new attribute and RMS ID. Created dispute case correspondence, automatic write-off and automatic function",
+                "FSCM Collection Management: Configured Collections module and Integration with Accounts Receivable Accounting, Configured collection strategy, collection segments, collection rules, collections groups and collection profile for business partners and collection specialists, Configured Collection Management integration with Dispute Management, Trained users in collections department to effectively use collections worklist to make collections call and document the notes upon call, Trained collections supervisor to actively monitor the worklist completed by the collection specialist and balance the workload by re-assigning the collections work-item to different collectors and how to update the collection strategy by adopting collections rules and modifing valuation points to determine the priority for collections",
+                "Training and Support Experience: Trained users in managing and using SAP FSCM Dispute Management efficiently, Documented Processes in Dispute Management, Working with Dispute Cases and its components, Creating, Processing, and Resolving Disupte Cases, Integration of Dispute Management with Accounts Receivable, Working with Notes and Accessing Action Log, Linking objects (attaching external document to dispute case), Action Log, Maintaining Deductions Reason Codes, Changing Customer Contact for Dispute Case, Working with Chargebacks, Escalations for Automatic Write-offs, Correspondence, Reporting in Dispute Management"
+            ]
+        },
+        {
+            "company": "UPS, Atlanta, GA",
+            "role": "SAP FSCM Consultant",
+            "dates": [
+                "Jun 10",
+                "Apr 11"
+            ],
+            "responsibilities": [
+                "Collection Management: Configuration of Collection Profile, Collection Segments, Collection Groups, Collection Specialist. Configured different Collections Strategies for different Collection Groups, Involved in reviewing collection worklists, promise to pay activity, creation of reserve calculation spreadsheet and adjusting GL Reserve balances, Setup two important batch jobs for collections – Send AR data to collection and Generate Collection worklist, Configured Collection Profile to role to assigned to business parther, Other areas in collection Management includes the customer contacts, Business Partners, assignment of collection group to collection segment and indicating the status of collection, Setup different collections rule from the standard available on the collection strategy, Configured the Promise to Pay so that multiple invoice can be promised on one case, Batch job scheduled to judge the status of the promise to pay on daily basis, Set up collection segment, collection profiles, collection rules, collection strategies. Define Collection specialist and specialists group and assigned collection segment to them. Involved in creating Collection Worklists via running Batch Job, also re-create the worklist for specific BP, Involved in assigning dunning procedure and level. Also integrated dunning with collection management",
+                "Dispute Management: Gathered requirements for dispute management module, Configured Dispute case type, dispute reason code, dispute case category, Root cause code, escalation reasons for write-off and various other object necessary to activate dispute case functionality for various company codes, Configured record management system to build the base for dispute cases, Configured element types and attribute profiles for dispute management, Configured Status management, case types, correspondence, Defined derivation of element values upon automated dispute case creation, Configured escalation reasons to leverage the automatic write-off of the dispute cases, Configured batch processes for automating dispute case creation, Configured Dispute Management Case Processing and Process Integration with Accounts Receivable Accounting, Wrote functional specs for dispute management customization to add additional fields to dispute case to capture additonal attribute as request by business"
+            ]
+        },
+        {
+            "company": "Motorola, Long Island, NY",
+            "role": "SAP AR and FSCM Consultant",
+            "dates": [
+                "Feb 09",
+                "Jun 10"
+            ],
+            "responsibilities": [
+                "FSCM Credit Management: Configured Credit Management Credit Risk Monitoring and Integration with Accounts Receivable Accounting and Sales and Distribution, Configured risk classes, risk rating, credit check rules and collection business partners in credit management, Populated credit exposure through daily interfaces, Gathered requirements for new development for additional enhancements in collections, credits and disputes, Created customer-specific functions for the Formula Editor in FSCM-Credit Management to determine scores, Designed Business partner setup and configuration to match with customer number and auto creation upon customer creation for given account group and automatic assignment of Credit and Collection roles to the relevant business partner, Designed and configured the system so that segregation of credit check at sales order for third party items and at delivery for the deliverable items was implemented to meet the business requirements, Enhanced the delivery due index to show the credit check status for smooth warehouse management process, Involved in post production support & resolution of issues, Documented all the processes involved",
+                "Accounts Receivable Experience: Defined Customer account groups, assign number ranges to customer group, configuration of different check tables for customer master data, billing, payment terms and interest calculation, incoming payments, dunning, AR information system, account systems, credit management, closing operations, sales order and integration with SD, Supported the Order-To-Cash process from a finance perspective. This includes billing and sales order interagtion with AR, Master data updating in company code views for payment methods, fixing up tolerance levels, assigning automatic credit control areas, planning group assignment in Customers for Cash purposes. Integration areas in AR document line item for residual case reporting for Dispute cases & other standard integration areas with FSCM, GL- Updating on accounts in the planning level areas, Business meetings besides regular client updates review meetings, Customer Remittance Upload – Enhancement to upload excel remittance to do auto clearing for customers that provided remittance in non-EDI format (Web, Excel, CSV), User sign off and post implementation support in other modules including FI/CO"
+            ]
+        },
+        {
+            "company": "Texas Instrument, Houston, TX",
+            "role": "SAP FICO Consultant",
+            "dates": [
+                "May 08",
+                "Feb 09"
+            ],
+            "responsibilities": [
+                "Accounts Receivable Experience: Configured and customized Account Receivable modules for creation of Customer Master Records and A/R invoices, defined tolerance groups, default account assignments, Dunning & risk categories, Configured Auto Lock box System & processing of incoming payments, Configured Customer Master Data Setup, Tolerance Limits, Tested FI-AR scenarios as an order to cash: Customer master data maintenance, full, partial, residual incoming payments, invoice posting and AR reporting, Analyzed the Business Process Requirements provided by the client, Assisted the Project Lead during the Project Preparation Phase, Conducted meetings with users to understand the workflow of the As-Is system, Documented the Project Structure & the Process Steps with information such as the Name of the Process steps along with the textual description of their functions, IMG menu paths & Transaction codes, Experienced in Dunning Program Execution – Maintain Parameters, Scheduling Dunning Run and Start Dunning Printout, Contributed towards reframing certain processes and conducted training for the end-users to transfer knowledge about the user-friendly new system & changes Worked on end of month reports and issues, Created functional specs for various customizing development requests in lockbox, payment advice, sales interfaces, open items conversion, customer statements, substitution user exits and validations, Extensively used BTE's, user exits and enhancement points to meet client's critical business requirements",
+                "Accounts Payable Experience: Defined and configure vendor account groups, Configured House Banks, Checks Management, reason codes and Automatic Payment Program. Worked in designing Interfaces for bank and payment. Wrote Functions specification requirement for bank statement upload and payment advice note to the bank and vendor, Configured automatic payment program to select open vendor line items and invoice to be picked up in payment proposal created with F110, Configured accounts payable process: create vendor and bank master data, manage vendor invoices, process payments, build master data, generate reports; developed and maintain configuration and functional design documents and support role based profile changes, Defined account groups, Company code and activity dependent screen layouts for vendors and customers. Defined Rules for Line item display and open item processing for vendors and customers, Maintained terms of payment for invoices, credit memos, Configured House Banks, Payment Programs, Automatic Payment Methods, and Alternate Bank Selections for Payments, Checks Management through assigning number ranges for check lots, checks printing and defining void reason codes, Posting Invoices with and without Invoice Verification, Tested the payment program configuration changes and completed the unit, integration and regression testing, Tested FI-AP scenarios as a purchase to pay process: - Vendor master maintenance, vendor invoice and credit memo postings, park and posting parked invoices, down payment clearing, and automatic payment program for check payments, Experienced in Automatic Payment Program Execution – Set Parameters, Proposal Run, Payment Run and Print Media Execution, Got Involved in providing training to Collection and Dispute Department to understand the newly configured FSCM system and also provided post production support in FSCM area"
+            ]
+        },
+        {
+            "company": "Infosys, Mumbai – India",
+            "role": "SAP FICO Business Analyst",
+            "dates": [
+                "Mar 06",
+                "May 08"
+            ],
+            "responsibilities": [
+                "Supported various local and international Infosys client by providing configuration and production support services for various SAP implementations, Interacted with the Business Process Owners to understand the user requirements and business processes, Prepared the design documents, configuration documents, and functional requirement documents for technical developments, unit testing and integration testing, Configured and customized the Company Code, Fiscal year Variant, Chart of Accounts, Account Groups, Field status variant and assignments etc, Defined tolerance groups, tolerances for employees, customers and vendors, Created Master Data like G.L accounts, Vendors, Customers etc, Involved in Periodic posting of depreciation run and year-end closing, Created and generated the Reports through Report Painter as per the client requirement for management reporting, Provided total support for FI/MM and FI/SD integration, Authored test scripts for all FICO scenarios and executed as part of integration testing, Provided interactive training sessions to end users in the areas of Cost Center accounting, Cost allocation process, CO information systems in the Controlling module, Authored test scripts and executed for BW reports which source data from COPA, Configured Controlling Area, created cost and revenue elements, cost centers, activity types and SKF, Created Standard Hierarchy, Internal Order maintenance for controlling, Maintained assessment and distribution cycles for overhead, indirect and imputed cost allocation and distribution to respective cost centers and execution, Created and maintained segments, cycles, cost sheets and assignments, Created internal order types, created internal orders, planned for internal orders and was involved with posting of cost and settlement of internal orders, Responsible for assisting in trouble shooting that the live production sites encountered, Provided Production Support and system enhancements to SAP FI/CO End Users, Provided Functional Support by being the liaison between users and technical support teams, Automated GR/IR process of clearing the accounts which has the assignment of goods receipts to the corresponding invoice receipts used in the purchase order number, Configured new payment terms for the down payments as per the client’s requirements, Used Report Painter/Report Writer & assigned different transactions to these specific reports, Set up company codes, chart of account, posting variants, fiscal year variants, inter-company transactions, foreign currencies and translation rates, Involved in the configuration of asset classes, cost element accounting, cost centers accounting and profitability analysis, Configured and customized FI/CO module, Defined different parameters for company, company code, business area, functional area, credit control area and chart of accounts, Defined fiscal year variants and assigned fiscal year variants to various company codes, Made initial settings for: customer/vendor master records, display and processing of line items of documents, correspondence, displaying account balances, interest calculation and posting, credit management and closing operations, Defined automatic procedures such as payment program and dunning program, Customized accounting transactions for GL posting, AR/AP posting and recurring entries, Provided configuration support in MM integration for account determination"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Jay Patel",
+        "skills": [
+            "SAP FSCM",
+            "Collection, Dispute and Credit Mangement",
+            "Financial Accounting",
+            "Accounts Receivable, Accounts Payable, General Ledger",
+            "Controlling",
+            "Cost Center and Profit Center Accounting",
+            "Reporting and Integration",
+            "Standard SAP reporting, BI Reporting, Working Integration Knowledge realted to SD (OTC) and MM (P2P)"
+        ]
+    }
+}

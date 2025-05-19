@@ -1,0 +1,156 @@
+{
+    "userDetails": {
+        "name": "Sanket Doddabendigere",
+        "skills": [
+            "Python",
+            "Java",
+            "TypeScript",
+            "JavaScript",
+            "SQL",
+            "C#",
+            "C",
+            "HTML",
+            "CSS",
+            "React",
+            "Node.js",
+            "Git",
+            "GitHub",
+            "Spring Boot",
+            "AWS",
+            "MongoDB",
+            "Docker",
+            "Neo4j",
+            "NLTK",
+            "TensorFlow",
+            "Arduino",
+            "Hiking",
+            "Soccer (Manchester United)",
+            "Skateboarding",
+            "Photography",
+            "Travelling",
+            "Music",
+            "Cooking"
+        ]
+    },
+    "education": {
+        "institution": "University of Virginia School of Engineering & Applied Science",
+        "degree": "B.S in Computer Science, Minor in Data Science",
+        "graduation": "Expected Graduation: May 2026",
+        "gpa": 3.8,
+        "courses": [
+            "Algorithms",
+            "Advanced Software Development Essentials",
+            "Data Systems",
+            "Probability",
+            "Computer Systems and Organizations",
+            "Data Structures and Algorithms",
+            "Discrete Math and Theory",
+            "Linear Algebra",
+            "Ordinary Differential Equations"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "TechSur Solutions",
+            "role": "Software Engineering Intern",
+            "dates": [
+                "Jun 2024",
+                "Aug 2024"
+            ],
+            "responsibilities": [
+                "Developed and enhanced an RAG-based chatbot using Vue.js, TypeScript, and React",
+                "Engineered a task event service microservice using Spring Boot and PostgreSQL",
+                "Enhanced the Task Event Service by updating the database schema, integrating optimistic locking, and developing new API endpoints"
+            ]
+        },
+        {
+            "company": "CargoLabs",
+            "role": "Software Engineer",
+            "dates": [
+                "Jun 2024",
+                "Aug 2024"
+            ],
+            "responsibilities": [
+                "Implemented new API endpoints and restructured the backend architecture",
+                "Enhanced the front-end interface of CoverPort, a FinTech platform for the trucking industry",
+                "Contributed to and improved the company's landing page"
+            ]
+        },
+        {
+            "company": "Niyam IT",
+            "role": "Software Developer",
+            "dates": [
+                "Feb 2024",
+                "Present"
+            ],
+            "responsibilities": [
+                "Utilized OpenAI API to automatically gather and parse information on state employment laws",
+                "Researched and implemented Strapi CMS as the backend for the company's website"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "Reel Recommender",
+            "skills": [
+                "Python",
+                "Streamlit",
+                "Content-based filtering",
+                "Cosine similarity"
+            ],
+            "description": [
+                "Engineered a movie recommender system implemented with content-based filtering and cosine similarity algorithms",
+                "Employed the Streamlit library to design an intuitive front-end interface"
+            ]
+        },
+        {
+            "project": "Stock Bot",
+            "skills": [
+                "Python",
+                "React",
+                "Flask",
+                "JavaScript",
+                "Natural Language Processing",
+                "Machine Learning"
+            ],
+            "description": [
+                "Employed natural language processing APIs and machine learning models to train models for stock market prediction",
+                "Developed the frontend using React and JavaScript, utilized Python and Flask for backend operations and data analysis"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Business and Artificial Intelligence Club",
+            "role": "",
+            "responsibility": []
+        },
+        {
+            "activity": "Project Code",
+            "role": "",
+            "responsibility": []
+        },
+        {
+            "activity": "National Eagle Scout Association",
+            "role": "",
+            "responsibility": []
+        },
+        {
+            "activity": "Data Science and Analytics Club",
+            "role": "",
+            "responsibility": []
+        },
+        {
+            "activity": "Indian Student Association",
+            "role": "",
+            "responsibility": []
+        },
+        {
+            "activity": "Venture Scouts of America",
+            "role": "",
+            "responsibility": []
+        }
+    ],
+    "honors": [],
+    "certifications": []
+}

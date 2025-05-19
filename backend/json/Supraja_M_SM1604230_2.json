@@ -1,0 +1,268 @@
+{
+    "experiences": [
+        {
+            "company": "Hilti Inc",
+            "role": "Sr. DevOps/Cloud Engineer",
+            "dates": [
+                "Sept 2020 - Present"
+            ],
+            "responsibilities": [
+                "Designed and deployed a multi-tier application utilizing AWS stack focused on high-availability, fault tolerance environment",
+                "Implemented, maintained EC2 servers and S3 buckets and monitored them using AWS CloudWatch",
+                "Configured the AWS ALB to route the traffic from target group to right targets on AWS ECS",
+                "Experience in dealing with Windows Azure IaaS - Virtual Networks, Virtual Machines, Cloud Services, Resource Groups, Express Route, VPN, Load Balancing, Application Gateways, Auto-Scaling, and Traffic Manager",
+                "Experience with setting up and maintaining cloud infrastructure on AWS, including EC2, VPC, S3, ELB, EBS, CloudFormation, IAM, RDS, and Route53",
+                "Configured Azure Virtual Networks, subnets, DHCP address blocks, Azure network settings, DNS settings, security policies and routing. Deployed Azure IaaS virtual machines and Cloud services (PaaS role instances) into secure Virtual Networks and subnets",
+                "Managed Kubernetes using Helm charts. Created reproducible builds of the Kubernetes applications, managed Kubernetes manifest files and managed releases of Helm packages",
+                "Supported Data analytics team with docker by integrating with cloud, created custom Docker Images, and built various containers integrating Docker engine and Docker Management Platform, to deploy the code-services oriented environments for scalable applications",
+                "Designed and implemented CI (Continuous Integration) for building the application by creating Jenkins’s pipeline jobs by integrating Gitlab, Jenkins and JFrog Artifactory",
+                "Create and maintain IAC using Terraform, Chef and/or Puppet",
+                "Configured SSH, SMTP, Build Tools, and Source Control repositories in Hudson",
+                "Configured and maintained Ansible role-based application servers including Nginx, JBoss and Tomcat in AWS cloud services",
+                "Ability to integrate Ansible into continuous integration/continuous delivery (CI/CD) pipelines",
+                "Proficiency in writing complex Ansible playbooks",
+                "Ability to troubleshoot problems with Ansible playbooks",
+                "Installed Chef Server on the workstation and bootstrapped the nodes using Knife and involved in writing Chef Cookbooks and recipes to automate the deployment process",
+                "Created a custom Puppet module skeleton to use same structure across all Puppet modules and Implemented Puppet to separate data from Puppet code",
+                "Expertise in Continuous Integration (CI) and Continuous Delivery (CD) using CloudBees Jenkins",
+                "Experience in deploying and managing applications on CloudBees Platform for PaaS",
+                "Troubleshoot, diagnose, and resolve issues related to CloudBees deployments",
+                "Developed Python and Shell scripts for automating Continuous Integration and Deployment process for the application development",
+                "Experience with automating and configuring Linux/Unix based systems using Python",
+                "Configuration of various plugins for Jenkins for automation of the workflow and to optimize and smooth running of build jobs",
+                "Configured GIT with Jenkins and schedule jobs using Poll SCM option",
+                "Designed an ELK system to monitor and search enterprise alerts. Installed, configured, and managed the ELK Stack for Log management within EC2 / Elastic Load balancer for Elastic Search. Monitored performance of the applications and analysed log information using ELK (Elasticsearch, Logstash, Kibana)"
+            ]
+        },
+        {
+            "company": "Ameriprise Financial",
+            "role": "Sr. DevOps/Cloud Engineer",
+            "dates": [
+                "Sept 2018 - Aug 2020"
+            ],
+            "responsibilities": [
+                "Configured AWS Identity and Access Management (IAM) Groups and Users for improved login authentication. Created AWS RDS, Aurora DB cluster and connected to the database through an Aurora DB instance using the Amazon RDS Console",
+                "Performed the automation deployments using AWS by creating the IAM roles and policies and used the code pipeline plugin to integrate Jenkins with AWS and created the EC2 instances to provide the virtual servers",
+                "Proven knowledge of cost optimization and best practices for designing and running applications on AWS",
+                "Ability to monitor and debug applications on AWS using CloudWatch, CloudTrail, and X-Ray",
+                "Building/Maintaining Docker container clusters managed by Kubernetes, Linux, Bash, GIT, Docker on GCP (Google Cloud Platform).",
+                "Knowledge of Kubernetes concepts such as Pods, Services, ConfigMaps, Ingress, Deployments, Volumes, etc",
+                "Proven experience with Kubernetes orchestration and containerization tools such as Docker, CoreOS, and Kubernetes",
+                "Built, implemented, and maintained the infrastructure as code using ARM templates and used it to create infrastructure in Azure and maintained using Ansible and implemented Terraform modules for deployment of applications across multiple cloud providers",
+                "Developed Python and Shell Bash scripts for automating Continuous Integration and Deployment process for the application development",
+                "Created Azure Automation Asset Graphical runbooks, PowerShell runbooks that will automate specific tasks, deployed Azure AD Connect, configured ADFS authentication flow, ADFS installation using AD Connect",
+                "Configured continuous integration from source control, setting up build definition within Azure DevOps and configured continuous delivery to automate the deployment of ASP.NET Model-View-Controller (MVC) applications to Azure web apps",
+                "Utilized Kubernetes and Docker for the runtime environment of the CI/CD system to build, test deploys",
+                "Experience with automation tools such as Chef, Puppet, Ansible, SaltStack, or Jenkins",
+                "Ability to create and maintain Chef cookbooks",
+                "Set up build environment integrating with Git and Jira to trigger builds using Web Hooks and Worker Machines by integrating Docker container-based test infrastructure to Jenkins CI test flow",
+                "Experience with CI/CD systems and creating necessary pipelines and jobs using Jenkins",
+                "Extensively involved in infrastructure as code, execution plans, resource graph and change automation using Terraform",
+                "Assisted in installation of various CI/CD tools like Jenkins, puppet, ansible and terraform",
+                "Wrote Ansible playbooks, inventories, created custom playbooks written in YAML language, encrypted the data using Ansible Vault and maintained role-based access control by using Ansible Tower",
+                "Assisted in installing Ansible Registry for local upload and download of Docker images and even from Docker Hub",
+                "Experience with Python, ruby, and Bash. Have used the tools in the maintenance or automation of a production and QA environment servers",
+                "Helped DEV team on using REPO as a wrapper tool to manage 125 git repositories and setup replication on each repository",
+                "Deployed and configured Elasticsearch, Logstash, and Kibana (ELK) for log analytics, full-text search, application monitoring in integration with AWS Lambda and CloudWatch. Then store those logs and metric into an S3 bucket using Lambda function",
+                "Knowledge of CloudBees Jenkins Enterprise and CloudBees Jenkins Operations Centre",
+                "Design, implement, and maintain build pipelines and process flows in CloudBees",
+                "Ability to install, configure, and manage CloudBees Jenkins Enterprise and CloudBees Jenkins Operations Centre",
+                "Configured apps in Splunk to deploy configurations in applications to monitor logs from applications Service Now and VMWare. Creating dashboard alerts in Splunk to monitor error logs from applications based on thresholds",
+                "Supported Splunk PS installation and configuration of Splunk ES (Enterprise Security) and Splunk ITSI",
+                "Setting up and configuring of New Relic, improved monitoring, and performance of application in the tool",
+                "Developed scripts to automate deployment of New Relic agents to servers",
+                "Developed and implemented processes for collecting and sending New Relic metrics to Graphite for analysis",
+                "Automated Datadog Dashboards with the stack through Terraform Scripts. Configured CloudWatch and Datadog to monitor real-time granular metrics of all the AWS Services and configured individual dashboards for each resource Agents",
+                "Configured Prometheus for resource and application monitoring and alert configuration based on Threshold"
+            ]
+        },
+        {
+            "company": "CNSI",
+            "role": "DevOps Engineer",
+            "dates": [
+                "Jun 2016 - Aug 2018"
+            ],
+            "responsibilities": [
+                "Implemented the Chef Software setup and configuration on VM's from the scratch and deployed the run-list into chef-server and bootstrapped the chef clients remotely",
+                "Involved in monitoring and troubleshooting Network like TCP/IP, NFS, DNS and SMTP in Linux servers and System Activities like CPU, Memory, Disk and Swap space usage to avoid any performance issues",
+                "Documentation and tracking of issues, logs and audit files, System efficiency and performance monitoring, Disk and Network usage analysis",
+                "Work with Build and Release teams to enhance the current process to implement a better software packaging and delivery by automation using Jenkins & chef",
+                "Implemented Maven as build tool on Java projects for the development of build artifacts on the source code",
+                "Managed and Performed SCM related work for a company's website. The project involved working on multiple environments for QA and Production",
+                "Developed microservice onboarding tools leveraging Python and Jenkins, allowing for easy creation and maintenance of build jobs, Kubernetes deploy and services",
+                "Responsible for taking the source code and compiling using Maven and package it in its distributable format, such as a WAR file",
+                "Debug and resolve postOpenStack deployment failures",
+                "Setting up chef repo's (local & remote) working with both hosted and standalone server versions",
+                "Redesigned Release management process and build scripts written in Bash",
+                "Written Unit test cases for chef recipe testing using test kitchen, food critic etc",
+                "Wrote Python scripts for pushing data from DynamoDB to MySQL Database"
+            ]
+        },
+        {
+            "company": "Global Infotech",
+            "role": "DevOps Engineer",
+            "dates": [
+                "Mar 2013 - Jun 2015"
+            ],
+            "responsibilities": [
+                "Created and optimized shell scripts Bash and PowerShell for automating tasks",
+                "Provide engineering design across different workloads including incident & problem management, change management, security, and compliance",
+                "Troubleshooting boot related problems. Administrating software package like adding, deleting of software packages in Linux and Solaris",
+                "Diagnosed and resolved problems associated with DNS, DHCP, VPN, NFS, and Apache",
+                "Viewing and controlling the Processes running on the system and automating repetitive tasks. User Administration by creating, maintaining User's accounts and groups, setting up User environments",
+                "Implemented various security tools like SETUID, SETGID and STICKY BIT on file system for providing secure access",
+                "Provided support to Account Managers, UNIX and Windows technicians, and other departments",
+                "Enabling IP, Designing Firewall rules for new servers to enable communication with application, Oracle 10g servers",
+                "Implemented Network Communications on Servers",
+                "Responsible for preparing streams and preparing build scripts for packing WAR files, deploying SQL files and FILECOPY batch scripts on the CI/CD environment",
+                "Performed both interactive and automated (Kickstart) installations of Red Hat Enterprise Linux. Plan and execute RPM and YUM packages and update installations necessary for optimal system performance",
+                "Performed weekly and on-call deployments of application codes to production environments",
+                "Used UDeploy as Continuous Deployment tool and to setup automated and scheduled deployments. Maintained build related scripts developed in ANT and Shell"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "Troy University",
+        "degree": "Masters in computer science",
+        "graduation": "Graduated – 2016",
+        "courses": [
+            "Cloud",
+            "SCM Tools",
+            "Build Tools",
+            "CI/CD Tools",
+            "Container Tools",
+            "Configuration Management Tools",
+            "Logging/Monitoring Tools",
+            "Languages",
+            "Bug Tracking Tools",
+            "Web Servers",
+            "Application Servers",
+            "Virtualization",
+            "Databases",
+            "SDLC",
+            "Networking",
+            "Operating Systems"
+        ],
+        "gpa": null
+    },
+    "projects": [
+        {
+            "project": "Project 1",
+            "description": [
+                "Description of Project 1"
+            ],
+            "skills": [
+                "Skill 1",
+                "Skill 2"
+            ]
+        },
+        {
+            "project": "Project 2",
+            "description": [
+                "Description of Project 2"
+            ],
+            "skills": [
+                "Skill 1",
+                "Skill 2"
+            ]
+        }
+    ],
+    "certifications": [
+        "Certification 1",
+        "Certification 2"
+    ],
+    "activities": [
+        {
+            "activity": "Activity 1",
+            "role": "Role 1",
+            "responsibility": [
+                "Responsibility 1",
+                "Responsibility 2"
+            ]
+        },
+        {
+            "activity": "Activity 2",
+            "role": "Role 2",
+            "responsibility": [
+                "Responsibility 1",
+                "Responsibility 2"
+            ]
+        }
+    ],
+    "honors": [
+        "Honor 1",
+        "Honor 2"
+    ],
+    "userDetails": {
+        "name": "Supraja M",
+        "skills": [
+            "Python",
+            "Java",
+            "Shell script",
+            "AWS",
+            "Azure",
+            "GCP Cloud",
+            "Subversion",
+            "GIT",
+            "Bitbucket",
+            "Ant",
+            "Maven",
+            "Gradle",
+            "Jenkins",
+            "Bamboo",
+            "TeamCity",
+            "Gitlab",
+            "Kubernetes",
+            "Docker",
+            "Docker swarm",
+            "OpenShift",
+            "Ansible",
+            "Chef",
+            "Puppet",
+            "Splunk",
+            "Nagios",
+            "Cloud Watch",
+            "New Relic",
+            "Prometheus",
+            "Grafana",
+            "JIRA",
+            "Remedy",
+            "HP",
+            "Apache",
+            "JBOSS",
+            "IBM HTTP server",
+            "Tomcat",
+            "WebLogic",
+            "WebSphere",
+            "VMware ESX",
+            "ESXi",
+            "vSphere 4 vSphere 5",
+            "MongoDB",
+            "Postgres",
+            "Oracle 10G - 19C",
+            "SQL Server",
+            "MySQL",
+            "Waterfall",
+            "Agile",
+            "Scrum",
+            "TCP/IP",
+            "DNS",
+            "NFS",
+            "ICMP",
+            "SMTP",
+            "DHCP",
+            "UDP",
+            "NIS",
+            "LAN",
+            "FTP",
+            "Red Hat Linux 7/6/5",
+            "Ubuntu 16/14/13/12",
+            "Debian",
+            "CentOS",
+            "Windows",
+            "Solaris 11/10",
+            "Mac OS",
+            "Fedora"
+        ]
+    }
+}

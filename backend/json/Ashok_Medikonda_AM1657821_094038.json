@@ -1,0 +1,103 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Osmania University",
+        "degree": "Mater of computer Applications (MCA)2008",
+        "graduation": "2008",
+        "courses": [
+            "Mater of computer Applications (MCA)2008"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Mazda Financial Services (MFS) Michigan, USA(Concentrix) Ashburn VA(Remote) https://www.mazdafinancialservices.com",
+            "dates": [
+                "July2020 – Present"
+            ],
+            "role": "Sr. SSIS/ Power BI Developer",
+            "responsibilities": [
+                "Experienced in all stages of BI project & support work (requirements and logical design, physical design, implementation, testing and deployment, maintenance & support) Deploy and validate SSRS reports in the Report Server and Report Manager. Strong proficiency in data manipulation, ETL processes, and data cleansing using Power Query and M language. Created Custom Dash board Reports for Business requirements using Power BI. Created Gateways for refreshing/Scheduling data for Dashboard Reports. Designed and developed complex data models in Power BI, enabling faster and more accurate reporting for various departments. build predictive and statistical models using DAX functions and custom columns. Developed calculated columns, measures, and calculated tables to support advanced analytics and KPI tracking. Retrieve data from stored procedures and SSAS Cubes to generate reports for end-users using SSRS. Creation of Matrix, Table Reports, Drill-down, Drill-through and Sub-Reports using SSRS RDLs. Created Pie Chart, Bar Charts Column charts and Gauge Charts in SSRS. Using DAX to perform Seasonality and trend analysis and calculations to calculate moving averages, growth rates, and seasonal decomposition. Implemented data validation and error handling mechanisms within SSIS packages to ensure data accuracy and reliability. Created automated Power BI solutions for tracking key performance indicators (KPIs) and providing real-time insights to executives. Experience in using Time Intelligence Functions like SAMEPERIODLASTYEAR, DATESYTD, TOTALYTD, and ROLLINGAVERAGE. Collaborated with business analysts to gather requirements, define KPIs, and translate business needs into actionable visualizations. Implemented row-level security and data-level security measures to ensure data confidentiality. Conducted performance tuning on SSIS packages and ETL workflows, improving data processing. Multiple data sources and destinations, including SQL Server, Excel, flat files, Oracle, and other databases, were integrated using SSIS. expertise in creating control flow tasks, such as Execute SQL Task, File System Task, and FTP Task, to orchestrate the ETL workflow. expertise in building efficient data flows using components like OLE DB Source, OLE DB Destination, Data Conversion, and Sort to move and transform data. experience in implementing error handling and logging mechanisms in SSIS packages to ensure data integrity and troubleshoot issues. expert to use package configurations to dynamically alter package settings and parameters for various environments. Implemented data governance policies and procedures to maintain data quality. optimized SSIS package performance, including using buffers efficiently, tuning data flow components, and implementing parallelism. Implemented Copy activity, Custom Azure Data Factory Pipeline Activities. Expertise in data gathering, research and analytical abilities so as to develop insightful conclusions and generate solutions to address user needs. Primarily involved in Data Migration using SQL, SQL Azure, Azure storage, and Azure Data Factory. Implemented lookup activity, If condition activity, Aggregate transformation, Join transformation in Azure data factory. ability to solve complex business problems using data analysis and visualizations created with Power BI. using Power Query to extract data from various sources, perform data transformations, and load it into Power BI. Created Paginated reports are rendered page-by-page for printing or exporting to a specific page size-based business requirement. Experienced Power BI, including Power Query, DAX, data modeling, data visualization, and report development/publish. Created Paginated report through report builder service. Solid experience in database design or integration experience with SQL Server databases. Excellent verbal and written communication skills. Develop, implement and optimize stored procedures and functions using T-SQL. Experience in creating Roles using T-SQL. Designing databases and ensuring their stability, reliability, and performance using T-SQL. Design, create, and implement database systems based on the end user's requirements using T-SQL. Improve application's performances. Prepare documentation for database applications. Memory management for database systems. Exposure to MS SQL 2008 and SQL 2012 databases. Hand on experience in writing SSIS packages & exposure to SSRS and SSAS. Converted Data Transformation Services (DTS) application to SQL Server Integrated Services (SSIS) as assigned. Designed SSIS Packages to extract, transform, load (ETL) existing data into SQL Server from different environments for the SSAS cubes. Configured Email Alerts for unsuccessful completion of Scheduled Jobs. Possess knowledge of Data Warehousing and Business Intelligence concepts, Dimensional Modeling. Should have expertise on Database designing Tools, Data Modeling skills. Responsible for maintaining cubes using SSAS and populate cubes with data. Worked in both Tabular and Multidimensional model cubes in SQL server 2008R2,2012,2016. Worked in Relational modeling constructs (model, tables, columns) and OLAP modeling constructs (cubes, dimensions, measures). Worked on Dynamic SSAS Tabular Role Security-One Role to Multiple Cubes. Performance tuning of the SQL Server. Setup Continuous integration with Jenkins and make use of wide range of plugins available to setup smooth developer friendly workflows. Used Jira for creating Use cases and bug tracking for agile board and GitHub for real time bug tracking and issue management. Used ServiceNow for resolving incident tickets and creating change management tickets for production changes. Worked in developing Tabular model for Dashboard and Generating the power view Reports. Create Power BI dashboard reports as per the business requirements from the legacy reports. Monitor and maintain SQL jobs and Power BI reports for data accuracy and worked on performance improvement of the reports. Used Microsoft Power BI Power Query to extract data from external sources. Worked on Data visualization and Data analyzation using Power BI. Developed custom reports and developed them on server using SQL Server Reporting Services (SSRS). Generated periodic reports based on the statistical analysis of the data using SQL Server Reporting Services (SSRS). Back end Experience in MS SQL Server development, writing T-SQL stored procedures, views, triggers, UDFs. Export reports in various formats like MS Excel, PDF, MS Word, Text and CSV. Environment: MS SQL Server 2016/2014, SQL Server Integration Services (SSIS), SQL Server Reporting Services (SSRS), Power BI, Business Intelligence Development Studio (BIDS), SQL Server Analysis Services (SSAS), SVN (source control), MS Visual Studio.NET, C #, TFS, Visual Studio 14.0/VB.net, VB Script, ETL and Windows 2012 Server, ServiceNow.",
+                "company_name_2015_2020_gm_volvo_hyderabad_india_world_largest_automotive_original_equipment_manufacturer_oem_has_created_a_state_of_the_art_reporting_solution_or_its_2000_dealers_in_the_usa_and_i_am_one_of_the_lead_developers_who_designed_and_developed_a_robust_system_involving_2tb_of_data_2000_dealership_users_and_200_reports_in_this_system_we_designed_a_robust_vertical_automotive_portal_with_real_time_reporting_system_of_the_customer_sales_service_and_marketing_data_2015_2020_gm_volvo_hyderabad_india",
+                "company_name_2013_2015_ford_original_equipment_manufacturer_oem_to_provides_performance_on_the_service_retention_mailing_program_email_marketed_program_performance_telephone_reminder_performance_cadence_and_adhoc_campaigns_the_marketing_solicitation_data_the_service_repair_order_data_and_the_sales_data_all_are_processed_through_the_etl_database_and_reported_through_the_reporting_solution_the_application_provides_the_users_with_dynamic_drill_down_slice_dice_functionality_of_the_data_use_olap_very_scalable_clustered_sql_server_data_warehouse_2013_2015_ford_original_equipment_manufacturer_oem",
+                "company_name_2010_2013_subaru_land_rover_jaguar_hyderabad_india",
+                "company_name_jan_2010_aug_2013_subaru_land_rover_jaguar_hyderabad_india"
+            ]
+        },
+        {
+            "company": "GM/Volvo , Hyderabad, India",
+            "dates": [
+                "July 2015–Jun2020"
+            ],
+            "role": "Senior MSBI/Power BI Developer",
+            "responsibilities": [
+                "Implemented data validation and error handling mechanisms within SSIS packages to ensure data accuracy and reliability. Conducted performance tuning on SSIS packages and ETL workflows, improving data processing. Used Microsoft Power BI Power Query to extract data from external sources. Worked on Data visualization and Data analyzation using Power BI. Experienced Power BI, including Power Query, DAX, data modeling, data visualization, and report development/publish. using Power Query to extract data from various sources, perform data transformations, and load it into Power BI. Collaborated with data scientists and analysts to develop data pipelines for machine learning models, enhancing data-driven decision-making. Worked with Azure DevOps to implement continuous integration and deployment (CI/CD) for ETL processes, ensuring consistent and reliable deployments. Converted Data Transformation Services (DTS) application to SQL Server Integrated Services (SSIS) as assigned. Developed DTSX packages to extract, transform and load into the Campaign database from OLTP database using of SQL Server Integration Services (SSIS). Created Pivot tables using Power Pivot and power Query. Worked with various SSIS control flow tasks and data transformation tasks like Data conversion, Derived Column, Look-up, Fuzzy Look-up, script task, etc. as part of ETL. Involved in performing incremental loads while transferring data from OLTP to data warehouse. Develop, implement and optimize stored procedures and functions using T-SQL. Experience in creating Roles using T-SQL. Designing databases and ensuring their stability, reliability, and performance using T-SQL. Design, create, and implement database systems based on the end user's requirements using T-SQL. Involved in Tabular Data warehouse and DAX operations for SSAS 2012 and 2008 OLAP databases. Different data flow and control flow tasks in Business intelligence studios using SSIS. Debugged SSIS Packages using Data Viewers and Breakpoints. Used various transformations like derived column, Pivot, Un-pivot, copy column, merge join, union all, Lookup, audit, aggregate etc. Created Cubes with Star schema in SSAS and developed SSRS reports based on the cubes. Used T-SQL in SQL Server 2012 to develop Stored Procedures, User-Defined Functions (UDFs), Indexed Views and DML Triggers to support ETL packages. Preparing Dashboards using calculations, parameters in Tableau. Performed Provider analysis and gave useful Insights about deposit details from the Power BI dashboards. Created report schedules on Tableau server. Responsible for creating connections to the Oracle Database for the Source and target tables in Informatica to create the sessions. Creating reports using SQL Reporting Services (SSRS) for customized and ad-hoc Queries. Developed dashboard reports using Reporting Services, Report Model using Report Builder. Experience in creating Parameterized reports and Linked reports with thorough knowledge of report serving architecture (Table, chart and matrix report). Created drill down and drill up in worksheets in tableau. Designed SSIS Packages to extract, transform, load (ETL) existing data into SQL Server from different environments for the SSAS cubes. Configured Email Alerts for unsuccessful completion of Scheduled Jobs. Used Performance Monitor and SQL Profiler to optimize queries and enhance the performance of database servers. Worked in both Tabular and Multidimensional model cubes in SQL server 2008R2,2012. Experience in Creating database objects (tables, indexes, etc.). Writing database procedures, functions and triggers. Assist developers with database activities. Tune database queries. Monitor application related jobs and data replication activities. Worked in Relational modeling constructs (model, tables, columns) and OLAP modeling constructs (cubes, dimensions, measures). Worked on Dynamic SSAS Tabular Role Security-One Role to Multiple Cubes. Involved in trouble shooting of performance issues which were associated with Tableau reports. Experienced in integrating different Microsoft BackOffice Components such as Share Point and IIS with MS SQL Server. Experienced in working with agile methodology. Used Microsoft Power BI Power Query to extract data from external sources and modify data to certain format as required in Excel, and created SSIS packages to load Excel sheets from PC to database. Worked on Power BI and prepared dashboards using Tableau to make it more attractive. Experienced in Data visualization and Data analyzation using Power BI. Installed On premise data gateway and scheduled daily data refresh in Power BI. Created Calculated Columns and Measures in Power BI and Excel depending on the requirement using DAX queries."
+            ]
+        },
+        {
+            "company": "Ford/Toyota/ Hyundai/Kia",
+            "dates": [
+                "Sep 2013 – June 2015"
+            ],
+            "role": "Sr. SQL BI (SSIS, SSAS, SSRS) Developer",
+            "responsibilities": [
+                "Conducted DB management, Performance measurement and Performance tuning for new databases by using SQL Profiler, Data Engine Tuning Advisor and Index Tuning Wizard. Designed Star Schema (identification of facts, measures and dimensions) and Snowflake Schema. Development and Creation of Complex Stored Procedures, Triggers and Functions. Fine-tuning Stored Procedures to improve the performance by removing the unnecessary cursors. Usage of Active Directory to identity management design for providing strong authentication and authorization for internal and external websites. Management of T-SQL Views, Cursors, Index statistics, Tables and query optimization using execution plan for tuning the database. Implemented different types of constraints on the tables. Usage of Try, Catch and error for exception handling. Development of physical and logical data modeling tools such as Erwin and ER/Studio. Generation of periodic reports based on statistical analysis of data using SQL Server Reporting Services (SSRS). Creation of Cross Tab Reports, Drill-down, Drill-through and Sub-Reports using RDL. Used Power BI Power Pivot to develop data analysis prototype, and used Power View, Power Map and Power Pivot to visualize reports. Used Microsoft Power BI Power Query to extract data from external sources and modify data to certain format as required in Excel and created SSIS packages to load Excel sheets from PC to database. Managed up gradation of DTS packages to SSIS packages. Used the SSIS Import/Export, migrate the Heterogeneous Databases such as Access database, Oracle and flat files to SQL server 2014. Worked in developing Tabular model for Dashboard and Generating the power view Reports. Configured SQL mail agent for sending automatic emails when a SSIS package is failed or succeed. Developed multi-dimensional objects (cubes, Dimensions) using SQL Server Analysis Services (SSAS). Expert in creating Star schema cubes using SSAS. Involved in analyzing, designing, building & testing of OLAP cubes with SSAS 2014. Responsible for maintaining cubes using SSAS and populate cubes with data. Involved in development of SQL Server Web Applications. Used Jira for creating Usecases and bug tracking for agile board. Responsible for providing 24X7 Production support, Database and Scheduling Jobs. Configured replication servers and transactional replication between production & standby server for disaster recovery. Actively participated in interacted with users, team lead, DBAs and technical manager to fully understand the requirements of the system."
+            ]
+        },
+        {
+            "company": "Subaru/Land Rover/Jaguar",
+            "dates": [
+                "Jan 2010 – Aug 2013"
+            ],
+            "role": "MS SQL BI Developer",
+            "responsibilities": [
+                "Design and deployment of SSRS Reports using SQL Server, Cubes as data sources. Designed, Developed and Maintained SSAS Cubes for various Customer, Sales, Service and Parts Subject Areas for all Reporting needs. Participated in weekly status meetings with the team, developers to discuss open Issues. Deploying Reports development to QA. Supporting deployments QA environment through Production for successful builds to happen. Involved in Report testing. Daily Scrum call with Onsite Manager and team. Help create and maintain the Sprint Backlog, Sprint Burn down Chart and Task Board. Demonstrate the product at the end of each Sprint — during the Sprint Review Attend all Scrum meetings Collaborate and share knowledge and experience among the Team, Product Owner, Scrum Master and Stakeholders. Designed SSIS Packages to extract, transfer, load (ETL) existing data into SQL Server from different environments for the SSAS cubes. Developed Multi-Dimensional Objects (Cubes, Dimensions) using SQL Server Analysis Services (SSAS)."
+            ]
+        },
+        {
+            "company": "Osmania University",
+            "dates": [
+                "2008"
+            ],
+            "role": "Mater of computer Applications (MCA)2008",
+            "responsibilities": [
+                "Mater of computer Applications (MCA)2008"
+            ]
+        },
+        {
+            "company": "Andhra university",
+            "dates": [
+                "2005"
+            ],
+            "role": "BCom computers 2005",
+            "responsibilities": [
+                "BCom computers 2005"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Ashok Medikonda",
+        "skills": [
+            "MS SQL BI Developer",
+            "SSIS",
+            "SSAS",
+            "SSRS",
+            "T-SQL",
+            "Access",
+            "Tableau",
+            "Tableau Server",
+            "Excel",
+            "Visual Studio",
+            "Data Analyzer",
+            "Business Objects 6.5",
+            "ER Win 4.0",
+            "Visual Studio.NET 1.1",
+            "ASP",
+            "C#",
+            "Oracle 9i"
+        ]
+    }
+}

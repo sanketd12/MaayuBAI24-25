@@ -1,0 +1,280 @@
+{
+    "education": {
+        "institution": "Jawaharlal Nehru Technological University, India",
+        "degree": "Bachelors in Engineering",
+        "graduation": "N/A",
+        "courses": [
+            "N/A"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Activision",
+            "role": "Sr. SAP BODI-ETL  Developer",
+            "dates": [
+                "FEB 12’ – TILL DATE"
+            ],
+            "responsibilities": [
+                "Interact with Business and Marketing people of Activision to get the requirements.  Work with Reporting team to freeze the final detail level requirements and finalize the front end dashboard.  Extract data from ORACLE EXADATA, MYSQL, DEAMONWARE and load into Data ware house in oracle.  Analyzed the requirements and provided estimated efforts and discussed plan with end users.  Build summary tables for the different dash board measures of ELITE service at different aggregates like daily, weekly and monthly level.  Developed ETL jobs using SAP BODS with objects like mapping, sql , key generation reverse pivot transformations  etc for data loading and generate summary fact out of those.  Used to SAP BODS to extract data from front end applications and populate into data ware house.  Developed summary tables for different aggregates of the ELITE service like PAID, FREE, email verified, Logins, Players etc.  Created to temporary tables to handle very huge volume of data so as to extract summary counts of different metrics.  Fine- tuned the SAP BODS jobs by using different target table loaders and other tuning approaches to decrease the ETL run time.  Monitored the SAP BODS from ADMIN console jobs to avoid any mismatch in job run and update the end users with data present at the data house.  Work with ORACLE DBAs, and systems support personnel in elevating and automating successful code to production after the UAT from Business users.  Handed-over the BODS  jobs after UAT and PRODUCTION signoff to support team which is offshore.  KT the whole BODS jobs to offshore for further support post production release.  Weekly updated the status to the END business users and discuss any open challenges with respect to data and operational issues.  Documented the all operational as well as BODS job details for a report and seek for sign off."
+            ]
+        },
+        {
+            "company": "C-Spire Wireless",
+            "role": "SAP BODI programming Analyst(Onsite) ",
+            "dates": [
+                "MAY’11 – FEB’12"
+            ],
+            "responsibilities": [
+                "Involved in gathering key business requirements for both project management as well technical perspective.  Coordinated with a team of 25 members working offshore in Design, Development and testing phases.  Implementing the ELT (Extract, Load and Transform) Logic for Netezza improved processing speed.  Anchored the offshore team for operational issues like user creation for accessing the databases and all other accessibility related issues.  Installed and administrated the Business Objects Data Services 3.2 for the whole project implementation  Worked closely with DBA team to identify the key mappings of the daily loads, currently, running against Oracle Database.  Involved in reporting team to identify key Business logics.  Developed  key facts and dimensions in SAP BODS jobs for billing related Business tables and validated the same for UAT phase  Involved in developing test cases for the System Integration Testing and end user testing of BODS ETL jobs.  Worked closely with team to get the actual scope of items listed as per Statement of Work and also identified any new requirements.  Extract data using SAP BODS and load data into Netezza data warehouse .  Scheduling and monitor the jobs using SAP BODS admin console.  Setup job servers for development as well as production environment  Created local and central repositories for the entire team to carry on different activities like Proof of concepts, Development, Unit testing and system testing.  Accessing Unix server for different files for the daily load jobs as well as monthly jobs.  Created all the Databases for different functional areas like billing, repairs, inventory, retail etc.  Used named pipes for history migration of tables.  Documentation for all the activities like High Level Design, Detail Level Design, Test documentation UAT code Migration strategy etc."
+            ]
+        },
+        {
+            "company": "Invista",
+            "role": "Sr Business Object Data Integrator Developer",
+            "dates": [
+                "March’10– May’11"
+            ],
+            "responsibilities": [
+                "Identified and road mapped the Business Requirements (functional & technical) with the Business users, which acted as a base for the project initiation and implementation.  Created Data Flow Diagrams (DFD) to define the data element flow to the most granular level to translate data requirements to ETL processing  Extensively used Business Objects Designer to design and maintain Data warehouse Universe.  Developed complex mappings utilizing built in Data Integrator functions, including reverse pivots, table comparisons, map operations, and SQL transforms.  Used ETL tool Data Integrator to cleansing and populate datasets into target database Oracle  Used Business Objects Data Integrator XI R2 for ETL extraction, transformation and loading data from heterogeneous source systems.  Extensively worked on development of mappings and worked with BODI Transformations like, Map Operation, Table Comparison, Effective Date, History Preserving, SQL, Key Generation, Query, Case, Merge, Validation, Pivot, Reverse Pivot, Row Generation Etc.  Performance tuned Business Objects Data Integrator XI jobs to ensure optimal performance.  Created reusable components like Workflow, Data flows, batch and real time Jobs.  Extensively used Data Integrator to cleanse and populate target database.  Creation of reports like Reports by Product, Reports by Customer, Reports by Period, Demographic reports and Comparative reports, Working with database connections, SQL joins, cardinalities, loops, aliases, views, aggregate conditions, parsing of objects and hierarchies.  Created reports using WEBI, DESKI, full client.  Exporting universe to the repositories to make resources available to the users.  Created dashboard using crystal Xcelsius.  Developed Internal control reports to validate the ETL load and scheduled it."
+            ]
+        },
+        {
+            "company": "Blue cross Blue shield",
+            "role": "Sr Business Object Data Integrator Developer",
+            "dates": [
+                "Jul ’09 – Jan ‘10"
+            ],
+            "responsibilities": [
+                "Familiarized the business, its strategy and implementation.  Experience in interacting with client at onsite to gather business requirements, analyzing and  developing ETL designs  Gathered Customer, User and Owner requirements; analyzed and documented them.  Used Business Objects Data Integrator XI 3.2 for ETL extraction, transformation and loading data from heterogeneous source systems.  Designed and customizing data models for Data warehouse supporting data from multiple sources on real time.  Tuned Data Integrator Mappings and Transformations for the better performance of jobs.  Customized configuration of Business Objects Web Intelligence by fine tuning and optimization for better performance.  Migrated reports from BO 6.5 to BO XI2.  Designed and developed Data Integrator (DI) XI scripts for data transformation.  Experience in cleansing data in DI using proper data types and mappings and to create Workflows using object library and tool palette to execute data flows.  Created multiple universes and resolved Loops by creating table aliases and contexts.  Worked with database connections, SQL joins, cardinalities, loops, aliases, materialized views, views, aggregate conditions, parsing of objects, LOVs, and hierarchies.  Created complex reports using user-defined functions like @variables, @prompt, condition Objects and aggregate Awareness Functions for SQL enhancement.  Enabled/Disabled different servers in Central Configuration Manager and Central Management Console."
+            ]
+        },
+        {
+            "company": "Apposite Solutions Inc",
+            "role": "Sr Business Object Data Integrator Developer",
+            "dates": [
+                "Jul’07 – May’09"
+            ],
+            "responsibilities": [
+                "Interacted with Business Users and Managers in gathering business requirements.  Involved in analyzing, documenting business requirements, functional requirements for developing universes and reports.  Involved in the designing and Building of Universes, Classes and objects  Worked on Master and Component approach during the linking of universes  Created Data Flows for dimension and fact tables and loaded the data into targets in Data Warehouse.  Used Data Integrator to call external Web Services from within its jobs using a built-in web services adapter.  Design and develop ETL processes, data flows, and Data Marts based on business requirement specifications.  Resolved loops and Traps using Contexts and Aliases while designing Universes.  Work with developers, DBAs, and systems support personnel in elevating and automating successful code to production  Experience in universe migration across repositories  Set up Universe level conditions to restrict data based on report requirements.  The project involved development of reports using Business Objects and WEBI to cater Ad-hoc reporting needs.  Created reports using Desktop Intelligence(DESKI)  Created reports using Business Objects functionality’s like Queries, Slice and Dice, Drill Down, Cross Tab, Master Detail and Formulae’s.  Published and scheduled Business Objects Reports to users using Scheduler.  Coordinating with DBA and general supervisor for resolving technical issues  Upgraded Business Objects Universes, Users and user groups, and reports from Version 6x to Version XIR1 using the Import Wizard."
+            ]
+        },
+        {
+            "company": "IDBI Mutual funds",
+            "role": "Business Objects Developer",
+            "dates": [
+                "Mar’ 06 – Jun’ 07"
+            ],
+            "responsibilities": [
+                "Designed, developed and maintained Universes for supporting Adhoc and canned reports.  Directly coordinating with user to gather the new requirements and working with existing issues.  Coordinated with ETL, Data warehouse team to implement the Star Schema modeling.  Created various classes and objects in the Universe.  Measure objects and User objects were created keeping in view of the end-user requirement.  Created Filters (Condition Objects) to improve the report generation.  Created Hierarchies from providing drill down options for the end-user.  Modifying the existing universes, Adding new objects editing joins mapping the existing objects with renamed tables.  Creating new Connections and editing existing to run the report in different database test, development.  Created the Derived and Aggregate Tables.  Detected cardinalities and checked the Integrity of Universes.  Created variables, @prompt (Interactive objects), formulas and etc.  Created the stores procedures and functions at the back end.  Fine-tune the existing universes to enhance their performance.  Exported the universes to the Repository making resources available to the users.  Worked extensively on distribution, maintenance, and optimization of universes for Business Objects and Web Intelligence deployments."
+            ]
+        },
+        {
+            "company": "SG Finance Group",
+            "role": "BUSINESS OBJECTS DEVELOPER",
+            "dates": [
+                "Nov’04 - Jan’06"
+            ],
+            "responsibilities": [
+                "Installed and configured hardware for the entire Business Objects suite of products.  Managed over 400 users and 30 groups in the entire Business Objects suite  Trouble Shooting In Business Objects Enterprise  Maintained the whole environment (TEST, DEV and PROD) along with 8 main servers.  Updated and maintained Universes to meet new reporting requirements  Performed Server Management Tasks, using Central Configuration Manager (CCM) and Central Management Console (CMC).  Configured File Repository Servers, Crystal Report Job, Cache and Page Servers, LOV Job server, Web Intelligence Job and Report Servers, Desktop Intelligence Job, Report and Cache Servers, Destination Job Server, Program Job Server, and Event Server.  Developed Functional (Business terms) and Technical Design documents  Imported data from Business Objects 6.x & Crystal Enterprise 10 to Business Objects Enterprise XIR1  Configured BO Server Products like WebI and BCA Publisher & Auditor on different nodes in Distributed Environment  Worked with database connections, SQL joins, cardinalities, loops, aliases, materialized views, views, aggregate conditions, parsing of objects, LOVs, and hierarchies.  Deployed reports to Repository through Broadcast Agent Server  Scheduled Business Objects Reports using Broad cast Agent and scheduler"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project": "CRM ELITE",
+            "description": [
+                "The CRM ELITE is the project to monitor the performance of the ELITE service in the market and come up for new marketing strategies. CRM ELITE is the project with OBIEE as front end dashboard and SAP BODI as the back end ETL tool ."
+            ],
+            "skills": [
+                "SAP Business Objects Data Services 3.1/3.2",
+                "Oracle 10g",
+                "ORACLE EXADATA",
+                "Unix server",
+                "TOAD v 10.1",
+                "OBIEE"
+            ]
+        },
+        {
+            "project": "Netezza Migration",
+            "description": [
+                "Cspire wireless is the leading mobile network provider in Mississippi State. The organization has a reputation for its personalized wireless services.  The Current project with Infosys is a migration project based on Netezza Database.  Cspire has been using Oracle for a very long time and now they are switching to Netezza as their Data Ware house.  The choice of switching to Netezza is because of the analytics power of Netezza and faster daily load processing."
+            ],
+            "skills": [
+                "SAP Business Objects DATA SERVICES 3.1/3.2/3.2.4",
+                "Data Integrator XI",
+                "Oracle 11g",
+                "Netezza 6.0(TWIN FIN 6) ",
+                "Unix server",
+                "Windows XP",
+                "SAP Business objects Universe designer"
+            ]
+        },
+        {
+            "project": "Invista Financial Group",
+            "description": [
+                "Invista Financial Group provides diversified financial services to emerging, growth and established technology companies and the life science, venture capital and premium wine markets As a Business Objects Data Integrator developer, I was responsible for extracting data from different heterogeneous data sources into a target database."
+            ],
+            "skills": [
+                "SAP Business Objects XI 3.2",
+                "B O Data Integrator XI",
+                "Crystal Reports",
+                "Data Integrator XI",
+                "Dashboard Manager",
+                "Xcelsius",
+                "Web I 6.1",
+                "DESKI",
+                "JSP",
+                "SQL",
+                "PL/SQL",
+                "Erwin",
+                "SQL*Loader",
+                "UNIX Shell Script",
+                "Windows 2000/NT",
+                "ORACLE",
+                "PL/SQL",
+                "SQL Enterprise Manager"
+            ]
+        },
+        {
+            "project": "Customer Claim Project",
+            "description": [
+                "BCBS well known insurance company comes with customer claim project. A front end application has been developed to monitor customer claims.   The project has been handled with CTS, an information technology company that specializes in the identification and resolution of business intelligence (BI) challenges with BCBS. Its corporate office is located in McAllen, Texas."
+            ],
+            "skills": [
+                "Business Objects XIR2/6.5/6.1",
+                "Data Integrator",
+                "Dashboard Manager",
+                "Xcelsius",
+                "Web I 6.1",
+                "DESKI",
+                "JSP",
+                "SQL",
+                "PL/SQL",
+                "Erwin",
+                "SQL*Loader",
+                "UNIX Shell Script",
+                "Windows 2000/NT",
+                "ORACLE",
+                "PL/SQL",
+                "SQL Enterprise Manager"
+            ]
+        },
+        {
+            "project": "Ad-hoc reporting needs",
+            "description": [
+                "The project involved development of reports using Business Objects and WEBI to cater Ad-hoc reporting needs."
+            ],
+            "skills": [
+                "Business Objects XIR2/6.x",
+                "Performance Management",
+                "Business Objects Designer",
+                "Web Intelligence",
+                "Desktop Intelligence",
+                "Broadcast Agent",
+                "Sybase",
+                "Windows 2000 Server"
+            ]
+        },
+        {
+            "project": "IDBI Mutual funds",
+            "description": [
+                "IDBI Mutual's principal activities are to provide financial services to consumers and small businesses such as retail banking, mortgage lending, consumer lending, business banking, business lending, insurance services, credit card services, commercial real estate mortgage and consumer investment services.                                                 "
+            ],
+            "skills": [
+                "Business Objects 6.0",
+                "Oracle9i",
+                "PL/SQL",
+                "WebI",
+                "DESKI",
+                "Broadcast Agent",
+                "& Windows 2000"
+            ]
+        },
+        {
+            "project": "SG Finance Group",
+            "description": [
+                "The SG Finance Group is a non-profit, public enterprise fund that operates like a mutual insurance procurement applications carrier. State Fund employees located in office locations throughout AP State provide full services for employers and their injured employees. Data warehouse for insurance claims system for generating reports based on the category of employers, vendors, and employees."
+            ],
+            "skills": [
+                "Windows XP",
+                "server 2003",
+                "Oracle9i",
+                "Business Objects 6.0",
+                "Crystal Enterprise 10",
+                "Designer",
+                "WebI",
+                "Publication Wizard",
+                "Broad cast Agent",
+                "Import Wizard",
+                "Crystal Enterprise",
+                "10.0/9.0",
+                "Business Objects 6.5",
+                "Reporter",
+                "Designer",
+                "Supervisor",
+                "Business Query",
+                "BO SDK",
+                "Web Intelligence 2.x/6",
+                "and InfoView",
+                "Oracle 7.x/8.x/9/10g",
+                "MS SQL Server 6.5/7.0/2000",
+                "Teradata"
+            ]
+        }
+    ],
+    "certifications": [
+        "SAP Business Objects Level-1 certified"
+    ],
+    "activities": [
+        {
+            "activity": "N/A",
+            "role": "N/A",
+            "responsibility": [
+                "N/A"
+            ]
+        }
+    ],
+    "honors": [
+        "N/A"
+    ],
+    "userDetails": {
+        "name": "JAYA",
+        "skills": [
+            "SDLC",
+            "Business Intelligence",
+            "Business Objects",
+            "Data Integration",
+            "Databases",
+            "UNIX Shell Scripting",
+            "Kernel Programming",
+            "Perl Programming",
+            "SQL",
+            "PL/SQL",
+            "Transact SQL",
+            "ANSI SQL",
+            "Sun Solaris 2.6/2.7",
+            "HP-UX 10.20/9.0",
+            "IBM AIX 4.2/4.3",
+            "MS DOS 6.22",
+            "Novell NetWare 4.11/3.61",
+            "Win 3.x/95/98",
+            "Win NT",
+            "Red Hat Linux",
+            "Sun-Ultra",
+            "Sun-Spark",
+            "Sun Classic",
+            "SCO Unix",
+            "HP9000",
+            "RS6000",
+            "Win 3.x/95/98",
+            "Win 2000",
+            "Win XP",
+            "MS-DOS",
+            "VB",
+            "Java",
+            "C",
+            "C++"
+        ]
+    }
+}

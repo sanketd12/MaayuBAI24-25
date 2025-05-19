@@ -1,0 +1,61 @@
+{
+    "experiences": [
+        {
+            "company": "Progressive Infovision Pvt.Ltd",
+            "role": "System Administrator",
+            "dates": [
+                "5-Sep-2019",
+                "30-June2020"
+            ],
+            "responsibilities": [
+                "Client:-Varroc Polymer Pvt Ltd",
+                "Location:-Vimannagar,Pune,Maharashtra"
+            ]
+        },
+        {
+            "company": "Netx-The Network Expert Group Ahmednagar",
+            "role": "System Administrator",
+            "dates": [
+                "4-Oct-2017",
+                "31-Aug-2019"
+            ],
+            "responsibilities": []
+        }
+    ],
+    "education": {
+        "degree": "Bachelor Of Engineering",
+        "institution": "Dr.Vithalrao Vikhe Patil College Of Engineering Ahmednagar. Maharashtra,India",
+        "graduation": "Information Technology",
+        "courses": [
+            "Diploma",
+            "Computer Technology",
+            "Government Polytechnic Ahmednagar. Maharashtra,India"
+        ],
+        "gpa": null
+    },
+    "projects": [],
+    "certifications": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "SUMIT DAFAL",
+        "skills": [
+            "WINDOWS XP, 7, 8, 10",
+            "WINDOWS SERVER 2003, 2008, 2012, 2016 WITH HYPER-V",
+            "VMWARE ESXI",
+            "TCP/IP, SMB, DHCP, DNS, ACTIVE DIRECTORY, GPO",
+            "Hyper-V Management on windows Server 2008 R2 and Above",
+            "VMware Esxi Management, vCenter Management",
+            "Snapshot / Checkpoint Creation, Backup & Restore for VM’s",
+            "Creating & Managing Boundary & Boundary Groups, Sites, Servers and Site System Roles",
+            "Managing Software Updates, Updates Groups, Create Deployment Packages",
+            "Managing Operating Systems, Drivers, Drivers Packages",
+            "Create & Manage Operating System Images, Installers, Boot Images, Task Sequence & VHD’s, and Troubleshooting for Task Sequence Logs",
+            "Managing DHCP Server",
+            "Managing WSUS Server",
+            "Managing WDS Server",
+            "Vmware Management",
+            "Microsoft Outlook Configuration And Mangement"
+        ]
+    }
+}

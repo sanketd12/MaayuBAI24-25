@@ -1,0 +1,235 @@
+{
+    "experiences": [
+        {
+            "company": "Restoration Hardware Inc., Corte Madera, CA",
+            "role": "Senior Data Analyst",
+            "dates": [
+                "Feb 2016 – Till Date"
+            ],
+            "responsibilities": [
+                "Designed and created data visualizations (reports and dashboards) as required to support user stories",
+                "Supported the Digital acceleration team with the understanding of business and data requirements and designed visualizations for initial concepts and prototypes that can be presented to customers for feedback",
+                "Partnered with the business to understand and map current and proposed business processes",
+                "Managed relationships with senior business stakeholders to ensure the effective capturing of business requirements and commitment to project objectives",
+                "Identified and defined technology solutions that will support short and long-term business objectives and strategies",
+                "Analyzed and prioritized business process changes and technical solution enhancements",
+                "Interacted with business users for gathering requirements and look and feel of the applications to be developed",
+                "Used Alteryx for blending data from different data sources",
+                "Defined best practices for creating Tableau dashboards by matching requirements to the charts to be chosen, color patterns as per user's needs, standardizing dashboard's size, look and feel etc",
+                "Developed visualizations using sets, Parameters, Calculated Fields, Dynamic sorting, Filtering, Parameter driven analysis",
+                "Prototyped data visualizations using Charts, drill-down, parameterized controls using Tableau to highlight the value of analytics in Executive decision support control",
+                "Supported project execution (ongoing requirements elaboration, design reviews, functional reviews and supporting the application development lifecycle).",
+                "Maintained detailed business process requirements and associated documentation. Developed other required documentation, such as process maps/models and meeting minutes",
+                "Trained users on tableau software",
+                "Performed detailed data analysis (i.e. determined the structure, content, and quality of the data through examination of source systems and data samples).",
+                "Defined, executed and interpreted complex/nested SQL queries",
+                "Created SQL Procedures, functions and performance tunings for databases efficiency. Also troubleshoot and investigated data related issues and communicated analytical results through data visualization techniques",
+                "Established standards and best practices for dashboards and related technologies for the project",
+                "Managed a repository of reusable data visualization templates and views",
+                "Works with Data Architects to understand and identify the source extracts",
+                "Ability to understand and interpret the requirements to accurately design the mapping data flow",
+                "Worked on Informatica Power Center tool - Source Analyzer, Data warehousing designer, Mapping &Mapplet Designer and Transformation Designer",
+                "Collaborated with ETL developers, stakeholders and subject-matter experts to establish technical vision and analyzed trade-offs between usability and performance needs",
+                "Supported Activities to document, evolve and communicate artifacts developed using Tableau",
+                "Worked with Clients to maintain and implement a long term strategy for Tableau",
+                "Extensively used RedShift Database and Teradata"
+            ]
+        },
+        {
+            "company": "Wells Fargo., Hyderabad, India",
+            "role": "Data Analyst",
+            "dates": [
+                "Jun 2012 – Jan 2016"
+            ],
+            "responsibilities": [
+                "Developed multiple dashboards, analytical reports, KPIs, and interactive reports based on business requirements using Power BI and Tableau",
+                "Consulted with business partners on business needs, translated business needs into reporting requirements, and interfacing with partners and other teams and ensured successful delivery of client reporting",
+                "Developed visualizations and provided business insights for Asset management team",
+                "Developed reports, dashboards, and metadata layers sourced from information in Teradata, SQL Server, and Hadoop",
+                "Translated requirements and wireframes into working prototypes and fully functional reporting products",
+                "Developed various dashboards, used context filters, sets while dealing with huge volume of data",
+                "Used excel sheet, flat files, CSV files to generate Tableau adhoc reports",
+                "Designed dash boards for actionable, non-actionable complaints from Multidimensional database",
+                "Generated dashboards to compare the expected weekly sales vs projected sales used dual axis for comparison",
+                "Generated Dashboards by joining multiple complex tables",
+                "Performed the Power BI report validation against the databases",
+                "Generated dashboard for Finance team, provided security by using user filters",
+                "Deployed and scheduled the reports in the Power BI Service",
+                "Created workspace and content packs for business users to view the reports",
+                "Generated ad-hoc reports in Excel Power Pivot and shared them using Power BI to the decision makers for strategic planning",
+                "Gathered data from different data sources like MySQL, Excel and Oracle",
+                "Assisted in the development of baseline report & dashboard templates/themes",
+                "Migrated existing legacy reports to newer applications with advanced functionality and validated data accuracy",
+                "Worked in agile development using the Scrum methodology and QA testing in a BI environment",
+                "Ensured proper source control, documentation (Confluence), testing and quality assurance processes are established, implemented, and followed to maintain strong data integrity",
+                "Supported peers and stakeholders as a Subject Matter Expert (SME) through troubleshooting, analysis of results, and identification of opportunities to solve business problems through BI"
+            ]
+        },
+        {
+            "company": "Wells Fargo., Hyderabad, India",
+            "role": "Special Services",
+            "dates": [
+                "NA"
+            ],
+            "responsibilities": [
+                "Gathered Business requirements, translated them to work items and delivered on time, on budget - meeting Business expectations",
+                "Worked with Business Analyst and the Business users to understand the user requirements, layout, and look and feel of the application to be developed",
+                "Data blending implemented on different databases and generated interactive dashboards",
+                "Created adhoc reports to users in Tableau by connecting various data sources",
+                "Generated Dashboards with Quick filters, Parameters and sets to handle views more efficiently",
+                "Published Workbooks by creating user filters so that only appropriate teams can view it",
+                "Analyzed the source data and handled efficiently by modifying the data types",
+                "Used excel sheet, flat files, CSV files to generated Tableau adhoc reports",
+                "Re-created existing Cognos reports into Tableau Dashboard",
+                "Generated context filters and used performance actions while handling huge volume of data",
+                "Generated tableau dashboards for sales with forecast and reference lines",
+                "Generated tableau dashboards with combination charts for clear understanding",
+                "Developed storyboards and dashboards using Tableau 9",
+                "Analyzed backend data from SQL Server and Oracle create effective dashboards",
+                "Created Tableau Calculations (Table Calculations, Hide Columns, Creating/Using Parameter, Totals) and Formatting (Annotations, Layout Containers, Mark Labels, Rich Text Formatting, Shared Encoding) using Tableau Desktop",
+                "Created Workbooks and Projects, Database Views, Data Sources and Data Connections",
+                "Designed dashboards servicing all business segments of the Special Services",
+                "Applied communication, analytical and problem-solving skills to help maximize the benefit of Special Services system investments",
+                "Prioritized customer issues properly and communicated updates as appropriate. Used good judgment to determine problems that needed escalation",
+                "worked across organizational boundaries and identified business information needs and implemented applications that fulfilled them",
+                "Managed multiple issues in a fast-paced environment"
+            ]
+        },
+        {
+            "company": "Wells Fargo., Hyderabad, India",
+            "role": "Account Reconcilliation",
+            "dates": [
+                "NA"
+            ],
+            "responsibilities": [
+                "Gathered Business requirements, translated them to work items and delivered on time, on budget - meeting Business expectations",
+                "Designed reports and assisted in the design and implementation of a reporting infrastructure to support the business reporting needs, generated and compiled reports based on findings, completed with probable causes and possible solutions to systems issues",
+                "Created dashboards using Tableau 8.3",
+                "Designed reports and dashboards servicing all business segments of the USTP and CP (Contracts and Procurement).",
+                "Analyzed specifications and identified source data needs to be moved to data warehouse, Participated in the Design Team and user requirement gathering meetings",
+                "Build and publish Tableau reports utilizing complex calculated fields, table calculations, filters, parameters",
+                "Used excel sheet, flat files, CSV files to generated Tableau adhoc reports",
+                "Involved in creating and visualizing dashboards using Tableau Desktop",
+                "Generated Tableau combination charts using Tableau visualization software",
+                "Involved in discussing Requirement Clarifications with multiple technical and Business teams",
+                "Created Technical Design Document from the functional specification documents",
+                "Applied communication, analytical and problem-solving skills to help maximize the benefit of USTP IT system investments",
+                "Prioritized customer issues properly and communicated updates as appropriate. Used good judgment to determine problems that needed escalation",
+                "worked across organizational boundaries and identified business information needs and implemented applications that fulfilled them",
+                "Managed multiple issues in a fast-paced environment"
+            ]
+        },
+        {
+            "company": "Wells Fargo., Hyderabad, India",
+            "role": "Genesis",
+            "dates": [
+                "Jun 2011 – May 2012"
+            ],
+            "responsibilities": [
+                "Worked closely with business stakeholders to define requirements to support strategic and tactical decision making",
+                "Developed reports, dashboards using Tableau 8 for quick reviews to be presented to Business and IT users",
+                "Worked across organizational boundaries and identified business information needs and implemented applications that fulfilled them",
+                "Interacted with business users for gathering requirements for Genesis Project Dashboards",
+                "Prepared Use cases and look and feel documents and got reviewed with end users",
+                "Generated Tableau dashboards for e-bills and paper bills comparison",
+                "Generated tableau dashboards with quick filters and connected to Oracle Database",
+                "Generated adhoc Tableau reports on demand for providers",
+                "Generated Tableau reports with Trend lines",
+                "Used filters, quick filters, sets, parameters and calculated fields on Tableau reports",
+                "Performed incremental extracts for OLAP database",
+                "Created actual sales and target sales view with Trend lines, table calculations to see the difference between each quarter",
+                "Hands-on development in creating and modifying worksheets and data visualization dashboards",
+                "Involved in creating Complex Stored Procedures, triggers, cursors, tables and views and other SQL joins",
+                "Prioritized customer issues properly and communicated updates as appropritate",
+                "Combined data in reporting from multiple data sources",
+                "Coordinated and facilitated end user acceptance testing",
+                "Assisted with end user training"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "Osmania University, India",
+        "degree": "B.S. Computers",
+        "graduation": "NA",
+        "courses": [
+            "NA"
+        ],
+        "gpa": null
+    },
+    "certifications": [
+        "NA"
+    ],
+    "projects": [
+        {
+            "project": "NA",
+            "description": [
+                "NA"
+            ],
+            "skills": [
+                "NA"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "NA",
+            "role": "NA",
+            "responsibility": [
+                "NA"
+            ]
+        }
+    ],
+    "honors": [
+        "NA"
+    ],
+    "userDetails": {
+        "name": "Sharmila Reddy",
+        "skills": [
+            "Tableau/Power BI Consultant",
+            "Tableau Desktop 10.x/9.x/8.x/7.x",
+            "Tableau Server",
+            "Tableau Online",
+            "Tableau Reader",
+            "Tableau Public",
+            "Alteryx",
+            "Tableau Desktop 10.x/9.x/8.x/7.x",
+            "Tableau Server",
+            "Tableau Online",
+            "Tableau Reader",
+            "Tableau Public",
+            "Alteryx",
+            "SSRS",
+            "Alteryx",
+            "SAP BODS",
+            "SAP BW/BI",
+            "Informatica",
+            "SSIS",
+            "Talend",
+            "Oracle 12c/11g/10g/8i/7.x",
+            "SQL Server 2008/2000/7.0",
+            "MDB2",
+            "Sybase",
+            "Access",
+            "Teradata",
+            "Amozon RedShift",
+            "Hadoop",
+            "PostgresSQL",
+            "MySQL",
+            "Windows",
+            "Unix",
+            "Linux",
+            "Flurry",
+            "MixPanel",
+            "Localytics",
+            "Spark",
+            "Storm",
+            "Python",
+            "R",
+            "Java",
+            ".NET",
+            "Microsoft Office suite",
+            "Java Script",
+            "VB script & HTML"
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "Eastern College, St. Davids, PA",
+        "degree": "",
+        "gpa": null,
+        "graduation": "",
+        "courses": [
+            "Earned approximately 32 credits (1984-1986)"
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Jenkintown U.M. Church, Jenkintown, PA",
+            "dates": [
+                "7/2002",
+                "12/2012"
+            ],
+            "role": "Pastor",
+            "responsibilities": [
+                "Full-time Licensed Local Pastor in The United Methodist Church. Duties included church administration, designing worship events, preaching, visitation, pastoral counseling, etc. Church membership: 385."
+            ]
+        },
+        {
+            "company": "Amtech, Fort Washington, PA",
+            "dates": [
+                "10/1990",
+                "6/2002"
+            ],
+            "role": "Project Manager",
+            "responsibilities": [
+                "Management of clients’ ERP software implementation projects.  In addition to full project management duties, technical duties included:  Windows desktop and server and UNIX system administration; SQL database management; software modification/enhancement specification development."
+            ]
+        },
+        {
+            "company": "Drexel Hill U.M. Church, Drexel Hill, PA",
+            "dates": [
+                "7/1995",
+                "6/2001"
+            ],
+            "role": "Associate Pastor (Part-Time)",
+            "responsibilities": [
+                "Licensed Local Pastor in The United Methodist Church with part-time pastoral responsibilities, including visitation of the homebound, Director of Youth Programs, occasional preaching. Church membership: 850."
+            ]
+        },
+        {
+            "company": "Cliveden Convalescent Center, Philadelphia, PA",
+            "dates": [
+                "2/1990",
+                "10/1990"
+            ],
+            "role": "Business Office Manager",
+            "responsibilities": [
+                "Full management of business office of 180-bed nursing home.  Duties included:  financial reporting; billing for services (private-pay and Medical Assistance); payroll;  human resources; supervision of office personnel; trustee of residents’ personal funds."
+            ]
+        },
+        {
+            "company": "Werner Bus Lines, Inc., Phoenixville, PA",
+            "dates": [
+                "6/1983",
+                "2/1990"
+            ],
+            "role": "Controller",
+            "responsibilities": [
+                "Controller of small ($3 million revenue) bus company.  Full responsibility for financial records and reporting of company and related corporations.  Supervision of accounting staff.  Implementation and administration of MS-DOS and Windows computer systems."
+            ]
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "userDetails": {
+        "name": "Jay R. Newlin",
+        "skills": [
+            "church administration",
+            "designing worship events",
+            "preaching",
+            "visitation",
+            "pastoral counseling",
+            "ERP software implementation projects management",
+            "Windows desktop and server administration",
+            "UNIX system administration",
+            "SQL database management",
+            "software modification/enhancement specification development",
+            "financial reporting",
+            "billing for services",
+            "payroll",
+            "human resources",
+            "supervision of office personnel",
+            "trustee of residents’ personal funds",
+            "MS-DOS and Windows computer systems implementation and administration"
+        ]
+    }
+}

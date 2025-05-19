@@ -1,0 +1,93 @@
+{
+    "certifications": [
+        "Certified Scrum Master, Scrum Alliance",
+        "Certified Scrum Practitioner, Scrum Alliance",
+        "ITIL Foundation Certification"
+    ],
+    "education": {
+        "institution": "University of Mumbai, MH",
+        "degree": "Master of Commerce, (With Management)",
+        "courses": [
+            "Advanced Diploma in Software Engineering (ADSE), Aptech, Mumbai, MH"
+        ],
+        "gpa": null,
+        "graduation": "2019"
+    },
+    "experiences": [
+        {
+            "company": "Barclaycard US",
+            "dates": [
+                "Mar 2016",
+                "Current"
+            ],
+            "role": "Agile Coach",
+            "responsibilities": [
+                "Manage major collective activities, issues, and risks across agile teams in support of the program. Ensures regular, active communication with adjacent programs and stakeholders. Removed impediments for the teams within the program as needed. Championed cultural change and collaborated with other Coaches on plans and techniques for accelerating and advancing the organization's transformation. Observed rituals / scrum ceremonies daily stand-ups, sprint planning, sprint reviews, Retrospectives, and release planning to provide feedback to scrum masters, team leaders and other stakeholders regarding facilitation strategies. Facilitate appropriate Scrum of Scrums sessions across agile teams to establish interdependencies and eliminate significant roadblocks. Assist an organization in learning the agile process and implementing agile within software environment. Helped team understand various Agile Metrics, Effective use of Burn-up and Burn-Down Chart, Cumulative flow and other Agile Metrics that help team / PO improve every Sprint / Release."
+            ]
+        },
+        {
+            "company": "Comcast",
+            "dates": [
+                "Aug 2015",
+                "Mar 2016"
+            ],
+            "role": "Agile Coach / Transformation Lead",
+            "responsibilities": [
+                "Championed cultural change and collaborated with other Coaches on plans and techniques for accelerating and advancing the organization's transformation. Developed and delivered team and organization training materials and workshops, building knowledge and skills to facilitate the Agile transformation. Building Strategic Relationships across all Levels within an Organization to Positively Influence Change. Coached teams, Business Analysts, Managers and Executives on Agile values and principles to promote continuous improvement in practices and artifacts."
+            ]
+        },
+        {
+            "company": "Capital One",
+            "dates": [
+                "Aug 2014",
+                "July 2015"
+            ],
+            "role": "Agile Coach / Release Train Engineer",
+            "responsibilities": [
+                "Coached teams and programs on SAFe, Kanban and Scrum. Co-organized and coordinated an ART. Established and supported communities of practices to promote organizational understanding of Agile roles. Supported communities of practices to promote organizational understanding of Agile roles and to help individuals develop into them. Facilitate and standardize agile ceremonies process with distributed teams. Wrote Agile FAQ, articles and which were distributed via newsletter and posted on a SharePoint site to improve the Agile maturity level. Driving Teams in Improving and Standardizing Processes."
+            ]
+        },
+        {
+            "company": "Synechron, Inc.－UK, US, India",
+            "dates": [
+                "Nov 2006",
+                "July 2014"
+            ],
+            "role": "Project Manager / Scrum Master",
+            "responsibilities": [
+                "Enabled improvement in team delivery commitments and capacity planning for sprints by identifying & tracking hidden tasks that increased customer satisfaction. Facilitated Agile adoption Retrospective for the organization with the leadership and guided teams with outcome resulting in enhanced performance. Removed obstacle for the team by escalating an issue to leadership resulting in early delivery of customer issue solution. Customer provided positive feedback. Coached new SM and trained global teams, which resulted in early delivery of project and reduced process waste caused by lack of common understanding. Successfully implemented Continuous Integration and Continuous Deployment reduced deployment time 30% faster. Selected Project team and created roles and responsibilities. Implemented QA activities, conducted project progress meetings, Implemented corrective and preventive actions. Coordinated with Onsite and Offshore team leads and ensured on time delivery with quality. Reported the project performance against baselines. Obtained formal acceptance for the deliverables and Sign-off. Leveraging Agile Best Practices to Deliver Critical Projects. Implemented Continuous Integration and Continuous deployment (CI/ CD) using FinalBuilder."
+            ]
+        },
+        {
+            "company": "Zenith Infotech / NIIT / Syntel",
+            "dates": [
+                "Jul 1997",
+                "Nov 2006"
+            ],
+            "role": "Sr. Analyst / Project Lead / Business Analyst",
+            "responsibilities": [
+                "Designed and developed the Palm OS application for client I –Comp (London). Responsible for developing conduits for integration with the desktop application and Palm OS application. Designed and developed WAP application. Responsible for developing middle-tier wrapper WAP for the application to connect with full framework. Developed and design Pocket PC application. Worked on Y2k Project for the Government of Botswana with PriceWaterhouseCoopers. Responsible for creating wireframes and screen mockups. Involved in developing customized control for full framework. Created unit test cases using Visual Studio 2005."
+            ]
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [
+        "Received Surpass Award by Synechron in year 2011."
+    ],
+    "userDetails": {
+        "name": "MANISHASHARMA",
+        "skills": [
+            "Agile Process & Delivery",
+            "Vendor Management",
+            "Solution Architecture",
+            "Automation Innovation",
+            "Budgeting & Forecasting",
+            "Insurance P&C",
+            "T&M, MSA,FPP Models",
+            "Negotiation & Adaptability",
+            "ODC Setup",
+            "ADT, BAAT, BPT"
+        ]
+    }
+}

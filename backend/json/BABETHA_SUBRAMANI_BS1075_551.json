@@ -1,0 +1,100 @@
+{
+    "userDetails": {
+        "name": "BABETHA SUBRAMANI",
+        "skills": [
+            "Recruitment",
+            "Placements",
+            "Staffing",
+            "Sourcing",
+            "Screening",
+            "Background Check",
+            "Client Coordination",
+            "Offer Preparation",
+            "Onboarding"
+        ]
+    },
+    "education": {
+        "institution": "Sikkim Manipal University",
+        "degree": "MCA",
+        "graduation": "Pursuing",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Syniverse Technologies",
+            "role": "TA /Recruitment Team",
+            "dates": [
+                "Nov 2016 to Till Date"
+            ],
+            "responsibilities": [
+                "Playing the role of HR",
+                "Expertise on tool Workday",
+                "Handling complete end to end recruitment",
+                "Scheduling personal/telephonic interviews",
+                "Coordinating with business people",
+                "Raising requisitions on Workday",
+                "Maintaining hiring process on Workday",
+                "Preparing offer letter",
+                "Following up with candidates"
+            ]
+        },
+        {
+            "company": "Talent Ahead",
+            "role": "Senior Recruitment Officer",
+            "dates": [
+                "July 2016 to October 2016"
+            ],
+            "responsibilities": [
+                "Individual contributor role",
+                "Leadership hiring",
+                "Sourcing on niche skills",
+                "Worked for client Accenture"
+            ]
+        },
+        {
+            "company": "People Logic Business Solutions",
+            "role": "Senior Staffing Analyst",
+            "dates": [
+                "January 2016 to July 2016"
+            ],
+            "responsibilities": [
+                "Acting lead role",
+                "Worked with different product Giants",
+                "Successfully placed Candidates",
+                "Managed different clients",
+                "Mentoring 3 member team"
+            ]
+        },
+        {
+            "company": "People Logic Business Solutions",
+            "role": "Senior Staffing Analyst",
+            "dates": [
+                "April 2014 to Nov 2015"
+            ],
+            "responsibilities": [
+                "Coordinating and following up",
+                "Successful closures",
+                "Received appreciations from manager and client coordinators"
+            ]
+        },
+        {
+            "company": "Solutions Infini Technologies",
+            "role": "Process Associate",
+            "dates": [
+                "Aug 2012 to Mar 2014"
+            ],
+            "responsibilities": [
+                "Customer handling",
+                "Presales",
+                "Post service support coordination",
+                "Training of reportees",
+                "Handling off-field/on-field team"
+            ]
+        }
+    ],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "certifications": []
+}

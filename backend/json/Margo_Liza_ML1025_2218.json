@@ -1,0 +1,172 @@
+{
+    "certifications": [
+        "SAFe® 4.6 Agilist",
+        "SAFe® Scrum Master",
+        "Six Sigma: Yellow Belt",
+        "SAFe® 5.0 Agilist",
+        "SAFe® 4 Practitioner (SP)"
+    ],
+    "experiences": [
+        {
+            "company": "Royal Caribbean Cruises, Ltd., Miramar, FL",
+            "role": "Agile Delivery Lead",
+            "dates": [
+                "Dec 2019 – Mar 13, 2020"
+            ],
+            "responsibilities": [
+                "Facilitated Scrum of Scrum meetings to ensure cross-functional team collaboration and delivery",
+                "Managed risk and dependencies, communicate and escalate impediments to facilitate transparency, and reduce bottlenecks",
+                "Utilized teams’ feedback and metrics to identify areas of opportunity and work with teams for continuous improvement",
+                "Worked with dev teams to enhance applications, correct defects, add new reports, and modify functionality to comply with revised business rules or needs",
+                "Reported on program-level metrics and operate within the program budget",
+                "Acted as a change agent in the organization while they undergo an Agile transformation by training and coaching Lean-Agile principles and practices",
+                "Established Communities of Practice (CoP) within the agile network to encourage a learning cadence",
+                "Built positive and collaborative relationships between the business and IT to promote transparency and a trusting relationship",
+                "Responsible for tracking and publishing program and team objectives with information radiators"
+            ]
+        },
+        {
+            "company": "ADT Security Services, Inc., Boca Raton, FL",
+            "role": "Sr. IT Portfolio / Program Manager",
+            "dates": [
+                "Mar 2019 – Nov 2019"
+            ],
+            "responsibilities": [
+                "Managed the planning and execution of the Care & Billing portfolio estimated at $17M",
+                "Ensured project alignment with business objectives to enhance customer satisfaction, optimize profitability, develop long-term customer loyalty",
+                "Alignment of the program’s top-down vision, goals, and objectives from business strategy flowing through to successful completion of projects for program objectives; maintained short- and long-term product roadmap",
+                "Worked with internal and external teams on integrated solutions to deploy new and enhanced features and functionality",
+                "Responsible for developing operational plans, project plans associated with strategic initiatives and corporate budgets",
+                "Implemented executive dashboards and project scorecards to simplify status reporting, giving leadership deeper and more meaningful visibility into project and program metrics, allowing them to make more informed decisions",
+                "Fostered an environment conducive to continuous process improvement across project management domain",
+                "Established and built strong working relationships with stakeholders to achieve organizational objectives",
+                "Ensured accurate, appropriate, and effective communication regarding project statuses to upper management and executives"
+            ]
+        },
+        {
+            "company": "Office Depot, Boca Raton, FL",
+            "role": "Sr. IT Project Manager / Scrum Master",
+            "dates": [
+                "Mar 2018 – Mar 2019"
+            ],
+            "responsibilities": [
+                "Worked with key project stakeholders to identify inter-dependencies that may influence project success",
+                "Responsible for maintaining project constraints and cross-functional risks with timely resolution and/or decisions affecting project delivery",
+                "Assisted in defining project scope, objectives, and features involving all relevant stakeholders and ensuring technical feasibility",
+                "Managed the Cloud Migration of the pricing engine and integrated data systems",
+                "Lead project to leverage AWS (Amazon Web Services) for Rebates Application and custom cost calculation engine re-platform",
+                "Facilitated Kubernetes setup for Java application UI (User Interface) in AWS (Amazon Web Services).",
+                "Facilitated PI Planning readiness by enabling the preparation of Vision and Backlogs, and Pre and Post PI Planning meetings",
+                "Financial forecasting, allocations, budgeting and reporting of operating and capital expense budgets via Clarity PPM",
+                "Developed detailed project plans in Smartsheet, assign tasks, manage RAID log, and manage overall project health",
+                "Managed change requests (scope, schedule, cost) via Clarity and appropriate change process approval workflow"
+            ]
+        },
+        {
+            "company": "NextEra Energy, Juno Beach, FL",
+            "role": "Sr. IT Programs Group Manager (for Trading Risk & Business Intelligence/Power Gen) / Sr. Project Manager / Release Manager",
+            "dates": [
+                "Dec 2014 – Mar 2018",
+                "Jan 2013 – Nov 2014"
+            ],
+            "responsibilities": [
+                "Coached and mentored project managers by pairing experienced project managers to help novice project managers navigate the complexities of attaining knowledge about managing projects",
+                "Conducted project health check reviews of each portfolio and make recommendations for improved execution to assist with identifying issues and/or risks in a timely manner and assist team members in taking appropriate corrective actions. This aids in the early detection of a potentially negative impact on the project and allows the project manager to develop a mitigation plan",
+                "Fostered alliances and built strong teams to work closely with Dev Ops, Release Management, and multiple Business unit leaders as we undertook a transition from waterfall to agile SDLC methodologies",
+                "Responsible for planning and facilitating PI Planning readiness via fostering the preparation of the vision and risk management of backlogs",
+                "Ensured that Product Management, Products Owners, and other value stream stakeholders are informed of Agile Release Train (ART) activities to ensure strategic execution alignment",
+                "Created and maintained release footprints, schedules, and notifications for multiple projects across platforms",
+                "Worked with PMO, Development, QA, Operations, internal Business teams and external Customers to coordinate the deployment of software releases and Project delivery through the QA, Staging, UAT and Production environments",
+                "Assured appropriate infrastructure was aligned and positioned in the IT architecture runway",
+                "Ability to develop clear and detailed plans to ensure that projects stay on target and do not affect the program and veer off course"
+            ]
+        }
+    ],
+    "education": {
+        "institution": "CERIDIAN UNIVERSITY",
+        "degree": "Bachelor of Science in Computer Science",
+        "graduation": "May 2000",
+        "courses": [
+            "Program Management Essentials",
+            "Advanced Project Management",
+            "Identifying Customer/Stakeholder Requirements",
+            "Predicting Project Outcome",
+            "PM Planning for Success",
+            "Risk Management",
+            "Managing Requirements",
+            "Improving Your Team's Retrospectives",
+            "Effective Story Pointing",
+            "South Florida ITIL",
+            "Executive Overview"
+        ],
+        "gpa": 3.8
+    },
+    "projects": [
+        {
+            "project": "Cloud Migration of the pricing engine and integrated data systems",
+            "description": [
+                "Managed the Cloud Migration of the pricing engine and integrated data systems"
+            ],
+            "skills": [
+                "Cloud Migration",
+                "Pricing Engine",
+                "Integrated Data Systems"
+            ]
+        },
+        {
+            "project": "Rebates Application and custom cost calculation engine re-platform",
+            "description": [
+                "Lead project to leverage AWS (Amazon Web Services) for Rebates Application and custom cost calculation engine re-platform"
+            ],
+            "skills": [
+                "AWS",
+                "Rebates Application",
+                "Custom Cost Calculation Engine",
+                "Re-platform"
+            ]
+        },
+        {
+            "project": "Kubernetes setup for Java application UI (User Interface) in AWS (Amazon Web Services).",
+            "description": [
+                "Facilitated Kubernetes setup for Java application UI (User Interface) in AWS (Amazon Web Services)."
+            ],
+            "skills": [
+                "Kubernetes",
+                "Java",
+                "User Interface",
+                "AWS",
+                "Facilitation"
+            ]
+        }
+    ],
+    "honors": [
+        "Graduated Magna Cum Laude"
+    ],
+    "activities": [
+        {
+            "activity": "Member of the Association for Computing Machinery (ACM) and the Institute of Electrical and Electronics Engineers (IEEE) student chapters",
+            "role": "Member",
+            "responsibility": [
+                "Participated in various technical and professional development activities, attended conferences, and networked with industry professionals"
+            ]
+        }
+    ],
+    "userDetails": {
+        "name": "Margo-Liza A. Zettl, SA, SSM",
+        "skills": [
+            "Project Management",
+            "Scrum Master",
+            "Cloud Migration",
+            "AWS",
+            "Kubernetes",
+            "Java",
+            "User Interface",
+            "Facilitation",
+            "SAFe® 4.6 Agilist",
+            "SAFe® Scrum Master",
+            "Six Sigma: Yellow Belt",
+            "SAFe® 5.0 Agilist",
+            "SAFe® 4 Practitioner (SP)"
+        ]
+    }
+}

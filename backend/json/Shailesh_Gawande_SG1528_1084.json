@@ -1,0 +1,144 @@
+{
+    "experiences": [
+        {
+            "company": "Onepoint Consulting",
+            "role": "Azure Cloud/DevOps Expert",
+            "dates": [
+                "January 2019 – Present"
+            ],
+            "responsibilities": [
+                "Leading a team that designs, implement and monitor cloud and devops solutions for One point clients. Building Cloud and DevOps environments. Install, configure, automate, and monitor various cloud services. Kubernets cluster deployments with Visual Studio and kubectl command line, and using azure DevOp , managing high availability and auto scalable environment. Cluster monitoring and troubleshooting on Azure. Configure Azure Virtual Networks, VPN, ExpressRoute, Traffic Manager, Load Balancer, etc. Configure Azure Storage, Site, File, VM restore and recovery etc. Interpret and fix faults in complex cloud environment. Experience using diagnostic, monitoring, problem and change management tools. Working on Resource Manager, Azure SQL, VNet, , Azure Diagnostics, OMS, Traffic Manager, CDN, Azure Notification Hubs, Azure Identity and Access Management., logicApps. Working with Azure CLI, ansible and terraform(basic) for automation and handle repetitive tasks quickly. Infrastructure automation using powershell. Design CI/CD pipeline in Azure DevOps/Jenkins(basic) for automated application deployment. Configuration/alerting of Microsoft Security Centre, Web Application firewalls. AWS/Azure Budgeting and cost optimization and alerts. Configuration of RBAC roles, groups and policies. Monitoring of Cloud Infra and apps using Azure Monitor/Application Insights/AWS cloudwatch. Application deployment with Azure repositories, docker, aks. Full cycle implementation of ISO 27001. Manage partnership with Microsoft and Amazon. Recently implemented ELK Stack, Grafana, Promethues, Loki. Regular POCs and research on new technologies. Recently worked on Dell Boomi project implementation. Maintaining regular technical documentation. Implementation of ticketing system and process for incident/change management. Technologies: Azure, AWS, DevOps, Jenkins, RHEL, Grafana, ELK stack, Promethues, Jenkins."
+            ]
+        },
+        {
+            "company": "Barclays Global Services Center",
+            "role": "Cloud apps support lead",
+            "dates": [
+                "Jan 2015 – December 2018"
+            ],
+            "responsibilities": [
+                "Analyse the current On-premise and Cloud environment to detect critical deficiencies and recommend cloud solutions. Implementing migration of applications from legacy infrastructure to strategic infrastructure like Azure and AWS. Played a key role in migration project of online banking applications of Barclays to AWS infrastructure. Setup aPaas environment using redhat Openshift or AZURE. Application deployment in aPaas environment using openshift 2 and 3. Migration from Openshift 2 to Openshift 3. Infrastructure monitoring of applications that run on SalesFoce Cloud. Supported Dev team tham implemented salesforce marketing solution for Barclays. Implementation of AppDynamic and Splunk for log aggregation and application monitoring. Effective Incident, problem and Change management within defined SLAs. Handling escalations raised by various stakeholders related to service delivery and client satisfaction. Planning for different tasks as part of annual activities including server patching, software upgrades and certificate renewals. Drive organization level initiatives. Working with HR and Business Partners on new requirements and hiring process. Technologies: AWS, Openshift 2 and 3, Github, Oracle Database, RHEL 5-6, shell/Perl scripts, SQL, Salesforce, AppDynamic, Splunk, Azure. Shell scripting."
+            ]
+        },
+        {
+            "company": "Infosys",
+            "role": "Database analyst",
+            "dates": [
+                "Dec 2012 – Dec 2014"
+            ],
+            "responsibilities": [
+                "Worked as an Database Analyst/Administrator for Australian Insurance Client of Infosys. All Oracle DBA activities including performance tuning but not Limited to Oracle DBA. Data modeling, table design, Fixing Database issues. Designing ETL jobs which involved pulling data from sources, data cleaning and sanitizing, putting into the target tables for further business purpose. Analyst technical project requirements and advice on architecture. Helping developers in troubleshooting critical database errors and related code issues and performing database recoveries."
+            ]
+        },
+        {
+            "company": "Infosys",
+            "role": "Senior Support Analyst/Lead",
+            "dates": [
+                "Dec 2012 – Dec 2014"
+            ],
+            "responsibilities": [
+                "Resolved incidents/requests escalated by Level 1 support. Resolved the issues raised by business users related to Business Objects reports. Deploying, configuring, and troubleshooting the issues related to distributing of Business Objects reports. Resolving the issues with web application; sometimes with the help of infrastructure or Middleware teams. Supported the Development team to find improvements to technical processes and reoccurring problems. Supported File Transfer Gateway (FTG) which transfers files between system using FTP, SFTP, and SCP. Good understanding of SSH concepts. On demand reports/extracts, using Bash, Perl, Awk, kshell, sql. Business Continuity Planning (BCP): Carried out annual BCP test on supported applications. Ran the applications on BCP environment for once a year. Infrastructure Activities: Supported infrastructure activity such as UNIX patches, OS upgrades, database upgrade, firewall changes and brought the application back to normal once the activity is completed. Automation: Wrote shell scripts that produced and delivered automatic reports, monitored systems, did housekeeping, restarted applications, on demand etc."
+            ]
+        },
+        {
+            "company": "Infosys",
+            "role": "System admin / Oracle dba",
+            "dates": [
+                "Mar 2008 – Nov 2012"
+            ],
+            "responsibilities": [
+                "Worked as Solaris System Admin Cum Oracle DBA and performed all the activities that come under the role. Also had exposure to datacenter operations like installation, networking, storage etc."
+            ]
+        }
+    ],
+    "education": {
+        "degree": "BE",
+        "institution": "Nagpur University",
+        "courses": [
+            "MBA",
+            "Pune university"
+        ],
+        "gpa": null,
+        "graduation": "2006"
+    },
+    "certifications": [
+        "Microsoft Certified Azure Administrator-AZ104",
+        "Microsoft Certified Azure DevOps Architect-AZ400",
+        "AWS cloud practitioner certification",
+        "Sun Solaris Certified System Administrator",
+        "Certified Oracle DBA",
+        "Certified ITIL foundation",
+        "PMElite Project Management Certification",
+        "Six sigma awareness certification",
+        "ISO 27001"
+    ],
+    "projects": [
+        {
+            "project": "ELK Stack, Grafana, Promethues, Loki",
+            "description": [
+                "Recently implemented ELK Stack, Grafana, Promethues, Loki"
+            ],
+            "skills": [
+                "ELK Stack",
+                "Grafana",
+                "Promethues",
+                "Loki"
+            ]
+        },
+        {
+            "project": "Dell Boomi project implementation",
+            "description": [
+                "Recently worked on Dell Boomi project implementation"
+            ],
+            "skills": [
+                "Dell Boomi"
+            ]
+        }
+    ],
+    "activities": [
+        {
+            "activity": "Maintaining regular technical documentation",
+            "responsibility": [
+                "Maintaining regular technical documentation"
+            ],
+            "role": "Azure Cloud/DevOps Expert"
+        },
+        {
+            "activity": "Implementation of ticketing system and process for incident/change management",
+            "responsibility": [
+                "Implementation of ticketing system and process for incident/change management"
+            ],
+            "role": "Azure Cloud/DevOps Expert"
+        },
+        {
+            "activity": "Regular POCs and research on new technologies",
+            "responsibility": [
+                "Regular POCs and research on new technologies"
+            ],
+            "role": "Azure Cloud/DevOps Expert"
+        }
+    ],
+    "honors": null,
+    "userDetails": {
+        "name": "SHAILESH GAWANDE",
+        "skills": [
+            "Cloud DevOps",
+            "Microsoft Azure Administration",
+            "AWS",
+            "docker and Kubernetes",
+            "Azure DevOps",
+            "CI/CD",
+            "Grafana",
+            "ELK Stack",
+            "Prometheus",
+            "Loki",
+            "Puppeteer",
+            "ansible",
+            "Terraform",
+            "Splunk",
+            "appdynamic",
+            "github",
+            "Jenkins(basic)"
+        ]
+    }
+}

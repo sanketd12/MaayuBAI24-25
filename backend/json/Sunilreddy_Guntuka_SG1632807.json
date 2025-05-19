@@ -1,0 +1,177 @@
+{
+    "certifications": [],
+    "education": {
+        "institution": "University Of Ballarat At IIBIT, Australia",
+        "degree": "Master Of Business Information Systems",
+        "graduation": "N/A",
+        "gpa": null,
+        "courses": []
+    },
+    "experiences": [
+        {
+            "company": "Sayeon LLC, Plano, Texas",
+            "role": "Sr. Salesforce Administrator /Developer",
+            "dates": [
+                "Sep 2021 – Till Date"
+            ],
+            "responsibilities": [
+                "Responsible for requirements gathering from business users and prepare technical requirement specification document Implemented Agile Methodologies in developing SDLC",
+                "Created Objects, Page Layouts, Record Types, Relationships, Validation Rules, Workflows and Approval Process",
+                "Using Data Loader and Import Wizard for Data Export, Updates and Backup for the organization",
+                "Working with Administration activities like Users, Profiles, Permission Set Role, OWD settings and Sharing Rules. Designed and Developed Service Cloud and Integration",
+                "Created workflows for automated Lead Routing, Lead Escalation, and Alerts & Custom Coaching Plans",
+                "Implemented Single Sign-On with SAML on force.com",
+                "According to the business user’s requirement, creating Reports and Dashboards",
+                "Worked with various salesforce.com objects Lead, Account, Contact, Opportunity, Campaign, Cases, Solutions Standard objects & Custom Objects",
+                "Created Public Groups, Queues, Permission Sets, Profiles, Users & Security Settings based on role hierarchy. Involved in Data Migration from three Legacy Systems to Salesforce",
+                "Implemented Salesforce Service Cloud & Opportunity Management (Case Management, Entitlement Management, Product & Price Book, High Volume Customer Portal, Partner Portal, VisualForce Sites) for business support and technical support for its channel customers",
+                "Worked with SOQL, SOSL queries with Governor Limitations to store and download the data from Salesforce.com platform database",
+                "Upgraded from Salesforce Classic to Salesforce Lightning",
+                "Experienced in setting up Environment by enabling My Domain, Decompose the App in Components and build the Lightning App",
+                "Formatting and migrating user data into LE, Implemented Salesforce Lightning Components for small set of users within the organization",
+                "Built customized Lightning components replacing the existing ones; using JavaScript on the client side and Apex on the server side",
+                "Worked on writing Apex Triggers Apex Classes, Batch Apex and Scheduled Apex",
+                "Experienced in designing UI using Visual Force Pages. Wrote Test Scripts for various scenarios",
+                "Migrating Metadata from one sandbox to another sandbox using Force.com IDE tool",
+                "Used Web Services like SOAP API and Rest API to integrate with external systems",
+                "Implemented Email-to-Case, Web-to-Case for automation of the case creation",
+                "Performed Unit, Integration, Regression and User Acceptance Testing"
+            ]
+        },
+        {
+            "company": "Comerica Bank, Dallas, Texas",
+            "role": "Salesforce Administrator/Developer",
+            "dates": [
+                "March 2020 – July 2021"
+            ],
+            "responsibilities": [
+                "Worked with Business System Analyst to provide recommendation and designed the Best Solutions for implementing new business ideas",
+                "Development, implementation and update focusing on Sales cloud and Service cloud",
+                "Implementation of Apex Triggers, Apex Class for automation of the business process on Account, Contact, Opportunity and Custom Objects",
+                "Implementation of Batch Classes, Scheduled Classes as part of the Business Requirement",
+                "Wrote an Apex Trigger on Contact for cross-object field update for reporting purposes",
+                "Enhanced Apex Class and Visual Force Page to create a custom Related List, showing activities for selected contacts or clients",
+                "Integrated Salesforce.com with external systems like Oracle and SAP using SOAP API and REST API",
+                "Visual force Pages using Standard Controllers, Custom Controllers, Extension Controllers & Web Services API",
+                "Creating new User Interface using JavaScript, HTML and CSS in Visual Force Pages",
+                "Created Page Layouts to organize Fields, Custom Links, Related Lists & other Components on Record Pages",
+                "As an Administrator implemented various advanced fields like Pick list Fields, Master-Detail Fields, and Custom Formula Fields and defined Field Dependencies for Custom Pick list Fields",
+                "Case Assignment Rules to direct the case to appropriate group such as Stories & PCS Central Support",
+                "Managed ongoing support requests and Administrative needs of users",
+                "Administered, Configured and maintained Salesforce.com application User Profiles, Roles, Assigning Permissions, Generating Security Tokens, Validation Rule and Upgrade Installation",
+                "Worked on Salesforce.com Standard Objects such as Accounts, Contacts, Opportunities, Campaigns, Cases and Solutions",
+                "Performed administrative tasks such as managing Accounts, Contacts and Cases, setting Workflows and Approval Process for approving new accounts and another business process",
+                "Created and maintained Reports and Dashboards to provide fast access to key business metrics",
+                "Case Management by Configuring Email-to-Case for the end user to submit a case through Outlook",
+                "Created and configured Email templates which were used by PCS Central users for approval processes and other field updates",
+                "Customized Salesforce.com User Profiles by setting Standard and Custom objects layouts, Custom App, Field-level Security, Permission Sets for client services and marketing",
+                "Customized Chatter objects and tabs to view progress and discussion on business process",
+                "Used SOQL & SOSL for data manipulation needs of the application using platform database objects",
+                "Worked on different Sandboxes for development & testing; Involved in migrating the code to production instance in installments using Change Set",
+                "Involved in Test configuration Apttus within Sandbox environments to ensure that once users are granted access, all the aspects are fully functional",
+                "Used Informatica Cloud Data loader for data loads to and from external systems",
+                "Configured Chatter to track emails from Outlook to Salesforce by following a user",
+                "Responsible for weekly and monthly Data Export, updates and backup for the organization",
+                "Used Apex Data Loader to Insert, Update and Import data from Microsoft Excel into Salesforce.com"
+            ]
+        },
+        {
+            "company": "Henry Schein, Mascot NSW, Australia",
+            "role": "Salesforce Administrator",
+            "dates": [
+                "Aug 2016 - Jan 2020"
+            ],
+            "responsibilities": [
+                "Involved in Salesforce.com Application Setup activities and customized the apps to match the functional needs of the organization",
+                "Created Profiles, Roles based on Organization role hierarchy and implemented Record-Level and Field-Level security and configured their sharing settings",
+                "Data migration to Salesforce using Data Loader",
+                "Queried Salesforce database using SOQL SOSL queries using workbench",
+                "Involved in analysis of functional and technical requirements created the custom objects, formula fields, lookup and master-detail relationships",
+                "Created Workflow Rules, Validation Rules, Record Types, Page Layouts, Approval Process, Tasks, Email Alerts, Field Updates",
+                "Created various Reports summary, matrix, tabular and dashboards to assist managers to better utilize Salesforce as a sales tool",
+                "Implemented security and sharing rules at object, field, and record level for different users at different levels of organization. Also created various profiles and configured the permissions based on the organizational hierarchy and created public groups",
+                "Developed Assignment rules, Escalation rules to enable proper routing of cases to the case team members",
+                "Designed and modified Approval processes and created Approval steps which used email alerts and field updates",
+                "Imported data from excel sheets into Leads, Accounts, Contacts and Opportunities using Data Loader and Import Wizard",
+                "Configure multiple Outlook settings for various users and perform field mapping and matching criteria and other advanced settings based on the requirements",
+                "Worked on making minor enhancements to SFDC application required by business users from time to time",
+                "Worked with developers to modify Visualforce Pages, Apex Classes, Apex Test Methods and Triggers",
+                "Involved in SFDC application support for business users",
+                "Advised the sales and support team on efficient utilizing of Salesforce",
+                "Analyzed different business reports and guided the team on deployment and customization of those reports in Salesforce"
+            ]
+        },
+        {
+            "company": "Lineage Logistics, Laverton North VIC, Australia",
+            "role": "Salesforce Developer",
+            "dates": [
+                "May 2014 - Jun 2016"
+            ],
+            "responsibilities": [
+                "Developed custom objects, custom fields, custom Tabs, Field dependencies and Validations",
+                "Implemented workflow rules, approval process and actions",
+                "Developed triggers and classes on various objects for business logic according to requirement",
+                "Designed and developed APEX program for various functional needs in the application",
+                "Designed various Visualforce Pages for Customization",
+                "Used SOQL with consideration to Governor Limits for data manipulation needs of application using platform database objects",
+                "Conducted all data migration using salesforce.com import tool. Migrated data from MS Excel/ CSV files to SFDC using Apex Data Loader",
+                "Worked on Designing of Custom Reports, Report folders, Report extractions to various formats, generated dashboards as per client and application requirements",
+                "Perform administrator functions such as user management, profiles, roles, permissions, and assignment rules",
+                "Migration Using Force.com Eclipse IDE"
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "SUNIL REDDY GUNTUKA",
+        "skills": [
+            "Salesforce CRM platform",
+            "Sales Cloud",
+            "Service Cloud",
+            "Call Center",
+            "Chatter App-exchange applications",
+            "Visual Flows",
+            "Process Builder",
+            "Visual Force",
+            "Apex Triggers",
+            "Custom Controllers",
+            "Standard Controllers",
+            "Apex Classes",
+            "Wrapper Classes",
+            "CSS",
+            "Java Script",
+            "XML",
+            "Java",
+            "Eclipse",
+            "SVN",
+            "SFDC Administrative tasks",
+            "Profiles",
+            "Roles",
+            "Users",
+            "Email Services",
+            "Approvals Processes",
+            "Workflow Rules",
+            "Validation Rules",
+            "Reports",
+            "Dashboards",
+            "Tasks Events",
+            "Data migration",
+            "Informatica Tool",
+            "CRM business processes",
+            "Forecasting",
+            "Campaign Management",
+            "Lead Management",
+            "Pipeline Management",
+            "Account Management",
+            "Case Management",
+            "SOQL",
+            "SOSL",
+            "WebServices",
+            "Data-mapping",
+            "Salesforce for Outlook",
+            "Training internal business users"
+        ]
+    }
+}

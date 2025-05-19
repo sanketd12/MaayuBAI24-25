@@ -1,0 +1,48 @@
+{
+    "userDetails": {
+        "name": "Anirudh",
+        "skills": [
+            "Python",
+            "SQL",
+            "R",
+            "Statistics",
+            "SSIS",
+            "SharePoint",
+            "Power BI",
+            "MS Excel",
+            "Tableau",
+            "SSRS",
+            "IBM Watson Analytics",
+            "Epicor (ERP)",
+            "SQL Server",
+            "T-SQL",
+            "TeraData",
+            "SAP HANA",
+            "NoSQL",
+            "DB2",
+            "Project Management",
+            "Strategical Planning",
+            "Requirement Gathering",
+            "Mentoring",
+            "Content Organizing",
+            "Team Building",
+            "Adaptability",
+            "Problem-solving",
+            "Time Management",
+            "Public Speaking",
+            "Networking"
+        ]
+    },
+    "education": {
+        "institution": "Georgia State University",
+        "degree": "Master of Science in Information Systems – Big Data & Data Analytics",
+        "graduation": "May 2018",
+        "gpa": 3.93,
+        "courses": []
+    },
+    "experiences": [],
+    "projects": [],
+    "activities": [],
+    "honors": [],
+    "certifications": []
+}

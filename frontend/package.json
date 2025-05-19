@@ -1,0 +1,40 @@
+{
+	"name": "frontend",
+	"private": true,
+	"workspaces": ["apps/*"],
+	"scripts": {
+		"dev": "bun run --filter '*' dev",
+		"build": "bun run --filter '*' build",
+		"check-types": "bun run --filter '*' check-types",
+		"dev:native": "bun run --filter native dev",
+		"dev:web": "bun run --filter web dev",
+		"dev:server": "bun run --filter server dev",
+		"db:push": "bun run --filter server db:push",
+		"db:studio": "bun run --filter server db:studio"
+	},
+	"dependencies": {
+		"@hookform/resolvers": "^5.0.1",
+		"@radix-ui/react-alert-dialog": "^1.1.10",
+		"@radix-ui/react-avatar": "^1.1.6",
+		"@radix-ui/react-dialog": "^1.1.10",
+		"@radix-ui/react-label": "^2.1.4",
+		"@radix-ui/react-progress": "^1.1.4",
+		"@radix-ui/react-select": "^2.2.2",
+		"@radix-ui/react-separator": "^1.1.4",
+		"@radix-ui/react-slot": "^1.2.0",
+		"@radix-ui/react-tabs": "^1.1.8",
+		"@react-email/components": "0.0.36",
+		"@tanstack/react-table": "^8.21.3",
+		"date-fns": "^4.1.0",
+		"motion": "^12.7.4",
+		"react-dropzone": "^14.3.8",
+		"react-hook-form": "^7.55.0",
+		"redaxios": "^0.5.1",
+		"resend": "^4.3.0",
+		"zod": "^3.24.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	},
+	"packageManager": "bun@1.1.42"
+}

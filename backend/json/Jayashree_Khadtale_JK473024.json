@@ -1,0 +1,128 @@
+{
+    "certifications": [
+        "MBBS (Medical Doctor) degree from Mumbai University, 1986",
+        "Certified Advanced SAS programmer, SAS Institute, USA",
+        "Certified Base SAS programmer, SAS Institute, USA"
+    ],
+    "education": {
+        "degree": "MBBS (Medical Doctor)",
+        "institution": "Mumbai University",
+        "graduation": "1986",
+        "gpa": null,
+        "courses": null
+    },
+    "experiences": [
+        {
+            "company": "Cognizant Technology Solutions",
+            "role": "Analyst SAS programmer",
+            "dates": [
+                "June2012",
+                "Till Today"
+            ],
+            "responsibilities": [
+                "Programing for Tables and Listings and Figures",
+                "Created a Macro for generating outputs of three sections at a time -overall Lab listings, listing of abnormal lab values and lab values excluded from analysis"
+            ]
+        },
+        {
+            "company": "Freelance",
+            "role": "SAS programmer",
+            "dates": [
+                "October2011",
+                "May2012"
+            ],
+            "responsibilities": [
+                "Analysis and Derived data set creation and validation",
+                "Programing for Tables and Listings"
+            ]
+        },
+        {
+            "company": "Freelance",
+            "role": "SAS programmer",
+            "dates": [
+                "July2009",
+                "May2010"
+            ],
+            "responsibilities": [
+                "Programing for Tables and Listings"
+            ]
+        },
+        {
+            "company": "Cliplab, Cytel Statistical Software and Services",
+            "role": "Freelance programmer and trainer",
+            "dates": [
+                "June2010",
+                "September2010"
+            ],
+            "responsibilities": [
+                "Internship in SAS"
+            ]
+        },
+        {
+            "company": "Jeevan General and Maternity Hospital",
+            "role": "Founder and Chairman",
+            "dates": [
+                "1993",
+                "2009"
+            ],
+            "responsibilities": [
+                "Efficiently handled all fronts of the business, from administration to clinical and operative patient care and from stock management to recruitment."
+            ]
+        },
+        {
+            "company": "Health Department, Bombay Municipal Corporation",
+            "role": "Full time medical officer",
+            "dates": [
+                "1990",
+                "1993"
+            ],
+            "responsibilities": [
+                "Supervised and headed a staff of 50 employees in various hospitals."
+            ]
+        },
+        {
+            "company": "J.J. Group of Hospitals",
+            "role": "Full time post graduate resident medical doctor",
+            "dates": [
+                "1988",
+                "1990"
+            ],
+            "responsibilities": [
+                "Taught medical students."
+            ]
+        },
+        {
+            "company": "General Medical Practice",
+            "role": "General Medical Practice",
+            "dates": [
+                "1986",
+                "1988"
+            ],
+            "responsibilities": [
+                "Activities and interests: Outdoor sports including trekking, hiking and swimming, singing and group interactive plays."
+            ]
+        }
+    ],
+    "projects": null,
+    "activities": null,
+    "honors": null,
+    "userDetails": {
+        "name": "DR. JAYASHREE KHADTALE",
+        "skills": [
+            "SAS programing in Windows and Unix Environment",
+            "Analysis dataset development",
+            "Analysis dataset validation- Data integration for pharmacokinetic analysis",
+            "Report generation-Listing and Summary   Reports",
+            "Report validation",
+            "Graph development-like %Change from baseline (mean+/- standard error) plot generation,   Error bar graph generation",
+            "Knowledge of clinical terminology and regulatory guidelines",
+            "Knowledge of basic statistics",
+            "Experienced in maintaining good client relations",
+            "Problem solving - Resolution of in-depth queries in a methodical and efficient manner with high quality",
+            "Team player - Enjoys sharing of knowledge and motivating others in achieving specific team goals",
+            "Expert trainer – Training experience of 26 years in medicine",
+            "Planning and organizing - Refined planning and organizational skills that balance work, team support and responsibilities in a timely and professional manner",
+            "Quick learner and experienced team player with ability to meet deadlines"
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "certifications": [
+        "Cisco Certified Network Professional (Routing & switching)",
+        "Cisco Certified Network Associate CCNA (Routing & switching)",
+        "Jetking Certified Hardware & Network Engineer"
+    ],
+    "education": {
+        "degree": "Bachelor of Arts",
+        "institution": "Kumaun university",
+        "graduation": "2018",
+        "courses": [
+            "Intermediate from Uttarakhand Board (2015)",
+            "High School from Uttarakhand Board (2013)"
+        ],
+        "gpa": null
+    },
+    "experiences": [
+        {
+            "company": "Antriksha Softtech PVT. LTD. Delhi, India",
+            "dates": [
+                "Jan- 2019 To Mar- 2020"
+            ],
+            "role": "Network Engineer",
+            "responsibilities": [
+                "Providing network and desktop support and performing troubleshooting to resolve issues.",
+                "Maintaining company servers, computers, printers, access points, and other devices.",
+                "Deleting old script of routers & switches and creating new scripts.",
+                "Performing configuration & troubleshooting of Cisco routing switching platforms.",
+                "Performing day-to-day maintenance, data-backup, and support.",
+                "All types of printer configuration and Troubleshooting.",
+                "Cabling, Patching, and LAN Troubleshooting.",
+                "Configure Cisco Switches with VLAN’s",
+                "Knowledge on GRE and Tunneling protocols.",
+                "Collaborating with vendors to locate replacement components and resolve advance problems.",
+                "Networking in Domain environment, & Troubleshooting",
+                "Communicating with Service providers to log tickets for link issues. Communicated with different types of service providers Airtel, TATA, BT, AT&T, MCI Verizon, Vodafone etc.",
+                "Updating management on a regular basis through reports via email."
+            ]
+        }
+    ],
+    "projects": [],
+    "honors": [],
+    "activities": [],
+    "userDetails": {
+        "name": "Maneesh",
+        "skills": [
+            "Clear understanding of  OSI reference models & TCP/IP stack.",
+            "TCP/IP  addressing, subnetting, FLSM, VLSM, & supernetting.",
+            "Hands on experience for configuration & Tshoot of Cisco routers & switches",
+            "Hands on experience for routing protocol in static, dynamic: RIP, OSPF, EIGRP & BGP.",
+            "Knowledge on Fortigate Firewall",
+            "Hands on experience for network security like NAT, ACL, Port-Security, DHCP snoofing.",
+            "Hands on experience for traffic filters using standard and extended lists , Distribute lists and route-maps",
+            "Hands on experience for Ether-Channel , VLAN , VTP , STP , SVI, Inter-Vlan.",
+            "Hands on experience for Gateway load balancing protocols HSRP, VRRP, GLBP",
+            "Knowledge of  IPv4/IPv6 "
+        ]
+    }
+}
